@@ -3,6 +3,7 @@
 - 외부 패키지 설치가 필요 없습니다 (파이썬 기본 기능만 사용).
 - API 키도 필요 없고 비용이 들지 않습니다.
 - 주제나 검색어를 바꾸고 싶으면 아래 TOPICS만 고치세요.
+- 제목에 KEYWORDS 중 하나가 없는 기사는 제외됩니다.
 """
 import json
 import re
@@ -15,10 +16,16 @@ from email.utils import parsedate_to_datetime
 # 탭 이름: [검색어, ...]  (검색어는 자유롭게 추가/삭제 가능)
 TOPICS = {
     "업계 동향": ["위탁급식", "단체급식", "위탁급식 시장", "구내식당 위탁운영"],
-    "트렌드·급식문화": ["구내식당 신메뉴", "단체급식 트렌드", "구내식당 메뉴"],
+    "트렌드·급식문화": ["급식 트렌드", "구내식당 트렌드", "구내식당 신메뉴", "단체급식 트렌드", "구내식당 메뉴"],
     "식자재·원가": ["식자재 가격", "급식 식재료 물가", "급식 단가"],
     "입찰·제도": ["구내식당 입찰", "집단급식소 식품위생법", "급식 위탁 계약"],
 }
+
+# 제목에 이 단어 중 하나라도 있어야 목록에 남습니다 (엉뚱한 기사 제거용)
+KEYWORDS = [
+    "급식", "구내식당", "식단", "케이터링", "식자재", "식재료", "푸드서비스",
+    "웰스토리", "아워홈", "프레시웨이", "그린푸드", "신세계푸드", "푸디스트",
+]
 
 DAYS = 14             # 최근 며칠 이내 기사만 가져올지
 MAX_PER_TOPIC = 30    # 주제별 최대 기사 수
@@ -57,6 +64,10 @@ def norm(title: str) -> str:
     return re.sub(r"[^0-9a-zA-Z가-힣]", "", title)
 
 
+def relevant(title: str) -> bool:
+    return any(k in title for k in KEYWORDS)
+
+
 def main() -> None:
     result = {"updated": datetime.now(KST).isoformat(), "topics": {}}
     for topic, queries in TOPICS.items():
@@ -68,6 +79,8 @@ def main() -> None:
                 print(f"[경고] '{q}' 수집 실패: {e}")
                 continue
             for item in items:
+                if not relevant(item["title"]):
+                    continue
                 key = norm(item["title"])
                 if key in seen:
                     continue
