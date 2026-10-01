@@ -1,7 +1,183 @@
-급식 브리핑
-뉴스 데이터(news.json)를 아직 불러오지 못했습니다. 자동 수집을 한 번 실행하면 나타납니다.
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>급식 브리핑</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #eef1f3;
+    --surface: #ffffff;
+    --ink: #1b2830;
+    --muted: #5d6c76;
+    --line: #d5dce1;
+    --accent: #0f6b63;
+    --accent-ink: #ffffff;
+    --new: #c98a00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151d22;
+      --surface: #1d272d;
+      --ink: #e6ecef;
+      --muted: #96a4ad;
+      --line: #2f3d45;
+      --accent: #4fb3a8;
+      --accent-ink: #0d1a1c;
+      --new: #e0a722;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 1rem; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Noto Sans KR", system-ui, -apple-system, "Malgun Gothic", sans-serif;
+    line-height: 1.6;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 2rem 1rem 4rem; }
+  h1 { font-size: 1.75rem; margin: 0; letter-spacing: -0.02em; }
+  .updated { color: var(--muted); font-size: 0.875rem; margin: 0.25rem 0 1.5rem; }
 
-제목에서 검색
-이 페이지는 기사 제목, 언론사, 날짜와 원문 링크만 표시합니다. 기사 본문과 이미지는 게시하지 않으며, 모든 기사의 저작권은 각 언론사에 있습니다. 원문은 링크를 눌러 해당 언론사 사이트에서 확인하세요.
+  .tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+  .tabs button {
+    font: inherit; font-size: 0.9375rem;
+    padding: 0.4rem 0.9rem; border-radius: 999px;
+    border: 1px solid var(--line); background: transparent; color: var(--ink);
+    cursor: pointer;
+  }
+  .tabs button[aria-selected="true"] {
+    background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 500;
+  }
+  .tabs button:focus-visible, input:focus-visible, a:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
 
-개인 참고용으로 운영하는 페이지입니다. 표시는 오늘 올라온 기사입니다.
+  input[type="search"] {
+    width: 100%; font: inherit; padding: 0.6rem 0.8rem; margin-bottom: 1rem;
+    border: 1px solid var(--line); border-radius: 6px;
+    background: var(--surface); color: var(--ink);
+  }
+
+  ul { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  li { padding: 0.9rem 1rem; border-bottom: 1px solid var(--line); }
+  li:last-child { border-bottom: 0; }
+  li a { color: var(--ink); text-decoration: none; font-weight: 500; }
+  li a:hover { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  .meta { display: block; margin-top: 0.15rem; font-size: 0.8125rem; color: var(--muted); }
+  .dot {
+    display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%;
+    background: var(--new); margin-right: 0.45rem; vertical-align: middle;
+  }
+  .empty { padding: 2rem 1rem; color: var(--muted); }
+  footer { margin-top: 1.5rem; font-size: 0.8125rem; color: var(--muted); }
+  footer p { margin: 0 0 0.5rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>급식 브리핑</h1>
+  <p class="updated" id="updated">불러오는 중…</p>
+
+  <div class="tabs" id="tabs" role="tablist"></div>
+  <input type="search" id="q" placeholder="제목에서 검색" aria-label="제목에서 검색">
+  <ul id="list"></ul>
+
+  <footer>
+    <p>이 페이지는 기사 제목, 언론사, 날짜와 원문 링크만 표시합니다. 기사 본문과 이미지는 게시하지 않으며, 모든 기사의 저작권은 각 언론사에 있습니다. 원문은 링크를 눌러 해당 언론사 사이트에서 확인하세요.</p>
+    <p>개인 참고용으로 운영하는 페이지입니다. <span class="dot" style="margin-left:.25rem"></span>표시는 오늘 올라온 기사입니다.</p>
+  </footer>
+</main>
+
+<script>
+  let data = null;
+  let current = "전체";
+
+  const $tabs = document.getElementById("tabs");
+  const $list = document.getElementById("list");
+  const $q = document.getElementById("q");
+  const $updated = document.getElementById("updated");
+
+  function fmt(iso) {
+    const d = new Date(iso);
+    return `${d.getMonth() + 1}월 ${d.getDate()}일`;
+  }
+  function isToday(iso) {
+    const a = new Date(iso), b = new Date();
+    return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
+  }
+
+  function articles() {
+    const topics = data.topics;
+    let items = current === "전체"
+      ? Object.values(topics).flat()
+      : (topics[current] || []);
+    // 전체 탭에서는 중복 제거
+    const seen = new Set();
+    items = items.filter(i => !seen.has(i.link) && seen.add(i.link));
+    items.sort((a, b) => b.date.localeCompare(a.date));
+    const kw = $q.value.trim().toLowerCase();
+    if (kw) items = items.filter(i => i.title.toLowerCase().includes(kw));
+    return items;
+  }
+
+  function renderList() {
+    $list.replaceChildren();
+    const items = articles();
+    if (!items.length) {
+      const li = document.createElement("li");
+      li.className = "empty";
+      li.textContent = $q.value ? "검색어와 맞는 기사가 없습니다." : "표시할 기사가 없습니다.";
+      $list.append(li);
+      return;
+    }
+    for (const it of items) {
+      const li = document.createElement("li");
+      if (isToday(it.date)) {
+        const dot = document.createElement("span");
+        dot.className = "dot";
+        li.append(dot);
+      }
+      const a = document.createElement("a");
+      a.href = it.link; a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.textContent = it.title;
+      const meta = document.createElement("span");
+      meta.className = "meta";
+      meta.textContent = `${it.source || "출처 미상"} · ${fmt(it.date)}`;
+      li.append(a, meta);
+      $list.append(li);
+    }
+  }
+
+  function renderTabs() {
+    $tabs.replaceChildren();
+    for (const name of ["전체", ...Object.keys(data.topics)]) {
+      const b = document.createElement("button");
+      b.type = "button"; b.role = "tab"; b.textContent = name;
+      b.setAttribute("aria-selected", String(name === current));
+      b.onclick = () => { current = name; renderTabs(); renderList(); };
+      $tabs.append(b);
+    }
+  }
+
+  $q.addEventListener("input", renderList);
+
+  fetch("news.json", { cache: "no-store" })
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(j => {
+      data = j;
+      const d = new Date(j.updated);
+      $updated.textContent = `마지막 업데이트 ${d.getMonth() + 1}월 ${d.getDate()}일 ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+      renderTabs(); renderList();
+    })
+    .catch(() => {
+      $updated.textContent = "뉴스 데이터(news.json)를 아직 불러오지 못했습니다. 자동 수집을 한 번 실행하면 나타납니다.";
+    });
+</script>
+</body>
+</html>
