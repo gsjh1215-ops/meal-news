@@ -1,7 +1,14 @@
 {
- "updated": "2026-10-01T17:09:03.185410+09:00",
+ "updated": "2026-10-02T07:10:58.271942+09:00",
  "topics": {
   "업계 동향": [
+   {
+    "title": "CJ프레시웨이, 시니어 급식 나눔",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xeWY4b01ZT3JqSjZmeHdQLVFXZ0RMQ1B1ekl5TXF6Z016U0xrbzE3amI0Q3ZUM2FWZjVQcjAzcThhajhZMkVGWUlWUDlxZnRZNUN6S1k1RThfSkYwOU5BRG53YWZ3RXB6?oc=5",
+    "source": "대한급식신문",
+    "date": "2026-10-01T20:47:28+09:00",
+    "query": "위탁급식"
+   },
    {
     "title": "터치마인드, 중기부 '팁스(TIPS)' 선정…요양시설 식단 자동화 AI 개발 착수",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14ejh3RkFtZVBydUZvb2cwV0JHT2p2RnBwWnFac1RSZTB1czJnWi1GZWJkS1gtUHV2bEozaWpjREtNMnpxWGYtX05Ec2hWSEFjZTJKc3RlZlJHbWUwNXBTN2V0UzYwbVZOZEE?oc=5",
@@ -10,60 +17,11 @@
     "query": "위탁급식"
    },
    {
-    "title": "대전 중구, ‘식품안심업소’ 확대…안심 외식환경 조성",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9aY1EzbHVPVkFESTZpQVlvQ3NPbnFEVUhaQ3BHdi1lb0pYQkxZSkt0VVlabnhWdk9yVzRYN29DcUxLWXQ2V0FjUV9Rc0ZuOXdxMVBLOGlaRDFjZ3dJdElLakY0VHFkUFE2b0E?oc=5",
-    "source": "충청매일",
-    "date": "2026-10-01T14:30:08+09:00",
-    "query": "위탁급식"
-   },
-   {
-    "title": "시니어 푸드테크 '터치마인드', 중기부 팁스 선정",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oVG92S083SHRNLWxILXRyODZnYmd2aFNNVUFVeEFsQzlSeDRjUFA4cGFCaFplNzBBaWJ4aXlvazRKeTU3eUVTbDh0NGJtZDRfWEhLcE1NVjQyaWZYOXo3d0NsTGJLS3doRlNr?oc=5",
-    "source": "내외경제TV",
-    "date": "2026-10-01T14:11:34+09:00",
-    "query": "위탁급식"
-   },
-   {
-    "title": "위생평가 85점 넘으면 ‘별 5개’…대전 중구 식품안심업소 확대",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yN3NRZHRrWV9rd1NKZ1NWbHN2cjdGY2F2YmVVZWJEOWxxZlR4WXZHcDB6VGpMLVBRaU1yeVU0VzdwYWdsZGYtMWxfMkpfWDY2WUxtU1NOVmhTZXp5Mkw0TExrTU02ZVJYT3BF?oc=5",
-    "source": "충청시사신문",
-    "date": "2026-10-01T13:26:16+09:00",
-    "query": "위탁급식"
-   },
-   {
-    "title": "대전 중구, 식품안심업소 지정 확대를 통한 안심 외식환경 조성",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95Uzdtby1mbnFKdG5PNHN4RU9fVWNQYVY5OHRja0x5SXVPQmhWM3FFMG03aEt3UkdOUjRKcUVRWU0zWEJkY25JU2hMRVRMS3I3eWVmSk5FV0VoeXdYRjhhWFVGazRPMEdrNVBxazNnVQ?oc=5",
-    "source": "다원뉴스",
-    "date": "2026-10-01T12:53:00+09:00",
-    "query": "위탁급식"
-   },
-   {
-    "title": "대전 중구 식품안심업소 지정 확대 추진",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5zTG9mOVRXd2ZOVGxMUGcyTXpnN0xkemFiMmlEZE9oRDRTalp0bktxMFV6TWIzMkY4VDh6ZXJZRG5TU0FmZ2Q4U2p1RGF0el9PSkpVZ2FhVy1fU2ZPUUxvYjM0eEZyRkRRRnZ3?oc=5",
-    "source": "디트NEWS24",
-    "date": "2026-10-01T11:30:01+09:00",
-    "query": "위탁급식"
-   },
-   {
     "title": "구내식당서 참치 해체쇼·DJ 공연까지…급식업계 ‘런치테인먼트’ 경쟁",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VeGVHdTlab0dvMXE5MlFpb0RLUkJvaGVEeUVCMkh1c3dqdGMxR0ZaR0E2djUtcFloNXZSRFlwQnpWejlHeEFHckp0Z1k0TUxBUkFTMnhBNEJ2bF9lY2c?oc=5",
     "source": "뉴스투데이",
     "date": "2026-10-01T07:05:02+09:00",
     "query": "위탁급식"
-   },
-   {
-    "title": "상지대 위탁운영 원주시 급식관리지원센터, 어린이 인형극 '요리조리왕' 공연… 관내 어린이 2,590명 관람",
-    "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNZGp6cnNhV1dGQkxjSmxaeEJSd3BaX0MxelZVcG40OTVrdzNFd1dTSVI5TG91alJnTTU0dklORGVoZzBEMTdBaG05Y2ZDS2xlVGMzZGNnSDlqc2xGYk9ScGh3N3JIcUw3VmxfQTk2WjMwXzhUZXNPcl85alR3Zlh4TWdDZjRMcmpnY3lRMExzOWh2cWMtY1BtVnhDRUVLZVJTa1BYbVNuZDFla0xoekdsaGFRSFNDWnNkUktfc25UMGltZTBMTlFPZlY4dmM4TnRxZ09ub1hiOE0zYmNlWUR4SXhZbzk4MlA0dTR4dnJNaTJDZHBrcUlLOEFzV3JtRVAteVphYk9nZW4xODRsMFlqa3NZUXo3QUFMQVBGSVhSWlZzZk9OUjZWQTZyc25SS3ctYzhjcjlvUWZUNkIzdVhPbmRPUEt5bm8?oc=5",
-    "source": "spotlightuniv.com",
-    "date": "2026-09-30T19:47:36+09:00",
-    "query": "위탁급식"
-   },
-   {
-    "title": "한화오션 하청 노동자, 크레인서 고공농성 돌입…\"원청 교섭 나서라\"",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZTEI3akF2T1ZZcnVCVVJSVXR3aFdKX2ZYOXNMUEhpcHNBLW41bUFDOVlxYk5YcTRpdlVsc3djTHlzczdlR3FzSENpOVBZdjJqQXJBN0Jxa29YODd2TkkzUTdEQXDSAWRBVV95cUxQWUxCN2pBdk9WWXJ1QlVSUlV0d2hXSl9mWDlzTFBIaXBzQS1uNW1BQzlZcWJOWHE0aXZVbHN3Y0x5c3M3ZUdxc0hDaTlQWXYyakFyQTdCcWtvWDg3dk5JM1E3REFw?oc=5",
-    "source": "뉴스1",
-    "date": "2026-09-30T18:43:43+09:00",
-    "query": "단체급식"
    },
    {
     "title": "본우리집밥, 10개 사업장서 ‘본셰프데이’ 전개… 단체급식 특식과 ESG 나눔 결합",
@@ -77,13 +35,6 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xR3FVZkthcnFpcE5BS3Q0QklHR2xYOGk4clpPVEJOQ1Q0dVduRlVDSXkxLUY4eUpmaFVfNXRiNUxjbWVlVmkteS1CNDhuRkU3NjBaVWRDdjFRUDRPV0o5ZGwxb3Z6SzNlTU96SWdhOWx5Z9IBckFVX3lxTE9xR3FVZkthcnFpcE5BS3Q0QklHR2xYOGk4clpPVEJOQ1Q0dVduRlVDSXkxLUY4eUpmaFVfNXRiNUxjbWVlVmkteS1CNDhuRkU3NjBaVWRDdjFRUDRPV0o5ZGwxb3Z6SzNlTU96SWdhOWx5Zw?oc=5",
     "source": "메가경제",
     "date": "2026-09-30T15:32:00+09:00",
-    "query": "단체급식"
-   },
-   {
-    "title": "본우리집밥, 스타 셰프 특식 10개 사업장 확대…잔반 줄이기 ESG로 연결",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11bkFKd1dfeFZsdXprU1JhaDlZMUh3TVV4VFNpSmhuNVJfbXdzNlhNUFVBSXp3YzZWUDRsbm42TTFoQ1pPVVloU1B0Z01YSXJBR0tIOXhXNkFNY01pV241Q3RaT2I0V1lTWjZNVg?oc=5",
-    "source": "뉴스탭",
-    "date": "2026-09-30T15:30:03+09:00",
     "query": "단체급식"
    },
    {
@@ -108,11 +59,11 @@
     "query": "단체급식"
    },
    {
-    "title": "[의료] 세니젠, 세균·바이러스 동시 진단하는 '3대 식중독 신속진단키트' 세계 최초 개발",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zSFVVNjFuNWQ0T3otZWNBUDc3UndjTERrQ2l1MTlXSHFXX014N2hDZzNsTE8wZ3FucVhEYjZVdy1wRTRZdFd1V0c3Q2hCZm1naGhYSkFYSHFJMi1OSnE5LWpxZC1oYWxXdGdWY3ZBdng?oc=5",
-    "source": "reviewtimes.co.kr",
-    "date": "2026-09-30T09:06:18+09:00",
-    "query": "단체급식"
+    "title": "[식품오늘] 급식업계, ‘런치테인먼트’로 직장인 점심시간 바꾼다",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WeGVBSTZ1QnlmcW5MOWZoR21RSGxMaFJQeU1VUmlMNkJ2ZXgxZFpveE04cF9wYlhSSG5xdzhsTG53aTV4eVVHWmg4QXpVSUtNbTMtWlhFTkNwckQ4Q3Bz?oc=5",
+    "source": "foodnews.news",
+    "date": "2026-09-30T08:58:39+09:00",
+    "query": "위탁급식"
    },
    {
     "title": "단체급식 식중독 사고 잡는 세니젠의 3대 원인균 동시 진단키트 개발",
@@ -122,18 +73,18 @@
     "query": "단체급식"
    },
    {
-    "title": "[단독] 식권 안 샀다고 '보복 인사'?…현직 경무관 감찰",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tRGtwdUY1WWZpNUJPeWpmbXF6TE9RdkVQWnQ5b1huTC1TcDc2UmhZeVI4SWNPZGIyU296QmJGc2NZVWk4aUFSbTFFTlI1Y2s?oc=5",
-    "source": "v.daum.net",
-    "date": "2026-09-30T06:57:06+09:00",
-    "query": "구내식당 위탁운영"
-   },
-   {
     "title": "‘착한 한 끼’ 구내식당도 백기…“식대 올려야 할 판”",
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9FcWt5WktZLVF6UW41dERFU2FjQWtwclU4OUtpdE5CM2RHVnFyRnhqNVFGQUdFdFB2aVZXUmVZOXVmbHhXcVc2YWNieXpldU0?oc=5",
     "source": "v.daum.net",
     "date": "2026-09-29T23:46:46+09:00",
     "query": "구내식당 위탁운영"
+   },
+   {
+    "title": "\"식단부터 발주까지 영양사 부담 덜어줄 것\" [fn이사람]",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE05QXp1ajN5Q2FiMGZNV19STXZ1WDJBbWFjeS1XSmFDWExpeGdJYXdpeTF6ZXlDWXpSNHZkbW1iZTlYTTAxTDZpeGozY1VBUkFSRUphellJS25jRlBY?oc=5",
+    "source": "부산파이낸셜뉴스",
+    "date": "2026-09-29T18:22:00+09:00",
+    "query": "단체급식"
    },
    {
     "title": "[굿모닝경제] 단체급식에도 무알코올 맥주가 / 든든전세주택 모집 시작 / 은행 영업 9시 반부터",
@@ -150,24 +101,17 @@
     "query": "단체급식"
    },
    {
-    "title": "동래구 안락2동 ‘잼있는 부엌’, 추석맞이 이웃사랑 성품 전달",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcEtHMlZqTGMzLUw5TWwxcFliemhFOV84QW12ZXVhVzE0TlcydnBmQzNZRkZjVVc1VF9KVkhmcEdONi1nQWhzSnNPMmxadWhuNldodXdTMy1ZeVVDUFJMVGp1dlFFeDZDQmlid2ZrR2ZJSjU5SlVUQmRYMkdOVFkxSmIwR1J6azZXbWtEaVB3?oc=5",
-    "source": "국제신문",
-    "date": "2026-09-28T15:03:00+09:00",
-    "query": "위탁급식"
+    "title": "셰프협업에 무알코올 맥주도 '먹는 재미' 더하는 구내식당",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LT2hkWTl2b3ZobWlobUJzNkx4eWNMWE5lZnVLbW8xc1FaNEJYY0VTaEZNQnpyTjQtOU56Nmc5LUtBTlFVMnRrbGtSbmtWUEU?oc=5",
+    "source": "v.daum.net",
+    "date": "2026-09-28T17:27:22+09:00",
+    "query": "단체급식"
    },
    {
     "title": "“단체급식에 맥주를?”… 음료 선택지로 부상한 ‘무알코올 맥주’",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GMUtiQ3d2ZEhFVl9rczBOUWM1SmVpTEJ1Z25sVFBGOUJhbmxPcEk5TXJZNi1nZHZzRGxEVTJOdkUxeG9CNGVES2R3YnI4bVE1MzBsY3ozdmU3clFXRnZqWUNFaFNtMHgzMVE?oc=5",
     "source": "천지일보",
     "date": "2026-09-28T14:05:44+09:00",
-    "query": "단체급식"
-   },
-   {
-    "title": "군대·회사서 대낮에 ‘건배’… 장병·직장인 홀린 무알코올 맥주",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54Rk9TOEk1aDdMa3NMNm40d3JkSDRNYVB3REhreTJia3NPdUpacE8xTDlwSk9lcGFiR1ZUVU1XdUlNWDdLbnB3UzVlWnVDQnc?oc=5",
-    "source": "v.daum.net",
-    "date": "2026-09-28T13:30:00+09:00",
     "query": "단체급식"
    },
    {
@@ -192,33 +136,103 @@
     "query": "단체급식"
    },
    {
-    "title": "'장병 만족도'가 경쟁력…군 급식, 재계약 경쟁 달라졌다",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rSm1MNFdVb2pfcTdwamJjVWFjVlVXN21jOEYybmxUeWx3X2JlTjMwVndSTmNGVU5BUU9GSzRHR08wVVhldTJWWm5kME9lcjVZbmRtdVVB?oc=5",
-    "source": "데일리안",
-    "date": "2026-09-28T07:28:00+09:00",
-    "query": "위탁급식"
-   },
-   {
     "title": "“회사에서 점심에 맥주를?”…단체급식장 파고든 무알코올 맥주",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WZjVkSDlpZ3RfSEFDU21jd3RXMHRwZ1JwbnROZTdrY1VLbjBjaUJRTWJRMko2YnlrUzVTeEp0RXRNVGY1bTV1VWZmRlJaZGc?oc=5",
-    "source": "v.daum.net",
-    "date": "2026-09-28T07:06:00+09:00",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkTFdjZmZVTF84VVFtZUFrakVyYmxUMUJTY2FLV0h3aU5PSjVFSmI4cDdkQlBHNU16NnU1eWlzOFNIeWk2aE5xazlDTHh4VVlWbmdEa21n?oc=5",
+    "source": "매일경제",
+    "date": "2026-09-28T07:05:11+09:00",
     "query": "단체급식"
    },
    {
-    "title": "[대한제당 리빌딩] 포트폴리오 재정비 분주…신규 성장축 확보 '잰걸음'",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzQnE1NzBSOGI0c2hLaDlTTnA5NGpiMkwxLUo4ZU1DVHdtcUxfOGRKemY1cnlISlpKN1BiakdmbzNOYXRJYS0wSEpXa3JmOEE?oc=5",
-    "source": "딜사이트",
-    "date": "2026-09-28T07:05:00+09:00",
+    "title": "“술은 안 마시지만 기분은”…구내식당 식판에 올라온 ‘무알코올 맥주’",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9zVFVMdnMwWXhVaUQ2eS03RDhyM0JtQUE1djAtVGZGVkl5YXZTMjh5YmxhM3hhR3oyd0xHNlJUX1BQdWpUNlE?oc=5",
+    "source": "v.daum.net",
+    "date": "2026-09-28T07:04:00+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "단체급식장에 무알코올 맥주 증가세…군부대·구내식당서도 인기",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TQUZOTVl4TjZoMEJUMjRNS2VxYnR6c20zZ2hVRUlXeGhhanVUVEVDWi1pcmlmSlpna21ZOVZaR3hLd3NxN25iTFk0M3Y3RUpHZHIwdXpfbURyWUHSAWBBVV95cUxQR0tTb2JvWENnemlqbzRXNGJMTk1jWFVJX3NMR3ZiNEVXUTEzUGF5WURGNlBhN3NxVHRHdnBSU1RpUWlhTXozX3hWNDNWcFpidFNYRlZhVFpPSzN2S3VVX08?oc=5",
+    "source": "연합뉴스",
+    "date": "2026-09-28T06:01:00+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "식중독 환자 속출...그런데 집단급식소가 아니다? [자막뉴스]",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82UV9YbUowZGdJUkd4Q3NLbFVmMlBGdDNUNFJKbzF5TnF4RVNpTDJSaDdyYXNXSTctU3N0RmZFSmNpR0JzMkhvblMxVk0yMjh6aldjdGlGZ2JvVm5DZnc?oc=5",
+    "source": "YTN",
+    "date": "2026-09-27T18:17:00+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "밥 대신 샐러드·고단백 간식…구내식당 건강 간편식 경쟁",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83MHdlMG1sQTBoTXV5WGd5bEk2NURmbS1lMWhfblNLTmxQdjJGTmxrN2tJMkR2T3llaVRHaTI4aXdNLVZqUTNTYk45RWpmMWx2ZlBZRmpVa1rSAVRBVV95cUxNSUhHSzVXZ0ZIR3l3WEJGVEM5bkU4b04weVdvSnlYXzl3YUVkSlhfUkZVU2tmeFFKbzNScFRVTmVhNTdMMnBJdm9lQ1MtOVBucVFrams?oc=5",
+    "source": "세계일보",
+    "date": "2026-09-27T08:00:00+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "군인 급식에 ‘중국산’ 고춧가루... 국내산 식재료 사용 기준 불분명",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1eDUyVWhBS1h5MVBxZjUyLXVwUlRUd0RUVlFQT3k0NjJJeGRSdUNwOGE4OTB4WUFlcTQwZGFUS2pRUEgybmMwTEIyVG5qdw?oc=5",
+    "source": "insight.co.kr",
+    "date": "2026-09-27T06:20:06+09:00",
     "query": "위탁급식"
+   },
+   {
+    "title": "군장병 식사에 '중국산' 고춧가루…민간 군급식 44%는 규정 미비",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzNVZSZW9iUklWUDBWQkl6eDdnQTNaWk5ZUkhtdUI3a2lSUHdYU1kyUHdHdWJNQmdhZFNsN0xCaHloY0NHNGlCVEdSS1pDWFNLaHFhSw?oc=5",
+    "source": "v.daum.net",
+    "date": "2026-09-27T06:10:00+09:00",
+    "query": "위탁급식"
+   },
+   {
+    "title": "케이터링 업계, 구내식당 ‘런치테인먼트’ 확산",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLdmg5ai15aTNLUmctRHdxZERDSE9lVk5jTEY3OUpZMGtEUGhLRjBudDF4YVc3OE5ub05Ec0h4dEo4MVdVcl9mSEJpV3pUYmRyRXhtel9tc2U2dnRqbmZ2THowNzdqQQ?oc=5",
+    "source": "싱글리스트",
+    "date": "2026-09-26T16:00:00+09:00",
+    "query": "위탁급식 시장"
+   },
+   {
+    "title": "학교 급식 프로그램 운영에 있어 책임과 권한에 대한 명확한 설명을 요청합니다.",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT2UteHhaMnduVlJKbXZBUlhNVWFYYXdudTlualUyWXpUVzJhNXlaY1VIM0hpcDFqNDFJMGo4dm9fVnY5NGFwQ2M3RUdNZlBhd0xqVmtrS1VORWQtTi0yLTRSTVZPRF9EaGxQRGxPdF9QekpuUnU1UzIxQ2lNclZvT2tGeW82SWx1RlAzZU5Sa29uVmpZNHlN?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-09-26T02:17:31+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "\"인구감소 걱정했지만\"…해외 공략으로 조단위 매출 넘보는 'K-급식'",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91WkkxT1FKVy1iWlpOOVZBdHp3ZTVucjM1SHRKZmNndWl4OTlXYUZlOVYxNHB2V2hMcVZPTW1TYXoxQXZ4eWFsaFRtWnZib1htMDhsaDdGOHlFQQ?oc=5",
+    "source": "한국경제",
+    "date": "2026-09-23T13:00:05+09:00",
+    "query": "위탁급식 시장"
+   },
+   {
+    "title": "경기도농수산진흥원, 단체급식 숏폼 공모전 개최",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE44djV3ODNiTVNwMkFLN2hSaW93MlMwam1ydThCVkkyQlRKb2NXUFRCTnJxTXdEYTVuTmpjQU1NSW9WUUU5QkpuRWFESUR2R0ZJdzUzZ0lSZFg4UnQ4ckRUM3pn?oc=5",
+    "source": "경인미래신문",
+    "date": "2026-09-22T18:01:48+09:00",
+    "query": "단체급식"
    }
   ],
   "트렌드·급식문화": [
    {
+    "title": "삼성웰스토리, 식자재 고객사 외식 메뉴를 급식으로 확장…\"시너지 확대\" |",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96b2QteHJvdW5OdEdtd2VId0ozaWNveS1CRFg2X1lFSW1SalE3azZ5Y3k3NnpBTF9hYmYtQWdvV1l2cFFUNmdRU25yT3NIN3JTTEliVVEzQlFGeld1Q21SYTdaTGNKOFpaM1hRMW5HLW52bXly?oc=5",
+    "source": "포인트데일리",
+    "date": "2026-10-01T15:57:06+09:00",
+    "query": "구내식당 메뉴"
+   },
+   {
     "title": "삼성웰스토리, ‘외식 맛집’ 메뉴 급식에 담는다",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JWWxlODVOUGQ5SXU3RG52bTJRbVJ1UkJSakx1UzQyNWxwcEJ2WElrQV96UDNHSFBhMnVteFQtT0JsQ2xheEIyNW8xcFQ0OWpnUThjREFQWTVZZDh6VHgxSWJnNjJyeEhZa1V6cw?oc=5",
-    "source": "ER 이코노믹리뷰",
+    "source": "econovill.com",
     "date": "2026-10-01T15:35:18+09:00",
+    "query": "구내식당 메뉴"
+   },
+   {
+    "title": "랍스터부터 타코까지…삼성웰스토리, 식자재 고객사 컬래버",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSeXBiTEswdGFxYXRNUm9IMDI4ci03MlNiSUtaeERrZ1k2VVZDUkU2dE43SW8yN21DZ2ZlbGpHY3dNbmRlU0phMzZraW14VXRPMnNn0gFTQVVfeXFMUFJ5cGJMSzB0YXFhdE1Sb0gwMjhyLTcyU2JJS1p4RGtnWTZVVkNSRTZ0TjdJbzI3bUNnZmVsakdjd01uZGVTSmEzNmtpbXhVdE8yc2c?oc=5",
+    "source": "서울경제",
+    "date": "2026-10-01T15:08:32+09:00",
     "query": "구내식당 메뉴"
    },
    {
@@ -231,7 +245,7 @@
    {
     "title": "삼성웰스토리, 외식 브랜드 메뉴 급식으로…‘랍스터 특식’ 1만3000명 맛봤다",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5tbFJIUWVWbEJnYzJSRE9OY0NEMHpVRTRRV1Vaa1l3YU93TGZuY0gzWThzUkJpazY1Q1VyWWVzYUxfU1BCYUZVUldadVVIdlRoeVVuczJ6QlZPWEIzcjY4ZE9hOEJHU2Joa3RUN1lJVFZkMFnSAXdBVV95cUxNenRBejBxb2ZFbUY5RGZULXFka3JJNmQ0bTB1N1hUVXZEaDZVbEFqUzJHWjFLcHpKc0FLTjZaVWRzUTZsdXp0ZjY4WFVMMTNWQlI5UmEyWnkweDdGVlV0WDNud3JrdDZpaVZRT0lobkxYbE1zS3hIYw?oc=5",
-    "source": "인사이트코리아",
+    "source": "insightkorea.co.kr",
     "date": "2026-10-01T11:48:00+09:00",
     "query": "구내식당 메뉴"
    },
@@ -240,14 +254,21 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nTHB0MlA1aUYwTzJ0MXBKMmRhU2xkUWFXZE9MdE1XMWVHaGc2NDJmbHlPdzZobGQ0MHExenJGb2x4MTVLLWtJZmhCZkNaWkJhSE94TE9EU3d6emRKUFpZTVBHb0M2U2dBdXNRRFF5RkE?oc=5",
     "source": "신아일보",
     "date": "2026-10-01T10:48:08+09:00",
-    "query": "구내식당 메뉴"
+    "query": "구내식당 신메뉴"
    },
    {
     "title": "구내식당에 랍스터·타코…삼성웰스토리, 외식 브랜드 구내식당으로",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5PaVI2cFhzRnNrN3UwTHZ0c0duT0prbUdXbTZwYi1aWkpqWXRvS0s2UldlMWFWVk43U2FKRDNhM2tmbjB5T3dZcTFvb25HdVBqVHY0U3JFTk41djNGMGQzSTdZVldSTndKOHVzQzR2Yw?oc=5",
-    "source": "뉴스퀘스트",
+    "source": "newsquest.co.kr",
     "date": "2026-10-01T09:21:54+09:00",
-    "query": "구내식당 메뉴"
+    "query": "구내식당 신메뉴"
+   },
+   {
+    "title": "캘리포니아주는 학교 급식 개선에 있어 여러 가지 어려움에 직면해 있습니다.",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMmIzMk1aVUcyWDVZTVRDSUxhaFo4Ym1Ibi01ZHpVbWl3OUVvbnZIdDBySnpnbTRmbGhhbzh6SGNDdzltdXNLeUhCUWxGeVBRaldvZXhvQ3VTUWxoVHdwTU11eHpWNkFSel9tQWRmdXBDRGZfMm1GZ2xWb0JCbU45U3ZtN1o?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-10-01T09:07:48+09:00",
+    "query": "급식 트렌드"
    },
    {
     "title": "\"랍스터·파히타를 구내식당에서 즐긴다\"…삼성웰스토리, 협업 강화 - 머니투데이",
@@ -279,22 +300,15 @@
    },
    {
     "title": "랍스터가 급식에…삼성웰스토리, 식자재 고객사와 외식 메뉴 선보여",
-    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE14RW9OZVBFU1lLY2wwYUsxSkkyMjQzOHl1cjBEVXk2azM1X0VuN2o4dXZzRUQ3Rnk4by1aSWVRenE2VTRDMlE?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBLY3djNFU0bWtERTJVVjFHdzdpc3Q1dU1rY1puWGNydmVDWTJ0V0JXX1lhaGd6QWhDRjJ2Vm5TNUdUZEo0b2F4b05NOA?oc=5",
     "source": "v.daum.net",
     "date": "2026-10-01T08:02:05+09:00",
     "query": "구내식당 메뉴"
    },
    {
-    "title": "바이킹스워프·베어스타코를 급식으로…삼성웰스토리 협업 강화",
-    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9lNkdyUVRVRXNfX2tyREZsSGlBRmdaSmhuNUplN2xFODIyQm02cVE0WUVvc1RBX29rOUhpNWo2R19HMloycFE?oc=5",
-    "source": "v.daum.net",
-    "date": "2026-10-01T08:01:47+09:00",
-    "query": "구내식당 메뉴"
-   },
-   {
     "title": "랍스터·파히타까지 구내식당에…삼성웰스토리, 외식 브랜드 협업 확대",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OMk9TMHhHaEkwLTZtWHg2ZFNJODUwT2JrbVFyYmZWUGNqSXR3N2dTWEhPbFZ1bmRGT3MwVjFQQklsaGw5U1VZUzNvUjhNZw?oc=5",
-    "source": "전자신문",
+    "source": "etnews.com",
     "date": "2026-10-01T08:01:00+09:00",
     "query": "구내식당 메뉴"
    },
@@ -311,13 +325,6 @@
     "source": "Vietnam.vn",
     "date": "2026-09-30T19:16:17+09:00",
     "query": "급식 트렌드"
-   },
-   {
-    "title": "송미령 \"산단 노동자 천원의 아침밥, 예산 늘리고 메뉴 다양화\"",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9BZ0szUTlEb0dNbkJUU1FWNU1rV3l3QlBnU29mZjhwZ3JlZkxiTUVRNk5SMlJCVGNwQnpKc2ZEa3dKLWJ5MFF6QnN3YjIxMVVMY1VMV0tIcFdxeWs0WW9lOEoxa2pZdlR4TVQybUZ3blI1Q1doVU9IZdIBeEFVX3lxTE9BZ0szUTlEb0dNbkJUU1FWNU1rV3l3QlBnU29mZjhwZ3JlZkxiTUVRNk5SMlJCVGNwQnpKc2ZEa3dKLWJ5MFF6QnN3YjIxMVVMY1VMV0tIcFdxeWs0WW9lOEoxa2pZdlR4TVQybUZ3blI1Q1doVU9IZQ?oc=5",
-    "source": "뉴시스",
-    "date": "2026-09-30T10:28:39+09:00",
-    "query": "구내식당 메뉴"
    },
    {
     "title": "대전시의회 최지연·최대성 의원, 전국 최하위 대전 학교급식 단가, 차별 없는 식판 위해 인상 시급",
@@ -364,7 +371,7 @@
    {
     "title": "급식업계, ‘런치테인먼트’로 직장인 점심시간 바꾼다",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zSXVUWGMyN05WRjJHXy1sN1g2QkhzbUV0STliQmQzbFpWYTdaVVNxbXk3RjBUZ3hzRjduRGY3YTFmVWEwRU9QU3kyUlRfS3c4RFJWcjk1bnpOOFpiOUIyaVV2Vzg0VGs?oc=5",
-    "source": "baccro.com",
+    "source": "바끄로뉴스",
     "date": "2026-09-28T09:19:48+09:00",
     "query": "구내식당 메뉴"
    },
@@ -377,9 +384,9 @@
    },
    {
     "title": "“술은 안 마시지만 기분은”…구내식당 식판에 올라온 ‘무알코올 맥주’",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yMktsb1BfdlBKREVNWkN3SVBWeU9ZN3BqeEVkLXhzSzFEcUJjME80alplTFZEd01KcFY0c19vS3luQVhrRlBxY0l5RjN0SEpUMmM3QlU2eTJ3Nk0?oc=5",
-    "source": "경기일보",
-    "date": "2026-09-28T07:03:54+09:00",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9zVFVMdnMwWXhVaUQ2eS03RDhyM0JtQUE1djAtVGZGVkl5YXZTMjh5YmxhM3hhR3oyd0xHNlJUX1BQdWpUNlE?oc=5",
+    "source": "v.daum.net",
+    "date": "2026-09-28T07:04:00+09:00",
     "query": "급식 트렌드"
    },
    {
@@ -391,31 +398,17 @@
    },
    {
     "title": "단체급식장에 무알코올 맥주 증가세…군부대·구내식당서도 인기",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHS1NvYm9YQ2d6aWpvNFc0YkxOTWNYVUlfc0xHdmI0RVdRMTNQYXlZREY2UGE3c3FUdEd2cFJTVGlRaWFNejNfeFY0M1ZwWmJ0U1hGVmFUWk9LM3ZLdVVfT9IBYEFVX3lxTFBHS1NvYm9YQ2d6aWpvNFc0YkxOTWNYVUlfc0xHdmI0RVdRMTNQYXlZREY2UGE3c3FUdEd2cFJTVGlRaWFNejNfeFY0M1ZwWmJ0U1hGVmFUWk9LM3ZLdVVfTw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TQUZOTVl4TjZoMEJUMjRNS2VxYnR6c20zZ2hVRUlXeGhhanVUVEVDWi1pcmlmSlpna21ZOVZaR3hLd3NxN25iTFk0M3Y3RUpHZHIwdXpfbURyWUHSAWBBVV95cUxQR0tTb2JvWENnemlqbzRXNGJMTk1jWFVJX3NMR3ZiNEVXUTEzUGF5WURGNlBhN3NxVHRHdnBSU1RpUWlhTXozX3hWNDNWcFpidFNYRlZhVFpPSzN2S3VVX08?oc=5",
     "source": "연합뉴스",
     "date": "2026-09-28T06:01:00+09:00",
-    "query": "구내식당 트렌드"
-   },
-   {
-    "title": "2035년 팝콘 시장 전망: 프리미엄화와 편의성 수요가 성장 견인",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNkJHc0xYbTdZdzNWbm1wZWhSS1Y1WHNDS0hOcjlXcURQWTdQU1ZKbGtxX2xtRzdLdW5jMEhXZ3pscWh0WS1ZNzNzUTBXYURNdTdwUXl4WVB6djV4ekx1UHNQejBzUjZZSERLSWg3UnQ0S21WRnJiTVVLbThVVlpBZE52UzJGRmctal9lQ3lhX1BLc3dTXzdRYkxjSFVmTXNIbTg1SFFzbHFTc0dDN050cmtUS1NpOGRONWc?oc=5",
-    "source": "IndexBox",
-    "date": "2026-09-27T08:16:04+09:00",
-    "query": "급식 트렌드"
+    "query": "단체급식 트렌드"
    },
    {
     "title": "밥 대신 샐러드·고단백 간식…구내식당 건강 간편식 경쟁",
-    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8zdVhvbEJ6aEZTUDhqRzE2ejFkdktLVThzd2Y0Si01Mk9vQXNIRkhrcm1Ed3hTWXhRaGlDU2wtdjZHbXpZNXc?oc=5",
-    "source": "v.daum.net",
-    "date": "2026-09-27T08:02:00+09:00",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83MHdlMG1sQTBoTXV5WGd5bEk2NURmbS1lMWhfblNLTmxQdjJGTmxrN2tJMkR2T3llaVRHaTI4aXdNLVZqUTNTYk45RWpmMWx2ZlBZRmpVa1rSAVRBVV95cUxNSUhHSzVXZ0ZIR3l3WEJGVEM5bkU4b04weVdvSnlYXzl3YUVkSlhfUkZVU2tmeFFKbzNScFRVTmVhNTdMMnBJdm9lQ1MtOVBucVFrams?oc=5",
+    "source": "세계일보",
+    "date": "2026-09-27T08:00:00+09:00",
     "query": "구내식당 메뉴"
-   },
-   {
-    "title": "\"아빠 요즘 이게 유행이래\"…초등생 딸 춤 보고 '화들짝' [유지희의 ITMI]",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yUFFUVXUzN2k3c1J3SlZ3aVFHakE0RVhsU2NIejVROU53cmNCQWNpa1liZnlYMmZpblJtcVVoUlcxLVlIMjE5cFBxZWRKTXRxZFZBNlE5OGJPQQ?oc=5",
-    "source": "hankyung.com",
-    "date": "2026-09-26T16:00:00+09:00",
-    "query": "급식 트렌드"
    },
    {
     "title": "케이터링 업계, 구내식당 ‘런치테인먼트’ 확산",
@@ -423,56 +416,21 @@
     "source": "싱글리스트",
     "date": "2026-09-26T16:00:00+09:00",
     "query": "구내식당 메뉴"
+   },
+   {
+    "title": "\"복날 보양식에서 학교급식으로\"...국내산 민물장어 학생 만족도 93.3%",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0azVHYlFuTTFXTDJoZXNleVZBSTB2eHV1bW9oWHktRkFHRW1EU3FWR2NWaW5QVjJvYUM4d1J2b1MyXzVKamw3ZS1sSGpaNHEwaFhFQkgwOG9DbGQ1cllrZWctMU9Fc3pCVlU5LW5xOA?oc=5",
+    "source": "trend-korea.co.kr",
+    "date": "2026-09-23T16:20:28+09:00",
+    "query": "급식 트렌드"
    }
   ],
   "식자재·원가": [
-   {
-    "title": "10월 첫날부터 음료·과자값 오른다…식품업계 인상 '도미노'",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OSjZFa1dNeWxKUkZTVG1rbVdjWF9majZUSTNuMXNDYXFMY1hSVkpwckpQNk9HNWtaU3dxYkktc21iVUVYb1BLMGU3VFM1WXUzZWhfUFZ5bWxYQdIBVEFVX3lxTE1ySkh1VjRYekVLRXI1Qm5INXQ3ak1adjhuY25jemFKQTlrQmRHcV9hWWh6djBsTFVSQk80NldWN1g4RS01blNmQkV2ZHNWdG1kOFJlMw?oc=5",
-    "source": "더팩트",
-    "date": "2026-10-01T12:03:51+09:00",
-    "query": "식자재 가격"
-   },
-   {
-    "title": "생필품, 가공식품 등 생활 밀접 품목의 가격조사 및 원가분석 수행하는 물가감시센터 추진",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yTzFyMF9wUXV1dzRHYmZkY3pXZ1VMeDF3RDJlX0NWeHRGa3ZOVDRjMmVBZWFhaGNhdDkwb2p6Yk11YUwxZHlabF9JdUpzbHNCVHh6aHd1UkJ0Y1FVeHZBejRESHpkX29TWHFvRllDYTBGQVHSAXdBVV95cUxPNmNoWTlhb05hMVM0LUpRMG9fWUUwMnVlcnVoRncyal82cXBXN25yNEVjYldESk5NeXpab2dCbmE4aC1ERFctYXR3OGZjR3Q1S0FfVjVjeEFya2pVa3puQW5CdmtWdHp5Y3NMM1hQUmcxeUU1M0Vudw?oc=5",
-    "source": "핀포인트뉴스",
-    "date": "2026-10-01T08:39:14+09:00",
-    "query": "식자재 가격"
-   },
-   {
-    "title": "[오늘 일본은] 日 식품 3153개 품목, 10월 가격 오른다…주류·음료 인상 가장 많아",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zN0tQN3ZrQk0xTTAxRDN1R1lpSE4yaWVPRmNwN0lvTjlqSzd1Z25aT2p1bzZSRHdCZ1dYVGhfaGR0Wi1HNGtWSFI0REtYUjJ2ZHFBbmx1b0FnZktxZ0N6UVNZM25GT2lBUUE?oc=5",
-    "source": "포인트경제",
-    "date": "2026-10-01T08:18:05+09:00",
-    "query": "식자재 가격"
-   },
-   {
-    "title": "[서치 e종목] 삼립, 가격 인상·SKU 효율화로 국내 베이커리 부문 이익률 회복?",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UZDJYNEMyMUxpdzl1WHhkT1F2akhkOFZxSEpMV29HM2Y3RW9GaWMxd0dyQW9ERk5DNmNlV2xTdG1tOUd5REhYX1I0QTR6ZmlTYTNTZ2dsQXM0N0hJaWpjdUhtMmkybUE2MDc3ONIBb0FVX3lxTFBZakZwSVV5U3d0anlpaWIxaWlQbVRMb3Q4dUhqT253WW1zTENGZl8tWDdKZ0JXMnBaRzNXOTN2QWUyUnliTWNNX0VfUnBLcC1fYm40YzhsclBybXFobXlfV1ZnQ1VGWXZlZkNOMFh3Zw?oc=5",
-    "source": "데일리인베스트",
-    "date": "2026-10-01T08:05:00+09:00",
-    "query": "식자재 가격"
-   },
-   {
-    "title": "이재명 대통령, 이젠 '치킨값'까지 점검한다...도대체 어떻길래?",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GcEhoOFlhcjV3WGlWLV9SSW9iT0FjZEFXMXV1VU81TFVpUFB1Y3dyUFB1OEdRbDRwQUZmOHMzeVlRVUZsUlNPYXpFNE93Zy1qMG9KcFBR?oc=5",
-    "source": "위키트리",
-    "date": "2026-09-30T20:49:00+09:00",
-    "query": "식자재 가격"
-   },
    {
     "title": "식봄, 외식업장 대상 식자재 할인 이벤트",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJWWxZcUw1OEdSYjdYYS1BalpZVVlqaENyVzFnd1BodWNUT2cxYld4Yk9TcS13OGZpcGFnckgtUElYRHVqeHF0ZFVJd0dNN0thdllSMGljWjhLTkw2QUJEU3U2RFlmVlBSNFNPWWlyNA?oc=5",
     "source": "아이러브PC방",
     "date": "2026-09-30T17:41:00+09:00",
-    "query": "식자재 가격"
-   },
-   {
-    "title": "[미리보는 국감] 가격 담합·기업 회생…유통·식품업계, 국감 쟁점은",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JZ0Utd3lTVHFkOEVHRWVZODMwRS1qanJPSjhiaWp2SV9jaDAweUJJUDVfdWx2SC00YzhEdGoyVmRmSktmaE5wOFFaeWZNY2RUaTFZTXdwMzZtUFZoSkFzSVhINzFZWnPSAWtBVV95cUxOSHVRR29IWkdxTlZlT3hXTmRNYWZkMXBoQ0JwRTJDQ01CemptVzIzc0ZCME8zQ01jLUJ5MDRBWjRtWlFCYjFiazNidXZnTUVteVBGMlF4ZlFXNy1ubXdhbXdjaHRBV2FvQ3VZTQ?oc=5",
-    "source": "SR타임스",
-    "date": "2026-09-30T17:09:47+09:00",
     "query": "식자재 가격"
    },
    {
@@ -483,11 +441,11 @@
     "query": "급식 식재료 물가"
    },
    {
-    "title": "일본 10월 식품 3,153개 품목 가격 인상… 평균 인상률 10%",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16NHZOZkxzc0l1MGxvYTk5T2QwcFNINW1FRm9oZzlSa1VYUndmTUhfWVFTR3UtT3hQZTVFWG00SC1TZzFTczZSamFSN1UyWlNWUkdaN3JRTDZjdHpHX3FadmZKOGhUV1J4UURtSg?oc=5",
-    "source": "재팬코리아데일리",
-    "date": "2026-09-30T15:35:42+09:00",
-    "query": "식자재 가격"
+    "title": "최지연·최대성 의원, 전국 최하위 대전 학교급식 단가, 차별 없는 식판 위해 인상 시급",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vYlE4VGx2RnFST2phQjdtdkc1UU9pbW5GVFJ6U1dlNFE2NElqZTlibnpSa2h0Z2MyWXAyVEpDcnRkUmplTy1nZjBlcHIydEpnRFRMUWZCSVg4Ulk1TnZaaXJiN1RYRDU2ZW9mWnNMams?oc=5",
+    "source": "모빅경제",
+    "date": "2026-09-30T16:11:00+09:00",
+    "query": "급식 식재료 물가"
    },
    {
     "title": "최지연·최대성 대전시의원 “전국 최하위 대전 학교급식 단가 인상 시급”",
@@ -504,13 +462,6 @@
     "query": "급식 단가"
    },
    {
-    "title": "CJ제일제당·삼양사 '설탕·전분당 담합'…식품값 원가 구조 국감서 캔다",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Bb1l3clJiamo5S1lOV1dzNzg1ekc3RS13dTBpTnV2RFZfVjl4NFppVUNTWUxibTRZeXhoRHBiWVFTWWJmTkpXZHpUTWVvNEZZSlhBckRiTTJHcjZZSjBqY3lBb3U?oc=5",
-    "source": "매일일보",
-    "date": "2026-09-30T13:37:22+09:00",
-    "query": "식자재 가격"
-   },
-   {
     "title": "최지연·최대성 의원, 대전 학교급식 단가 인상 촉구…\"아이들 밥상에 차별 없어야\"",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45eEFTVTM5bUwxZlRxUDJiTGtiQXlRdTdpWWJWVlM0LXFpbENYVjBMM3lHZ25STmROOWJ4Sm5VaEwwUlVnd2FVei1lVE5ZZllDTElVaHpVd3BObGhJbFVRLTh3eXczTEdZdlZWVFJn?oc=5",
     "source": "gukjenews.com",
@@ -518,53 +469,11 @@
     "query": "급식 식재료 물가"
    },
    {
-    "title": "하와이 식료품값 또 오른다…유가 상승에 물류비 급등",
-    "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9URk1vcWlsMFZka0tYQ25JWFBxTXR2V1Z4ZEpvQ05XSzFORm9XdWhtVUpROFRNbG52S0VVTWpB0gE-QVVfeXFMT1RGTW9xaWwwVmRrS1hDbklYUHFNdHZXVnhkSm9DTldLMU5Gb1d1aG1VSlE4VE1sbnZLRVVNakE?oc=5",
-    "source": "KBFD",
-    "date": "2026-09-30T13:05:00+09:00",
-    "query": "식자재 가격"
-   },
-   {
-    "title": "식품업계 가격 인상 잇따라…원자재 부담에 출고가 조정",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkbXJqSVpuWnNVMVg3RFRfYnFTa29oYndxcUg4VmdPMi15NjhPUGd0MW9reUpzT0drbWZSODVTMmp4UXd1SmdxbFRMUFVjeEl4Nkg1c2VLX01KQVl4Znl0V2pENE5IQnM?oc=5",
-    "source": "한국식품의약신문",
-    "date": "2026-09-30T11:54:21+09:00",
-    "query": "식자재 가격"
-   },
-   {
-    "title": "설탕·밀가루까지 가격 담합…식품기업 61곳 과징금 2조2000억원",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fUkNOSWNwOTV1Z0paM2tGMkY5dHdOSTEtei1TQjJaVXlWZ2hTVGFUbDhWTy1TcTdILW1rTzVTVU5BRVdINjJmbkRkTEdwcmJ5ZjR5LUJTdHZLUQ?oc=5",
-    "source": "경북매일",
-    "date": "2026-09-30T09:16:00+09:00",
-    "query": "식자재 가격"
-   },
-   {
-    "title": "글로벌·가격·환율까지 호재…3분기 식품업계 깜짝 실적 기대",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fZE9GZ3huclhmTWxjRUVWd3owMEFIdE80X3lkaERHNFFEQWpWMUs3X0NMLUJCdUVNTDBOSW9HVkh5NTkwYTZzR0FZc3RjSnJXUm5XVDM2RVBJckNfYWVKMg?oc=5",
-    "source": "아시아경제",
-    "date": "2026-09-30T06:29:00+09:00",
-    "query": "식자재 가격"
-   },
-   {
     "title": "‘착한 한 끼’ 구내식당도 백기…“식대 올려야 할 판”",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZX3NwUWxOQThqVDliaVdZYzZLbkoyVU9wM2pIaVJUSW9FQk9lOUpkaHFicnhuS3kyM29UXzFhVFVuQ25PWWozakl0ZDY3NEFJSUJWOA?oc=5",
     "source": "v.daum.net",
     "date": "2026-09-29T23:46:46+09:00",
     "query": "식자재 가격"
-   },
-   {
-    "title": "대전시의회, 학교급식 단가 인상 위한 정책토론회 개최",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qN3FxQTRvUWRGcmV0cUhkRHFIRkNQS0lmckptNjA5SF9NaTFtRERrdWYyR2pWNmZtVkxGdUx6dWtuWkc2YWtJZEljMFZlamdqM2xzclVqUXJQX1ZCb2taUE10a3JrZlBXQTItb1hpM0lDQQ?oc=5",
-    "source": "웹이코노미",
-    "date": "2026-09-29T19:40:03+09:00",
-    "query": "급식 단가"
-   },
-   {
-    "title": "대전 학교급식 단가 특·광역시 최하...시·교육청 인상 폭 놓고 이견",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RdjBYbVA3WEx0MGZfRVdqbkpOLUtheWU4QksyMjk4blVKcXNDbjQ3cjhCLUdjaW1rbk5lU29NOEFOd0VEeWZwTkJqcDZXbXFzVlFvTUgtZGo4cTNuQlBiSGk1YzYxenZ5YlE?oc=5",
-    "source": "뉴스티앤티",
-    "date": "2026-09-29T19:13:58+09:00",
-    "query": "급식 단가"
    },
    {
     "title": "대전 급식단가 전국 최하위인데 인상률 2.5%라니 소름",
@@ -578,20 +487,6 @@
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tYW1QOVQyYmJOc2J6UXlOajNkYUZ4bVN5Qmc2RDJpbDFwSEl2OHNTWUR5M2o1Zmk1WnpLYUhfd0RCdFNXNXhVTE1jLVdHNmtmRjBIc3JJYWF0bWtoODhYSkk2QkFJd9IBZkFVX3lxTE9tYW1QOVQyYmJOc2J6UXlOajNkYUZ4bVN5Qmc2RDJpbDFwSEl2OHNTWUR5M2o1Zmk1WnpLYUhfd0RCdFNXNXhVTE1jLVdHNmtmRjBIc3JJYWF0bWtoODhYSkk2QkFJdw?oc=5",
     "source": "뉴스1",
     "date": "2026-09-29T18:25:28+09:00",
-    "query": "급식 단가"
-   },
-   {
-    "title": "최지연·최대성 시의원 \"대전 학교급식 단가 인상, 차별 없는 밥상 위해 시급\"",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WWVJpTnRyUlNVblBxUk44WF90TDdXbk10RUxoLUpaZ3VhZGRBLTZvOF94Nm1PaHBIaFktemI3ZldSUnZzaGI0Sm53WFRCbXJnRjRaaFFqMVNHeFFUQW9ad2k3YnVTUjBpZVE?oc=5",
-    "source": "충청매일",
-    "date": "2026-09-29T18:05:06+09:00",
-    "query": "급식 단가"
-   },
-   {
-    "title": "대전 학교급식비 전국 16위…대전시교육청 “13.4% 인상 필요”",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1kR2RyTXBTLXVMaVFVdzFGN0UwVzJreG1WOXZxMlo5cE5KelFnSVBwNmlqNl9fdWxRWG8tTXhjbVNEMEpTVmFoYmRRMzRWWVJSdFhqSw?oc=5",
-    "source": "타임뉴스",
-    "date": "2026-09-29T18:05:05+09:00",
     "query": "급식 단가"
    },
    {
@@ -610,7 +505,7 @@
    },
    {
     "title": "대전시의회 \"전국 최하위 대전 학교급식 단가 즉시 인상돼야\"",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93VjNKeklpeE8tM19DblJnZGt4amtvbE81VHVkRFRXNnpENGp3dEJDdlpLRVZjclpSRzFSbUM3ekdDNzFXS2JCRzZXTmVEb3FXQ1cxb01KN3VURVFyRG10YTl3T1VTc2x1OG9wc2dYNXBpRk5zQi0wWNIBeEFVX3lxTE93VjNKeklpeE8tM19DblJnZGt4amtvbE81VHVkRFRXNnpENGp3dEJDdlpLRVZjclpSRzFSbUM3ekdDNzFXS2JCRzZXTmVEb3FXQ1cxb01KN3VURVFyRG10YTl3T1VTc2x1OG9wc2dYNXBpRk5zQi0wWA?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvVE90TTI5cVRMdW16QlJTdDQ5eVE2anZUYzVlcms4VHRXbldDZ3QtSlNjSlpCSWRaODJCS3d4T1R4aklCRldTNlpxYjJHX0FRb0lCT0tDT0ZYcUdQN05ubtIBeEFVX3lxTE93VjNKeklpeE8tM19DblJnZGt4amtvbE81VHVkRFRXNnpENGp3dEJDdlpLRVZjclpSRzFSbUM3ekdDNzFXS2JCRzZXTmVEb3FXQ1cxb01KN3VURVFyRG10YTl3T1VTc2x1OG9wc2dYNXBpRk5zQi0wWA?oc=5",
     "source": "뉴시스",
     "date": "2026-09-29T17:57:13+09:00",
     "query": "급식 단가"
@@ -627,7 +522,7 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLcnJ0b0QzM0pKZC1yVWZ5SDBFcDNyWV9DVjZ6NUw4RXNJVTZsZGgzLW5RdERRcHA2VkczUkdHX1h5MHMwRjBwQ0trR0tmbS00RVJXczdUeGhuWFB0b2tDb29wWUtVYTgwcDlyTzNRaUNYZw?oc=5",
     "source": "굿모닝충청",
     "date": "2026-09-29T17:50:45+09:00",
-    "query": "급식 단가"
+    "query": "급식 식재료 물가"
    },
    {
     "title": "[포토] 대전 학교급식 단가 인상 모색",
@@ -635,44 +530,86 @@
     "source": "충청신문",
     "date": "2026-09-29T17:48:30+09:00",
     "query": "급식 단가"
+   },
+   {
+    "title": "대전 학교급식 단가 전국 최하위 개선 과제",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xTExVLVAyQl9neGVyaVFFZFhEOGVzT2hzMlItVkYzbmJBVlI4WXlUU3YwYXAzQ1lyYTNoUDlQVXQxa1JubUx0anJ2N2I0TkhLMUxDaU1TVXJUV09wdEppRkVEMHV2ZVJ5VUFKWFlLbk4?oc=5",
+    "source": "충청일보",
+    "date": "2026-09-29T17:38:38+09:00",
+    "query": "급식 단가"
+   },
+   {
+    "title": "사는 곳 따라 달라지는 ‘아이들 한 끼’…대전 급식비 현실화 요구",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ib3J4aC1ERlRqMDM1dU81VUVRSTljczVaYXFJck1KZ3d4TmFtM1ZRZTVVWUc5aUEza1owa0RJRHM3ZjVpbjJ1WEtBeGxQaGV4R2FlMDFUVGtvdU5ETEVaT3p6OVEyRENkb3d3?oc=5",
+    "source": "충청시사신문",
+    "date": "2026-09-29T17:27:04+09:00",
+    "query": "급식 단가"
+   },
+   {
+    "title": "식봄, 외식업자 식자재 부담 낮춘다…‘우주초특가’ 이벤트 운영",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5pblBJdVlQY3Q2MTVMdXZpaU1Xa29UbERuQ0xiUC1xUnJ6d0VvYUFDNE9ONXctX0NrOFpsR2FiSnE4enZYcDFyYzB3LU9Fdlh0aURIbFpzYkp0SlJkajc1Z0x0ZjZiNnZGdXNPNUhtWU9Ed9IBdEFVX3lxTE8wOXpOcmhGVjJqSnJ6NHE2UlA1Qll5X01MeTJfZmNkRzhSak9FZmRPWmtWWFBuZ3RnZXlHaGQwRlBZMHJyQlNaems2MGZ2OUdqV2VGTU5WR25mUUhRc09JblpmZjlwME1sZWNtYVBLVjRZUGw1?oc=5",
+    "source": "thefirstmedia.net",
+    "date": "2026-09-29T15:46:57+09:00",
+    "query": "식자재 가격"
+   },
+   {
+    "title": "식봄, 매주 식자재 한 품목 할인…외식업자 원가 부담 낮춘다",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90WWVtQlZodDRRbzFHUVV2T0xGZ3N2YUtnd0hoZXRkWTFTVW1iVmkxMWNRbmFKTXI2VUVlQVNRRzZzek50OHpYUk1DZXIwVW12cXAxSjdRRjlLbUR3TEVmM01xeWzSAWRBVV95cUxPdFllbUJWaHQ0UW8xR1FVdk9MRmdzdmFLZ3dIaGV0ZFkxU1VtYlZpMTFjUW5hSk1yNlVFZUFTUUc2c3pOdDh6WFJNQ2VyMFVtdnFwMUo3UUY5S21Ed0xFZjNNcXls?oc=5",
+    "source": "뉴스1",
+    "date": "2026-09-29T08:42:05+09:00",
+    "query": "식자재 가격"
+   },
+   {
+    "title": "권순기 경남교육감 “기초학력 향상이 교육의 본질…급식단가도 챙겨봐야”",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01d1dlc2k5bG83WTlLSEY2eTk4WUVJeVc5YlgxRjlWbVBPSzJnclFBQ3BTc2h3TlFkY0RnV0toNlhWWkFwelhzZ3RVWjkxQzZ3S0tNbVFxcGwtVTd1QzZBcmZhbkpXZV9XOFBuT05XSGM5M2c?oc=5",
+    "source": "코리아이글뉴스",
+    "date": "2026-09-28T12:08:00+09:00",
+    "query": "급식 단가"
+   },
+   {
+    "title": "호치민시 학생 급식에 생산일 6개월 전에 유통 기한을 기재한 요구르트",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObHRnMGVPemx3d2pXcFZGTDdDNVhHRG1mMTdxaUNzTTNYLVljN2xBVDRLU3lWRnZHU0ZZTjdqczhhajJlenpYOGZJQWhTMXhDYmxaSERrc0E3ellZX3BxWDl2alJsMUYtVUZzTVNXN0VpRU5CTDB6em90ZS1yMjRVcGVxUmVKV25mVmEzLUJoNFZFelVVS2dTUVYzR0l2S0FqaXk5LUpUZG5DMTdjZ2Vwam1sQkNoc2MzRkJhYmk5OVo?oc=5",
+    "source": "Laodong.vn",
+    "date": "2026-09-26T12:47:12+09:00",
+    "query": "급식 단가"
+   },
+   {
+    "title": "'누룽지밥·단무지' 사라진 IBS 급식…만족도 올랐지만 불만 여전",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9GRmFNMzM2UjBxQWhnN29rcVBHWDE4WTlIUlZYY24ycUNQd19uamNucUFadC1wYUcxS21sdVNHSkFsbDExR1E?oc=5",
+    "source": "v.daum.net",
+    "date": "2026-09-22T10:55:50+09:00",
+    "query": "급식 식재료 물가"
+   },
+   {
+    "title": "\"아이들 밥상까지 차별\"... 대전단체, 급식 식품비 인상 촉구",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxYU5jNW42TDF2VjZZWlJEZzAzYW1oVDVUQkwxWDR4dEt2a29SZktSMmZVTWI4LXY4OXQtWEJnWVRwamppS05wNmIwczNQaXhkaW8zb0w4a1dnQktfbFZ6VjVFUEd1bXhrTDhZb01wX0t5a2VtZ0Vj?oc=5",
+    "source": "OhmyNews",
+    "date": "2026-09-21T16:00:00+09:00",
+    "query": "급식 식재료 물가"
+   },
+   {
+    "title": "예산군, 10월 학교급식 식재료 단가 확정 지역 농가·학교 함께 기준 마련",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MXzRVd0Y0OHBNTDBTX3IwMm5adVZTUGl4TFpLejRQdHlDS3NQNGQ5Sl9CV3M0ZjdGUm1mU2xPc3Qtc21PbjVCYVNOdU1aVHJSR1JILU9pc1FadUJfbGdkMW1oUnJuWmho0gFsQVVfeXFMTXl3YXRSLWZTbWMtUDZwbHY2UjQtSW1pYlFMTHh6QkJya1BPWi1udjBOc1JpSzNPUmExT3VwZnZLMWJISEQwb0NXWTFLbUZxYng1amtpWXhBVDJMUjlfbGI4ekZSNmZJSEVvem9y?oc=5",
+    "source": "충남문화신문",
+    "date": "2026-09-21T13:51:07+09:00",
+    "query": "급식 단가"
+   },
+   {
+    "title": "\"밖에서 먹으면 1만원 훌쩍\" 무거워진 물가에 직장인 구내식당 몰린다",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sR05EN3hDbU9KYnFVeXRmWmlraHl0VDVVRUhyaUtsUG5KSnk0VkJTSXc4a3BsQUEySlkyc2UyVDQ4d1J3R2cyaDJ4a2FUaGRLTW1zVmNuaHUwOU5hR19CRtIBeEFVX3lxTE4weHZ1TTNjN2V0M1lucjUyOThuOU11UlJsaVpXNWtHaFdiUzdaQ1FmRmcxUVl2dXdJdFFQanh5UHFzQmRkOFBiT2N5YzU1eUhtTUVkVDBaZWFrcklpaEVNS0wwalhudmNOZUx5dTdOSHk4SVFwM0VpWQ?oc=5",
+    "source": "뉴시스",
+    "date": "2026-09-18T16:00:00+09:00",
+    "query": "급식 식재료 물가"
+   },
+   {
+    "title": "“단가 올랐는데 왜 똑같나”…한국GM 부평공장 단체급식 ‘식단가’ 논란",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9nMjNaZUFaS3dNT0VKMlFpa0lsZ2UtczVwSEdWaFNCbGxBN1ZZT2VnNnIxa0ZCYVNydlBacUUtc1llcE10Qld1cmRGSFd4LW5fVWFVLW1keXdzRGZBQmdYYm9kZHRXZ1NVeF9V?oc=5",
+    "source": "백세시대",
+    "date": "2026-09-18T16:00:00+09:00",
+    "query": "급식 단가"
    }
   ],
   "입찰·제도": [
-   {
-    "title": "“아이들 밥하는 냄비로 대걸레·하수구 뚜껑 씻어” 유치원 교사 폭로에 ‘발칵’[월드픽]",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCSEdpcUdKUllmVi1saHZCNldlaFVEQVdiSGFuUkJTZXBGUEVQNERta3FQOUtoMEM2VEZUTW1KXzJxTEZYMTg1X2k3bVRCR21fcFlpWmpUMkFaNUNsLVpmUm9acTVMV0JfNnVLd0dTNmJoSTlBRWZIaE1PVFA?oc=5",
-    "source": "twig24.com",
-    "date": "2026-09-30T19:58:18+09:00",
-    "query": "집단급식소 식품위생법"
-   },
-   {
-    "title": "액상형 건강기능식품 만들 때 수돗물 사용한다면, 수질 검사해야 하나요?",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55M200MDBQS1FDWjAwckVWQlVTYVlqR01DYmVmOTlzaE9lQ2t2MGpZUFRJSlhTcmNWUktydTRyVU9ya19nREdhZXFEanJRQi11ZFJhRHFrekxxLTdUM1h2LWJ2emVwZk1wX1BDc3lR?oc=5",
-    "source": "식품저널 foodnews",
-    "date": "2026-09-29T09:10:18+09:00",
-    "query": "집단급식소 식품위생법"
-   },
-   {
-    "title": "유치원 99.6% 식품 위생 A등급?…자화자찬 속 방치된 사립유치원 90곳",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8teDFLUE94ZFZsQmw4a3ZPaC1FaEpFc2VNa3AtOXNfdnpSb0lJV0FlRnl3OVl5OUUwM29GNllJMi1BQ0wtamlIdC1Kd2R4Y3BSTzRzbQ?oc=5",
-    "source": "v.daum.net",
-    "date": "2026-09-29T05:31:30+09:00",
-    "query": "집단급식소 식품위생법"
-   },
-   {
-    "title": "하노이 다이모구에서 진행된 4,470억 VND 이상의 두 건의 입찰 건에 대한 계약자 선정 결과가 발표되었습니다.",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMnV0YWVWbjczclJJd1Q2N0hTLTlIVHZ4U1lITHNqR1RlbDUyVVZkUmNUR2NsTGdHaVdxdzN3ZVJISDJpbUMySDBKMUZyQ2RpQ3djejRYcXVnN0lNeW9NN1hqRVhjMGJRNFpyVDZlNzdSVy1EbzY5RjdMQWx0eGNvUWdhTjktQ2pNOHJXVnNIMDdPSlBWaWpLNDFjZmFxZzAzX2t2blhucjB3VGZ3Z1o1c3Z0QQ?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-09-28T19:23:58+09:00",
-    "query": "구내식당 입찰"
-   },
-   {
-    "title": "'장병 만족도'가 경쟁력…군 급식, 재계약 경쟁 달라졌다",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rSm1MNFdVb2pfcTdwamJjVWFjVlVXN21jOEYybmxUeWx3X2JlTjMwVndSTmNGVU5BUU9GSzRHR08wVVhldTJWWm5kME9lcjVZbmRtdVVB?oc=5",
-    "source": "데일리안",
-    "date": "2026-09-28T07:28:00+09:00",
-    "query": "급식 위탁 계약"
-   },
    {
     "title": "군 급식 민간위탁 1조원 넘었다…풀무원 수주액 ‘1위’",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80dVlmM3FmSEdHU1pCb2JldlZQYXFhWmNIYjJHNHRVei1QN2NWTkl5THYzYlZzdFlZVk5wQWFYNjlkR1FUdlVfdUd6bnJZWS1GNFdtRWJaUHFFQkdIZk96UEdOb2hMaFJ2SmYyTDYyc9IBc0FVX3lxTE12OVZHWXRjaFdWTGc0RkZOYmVMdVRHRkwzQi1tNElWcXBJbTg4eGFtOWROUThlOHg5eHkyU3FLOTlzcURzV0Z5V1RUWXJ6VkRLY0dLaHZOeVg4VWVESU1oSVJzM3RTWHBtaWh1eEFGRWxHSmM?oc=5",
