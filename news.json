@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-02T14:15:15.462295+09:00",
+ "updated": "2026-10-02T14:17:22.858326+09:00",
  "topics": {
   "업계 동향": [
    {
     "title": "과천시, ‘어린이·사회복지급식관리지원센터 위탁운영 변경계약’ 체결",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BcW1RUVdvWGs3eFMxeEZKNjhTUGkzT2Z1WXhoUG9CSWFWVGNuMm15akxhQllOcklLNmZBeThGNXhoaFM2dEwyU0wtU0V4MHFRUGlFMFYyVHVTLW9DVWlMVGxOZExzNHdB?oc=5",
-    "source": "경인매일",
+    "source": "kmaeil.com",
     "date": "2026-10-02T13:30:08+09:00",
     "query": "위탁급식 시장"
    },
@@ -129,13 +129,6 @@
     "query": "단체급식"
    },
    {
-    "title": "제주도의회, 학교급식 음식물쓰레기 줄이기 조례안 발의",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1TQk9ZSXctQ2REN25zVUFfMlRQd1VjLWlaY1I0WjYzN2gxaUVnNm0xTHhQWmIySzdBNHcwbXZEeEVJc0ZxcUhHeWw2WVVZX0k?oc=5",
-    "source": "v.daum.net",
-    "date": "2026-09-28T13:48:57+09:00",
-    "query": "위탁급식"
-   },
-   {
     "title": "구내식당도 ‘먹는 재미’ 경쟁…맛집·셰프에 이벤트까지",
     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0wVVNRUnQ0UzExR0FDeXZLeFl1X0ltem42dUdTLWN2cnRneUZOQXBXYWRyMF9POGp5SWFfMmVveFZEMlVXTFE?oc=5",
     "source": "v.daum.net",
@@ -206,10 +199,17 @@
     "query": "위탁급식 시장"
    },
    {
-    "title": "학교 급식 프로그램 운영에 있어 책임과 권한에 대한 명확한 설명을 요청합니다.",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOT2UteHhaMnduVlJKbXZBUlhNVWFYYXdudTlualUyWXpUVzJhNXlaY1VIM0hpcDFqNDFJMGo4dm9fVnY5NGFwQ2M3RUdNZlBhd0xqVmtrS1VORWQtTi0yLTRSTVZPRF9EaGxQRGxPdF9QekpuUnU1UzIxQ2lNclZvT2tGeW82SWx1RlAzZU5Sa29uVmpZNHlN?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-09-26T02:17:31+09:00",
+    "title": "\"인구감소 걱정했지만\"…해외 공략으로 조단위 매출 넘보는 'K-급식'",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91WkkxT1FKVy1iWlpOOVZBdHp3ZTVucjM1SHRKZmNndWl4OTlXYUZlOVYxNHB2V2hMcVZPTW1TYXoxQXZ4eWFsaFRtWnZib1htMDhsaDdGOHlFQQ?oc=5",
+    "source": "한국경제",
+    "date": "2026-09-23T13:00:05+09:00",
+    "query": "위탁급식"
+   },
+   {
+    "title": "경기도농수산진흥원, 단체급식 숏폼 공모전 개최",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE44djV3ODNiTVNwMkFLN2hSaW93MlMwam1ydThCVkkyQlRKb2NXUFRCTnJxTXdEYTVuTmpjQU1NSW9WUUU5QkpuRWFESUR2R0ZJdzUzZ0lSZFg4UnQ4ckRUM3pn?oc=5",
+    "source": "경인미래신문",
+    "date": "2026-09-22T18:01:48+09:00",
     "query": "단체급식"
    }
   ],
@@ -620,7 +620,7 @@
    {
     "title": "과천시, ‘어린이·사회복지급식관리지원센터 위탁운영 변경계약’ 체결",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BcW1RUVdvWGs3eFMxeEZKNjhTUGkzT2Z1WXhoUG9CSWFWVGNuMm15akxhQllOcklLNmZBeThGNXhoaFM2dEwyU0wtU0V4MHFRUGlFMFYyVHVTLW9DVWlMVGxOZExzNHdB?oc=5",
-    "source": "경인매일",
+    "source": "kmaeil.com",
     "date": "2026-10-02T13:30:08+09:00",
     "query": "급식 위탁 계약"
    },
@@ -654,6 +654,18 @@
    }
   ],
   "기업별 뉴스": [
+   {
+    "title": "CJ프레시웨이, '식봄' 싱싱보장제 정육·계란까지 적용 확대",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQNGJmX2NZc1IzSS1hc2tHQUt3M3JsZXliZkIycUFiUFNLNV9GdjhwaUJBNi1OVmp4c2JxVklScVRwNWdFY29wSHd0ellTTlAtZ0xpenIzSTZNQ1lFZ29sUXo3X0VCa2d5c0lHLVpYd05tUXfSAXdBVV95cUxPQTdUM0J4Z2MweG1oUHduYk5IZl9iempNNzB0UTJ4akJLdW9iMUZyUERNNnVQX2JsVUNZTl9KWVhvbWhJTXpGTDJwUWFoSVBZbDVtNzFnakQwYXd0N19hbjhYSVNJM0YzY3F6UUhHOTlHZkIwY2U4QQ?oc=5",
+    "source": "핀포인트뉴스",
+    "date": "2026-10-02T14:06:58+09:00",
+    "companies": [
+     "CJ프레시웨이"
+    ],
+    "groups": [
+     "Big9"
+    ]
+   },
    {
     "title": "아워홈 ‘테이크’, 잠실 찍고 몸집 키운다",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42UGhROVIyQm5pVktqRmZKY0YyQzJCV1ZHbUZaT1pFUnJMbTNTcGRPNTQ1V3ZjVFVSRGQzSkVkSC1YS2RzYU9lenFaNTRJNVU1OE9hUkd4aXpjYkJWNGxZa0EtSE1FMV9vQ09Z?oc=5",
@@ -715,6 +727,30 @@
     ]
    },
    {
+    "title": "아워홈, 잠실 롯데월드 어드벤처에 '테이크' 2호점 오픈…벨리곰 협업 이벤트 진행",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQY1lpTHE0NHluc1p2ZlQ5cWRFYWUxUFdqNmdvcjVhS0ZrNXRsakRrM3I1ZzlOeGJ3WXhFUzJuSUhOZ0V6OFNiWTctNlZ6X1MtLU12alFGVFVGOEV2dXZyeUVWOGtxLXk3M1hndHhHM0HSAXRBVV95cUxNZjBoaDlXU3ZYWk9MdEp6R3FIVDZUcjVRTzA4LURMN2hpRzlUUHJzTllZQ3F1cVlPVkR6dHlWWlprcG15TThidjBCLUkyQ1hrVFJLNFVNSU5fOGc4S1A3SHoyYTZ0aU02UDJJRzZfUjBtTHZLTg?oc=5",
+    "source": "포인트데일리",
+    "date": "2026-10-02T12:43:04+09:00",
+    "companies": [
+     "아워홈"
+    ],
+    "groups": [
+     "Big9"
+    ]
+   },
+   {
+    "title": "아워홈, 뷔페 ‘테이크’ 잠실점 오픈…연내 미아·동대문까지 4호점 확대",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJRTBtTWtBcWhhb0xGakxzODFQMzN0eXhpV0RGX29tTkIydEpCRVdZMlZhV2FRaEpMS1J1MWQ5MGlmaHJ2ZndXVEl2cjVNYm84Y0NtdGk0b3hCUW9NUWV2V0k2NXZhZ1VSY0loQ1lnVjJxZw?oc=5",
+    "source": "중앙이코노미뉴스",
+    "date": "2026-10-02T12:30:00+09:00",
+    "companies": [
+     "아워홈"
+    ],
+    "groups": [
+     "Big9"
+    ]
+   },
+   {
     "title": "[똑똑한외식] 파파존스, 더본코리아 역전우동, 아웃백, 매드포갈릭, 아워홈 테이크, 교촌치킨",
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE14OFlKNGY2X1ZqU2d2d29VUkcyVDBRdkV1cURoR1VTTmNDcHh0WGxzR1o5ejJjNVNjZ051WDE0eWtQeFZWc3NncVU2OFQ5cVhSVEI1WFpYTFlTSGhyM21hSUIwQQ?oc=5",
     "source": "에너지경제신문",
@@ -728,7 +764,7 @@
    },
    {
     "title": "CJ프레시웨이 ‘식봄’, 품질 보장 강화로 온라인 식자재 시장 공략",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13ZVphc1JaMzRDbEVFZW1Xem5BQ2U3eEZ1Y1UwTXB2RTBKRko3UkxsbE1qeDVRY1NxUFItYWFNZ0pPeElfV2tFWXRCVkZHd0pkNUdKTkVBVE9VN1QwNWYtQ05Ndm1JWVk?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xN0t5X0Y1QXdyZWx5YkVZUU9pWnpEclhQRDVUWGhBX0VEcER3NXluanhqTnl3UC1IaVNWdjFkS08yVU5XOFpNRVg4ZWVORDMxb3J3WmQ4U1hnS3NHekpIQlEzcnA2YWdVZVRUTg?oc=5",
     "source": "파이낸스투데이",
     "date": "2026-10-02T10:51:03+09:00",
     "companies": [
@@ -787,18 +823,6 @@
     ]
    },
    {
-    "title": "놀고 먹고 한 번에…아워홈 ‘테이크’, 롯데월드에 2호점",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpRjVNZGJ1MldTVW5Kam5PaGZjRmx2SDJtT2RWMDVuMWZzRmE4R3c0OEQyVzhvUmxPaDlOQkpqYVZrWTBQRnZpTWY1anFQS3JYVVHSAVNBVV95cUxPTGxTYUJzbVZaaVJub1pmaXNySFN3TjZiSV96TWduNWxwRzR3TldJRlZJMkQzbEJXeE54RktGdzFORzlMbktvbXgyNU9xeklnamZLYw?oc=5",
-    "source": "서울경제",
-    "date": "2026-10-02T10:25:43+09:00",
-    "companies": [
-     "아워홈"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
     "title": "사조푸디스트 ‘선한울림’, 광주 소상공인 손잡고 150인분 푸드박스 나눔",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtOUJzaVZyMDRPNzZwaHhSX2Y3b3IwaEJBR2ZwQWpTRk5FQnFPNkd0NzFfdUZ4Yi1uN2ZwNmdFUjlVbWJQX05pZWtnclJSbXBleWdfVnE1ZlRkYkpLTlZiTldjZlZsZ2o0WDFjZw?oc=5",
     "source": "뉴스탭",
@@ -817,18 +841,6 @@
     "date": "2026-10-02T10:21:09+09:00",
     "companies": [
      "CJ프레시웨이"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "아워홈, 테이크 2호점 잠실에 오픈…올해 4개로 확대",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kT0Ftbk1KNk9HX0FDNk9oNEx2X3lkNlFiWG1hQkN5OXdINTVHTlg2V2tPbE1aeUM2VDVYU2xFbWxqek14U3lLQ3NSdE1VZGxaaXdNdFhzT3HSAVhBVV95cUxOZE9BbW5NSjZPR19BQzZPaDRMdl95ZDZRYlhtYUJDeTl3SDU1R05YNldrT2xNWnlDNlQ1WFNsRW1sanpNeFN5S0NzUnRNVWRsWml3TXRYc09x?oc=5",
-    "source": "biz.sbs.co.kr",
-    "date": "2026-10-02T10:13:00+09:00",
-    "companies": [
-     "아워홈"
     ],
     "groups": [
      "Big9"
@@ -904,18 +916,6 @@
     ],
     "groups": [
      "FD Big3"
-    ]
-   },
-   {
-    "title": "CJ프레시웨이, 노인의 날 맞아 데이케어센터 470명에 맞춤형 특식 제공",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wTUpXN01WNzNoSG1EemZKcW1oRW51Ui1BSktXdWxRZkplekg4U0lUV2QwQTNvWVF3YjZhb3EyTnNVck1xZXJpYklPY09ITUI1c2xRR3FqUzVMdXVUb3RGMW9UeXpFMEUwTEJDQ2RjMkNMc0Ew0gFyQVVfeXFMTVRLV1FibEVrdUhFTUg5bFlsWktHWHQydS1IUkVMbThXM25ueVBOTEdPTkw3M1BnNTlfZm9xTnF2SDlRQUlMM3Myb0ZsOHIzSnpYQlVDb1FLWkw3aHc5WjhXa2lRUkZFTXVacUVwbXQyY0hn?oc=5",
-    "source": "메가경제",
-    "date": "2026-10-01T23:05:16+09:00",
-    "companies": [
-     "CJ프레시웨이"
-    ],
-    "groups": [
-     "Big9"
     ]
    },
    {
