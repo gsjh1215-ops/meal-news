@@ -91,13 +91,12 @@ CATERING_KW = ["급식", "구내식당", "단체급식", "푸드서비스", "식
 
 DAYS = 14             # 최근 며칠 이내 기사만 가져올지 (주제별 뉴스)
 MAX_PER_TOPIC = 30    # 주제별 최대 기사 수
-COMPANY_DAYS = 30     # '기업별 뉴스' 탭에 보여줄 기간
+COMPANY_DAYS = 30     # 기업별 기사를 훑어보는 기간 ('기업별 뉴스' 탭 + 월별 집계 공통)
 MAX_PER_COMPANY = 10  # '기업별 뉴스' 탭에 보여줄 기업당 최대 기사 수
 MAX_COMPANY_TOTAL = 200  # '기업별 뉴스' 탭 전체 최대 기사 수
 COMPANY_TOPIC = "기업별 뉴스"
 
-START_MONTH = "2026-10"   # 월별 기사 수 기록을 시작하는 달
-RECENT_DAYS = 7           # 평소 수집 때 되돌아볼 기간 (하루 2번 수집이므로 넉넉하게)
+START_MONTH = "2026-10"   # 월별 기사 수 기록을 시작하는 달 (이전 달 기사는 집계하지 않음)
 HISTORY_FILE = "history.json"
 KST = timezone(timedelta(hours=9))
 
@@ -149,6 +148,17 @@ def match_company(title: str, aliases: list[str], strict: bool) -> bool:
     if strict and not any(k in title for k in CATERING_KW):
         return False
     return True
+
+
+def tag_companies(title: str) -> tuple[list[str], list[str]]:
+    """제목에 나온 기업(과 그룹)을 모두 찾습니다. 어떤 달의 기사든 상관없이 이름표를 붙이기 위한 용도입니다."""
+    names, groups = [], []
+    for group, name, aliases, strict in COMPANIES:
+        if match_company(title, aliases, strict):
+            names.append(name)
+            if group not in groups:
+                groups.append(group)
+    return names, groups
 
 
 def month_key(dt: datetime) -> str:
@@ -207,64 +217,55 @@ def add_articles(months: dict, items: list[dict], cur: str, prev: str) -> int:
     return added
 
 
-def collect_companies(history: dict, now: datetime) -> None:
-    """기업별로 따로 검색해서 history에 새 기사만 누적합니다."""
+def collect_companies(history: dict, now: datetime) -> list[dict]:
+    """기업별로 따로 검색합니다.
+
+    - 월별 기록(history)에는 START_MONTH 이후 기사 중 새 기사만 누적합니다.
+    - '기업별 뉴스' 탭용 목록은 최근 COMPANY_DAYS일 기사로 만들어 돌려줍니다.
+    """
     cur, prev = month_key(now), prev_month_key(now)
-    start_date = datetime(int(START_MONTH[:4]), int(START_MONTH[5:7]), 1, tzinfo=KST)
-    backfill_days = min(30, max(RECENT_DAYS, (now - start_date).days + 2))
+    cutoff = now - timedelta(days=COMPANY_DAYS)
     companies = history.setdefault("companies", {})
+    by_key: dict[str, dict] = {}
 
     for group, name, aliases, strict in COMPANIES:
-        is_new = name not in companies
         entry = companies.setdefault(name, {"group": group, "months": {}})
         entry["group"] = group
         months = entry.setdefault("months", {})
-        days = backfill_days if is_new else RECENT_DAYS
 
         terms = " OR ".join(f'"{a}"' for a in aliases)
         query = terms if len(aliases) == 1 else f"({terms})"
         if strict:
             query += " 급식"
         try:
-            raw = fetch(query, days)
+            raw = fetch(query, COMPANY_DAYS)
         except Exception as e:  # 한 기업이 실패해도 계속 진행 (다음 수집 때 자동으로 따라잡습니다)
             print(f"[경고] '{name}' 수집 실패: {e}")
             time.sleep(1)
             continue
 
         items = [i for i in raw if match_company(i["title"], aliases, strict)]
+        items.sort(key=lambda x: x["date"], reverse=True)
+
+        # 1) 월별 누적 기록
         added = add_articles(months, items, cur, prev)
         total = months.get(cur, {}).get("n", 0)
         print(f"{name}: +{added}건 (이번 달 누적 {total}건)")
-        time.sleep(0.5)  # 구글에 부담을 주지 않도록 잠깐 쉽니다
 
-    # 지난달보다 이전 달은 기사 목록을 지우고 건수만 남깁니다 (파일 크기 관리)
-    for entry in companies.values():
-        for mk, bucket in entry.get("months", {}).items():
-            if mk < prev and "articles" in bucket:
-                bucket["n"] = len(bucket["articles"])
-                del bucket["articles"]
-
-
-def build_company_feed(history: dict, now: datetime) -> list[dict]:
-    """'기업별 뉴스' 탭용 목록을 history에서 만듭니다."""
-    cur, prev = month_key(now), prev_month_key(now)
-    cutoff = now - timedelta(days=COMPANY_DAYS)
-    by_key: dict[str, dict] = {}
-    for group, name, _, _ in COMPANIES:
-        entry = history["companies"].get(name)
-        if not entry:
-            continue
-        items = []
-        for mk in (prev, cur):
-            for a in entry.get("months", {}).get(mk, {}).get("articles", []):
-                try:
-                    if datetime.fromisoformat(a["date"]) >= cutoff:
-                        items.append(a)
-                except Exception:
+        # 2) '기업별 뉴스' 탭용 (최근 30일, 기록 시작 달과 무관)
+        seen, recent = set(), []
+        for i in items:
+            k = norm(i["title"])
+            if k in seen:
+                continue
+            seen.add(k)
+            try:
+                if datetime.fromisoformat(i["date"]) < cutoff:
                     continue
-        items.sort(key=lambda x: x["date"], reverse=True)
-        for a in items[:MAX_PER_COMPANY]:
+            except Exception:
+                continue
+            recent.append(i)
+        for a in recent[:MAX_PER_COMPANY]:
             key = norm(a["title"])
             if key in by_key:
                 saved = by_key[key]
@@ -274,6 +275,15 @@ def build_company_feed(history: dict, now: datetime) -> list[dict]:
                     saved["groups"].append(group)
                 continue
             by_key[key] = {**a, "companies": [name], "groups": [group]}
+        time.sleep(0.5)  # 구글에 부담을 주지 않도록 잠깐 쉽니다
+
+    # 지난달보다 이전 달은 기사 목록을 지우고 건수만 남깁니다 (파일 크기 관리)
+    for entry in companies.values():
+        for mk, bucket in entry.get("months", {}).items():
+            if mk < prev and "articles" in bucket:
+                bucket["n"] = len(bucket["articles"])
+                del bucket["articles"]
+
     feed = sorted(by_key.values(), key=lambda x: x["date"], reverse=True)
     return feed[:MAX_COMPANY_TOTAL]
 
@@ -300,18 +310,23 @@ def main() -> None:
                 item["query"] = q
                 merged.append(item)
         merged.sort(key=lambda x: x["date"], reverse=True)
-        result["topics"][topic] = merged[:MAX_PER_TOPIC]
-        print(f"{topic}: {len(result['topics'][topic])}건")
+        picked = merged[:MAX_PER_TOPIC]
+        # 제목에 기업 이름이 있으면 이름표를 붙입니다 (월별 기록과 상관없이 모든 기사에)
+        for item in picked:
+            names, groups = tag_companies(item["title"])
+            if names:
+                item["companies"] = names
+                item["groups"] = groups
+        result["topics"][topic] = picked
+        print(f"{topic}: {len(picked)}건")
 
-    # 기업별 기사: 월별 누적 기록(history.json) 갱신
+    # 기업별 기사: 월별 누적 기록(history.json) 갱신 + '기업별 뉴스' 탭 목록
     history = load_history()
-    collect_companies(history, now)
+    feed = collect_companies(history, now)
     history["start"] = START_MONTH
     history["updated"] = now.isoformat()
-
-    # '기업별 뉴스' 탭
-    result["topics"][COMPANY_TOPIC] = build_company_feed(history, now)
-    print(f"{COMPANY_TOPIC}: {len(result['topics'][COMPANY_TOPIC])}건")
+    result["topics"][COMPANY_TOPIC] = feed
+    print(f"{COMPANY_TOPIC}: {len(feed)}건")
 
     # 화면에서 그룹/기업 필터를 만들 때 쓸 목록
     groups: dict[str, list[str]] = {}
