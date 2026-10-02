@@ -4,9 +4,11 @@
 - API 키도 필요 없고 비용이 들지 않습니다.
 - 주제나 검색어를 바꾸고 싶으면 아래 TOPICS만 고치세요.
 - 제목에 KEYWORDS 중 하나가 없는 기사는 제외됩니다.
+- 기업별 뉴스는 아래 COMPANIES 목록으로 수집합니다.
 """
 import json
 import re
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -27,13 +29,77 @@ KEYWORDS = [
     "웰스토리", "아워홈", "프레시웨이", "그린푸드", "신세계푸드", "푸디스트",
 ]
 
-DAYS = 14             # 최근 며칠 이내 기사만 가져올지
+# ---------------------------------------------------------------
+# 기업별 뉴스 설정
+# (그룹, 기업명, [제목에서 찾을 이름들], 동음이의어 주의 여부)
+#  - 이름들: 기사 제목에 이 중 하나가 있어야 합니다. (띄어쓰기·대소문자 무시)
+#  - 동음이의어 주의 True: 제목에 급식 관련 단어도 함께 있어야 통과합니다.
+# ---------------------------------------------------------------
+COMPANIES = [
+    # 1. Big9
+    ("Big9", "웰스토리", ["삼성웰스토리", "웰스토리"], False),
+    ("Big9", "아워홈", ["아워홈"], False),
+    ("Big9", "CJ프레시웨이", ["CJ프레시웨이", "씨제이프레시웨이"], False),
+    ("Big9", "동원홈푸드", ["동원홈푸드"], False),
+    ("Big9", "사조푸디스트", ["사조푸디스트", "푸디스트"], False),
+    ("Big9", "고메드갤러리아", ["고메드갤러리아", "신세계푸드"], False),
+    ("Big9", "아라마크", ["아라마크"], False),
+    ("Big9", "풀무원푸드앤컬처", ["풀무원푸드앤컬처", "푸드앤컬처"], False),
+    ("Big9", "현대그린푸드", ["현대그린푸드"], False),
+    # 2. FD Big3
+    ("FD Big3", "롯데웰푸드", ["롯데웰푸드"], False),
+    ("FD Big3", "에스피씨지에프에스", ["SPC GFS", "SPC지에프에스", "에스피씨지에프에스"], False),
+    ("FD Big3", "하림(네이처델리)", ["네이처델리"], False),
+    # 3. 중견·중소
+    ("중견·중소", "본푸드", ["본푸드"], False),
+    ("중견·중소", "진주랑", ["진주랑"], False),
+    ("중견·중소", "아이비푸드", ["아이비푸드"], False),
+    ("중견·중소", "LSC푸드", ["LSC푸드"], False),
+    ("중견·중소", "가온에프앤에스", ["가온에프앤에스"], False),
+    ("중견·중소", "한울에프앤에스", ["한울에프앤에스"], False),
+    ("중견·중소", "신성푸드서비스", ["신성푸드서비스"], False),
+    ("중견·중소", "후니드", ["후니드"], False),
+    ("중견·중소", "삼주외식산업", ["삼주외식산업"], False),
+    ("중견·중소", "브라운에프엔비", ["브라운에프엔비"], False),
+    ("중견·중소", "명성에프엠씨", ["명성에프엠씨", "명성에프에스"], False),
+    ("중견·중소", "정진홈푸드", ["정진홈푸드"], False),
+    ("중견·중소", "제이에스지", ["제이에스지"], True),
+    ("중견·중소", "휴먼푸드서비스", ["휴먼푸드서비스"], False),
+    ("중견·중소", "웰리브에프앤에스", ["웰리브에프앤에스"], False),
+    ("중견·중소", "제이제이케터링", ["제이제이케터링"], False),
+    ("중견·중소", "대한에프에쓰에쓰", ["대한에프에쓰에쓰"], False),
+    ("중견·중소", "비앤에스푸드", ["비앤에스푸드"], False),
+    ("중견·중소", "델리에프에스", ["델리에프에스"], True),
+    ("중견·중소", "가람푸드써비스", ["가람푸드써비스"], False),
+    ("중견·중소", "웰스프레쉬", ["웰스프레쉬"], False),
+    ("중견·중소", "LIG홈앤밀", ["LIG홈앤밀", "엘아이지홈앤밀"], False),
+    ("중견·중소", "정우푸드", ["정우푸드"], True),
+    ("중견·중소", "빌텍", ["빌텍"], True),
+    ("중견·중소", "에이치앤포세카", ["에이치앤포세카", "H&포세카"], False),
+    ("중견·중소", "한솔(양산)", ["한솔"], True),
+    ("중견·중소", "다온푸드서비스", ["다온푸드서비스"], False),
+    ("중견·중소", "진풍푸드서비스", ["진풍푸드서비스"], False),
+    ("중견·중소", "초록푸드서비스", ["초록푸드서비스"], False),
+    ("중견·중소", "금강웰빙푸드", ["금강웰빙푸드"], False),
+    ("중견·중소", "미셸푸드", ["미셸푸드"], False),
+    ("중견·중소", "지씨에스", ["지씨에스"], True),
+    ("중견·중소", "온정에프앤비", ["온정에프앤비"], False),
+]
+
+# 동음이의어 주의 기업은 제목에 이 단어 중 하나가 함께 있어야 합니다
+CATERING_KW = ["급식", "구내식당", "단체급식", "푸드서비스", "식자재", "케이터링", "위탁", "식단"]
+
+DAYS = 14             # 최근 며칠 이내 기사만 가져올지 (주제별 뉴스)
 MAX_PER_TOPIC = 30    # 주제별 최대 기사 수
+COMPANY_DAYS = 30     # 기업별 뉴스는 기사가 드물어서 더 길게 봅니다
+MAX_PER_COMPANY = 10  # 기업당 최대 기사 수
+MAX_COMPANY_TOTAL = 200  # 기업별 뉴스 전체 최대 기사 수
+COMPANY_TOPIC = "기업별 뉴스"
 KST = timezone(timedelta(hours=9))
 
 
-def fetch(query: str) -> list[dict]:
-    q = urllib.parse.quote(f"{query} when:{DAYS}d")
+def fetch(query: str, days: int = DAYS) -> list[dict]:
+    q = urllib.parse.quote(f"{query} when:{days}d")
     url = f"https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=30) as res:
@@ -64,8 +130,57 @@ def norm(title: str) -> str:
     return re.sub(r"[^0-9a-zA-Z가-힣]", "", title)
 
 
+def squash(text: str) -> str:
+    return re.sub(r"\s+", "", text).lower()
+
+
 def relevant(title: str) -> bool:
     return any(k in title for k in KEYWORDS)
+
+
+def match_company(title: str, aliases: list[str], strict: bool) -> bool:
+    t = squash(title)
+    if not any(squash(a) in t for a in aliases):
+        return False
+    if strict and not any(k in title for k in CATERING_KW):
+        return False
+    return True
+
+
+def collect_companies() -> list[dict]:
+    """기업별로 따로 검색해서 합칩니다. 같은 기사는 한 번만 담고 기업 태그를 합칩니다."""
+    by_key: dict[str, dict] = {}
+    for group, name, aliases, strict in COMPANIES:
+        terms = " OR ".join(f'"{a}"' for a in aliases)
+        query = terms if len(aliases) == 1 else f"({terms})"
+        if strict:
+            query += " 급식"
+        try:
+            items = fetch(query, COMPANY_DAYS)
+        except Exception as e:  # 한 기업이 실패해도 계속 진행
+            print(f"[경고] '{name}' 수집 실패: {e}")
+            time.sleep(1)
+            continue
+
+        items = [i for i in items if match_company(i["title"], aliases, strict)]
+        items.sort(key=lambda x: x["date"], reverse=True)
+        for item in items[:MAX_PER_COMPANY]:
+            key = norm(item["title"])
+            if key in by_key:
+                saved = by_key[key]
+                if name not in saved["companies"]:
+                    saved["companies"].append(name)
+                if group not in saved["groups"]:
+                    saved["groups"].append(group)
+                continue
+            item["companies"] = [name]
+            item["groups"] = [group]
+            item["query"] = query
+            by_key[key] = item
+        time.sleep(0.5)  # 구글에 부담을 주지 않도록 잠깐 쉽니다
+
+    merged = sorted(by_key.values(), key=lambda x: x["date"], reverse=True)
+    return merged[:MAX_COMPANY_TOTAL]
 
 
 def main() -> None:
@@ -90,6 +205,16 @@ def main() -> None:
         merged.sort(key=lambda x: x["date"], reverse=True)
         result["topics"][topic] = merged[:MAX_PER_TOPIC]
         print(f"{topic}: {len(result['topics'][topic])}건")
+
+    # 기업별 뉴스
+    result["topics"][COMPANY_TOPIC] = collect_companies()
+    print(f"{COMPANY_TOPIC}: {len(result['topics'][COMPANY_TOPIC])}건")
+
+    # 화면에서 그룹/기업 필터를 만들 때 쓸 목록
+    groups: dict[str, list[str]] = {}
+    for group, name, _, _ in COMPANIES:
+        groups.setdefault(group, []).append(name)
+    result["groups"] = groups
 
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=1)
