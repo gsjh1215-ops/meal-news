@@ -459,11 +459,9 @@
       vals: periods.map(p => p.keys.reduce((s, k) => s + monthCount(name, k), 0)),
       parts: periods.map(p => p.type === "year" ? p.keys.map(k => [`${Number(k.slice(5))}월`, monthCount(name, k)]) : null)
     }));
-    const shown = rows
-      .map(r => ({ ...r, total: r.vals.reduce((a, b) => a + b, 0) }))
-      .filter(r => r.total > 0)
-      .sort((a, b) => b.total - a.total || a.name.localeCompare(b.name, "ko"));
-    const hidden = rows.length - shown.length;
+       const shown = rows
+      .map((r, idx) => ({ ...r, idx, total: r.vals.reduce((a, b) => a + b, 0) }))
+      .sort((a, b) => b.total - a.total || a.idx - b.idx);
 
     // 색: 월은 파랑(오래된 달 연하게 → 최근 진할게), 연도 합계는 보라
     const monthCountN = periods.filter(p => p.type === "month").length;
@@ -479,11 +477,9 @@
       $clg.append(s);
     });
 
-    $cnote.textContent =
-      (shown.length ? "" : "아직 이번 그룹에 집계된 기사가 없습니다. ") +
-      "빗금 막대는 이번 달 진행 중이라 수집할 때마다 늘어납니다." +
-      (periods.some(p => p.type === "year") ? " 보라색 막대(연도 합계)에 마우스를 올리면 월별 건수가 나옵니다." : "") +
-      (hidden > 0 ? ` 기사가 아직 없는 ${hidden}곳은 숨겼어요.` : "");
+       $cnote.textContent =
+      "기사가 없는 회사는 0으로 표시됩니다. 빗금 막대는 이번 달 진행 중이라 수집할 때마다 늘어납니다." +
+      (periods.some(p => p.type === "year") ? " 보라색 막대(연도 합계)에 마우스를 올리면 월별 건수가 나옵니다." : "");
 
     if (!shown.length) { $cwrap.hidden = true; return; }
     $cwrap.hidden = false;
