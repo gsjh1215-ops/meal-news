@@ -44,14 +44,35 @@
     font-family: "Noto Sans KR", system-ui, -apple-system, "Malgun Gothic", sans-serif;
     line-height: 1.6;
   }
-  .wrap { max-width: 1140px; margin: 0 auto; padding: 2rem 1rem 4rem; }
+  .wrap { max-width: 1520px; margin: 0 auto; padding: 2rem 1rem 4rem; }
   h1 { font-size: 1.75rem; margin: 0; letter-spacing: -0.02em; }
   .updated { color: var(--muted); font-size: 0.875rem; margin: 0.25rem 0 1.5rem; }
 
-  /* 왼쪽 통계 패널 + 오른쪽 기사 목록 */
-  .layout { display: grid; grid-template-columns: 320px minmax(0, 760px); gap: 1.5rem; align-items: start; }
+  /* 왼쪽 통계 패널 + 가운데 기사 목록 + 오른쪽 그래프 */
+  .layout {
+    display: grid; gap: 1.5rem; align-items: start; justify-content: center;
+    grid-template-columns: 320px minmax(0, 760px) 340px;
+    grid-template-areas: "side main chart";
+  }
+  .side { grid-area: side; }
+  .layout > main { grid-area: main; }
+  .chartside { grid-area: chart; }
+  @media (max-width: 1560px) {
+    .layout {
+      grid-template-columns: 320px minmax(0, 1fr);
+      grid-template-areas: "side main" "chart main";
+      grid-template-rows: auto 1fr;
+    }
+  }
   @media (max-width: 1080px) {
-    .layout { grid-template-columns: minmax(0, 1fr); }
+    .layout {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-areas: "side" "chart" "main";
+      grid-template-rows: auto;
+    }
+  }
+  @media (min-width: 1561px) {
+    .side, .chartside { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow-y: auto; }
   }
 
   .tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
@@ -84,7 +105,7 @@
   .subrow button[aria-pressed="true"] .n { color: var(--accent-ink); }
 
   .tabs button:focus-visible, .subrow button:focus-visible, input:focus-visible, a:focus-visible,
-  .side button:focus-visible, .side summary:focus-visible {
+  .side button:focus-visible, .side summary:focus-visible, .chartside summary:focus-visible {
     outline: 2px solid var(--accent); outline-offset: 2px;
   }
 
@@ -113,14 +134,11 @@
   footer { margin-top: 1.5rem; font-size: 0.8125rem; color: var(--muted); }
   footer p { margin: 0 0 0.5rem; }
 
-  /* ---- 기업별 월간 기사 수 패널 ---- */
-  .side details { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
-  .side summary { cursor: pointer; padding: 0.8rem 1rem; font-weight: 700; font-size: 1rem; list-style-position: inside; }
+  /* ---- 왼쪽 패널 / 오른쪽 그래프 박스 공통 ---- */
+  .side details, .chartside details { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  .side summary, .chartside summary { cursor: pointer; padding: 0.8rem 1rem; font-weight: 700; font-size: 1rem; list-style-position: inside; }
   .side-body { padding: 0 0.75rem 0.9rem; }
   .side-note { margin: 0 0.25rem 0.6rem; font-size: 0.75rem; color: var(--muted); }
-  @media (min-width: 1081px) {
-    .side { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow-y: auto; }
-  }
 
   .gbtn {
     width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 0.5rem;
@@ -150,6 +168,13 @@
   ul.alinks li a { color: var(--ink); font-weight: 400; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
   ul.alinks li a:hover { text-decoration-color: var(--accent); }
   .side-foot { margin: 0.8rem 0.25rem 0; font-size: 0.75rem; color: var(--muted); }
+
+  /* ---- 그래프 ---- */
+  .clg { display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; margin: 0.7rem 0.25rem 0.3rem; font-size: 0.75rem; color: var(--muted); }
+  .clg span { display: inline-flex; align-items: center; gap: 0.3rem; }
+  .clg i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; }
+  .cwrap { position: relative; width: 100%; height: 300px; margin-top: 0.4rem; }
+  .cwrap[hidden] { display: none; }
 </style>
 </head>
 <body>
@@ -164,7 +189,7 @@
         <div class="side-body">
           <p class="side-note" id="statsNote"></p>
           <div id="stats"></div>
-          <p class="side-foot">구글 뉴스에 잡힌 기사 기준입니다. 같은 보도자료를 여러 언론사가 실으면 각각 1건으로 세고, 숫자 뒤 +는 검색 한도(약 100건)에 걸려 실제보다 적을 수 있다는 뜻입니다.</p>
+          <p class="side-foot">구글 뉴스에 잡힌 기사 기준이며, 하루 2번 수집할 때 새로 나온 기사만 더해집니다. 같은 보도자료를 여러 언론사가 실으면 각각 1건으로 세고, 한 기사에 여러 회사가 나오면 회사마다 1건씩 셉니다.</p>
         </div>
       </details>
     </aside>
@@ -185,21 +210,36 @@
         <p>개인 참고용으로 운영하는 페이지입니다. <span class="dot" style="margin-left:.25rem"></span>표시는 오늘 올라온 기사입니다.</p>
       </footer>
     </main>
+
+    <aside class="chartside">
+      <details id="chartBox" open>
+        <summary>월별 기업 기사 수 그래프</summary>
+        <div class="side-body">
+          <div class="subrow" id="cgrp"></div>
+          <div class="clg" id="clg"></div>
+          <p class="side-note" id="cnote"></p>
+          <div class="cwrap" id="cwrap"><canvas id="cc" role="img" aria-label="기업별 월간 기사 수 가로 막대그래프">기업별 월간 기사 수 그래프</canvas></div>
+        </div>
+      </details>
+    </aside>
   </div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
   const COMPANY_TAB = "기업별 뉴스";
 
-  let data = null;
+  let data = null;          // news.json
+  let hist = null;          // history.json (월별 누적 기록)
   let current = "전체";
-  let group = "전체";     // 기업별 뉴스 탭: 그룹 필터
-  let company = null;     // 기업별 뉴스 탭: 기업 필터
-  let companyMap = new Map();  // 기사 링크 -> { companies, groups }
+  let group = "전체";       // 기업별 뉴스 탭: 그룹 필터
+  let company = null;       // 기업별 뉴스 탭: 기업 필터
+  let companyMap = new Map();
 
-  // 왼쪽 통계 패널 상태
-  let openGroup = null;     // 펼쳐진 그룹
-  let openCompany = null;   // 기사 링크가 펼쳐진 기업
+  let openGroup = null;     // 왼쪽 패널: 펼쳐진 그룹
+  let openCompany = null;   // 왼쪽 패널: 기사 링크가 펼쳐진 기업
+  let cgroup = null;        // 그래프: 선택된 그룹
+  let chart = null;
 
   const $tabs = document.getElementById("tabs");
   const $list = document.getElementById("list");
@@ -210,10 +250,16 @@
   const $companyRow = document.getElementById("companyRow");
   const $stats = document.getElementById("stats");
   const $statsNote = document.getElementById("statsNote");
-  const $statsBox = document.getElementById("statsBox");
+  const $cgrp = document.getElementById("cgrp");
+  const $clg = document.getElementById("clg");
+  const $cnote = document.getElementById("cnote");
+  const $cwrap = document.getElementById("cwrap");
 
-  // 좁은 화면(휴대폰 등)에서는 통계 패널을 접어 둡니다.
-  if (window.matchMedia("(max-width: 1080px)").matches) $statsBox.open = false;
+  // 좁은 화면(휴대폰 등)에서는 두 박스를 접어 둡니다.
+  if (window.matchMedia("(max-width: 1080px)").matches) {
+    document.getElementById("statsBox").open = false;
+    document.getElementById("chartBox").open = false;
+  }
 
   function fmt(iso) {
     const d = new Date(iso);
@@ -236,23 +282,41 @@
     return s;
   }
 
-  // ---------- 왼쪽: 기업별 월간 기사 수 ----------
+  // ---------- 월별 누적 기록 도우미 ----------
+  function curMonth() {            // 마지막 수집 시각 기준의 달 (예: "2026-10")
+    return hist && hist.updated ? String(hist.updated).slice(0, 7) : null;
+  }
+  function monthCount(name, key) {
+    const c = hist && hist.companies ? hist.companies[name] : null;
+    const m = c && c.months ? c.months[key] : null;
+    return m ? (m.n || 0) : 0;
+  }
+  function nextMonth(k) {
+    let y = Number(k.slice(0, 4)), m = Number(k.slice(5, 7)) + 1;
+    if (m > 12) { y += 1; m = 1; }
+    return `${y}-${String(m).padStart(2, "0")}`;
+  }
+
+  // ---------- 왼쪽: 이번 달 누적 기사 수 ----------
   function renderStats() {
     $stats.replaceChildren();
-    const cs = data.company_stats;
-    if (!cs || !cs.companies || !data.groups) {
+    const cur = curMonth();
+    if (!hist || !cur || !data.groups) {
       const p = document.createElement("p");
       p.className = "side-note";
       p.textContent = "아직 집계된 데이터가 없습니다. 자동 수집이 한 번 실행되면 나타납니다.";
       $stats.append(p);
       return;
     }
-    $statsNote.textContent = `최근 ${cs.days}일 기준 · 그룹을 누르면 기업이 보이고, 숫자를 누르면 기사 링크가 나옵니다.`;
+    $statsNote.textContent = `${cur.slice(0, 4)}년 ${Number(cur.slice(5, 7))}월 누적 · 그룹을 누르면 기업이 보이고, 숫자를 누르면 기사 링크가 나옵니다.`;
 
     for (const [g, names] of Object.entries(data.groups)) {
-      const rows = names.map(n => [n, cs.companies[n]]).filter(([, s]) => s);
-      const total = rows.reduce((sum, [, s]) => sum + (s.count || 0), 0);
-      const anyCapped = rows.some(([, s]) => s.capped);
+      const rows = names.map(nm => {
+        const c = hist.companies ? hist.companies[nm] : null;
+        const mo = c && c.months ? c.months[cur] : null;
+        return { name: nm, n: mo ? (mo.n || 0) : 0, articles: mo && mo.articles ? mo.articles : [] };
+      });
+      const total = rows.reduce((s, r) => s + r.n, 0);
 
       const gb = document.createElement("button");
       gb.type = "button"; gb.className = "gbtn";
@@ -261,7 +325,7 @@
       gname.textContent = g;
       const gt = document.createElement("span");
       gt.className = "gtotal";
-      gt.textContent = `${rows.length}곳 · ${total}${anyCapped ? "+" : ""}건`;
+      gt.textContent = `${rows.length}곳 · ${total}건`;
       gb.append(gname, gt);
       gb.onclick = () => {
         openGroup = (openGroup === g) ? null : g;
@@ -274,38 +338,34 @@
 
       const wrap = document.createElement("div");
       wrap.className = "clist";
-      for (const [name, s] of rows) {
+      for (const r of rows) {
         const row = document.createElement("div");
         row.className = "crow";
         const nm = document.createElement("span");
-        nm.className = "cname"; nm.textContent = name;
+        nm.className = "cname"; nm.textContent = r.name;
         row.append(nm);
 
-        if (s.failed) {
-          const f = document.createElement("span");
-          f.className = "cnt-zero"; f.textContent = "수집 실패";
-          row.append(f);
-        } else if (!s.count) {
+        if (!r.n) {
           const z = document.createElement("span");
           z.className = "cnt-zero"; z.textContent = "0건";
           row.append(z);
         } else {
           const b = document.createElement("button");
           b.type = "button"; b.className = "cnt";
-          b.setAttribute("aria-expanded", String(openCompany === name));
-          b.textContent = `${s.count}${s.capped ? "+" : ""}건`;
+          b.setAttribute("aria-expanded", String(openCompany === r.name));
+          b.textContent = `${r.n}건`;
           b.onclick = () => {
-            openCompany = (openCompany === name) ? null : name;
+            openCompany = (openCompany === r.name) ? null : r.name;
             renderStats();
           };
           row.append(b);
         }
         wrap.append(row);
 
-        if (openCompany === name && s.count) {
+        if (openCompany === r.name && r.articles.length) {
           const ul = document.createElement("ul");
           ul.className = "alinks";
-          for (const a of s.articles) {
+          for (const a of r.articles) {
             const li = document.createElement("li");
             const link = document.createElement("a");
             link.href = a.link; link.target = "_blank"; link.rel = "noopener noreferrer";
@@ -320,8 +380,174 @@
     }
   }
 
-  // ---------- 오른쪽: 기사 목록 ----------
-  // 기업별 뉴스에서 찾은 기업/그룹 태그를 다른 탭의 같은 기사에도 붙여줍니다.
+  // ---------- 오른쪽: 월별 기업 기사 수 그래프 ----------
+  // 지난 해는 연도 합계 막대 하나로 묶고, 올해는 오늘까지의 달만 월별로 보여줍니다.
+  function buildPeriods() {
+    const cur = curMonth();
+    const start = hist.start || "2026-10";
+    const byYear = {};
+    for (let k = start; k <= cur; k = nextMonth(k)) {
+      const y = k.slice(0, 4);
+      (byYear[y] = byYear[y] || []).push(k);
+    }
+    const curYear = cur.slice(0, 4);
+    const out = [];
+    for (const y of Object.keys(byYear).sort()) {
+      const ks = byYear[y];
+      if (y < curYear) {
+        const first = Number(ks[0].slice(5)), last = Number(ks[ks.length - 1].slice(5));
+        const label = (first === 1 && last === 12) ? `${y}년` : `${y}년 (${first}~${last}월 합계)`;
+        out.push({ type: "year", label, keys: ks });
+      } else {
+        for (const k of ks) {
+          out.push({ type: "month", label: `${y}년 ${Number(k.slice(5))}월${k === cur ? " (진행 중)" : ""}`, keys: [k], partial: k === cur });
+        }
+      }
+    }
+    return out;
+  }
+
+  function isDark() { return window.matchMedia("(prefers-color-scheme: dark)").matches; }
+
+  function rampColor(i, count) {
+    if (count <= 1) return "rgb(42,120,214)";
+    const a = [185, 211, 243], b = [31, 102, 192], t = i / (count - 1);
+    return `rgb(${a.map((v, j) => Math.round(v + (b[j] - v) * t)).join(",")})`;
+  }
+
+  function hatch(color) {
+    const p = document.createElement("canvas"); p.width = 8; p.height = 8;
+    const x = p.getContext("2d");
+    x.fillStyle = color; x.globalAlpha = 0.3; x.fillRect(0, 0, 8, 8);
+    x.globalAlpha = 1; x.strokeStyle = color; x.lineWidth = 2;
+    x.beginPath(); x.moveTo(-2, 8); x.lineTo(8, -2); x.moveTo(0, 10); x.lineTo(10, 0); x.stroke();
+    return x.createPattern(p, "repeat");
+  }
+
+  function renderChartGroups() {
+    $cgrp.replaceChildren();
+    if (!data.groups) return;
+    for (const g of Object.keys(data.groups)) {
+      const b = document.createElement("button");
+      b.type = "button"; b.textContent = g;
+      b.setAttribute("aria-pressed", String(g === cgroup));
+      b.onclick = () => { cgroup = g; renderChartGroups(); renderChart(); };
+      $cgrp.append(b);
+    }
+  }
+
+  function renderChart() {
+    if (chart) { chart.destroy(); chart = null; }
+    $clg.replaceChildren();
+    $cnote.textContent = "";
+
+    if (!hist || !curMonth() || !data.groups || !cgroup) {
+      $cwrap.hidden = true;
+      $cnote.textContent = "아직 집계된 데이터가 없습니다. 자동 수집이 한 번 실행되면 나타납니다.";
+      return;
+    }
+    if (!window.Chart) {
+      $cwrap.hidden = true;
+      $cnote.textContent = "그래프 라이브러리를 불러오지 못했습니다. 새로고침해 보세요.";
+      return;
+    }
+
+    const periods = buildPeriods();
+    const names = data.groups[cgroup] || [];
+    const rows = names.map(name => ({
+      name,
+      vals: periods.map(p => p.keys.reduce((s, k) => s + monthCount(name, k), 0)),
+      parts: periods.map(p => p.type === "year" ? p.keys.map(k => [`${Number(k.slice(5))}월`, monthCount(name, k)]) : null)
+    }));
+    const shown = rows
+      .map(r => ({ ...r, total: r.vals.reduce((a, b) => a + b, 0) }))
+      .filter(r => r.total > 0)
+      .sort((a, b) => b.total - a.total || a.name.localeCompare(b.name, "ko"));
+    const hidden = rows.length - shown.length;
+
+    // 색: 월은 파랑(오래된 달 연하게 → 최근 진할게), 연도 합계는 보라
+    const monthCountN = periods.filter(p => p.type === "month").length;
+    let mi = 0;
+    const colors = periods.map(p => p.type === "year" ? (isDark() ? "#9085e9" : "#6250d6") : rampColor(mi++, monthCountN));
+
+    periods.forEach((p, i) => {
+      const s = document.createElement("span");
+      const sw = document.createElement("i");
+      sw.style.background = colors[i];
+      if (p.partial) sw.style.opacity = "0.55";
+      s.append(sw, p.label);
+      $clg.append(s);
+    });
+
+    $cnote.textContent =
+      (shown.length ? "" : "아직 이번 그룹에 집계된 기사가 없습니다. ") +
+      "빗금 막대는 이번 달 진행 중이라 수집할 때마다 늘어납니다." +
+      (periods.some(p => p.type === "year") ? " 보라색 막대(연도 합계)에 마우스를 올리면 월별 건수가 나옵니다." : "") +
+      (hidden > 0 ? ` 기사가 아직 없는 ${hidden}곳은 숨겼어요.` : "");
+
+    if (!shown.length) { $cwrap.hidden = true; return; }
+    $cwrap.hidden = false;
+
+    const thick = periods.length <= 3 ? 12 : periods.length <= 6 ? 10 : 8;
+    $cwrap.style.height = (shown.length * (periods.length * (thick + 2) + 14) + 50) + "px";
+
+    const css = getComputedStyle(document.documentElement);
+    const ink = css.getPropertyValue("--ink").trim() || "#222";
+    const muted = css.getPropertyValue("--muted").trim() || "#777";
+
+    const labelsPlugin = {
+      id: "valueLabels",
+      afterDatasetsDraw(c) {
+        const ctx = c.ctx;
+        ctx.save();
+        ctx.font = "11px sans-serif"; ctx.fillStyle = muted; ctx.textBaseline = "middle";
+        c.data.datasets.forEach((ds, i) => {
+          c.getDatasetMeta(i).data.forEach((bar, j) => {
+            ctx.fillText(String(Math.round(ds.data[j])), bar.x + 4, bar.y);
+          });
+        });
+        ctx.restore();
+      }
+    };
+
+    chart = new Chart(document.getElementById("cc"), {
+      type: "bar",
+      data: {
+        labels: shown.map(r => r.name),
+        datasets: periods.map((p, i) => ({
+          label: p.label,
+          data: shown.map(r => r.vals[i]),
+          parts: p.type === "year" ? shown.map(r => r.parts[i]) : null,
+          backgroundColor: p.partial ? hatch(colors[i]) : colors[i],
+          borderColor: colors[i],
+          borderWidth: p.partial ? 1.5 : 0,
+          borderRadius: 4,
+          barThickness: thick
+        }))
+      },
+      options: {
+        indexAxis: "y", responsive: true, maintainAspectRatio: false,
+        layout: { padding: { right: 30 } },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: c => `${c.dataset.label}: ${Math.round(c.parsed.x)}건`,
+              afterLabel: c => c.dataset.parts ? c.dataset.parts[c.dataIndex].map(p => `   ${p[0]} ${Math.round(p[1])}건`) : []
+            }
+          }
+        },
+        scales: {
+          x: { beginAtZero: true, grid: { color: "rgba(128,128,128,0.2)" }, ticks: { color: muted, font: { size: 11 }, precision: 0 }, border: { display: false } },
+          y: { grid: { display: false }, ticks: { color: ink, font: { size: 12 } } }
+        }
+      },
+      plugins: [labelsPlugin]
+    });
+    document.getElementById("cc").setAttribute("aria-label", `${cgroup} 기업별 월간 기사 수 가로 막대그래프`);
+  }
+
+  // ---------- 가운데: 기사 목록 ----------
   function buildCompanyMap() {
     companyMap = new Map();
     for (const it of (data.topics[COMPANY_TAB] || [])) {
@@ -338,7 +564,6 @@
     };
   }
 
-  // 현재 탭의 기사(중복 제거, 최신순)
   function baseItems() {
     const topics = data.topics;
     let items = current === "전체"
@@ -400,7 +625,6 @@
 
     const all = baseItems();
 
-    // 그룹 필터
     $groupRow.replaceChildren();
     const gl = document.createElement("span");
     gl.className = "label"; gl.textContent = "그룹";
@@ -415,7 +639,6 @@
       }));
     }
 
-    // 기업명 필터 (선택한 그룹 안에서 기사가 있는 기업만 표시)
     const inGroup = group === "전체" ? all : all.filter(i => (i.groups || []).includes(group));
     const counts = new Map();
     for (const it of inGroup) {
@@ -495,15 +718,21 @@
   }
 
   $q.addEventListener("input", renderList);
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { if (data) renderChart(); });
 
-  fetch("news.json", { cache: "no-store" })
-    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(j => {
+  Promise.all([
+    fetch("news.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+    fetch("history.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null)
+  ])
+    .then(([j, h]) => {
       data = j;
+      hist = h;
       buildCompanyMap();
       const d = new Date(j.updated);
       $updated.textContent = `마지막 업데이트 ${d.getMonth() + 1}월 ${d.getDate()}일 ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
-      renderStats(); renderTabs(); renderSubfilters(); renderList();
+      cgroup = data.groups ? Object.keys(data.groups)[0] : null;
+      renderStats(); renderChartGroups(); renderChart();
+      renderTabs(); renderSubfilters(); renderList();
     })
     .catch(() => {
       $updated.textContent = "뉴스 데이터(news.json)를 아직 불러오지 못했습니다. 자동 수집을 한 번 실행하면 나타납니다.";
