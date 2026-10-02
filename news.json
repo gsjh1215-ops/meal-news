@@ -1,7 +1,14 @@
 {
- "updated": "2026-10-02T14:28:24.596826+09:00",
+ "updated": "2026-10-02T14:38:31.184641+09:00",
  "topics": {
   "업계 동향": [
+   {
+    "title": "급식·통근버스 업체와도 교섭하게 된 한화오션 “법원 결정 따를 것”",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBsdUlNY2gwNjBLZFBEajZ4bWVYVVpxTjFfMEVTMGdITWV2YzVuZFM4VXFIQmpUUHJJM2dDcm5CXzRQUTNzMFQ5RlBheHN0NU1CX2t6cDhyOA?oc=5",
+    "source": "헤럴드경제",
+    "date": "2026-10-02T14:32:11+09:00",
+    "query": "단체급식"
+   },
    {
     "title": "과천시, ‘어린이·사회복지급식관리지원센터 위탁운영 변경계약’ 체결",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BcW1RUVdvWGs3eFMxeEZKNjhTUGkzT2Z1WXhoUG9CSWFWVGNuMm15akxhQllOcklLNmZBeThGNXhoaFM2dEwyU0wtU0V4MHFRUGlFMFYyVHVTLW9DVWlMVGxOZExzNHdB?oc=5",
@@ -39,7 +46,7 @@
    {
     "title": "터치마인드, 중기부 '팁스(TIPS)' 선정…요양시설 식단 자동화 AI 개발 착수",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14ejh3RkFtZVBydUZvb2cwV0JHT2p2RnBwWnFac1RSZTB1czJnWi1GZWJkS1gtUHV2bEozaWpjREtNMnpxWGYtX05Ec2hWSEFjZTJKc3RlZlJHbWUwNXBTN2V0UzYwbVZOZEE?oc=5",
-    "source": "비즈월드",
+    "source": "bizwnews.com",
     "date": "2026-10-01T15:37:00+09:00",
     "query": "위탁급식"
    },
@@ -222,13 +229,6 @@
     "source": "싱글리스트",
     "date": "2026-09-26T16:00:00+09:00",
     "query": "위탁급식 시장"
-   },
-   {
-    "title": "\"인구감소 걱정했지만\"…해외 공략으로 조단위 매출 넘보는 'K-급식'",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91WkkxT1FKVy1iWlpOOVZBdHp3ZTVucjM1SHRKZmNndWl4OTlXYUZlOVYxNHB2V2hMcVZPTW1TYXoxQXZ4eWFsaFRtWnZib1htMDhsaDdGOHlFQQ?oc=5",
-    "source": "한국경제",
-    "date": "2026-09-23T13:00:05+09:00",
-    "query": "위탁급식"
    }
   ],
   "트렌드·급식문화": [
@@ -627,9 +627,9 @@
    },
    {
     "title": "\"아이들 밥상까지 격차 있어선 안 돼\"…최지연·최대성 대전시의원, 대전 학교급식 단가 현실화 공론화",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12bHJqeG9PY3R0M003LUo4dHcxTXNwX0pZZHpDWW9CSG44bmduLUttMjVfSFlXXzhyaFlzM1FuZVlMSGJQUHYwcmROak9DbVUzS3U5NUFn0gFWQVVfeXFMTXZscmp4b09jdHQzTTctSjh0dzFNc3BfSllkekNZb0JIbjhuZ24tS20yNV9IWVdfOHJoWXMzUW5lWUxIYlBQdjByZE5qT0NtVTNLdTk1QWc?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSVWRqT21mWlRFV081NDdSWEVsdm1tbDRhNkU2RXYwMWh0UHJWTkk0bXhDSkNPUTJpUURTR2d6N2JrVUVNVl9iSUZWUkVlXzNiT1ZXRUJ3UHREbmfSAVZBVV95cUxNdmxyanhvT2N0dDNNNy1KOHR3MU1zcF9KWWR6Q1lvQkhuOG5nbi1LbTI1X0hZV184cmhZczNRbmVZTEhiUFB2MHJkTmpPQ21VM0t1OTVBZw?oc=5",
     "source": "더팩트",
-    "date": "2026-09-29T17:57:00+09:00",
+    "date": "2026-09-29T17:57:07+09:00",
     "query": "급식 식재료 물가"
    },
    {
@@ -669,7 +669,7 @@
    },
    {
     "title": "식봄, 매주 식자재 한 품목 할인…외식업자 원가 부담 낮춘다",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zQnhMUFZPLUZYaUlMNEJUbXVHTWZOb3BSZ1F2Z29xcVRRN2JLUVZyTDRRLWlIWG9lUDQ2QXAyWjJ6eFo0N01jQnY5M19zdGJ1OTlwQjZocmVlbGg4UGdZ0gFkQVVfeXFMT3RZZW1CVmh0NFFvMUdRVXZPTEZnc3ZhS2d3SGhldGRZMVNVbWJWaTExY1FuYUpNcjZVRWVBU1FHNnN6TnQ4elhSTUNlcjBVbXZxcDFKN1FGOUttRHdMRWYzTXF5bA?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zQnhMUFZPLUZYaUlMNEJUbXVHTWZOb3BSZ1F2Z29xcVRRN2JLUVZyTDRRLWlIWG9lUDQ2QXAyWjJ6eFo0N01jQnY5M19zdGJ1OTlwQjZocmVlbGg4UGdZ?oc=5",
     "source": "뉴스1",
     "date": "2026-09-29T08:42:05+09:00",
     "query": "식자재 가격"
@@ -685,7 +685,7 @@
     "title": "학교 급식 제공업체에 대한 세금 면제 제안: 급식 가격이 인하될까?",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbjRuWXNxWnZIZmZUck11MVVocDdNTkQ4SjlqamZkU3AtS1ZqUERCRUMwN0l6X1JCcGQ4UXBCaXdEZEtmTUFLSEJtQVFEQ01DQ1pJSndSakFWNUtPYnkwVTNHSW82ZWFKYWV6RXd1V2tiSHBUaDI1SmpSczRhSG9aRExpVkNKS0dwMThvSFRoejBTSV9XaW50ZlRjUWRDS3NFZVVB?oc=5",
     "source": "Vietnam.vn",
-    "date": "2026-09-23T16:00:00+09:00",
+    "date": "2026-09-24T13:58:16+09:00",
     "query": "급식 단가"
    },
    {
@@ -1029,7 +1029,7 @@
    {
     "title": "[오늘의 ESG] CJ프레시웨이·한진·시몬스...어르신 식사부터 환아 지원까지",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pbi1wZmh4WFVnVnJ0SzVFMFo4UHVqaGVsN3lLeHRHczBDUVRvQlRkU3Y5ZGtqdXFGTVJrcFZoVG96MGVhc0E5SE5qdnZvRWxZX1p3NXBTcWZQMm9kUWtodmdBd0U2ai1ZTEhGM21JWVFQVGM0?oc=5",
-    "source": "파이낸셜리뷰",
+    "source": "financialreview.co.kr",
     "date": "2026-10-01T17:46:15+09:00",
     "companies": [
      "CJ프레시웨이"
@@ -1160,7 +1160,7 @@
    },
    {
     "title": "아워홈·고메드갤러리아, 영양사·조리사 공채…수습기간 급여 100% 지급",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qd09yLWhWT0ZSaFBReERtemtWYVJrZjVXd3pMc1VhR3lvRk9GcVJBVHdBSnNfMzlNVHJVSFprMnR4NVRHaUdDcWJjU2R6WmxpbnpGZHNPTThSRFdEMnZSOGVGVEFHNlNQZ1E?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVdnNsQ0trT0lxbVViMVhIZHdQVmJCcDZJZHVwaXZGekRDRGJ6d0ZJVHYwUllrU2NlNlpaVDlhU0NXOTQ2MG9XWVRFelVmcUQ5TThGcThxSGpIblc2Mi1qN0NrZUxSOWxw?oc=5",
     "source": "뉴스포스트",
     "date": "2026-10-01T14:11:39+09:00",
     "companies": [
@@ -1497,7 +1497,7 @@
    {
     "title": "아워홈·고메드갤러리아, 하반기 영양사·조리사 '신입 공채'",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JcGlxWEJ0TmpXXzVycldyaThnWWZYRDVSSjRhdlN5azdibWE1X0EwTjFGVWMteGVDQTRYNHFKSW4yQUJmNmJkZ2xnMlZYcHdBM3NEWnpmV21TZnBXU3JLS1N1LVpIcXpHcjduRHNwSjdFNHBT?oc=5",
-    "source": "financialpost.co.kr",
+    "source": "파이낸셜포스트",
     "date": "2026-09-30T15:41:22+09:00",
     "companies": [
      "고메드갤러리아"
@@ -1629,7 +1629,7 @@
    {
     "title": "현대그린푸드, 저속노화 가이드북 '천천히 나이 드는 식사법' 출간",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93UkxKVDRfZDBhU25mU1hweGFXVWpuUVg0UnNraWR4ZjRyNkVieVNsaXZzeFhwYnBMdU1NVGNzLVl6SHluaUY1LS12b2lOX01CZWFya2tMQkltc0E4?oc=5",
-    "source": "newspim.com",
+    "source": "뉴스핌",
     "date": "2026-09-29T17:51:00+09:00",
     "companies": [
      "현대그린푸드"
@@ -1700,9 +1700,9 @@
    },
    {
     "title": "존재감 커진 임미화號 본푸드서비스···'3대 축' 강화 박차",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JSEd5ZnFHeEtqWGNBS2Q5Vi1kYzROSnBRbzFqczI4Q2VqQ3pzTjFidWFMQWc1Q05YYTc4RmtXTzM4a05hNmdZRW81OEFYVEE?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA2eUdfempFX1dDa2JkZ3lxc3k2N0RLZ3pJRnpRazlycnRvMDRoZ2pDaV9ja2R6WGlOOGQtS2JHTDRVTS1VdUE?oc=5",
     "source": "v.daum.net",
-    "date": "2026-09-22T15:08:05+09:00",
+    "date": "2026-09-22T16:00:00+09:00",
     "companies": [
      "본푸드"
     ],
@@ -1891,21 +1891,9 @@
     ]
    },
    {
-    "title": "SPC GFS, 상주시·농협유통과 농특산물 유통 확대 맞손",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xMDBRYURIb0prak1RVEF2ZWtmRFgzV0E2MXhaVllQOFNOYzVheFpmZ0FpVHZGSkx1WFlwVnI2UWZZd01TWGZXbWhFdndqek5SNFVSMg?oc=5",
-    "source": "이투데이",
-    "date": "2026-09-09T16:00:00+09:00",
-    "companies": [
-     "에스피씨지에프에스"
-    ],
-    "groups": [
-     "FD Big3"
-    ]
-   },
-   {
     "title": "급식부터 하나로마트까지 … SPC GFS, 상주 농산물 판로 넓힌다",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pWmFVcFdIZjcxTndHQ09maVR2dmpKOGZiN05qYUFFVE1XUEpIUjJRVlBkMzJRTERVbC1IWGpuR2VOQ2RWZDFYMXBPLTQ1VjNOWWU1aHhfV2JlUHZBLXNCeVhtUEhzLWhDeHhMQ3RKb0ZJMWZwb01yQUtia9IBgAFBVV95cUxNZmVnYThkcXI5VHZ4TFlkR0RDRUxHZjNtMmlaUTVYelUyZWkzMjhJcXAwWExOOEpDX2xoX3JCc1ZWZmF3YmdxZTNHVU1oUlZYSTNWdHZQUnd4MVk2eDVEcURNVWQ3NHM0TzNydWRRYWRmblNxdG1SLWs3SXc5dEhWTQ?oc=5",
-    "source": "biz.newdaily.co.kr",
+    "source": "뉴데일리",
     "date": "2026-09-09T16:00:00+09:00",
     "companies": [
      "에스피씨지에프에스"
@@ -1929,7 +1917,7 @@
    {
     "title": "SPC GFS, 농특산물 유통 활성화 나서…상주시·농협유통과 M0U",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42bE1aZ2hEM09NNkFOeVhtQXpPemQ2NnF0ME1tSnJrZWdMS3ZkeU8wS0JCWWFxQ1NFajAtTWpxUlBaclZRUzNMUUpPdGI1UXczdVNQUVJzWE1YVlh4?oc=5",
-    "source": "newspim.com",
+    "source": "뉴스핌",
     "date": "2026-09-09T16:00:00+09:00",
     "companies": [
      "에스피씨지에프에스"
@@ -1951,9 +1939,9 @@
     ]
    },
    {
-    "title": "SPC GFS, 상주 농산물 판로 넓힌다",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5QSzl3cGdORWluLXFjZ3ItUExTbGZ5OGQ2Q0tucm55am9HM0o5bVVoSGZhUVpUM2xlc2ZVTGNsenJTMV9Sa044TjZ2S3F3RjA?oc=5",
-    "source": "v.daum.net",
+    "title": "[유통가 NOW] SPC GFS 상주 농특산물 MOU·남양유업 바리스타 직무 체험…교촌에프앤비·이디야커피·공차코리아",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wUk1NSGNqWEMzaGNUd3BKSXhrS1RPekNYRWg5OUVTV3FabXkzQlpicWFGMk5lSGRNbTBHSG5iY2JNaEVZdV9CRE1kNGdFaU02bFlocXFiLUFXQWM?oc=5",
+    "source": "에너지경제신문",
     "date": "2026-09-09T16:00:00+09:00",
     "companies": [
      "에스피씨지에프에스"
@@ -1963,8 +1951,20 @@
     ]
    },
    {
-    "title": "[상주 24시] 상주시, SPC GFS·농협유통과 농특산물 판로 확대 협약",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBiVGJRaHNXR0YtVjMzcTdQY1YyN2JVenBEQVVzb09mNElfQ2I4Ql83VUNnYmluU0JhdFFkU0FBQldmOWZXRzk2STV5S2Z6YnhicXZjbw?oc=5",
+    "title": "상주시-SPC GFS-농협유통 협약…곶감·배 등 농특산물 판로 확대",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHa2R5empXaUJpdjd4VGtHXy1IYnNOU0RwTk5OUHVvMnpiSy1LOGRXOGI2VFBfX1NwSE9TanRIZVEyamlDb0xabFpFU2tmNDg5bmFtazdCNnF4OHhJNU9lY2Q5VkszcUlnVUZXcEZuT3k?oc=5",
+    "source": "신아일보",
+    "date": "2026-09-09T16:00:00+09:00",
+    "companies": [
+     "에스피씨지에프에스"
+    ],
+    "groups": [
+     "FD Big3"
+    ]
+   },
+   {
+    "title": "SPC GFS, 상주 농산물 판로 넓힌다",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5JN2ljdEhPUGN1TUY2THp4NHdUVnMwSkVJSXZ2RFZCcE83aWxqdWl5bDJNRGw4bGpuX0VzeFJzMTVQRFNJTUJKZDVoSQ?oc=5",
     "source": "v.daum.net",
     "date": "2026-09-09T16:00:00+09:00",
     "companies": [
