@@ -4,7 +4,7 @@
 - API 키도 필요 없고 비용이 들지 않습니다.
 - 주제나 검색어를 바꾸고 싶으면 아래 TOPICS만 고치세요.
 - 제목에 KEYWORDS 중 하나가 없는 기사는 제외됩니다.
-- 기업별 뉴스는 아래 COMPANIES 목록으로 수집합니다.
+- 기업별 뉴스와 기업별 월간 기사 수는 아래 COMPANIES 목록으로 수집합니다.
 """
 import json
 import re
@@ -91,9 +91,10 @@ CATERING_KW = ["급식", "구내식당", "단체급식", "푸드서비스", "식
 
 DAYS = 14             # 최근 며칠 이내 기사만 가져올지 (주제별 뉴스)
 MAX_PER_TOPIC = 30    # 주제별 최대 기사 수
-COMPANY_DAYS = 30     # 기업별 뉴스는 기사가 드물어서 더 길게 봅니다
-MAX_PER_COMPANY = 10  # 기업당 최대 기사 수
-MAX_COMPANY_TOTAL = 200  # 기업별 뉴스 전체 최대 기사 수
+COMPANY_DAYS = 30     # 기업별 뉴스·월간 기사 수 집계 기간
+MAX_PER_COMPANY = 10  # '기업별 뉴스' 탭에 보여줄 기업당 최대 기사 수
+MAX_COMPANY_TOTAL = 200  # '기업별 뉴스' 탭 전체 최대 기사 수
+RSS_LIMIT = 95        # 구글 뉴스 RSS는 한 번에 약 100건까지만 줍니다 (이 이상이면 '+' 표시)
 COMPANY_TOPIC = "기업별 뉴스"
 KST = timezone(timedelta(hours=9))
 
@@ -147,24 +148,66 @@ def match_company(title: str, aliases: list[str], strict: bool) -> bool:
     return True
 
 
-def collect_companies() -> list[dict]:
-    """기업별로 따로 검색해서 합칩니다. 같은 기사는 한 번만 담고 기업 태그를 합칩니다."""
+def collect_companies() -> tuple[list[dict], dict]:
+    """기업별로 따로 검색합니다.
+
+    반환값:
+      feed  - '기업별 뉴스' 탭에 보여줄 기사 목록 (기업당 최대 MAX_PER_COMPANY건)
+      stats - 기업별 최근 30일 기사 수와 전체 기사 목록 (왼쪽 통계 패널용)
+    """
     by_key: dict[str, dict] = {}
+    stats: dict[str, dict] = {}
+    cutoff = datetime.now(KST) - timedelta(days=COMPANY_DAYS)
+
     for group, name, aliases, strict in COMPANIES:
         terms = " OR ".join(f'"{a}"' for a in aliases)
         query = terms if len(aliases) == 1 else f"({terms})"
         if strict:
             query += " 급식"
         try:
-            items = fetch(query, COMPANY_DAYS)
+            raw = fetch(query, COMPANY_DAYS)
         except Exception as e:  # 한 기업이 실패해도 계속 진행
             print(f"[경고] '{name}' 수집 실패: {e}")
+            stats[name] = {"group": group, "count": 0, "capped": False, "failed": True, "articles": []}
             time.sleep(1)
             continue
 
-        items = [i for i in items if match_company(i["title"], aliases, strict)]
+        capped = len(raw) >= RSS_LIMIT
+        items = []
+        for i in raw:
+            if not match_company(i["title"], aliases, strict):
+                continue
+            try:
+                if datetime.fromisoformat(i["date"]) < cutoff:
+                    continue
+            except Exception:
+                continue
+            items.append(i)
         items.sort(key=lambda x: x["date"], reverse=True)
-        for item in items[:MAX_PER_COMPANY]:
+
+        # 같은 기업 안에서 제목이 똑같은 기사는 1건으로 계산
+        uniq, seen = [], set()
+        for i in items:
+            k = norm(i["title"])
+            if k in seen:
+                continue
+            seen.add(k)
+            uniq.append(i)
+
+        stats[name] = {
+            "group": group,
+            "count": len(uniq),
+            "capped": capped,
+            "failed": False,
+            "articles": [
+                {"title": i["title"], "link": i["link"], "source": i["source"], "date": i["date"]}
+                for i in uniq
+            ],
+        }
+        print(f"{name}: {len(uniq)}건{' (+)' if capped else ''}")
+
+        for item in uniq[:MAX_PER_COMPANY]:
+            item = dict(item)
             key = norm(item["title"])
             if key in by_key:
                 saved = by_key[key]
@@ -179,8 +222,8 @@ def collect_companies() -> list[dict]:
             by_key[key] = item
         time.sleep(0.5)  # 구글에 부담을 주지 않도록 잠깐 쉽니다
 
-    merged = sorted(by_key.values(), key=lambda x: x["date"], reverse=True)
-    return merged[:MAX_COMPANY_TOTAL]
+    feed = sorted(by_key.values(), key=lambda x: x["date"], reverse=True)
+    return feed[:MAX_COMPANY_TOTAL], stats
 
 
 def main() -> None:
@@ -206,9 +249,11 @@ def main() -> None:
         result["topics"][topic] = merged[:MAX_PER_TOPIC]
         print(f"{topic}: {len(result['topics'][topic])}건")
 
-    # 기업별 뉴스
-    result["topics"][COMPANY_TOPIC] = collect_companies()
-    print(f"{COMPANY_TOPIC}: {len(result['topics'][COMPANY_TOPIC])}건")
+    # 기업별 뉴스 + 월간 기사 수
+    feed, stats = collect_companies()
+    result["topics"][COMPANY_TOPIC] = feed
+    result["company_stats"] = {"days": COMPANY_DAYS, "companies": stats}
+    print(f"{COMPANY_TOPIC}: {len(feed)}건")
 
     # 화면에서 그룹/기업 필터를 만들 때 쓸 목록
     groups: dict[str, list[str]] = {}
