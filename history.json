@@ -117,8 +117,20 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 36,
+     "n": 38,
      "articles": [
+      {
+       "title": "아워홈 '테이크' 잠실 상륙⋯연내 4곳으로 확대",
+       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE15LTI4VVc3VnJjYVNIbnpTbjM5X0x3c1NTci1iWjc3bHJ6TVVHemhkLVdwWkpTOUt4RFRWTTRHV0VFSUhwNFZGaTgxQQ?oc=5",
+       "source": "아이뉴스24",
+       "date": "2026-10-02T14:18:00+09:00"
+      },
+      {
+       "title": "아워홈, 뷔페 ‘테이크’ 2호점 잠실에 오픈…연내 4개점 확대",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VLVlONGxldXBDd1FHTlhZREpZXzNPd0V6Rnk4NVU4QXlhNFhGeXp3LWpMN3FwUWlPdVFlZTFTQ2NZcENOWnhSU1NUVTFSSTViV1RJU2RBc1N0dTc0am54eW1kMHU3UlVNVEpSX2Y0aUbSAXRBVV95cUxNcmpzRlRkbks1MU1YZHBZaWVBZVJGVFg3b1A4b2xfUUVrRFlIVTh3UFJfVU9McFFuOW1nVEVERmUxZ1lTMi1GWkJrSHVWRUJNTlJvQ0VLLWdaQzRQdG5CSmhwZXVSUHpmZ19BdFlHSG9CZDdBTA?oc=5",
+       "source": "주간한국",
+       "date": "2026-10-02T13:52:30+09:00"
+      },
       {
        "title": "아워홈 ‘테이크’, 잠실 찍고 몸집 키운다",
        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42UGhROVIyQm5pVktqRmZKY0YyQzJCV1ZHbUZaT1pFUnJMbTNTcGRPNTQ1V3ZjVFVSRGQzSkVkSC1YS2RzYU9lenFaNTRJNVU1OE9hUkd4aXpjYkJWNGxZa0EtSE1FMV9vQ09Z?oc=5",
@@ -1010,5 +1022,5 @@
    "months": {}
   }
  },
- "updated": "2026-10-02T14:21:14.030768+09:00"
+ "updated": "2026-10-02T14:28:24.596826+09:00"
 }
