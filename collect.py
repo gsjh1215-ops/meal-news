@@ -1,269 +1,742 @@
-"""구글 뉴스 RSS에서 급식 관련 기사를 모아 news.json으로 저장합니다.
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>급식 브리핑</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #eef1f3;
+    --surface: #ffffff;
+    --ink: #1b2830;
+    --muted: #5d6c76;
+    --line: #d5dce1;
+    --accent: #0f6b63;
+    --accent-ink: #ffffff;
+    --new: #c98a00;
+    --tag-bg: #e3efed;
+    --tag-ink: #0b4f49;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151d22;
+      --surface: #1d272d;
+      --ink: #e6ecef;
+      --muted: #96a4ad;
+      --line: #2f3d45;
+      --accent: #4fb3a8;
+      --accent-ink: #0d1a1c;
+      --new: #e0a722;
+      --tag-bg: #24403d;
+      --tag-ink: #a9ded8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 1rem; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Noto Sans KR", system-ui, -apple-system, "Malgun Gothic", sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1520px; margin: 0 auto; padding: 2rem 1rem 4rem; }
+  h1 { font-size: 1.75rem; margin: 0; letter-spacing: -0.02em; }
+  .updated { color: var(--muted); font-size: 0.875rem; margin: 0.25rem 0 1.5rem; }
 
-- 외부 패키지 설치가 필요 없습니다 (파이썬 기본 기능만 사용).
-- API 키도 필요 없고 비용이 들지 않습니다.
-- 주제나 검색어를 바꾸고 싶으면 아래 TOPICS만 고치세요.
-- 제목에 KEYWORDS 중 하나가 없는 기사는 제외됩니다.
-- 기업별 뉴스와 기업별 월간 기사 수는 아래 COMPANIES 목록으로 수집합니다.
-"""
-import json
-import re
-import time
-import urllib.parse
-import urllib.request
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
-from email.utils import parsedate_to_datetime
+  /* 왼쪽 통계 패널 + 가운데 기사 목록 + 오른쪽 그래프 */
+  .layout {
+    display: grid; gap: 1.5rem; align-items: start; justify-content: center;
+    grid-template-columns: 320px minmax(0, 760px) 340px;
+    grid-template-areas: "side main chart";
+  }
+  .side { grid-area: side; }
+  .layout > main { grid-area: main; }
+  .chartside { grid-area: chart; }
+  @media (max-width: 1560px) {
+    .layout {
+      grid-template-columns: 320px minmax(0, 1fr);
+      grid-template-areas: "side main" "chart main";
+      grid-template-rows: auto 1fr;
+    }
+  }
+  @media (max-width: 1080px) {
+    .layout {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-areas: "side" "chart" "main";
+      grid-template-rows: auto;
+    }
+  }
+  @media (min-width: 1561px) {
+    .side, .chartside { position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow-y: auto; }
+  }
 
-# 탭 이름: [검색어, ...]  (검색어는 자유롭게 추가/삭제 가능)
-TOPICS = {
-    "업계 동향": ["위탁급식", "단체급식", "위탁급식 시장", "구내식당 위탁운영"],
-    "트렌드·급식문화": ["급식 트렌드", "구내식당 트렌드", "구내식당 신메뉴", "단체급식 트렌드", "구내식당 메뉴"],
-    "식자재·원가": ["식자재 가격", "급식 식재료 물가", "급식 단가"],
-    "입찰·제도": ["구내식당 입찰", "집단급식소 식품위생법", "급식 위탁 계약"],
-}
+  .tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+  .tabs button {
+    font: inherit; font-size: 0.9375rem;
+    padding: 0.4rem 0.9rem; border-radius: 999px;
+    border: 1px solid var(--line); background: transparent; color: var(--ink);
+    cursor: pointer;
+  }
+  .tabs button[aria-selected="true"] {
+    background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 500;
+  }
 
-# 제목에 이 단어 중 하나라도 있어야 목록에 남습니다 (엉뚱한 기사 제거용)
-KEYWORDS = [
-    "급식", "구내식당", "식단", "케이터링", "식자재", "식재료", "푸드서비스",
-    "웰스토리", "아워홈", "프레시웨이", "그린푸드", "신세계푸드", "푸디스트",
-]
+  /* 기업별 뉴스 탭의 보조 필터 */
+  .subfilters { margin-bottom: 1rem; padding: 0.75rem; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  .subfilters[hidden] { display: none; }
+  .subrow { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .subrow + .subrow { margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px dashed var(--line); }
+  .subrow .label { flex: 0 0 100%; font-size: 0.75rem; color: var(--muted); margin-bottom: 0.1rem; }
+  .subrow button {
+    font: inherit; font-size: 0.8125rem;
+    padding: 0.2rem 0.65rem; border-radius: 999px;
+    border: 1px solid var(--line); background: transparent; color: var(--ink);
+    cursor: pointer;
+  }
+  .subrow button .n { color: var(--muted); margin-left: 0.2rem; font-size: 0.75rem; }
+  .subrow button[aria-pressed="true"] {
+    background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 500;
+  }
+  .subrow button[aria-pressed="true"] .n { color: var(--accent-ink); }
 
-# ---------------------------------------------------------------
-# 기업별 뉴스 설정
-# (그룹, 기업명, [제목에서 찾을 이름들], 동음이의어 주의 여부)
-#  - 이름들: 기사 제목에 이 중 하나가 있어야 합니다. (띄어쓰기·대소문자 무시)
-#  - 동음이의어 주의 True: 제목에 급식 관련 단어도 함께 있어야 통과합니다.
-# ---------------------------------------------------------------
-COMPANIES = [
-    # 1. Big9
-    ("Big9", "웰스토리", ["삼성웰스토리", "웰스토리"], False),
-    ("Big9", "아워홈", ["아워홈"], False),
-    ("Big9", "CJ프레시웨이", ["CJ프레시웨이", "씨제이프레시웨이"], False),
-    ("Big9", "동원홈푸드", ["동원홈푸드"], False),
-    ("Big9", "사조푸디스트", ["사조푸디스트", "푸디스트"], False),
-    ("Big9", "고메드갤러리아", ["고메드갤러리아", "신세계푸드"], False),
-    ("Big9", "아라마크", ["아라마크"], False),
-    ("Big9", "풀무원푸드앤컬처", ["풀무원푸드앤컬처", "푸드앤컬처"], False),
-    ("Big9", "현대그린푸드", ["현대그린푸드"], False),
-    # 2. FD Big3
-    ("FD Big3", "롯데웰푸드", ["롯데웰푸드"], False),
-    ("FD Big3", "에스피씨지에프에스", ["SPC GFS", "SPC지에프에스", "에스피씨지에프에스"], False),
-    ("FD Big3", "하림(네이처델리)", ["네이처델리"], False),
-    # 3. 중견·중소
-    ("중견·중소", "본푸드", ["본푸드", "본푸드서비스", "본우리집밥"], False),
-    ("중견·중소", "진주랑", ["진주랑"], False),
-    ("중견·중소", "아이비푸드", ["아이비푸드"], False),
-    ("중견·중소", "LSC푸드", ["LSC푸드"], False),
-    ("중견·중소", "가온에프앤에스", ["가온에프앤에스"], False),
-    ("중견·중소", "한울에프앤에스", ["한울에프앤에스"], False),
-    ("중견·중소", "신성푸드서비스", ["신성푸드서비스"], False),
-    ("중견·중소", "후니드", ["후니드"], False),
-    ("중견·중소", "삼주외식산업", ["삼주외식산업"], False),
-    ("중견·중소", "브라운에프엔비", ["브라운에프엔비"], False),
-    ("중견·중소", "명성에프엠씨", ["명성에프엠씨", "명성에프에스"], False),
-    ("중견·중소", "정진홈푸드", ["정진홈푸드"], False),
-    ("중견·중소", "제이에스지", ["제이에스지"], True),
-    ("중견·중소", "휴먼푸드서비스", ["휴먼푸드서비스"], False),
-    ("중견·중소", "웰리브에프앤에스", ["웰리브에프앤에스"], False),
-    ("중견·중소", "제이제이케터링", ["제이제이케터링"], False),
-    ("중견·중소", "대한에프에쓰에쓰", ["대한에프에쓰에쓰"], False),
-    ("중견·중소", "비앤에스푸드", ["비앤에스푸드"], False),
-    ("중견·중소", "델리에프에스", ["델리에프에스"], True),
-    ("중견·중소", "가람푸드써비스", ["가람푸드써비스"], False),
-    ("중견·중소", "웰스프레쉬", ["웰스프레쉬"], False),
-    ("중견·중소", "LIG홈앤밀", ["LIG홈앤밀", "엘아이지홈앤밀"], False),
-    ("중견·중소", "정우푸드", ["정우푸드"], True),
-    ("중견·중소", "빌텍", ["빌텍"], True),
-    ("중견·중소", "에이치앤포세카", ["에이치앤포세카", "H&포세카"], False),
-    ("중견·중소", "한솔(양산)", ["한솔"], True),
-    ("중견·중소", "다온푸드서비스", ["다온푸드서비스"], False),
-    ("중견·중소", "진풍푸드서비스", ["진풍푸드서비스"], False),
-    ("중견·중소", "초록푸드서비스", ["초록푸드서비스"], False),
-    ("중견·중소", "금강웰빙푸드", ["금강웰빙푸드"], False),
-    ("중견·중소", "미셸푸드", ["미셸푸드"], False),
-    ("중견·중소", "지씨에스", ["지씨에스"], True),
-    ("중견·중소", "온정에프앤비", ["온정에프앤비"], False),
-]
+  .tabs button:focus-visible, .subrow button:focus-visible, input:focus-visible, a:focus-visible,
+  .side button:focus-visible, .side summary:focus-visible, .chartside summary:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
 
-# 동음이의어 주의 기업은 제목에 이 단어 중 하나가 함께 있어야 합니다
-CATERING_KW = ["급식", "구내식당", "단체급식", "푸드서비스", "식자재", "케이터링", "위탁", "식단"]
+  input[type="search"] {
+    width: 100%; font: inherit; padding: 0.6rem 0.8rem; margin-bottom: 1rem;
+    border: 1px solid var(--line); border-radius: 6px;
+    background: var(--surface); color: var(--ink);
+  }
 
-DAYS = 14             # 최근 며칠 이내 기사만 가져올지 (주제별 뉴스)
-MAX_PER_TOPIC = 30    # 주제별 최대 기사 수
-COMPANY_DAYS = 30     # 기업별 뉴스·월간 기사 수 집계 기간
-MAX_PER_COMPANY = 10  # '기업별 뉴스' 탭에 보여줄 기업당 최대 기사 수
-MAX_COMPANY_TOTAL = 200  # '기업별 뉴스' 탭 전체 최대 기사 수
-RSS_LIMIT = 95        # 구글 뉴스 RSS는 한 번에 약 100건까지만 줍니다 (이 이상이면 '+' 표시)
-COMPANY_TOPIC = "기업별 뉴스"
-KST = timezone(timedelta(hours=9))
+  #list { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  #list li { padding: 0.9rem 1rem; border-bottom: 1px solid var(--line); }
+  #list li:last-child { border-bottom: 0; }
+  #list li a { color: var(--ink); text-decoration: none; font-weight: 500; }
+  #list li a:hover { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  .meta { display: block; margin-top: 0.15rem; font-size: 0.8125rem; color: var(--muted); }
+  .tag {
+    display: inline-block; margin-left: 0.35rem; padding: 0 0.45rem;
+    border-radius: 4px; background: var(--tag-bg); color: var(--tag-ink);
+    font-size: 0.75rem; font-weight: 500; line-height: 1.5;
+  }
+  .dot {
+    display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%;
+    background: var(--new); margin-right: 0.45rem; vertical-align: middle;
+  }
+  .empty { padding: 2rem 1rem; color: var(--muted); }
+  footer { margin-top: 1.5rem; font-size: 0.8125rem; color: var(--muted); }
+  footer p { margin: 0 0 0.5rem; }
 
+  /* ---- 왼쪽 패널 / 오른쪽 그래프 박스 공통 ---- */
+  .side details, .chartside details { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  .side summary, .chartside summary { cursor: pointer; padding: 0.8rem 1rem; font-weight: 700; font-size: 1rem; list-style-position: inside; }
+  .side-body { padding: 0 0.75rem 0.9rem; }
+  .side-note { margin: 0 0.25rem 0.6rem; font-size: 0.75rem; color: var(--muted); }
 
-def fetch(query: str, days: int = DAYS) -> list[dict]:
-    q = urllib.parse.quote(f"{query} when:{days}d")
-    url = f"https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30) as res:
-        root = ET.fromstring(res.read())
+  .gbtn {
+    width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 0.5rem;
+    font: inherit; font-size: 0.9375rem; font-weight: 500; text-align: left;
+    padding: 0.55rem 0.75rem; margin-top: 0.4rem;
+    border: 1px solid var(--line); border-radius: 6px; background: transparent; color: var(--ink);
+    cursor: pointer;
+  }
+  .gbtn .gtotal { font-size: 0.8125rem; color: var(--muted); font-weight: 400; white-space: nowrap; }
+  .gbtn[aria-expanded="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .gbtn[aria-expanded="true"] .gtotal { color: var(--accent-ink); }
 
-    items = []
-    for it in root.iter("item"):
-        title = (it.findtext("title") or "").strip()
-        link = (it.findtext("link") or "").strip()
-        source = (it.findtext("source") or "").strip()
-        pub = it.findtext("pubDate")
-        if not title or not link or not pub:
-            continue
-        # 제목 끝의 " - 언론사" 부분 제거
-        if source and title.endswith(f" - {source}"):
-            title = title[: -len(source) - 3]
-        try:
-            dt = parsedate_to_datetime(pub).astimezone(KST)
-        except Exception:
-            continue
-        items.append(
-            {"title": title, "link": link, "source": source, "date": dt.isoformat()}
-        )
-    return items
+  .clist { margin: 0.3rem 0 0.2rem; padding: 0 0 0 0.5rem; border-left: 2px solid var(--line); }
+  .crow { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; padding: 0.3rem 0.4rem; font-size: 0.875rem; }
+  .crow .cname { min-width: 0; overflow-wrap: anywhere; }
+  .cnt {
+    flex: 0 0 auto; font: inherit; font-size: 0.8125rem; font-weight: 500;
+    padding: 0.1rem 0.6rem; border-radius: 999px;
+    border: 1px solid var(--accent); background: transparent; color: var(--accent);
+    cursor: pointer;
+  }
+  .cnt[aria-expanded="true"] { background: var(--accent); color: var(--accent-ink); }
+  .cnt-zero { flex: 0 0 auto; font-size: 0.8125rem; color: var(--muted); padding: 0.1rem 0.6rem; }
 
+  ul.alinks { list-style: none; margin: 0.1rem 0 0.5rem 0.4rem; padding: 0.4rem 0.6rem; background: var(--bg); border: 0; border-radius: 6px; }
+  ul.alinks li { padding: 0.3rem 0; border: 0; font-size: 0.8125rem; line-height: 1.45; }
+  ul.alinks li a { color: var(--ink); font-weight: 400; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+  ul.alinks li a:hover { text-decoration-color: var(--accent); }
+  .side-foot { margin: 0.8rem 0.25rem 0; font-size: 0.75rem; color: var(--muted); }
 
-def norm(title: str) -> str:
-    return re.sub(r"[^0-9a-zA-Z가-힣]", "", title)
+  /* ---- 그래프 ---- */
+  .clg { display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; margin: 0.7rem 0.25rem 0.3rem; font-size: 0.75rem; color: var(--muted); }
+  .clg span { display: inline-flex; align-items: center; gap: 0.3rem; }
+  .clg i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; }
+  .cwrap { position: relative; width: 100%; height: 300px; margin-top: 0.4rem; }
+  .cwrap[hidden] { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>급식 브리핑</h1>
+  <p class="updated" id="updated">불러오는 중…</p>
 
+  <div class="layout">
+    <aside class="side">
+      <details id="statsBox" open>
+        <summary>기업별 월간 기사 수</summary>
+        <div class="side-body">
+          <p class="side-note" id="statsNote"></p>
+          <div id="stats"></div>
+          <p class="side-foot">구글 뉴스에 잡힌 기사 기준이며, 하루 2번 수집할 때 새로 나온 기사만 더해집니다. 같은 보도자료를 여러 언론사가 실으면 각각 1건으로 세고, 한 기사에 여러 회사가 나오면 회사마다 1건씩 셉니다.</p>
+        </div>
+      </details>
+    </aside>
 
-def squash(text: str) -> str:
-    return re.sub(r"\s+", "", text).lower()
+    <main>
+      <div class="tabs" id="tabs" role="tablist"></div>
 
+      <div class="subfilters" id="subfilters" hidden>
+        <div class="subrow" id="groupRow"></div>
+        <div class="subrow" id="companyRow"></div>
+      </div>
 
-def relevant(title: str) -> bool:
-    return any(k in title for k in KEYWORDS)
+      <input type="search" id="q" placeholder="제목·기업명에서 검색" aria-label="제목·기업명에서 검색">
+      <ul id="list"></ul>
 
+      <footer>
+        <p>이 페이지는 기사 제목, 언론사, 날짜와 원문 링크만 표시합니다. 기사 본문과 이미지는 게시하지 않으며, 모든 기사의 저작권은 각 언론사에 있습니다. 원문은 링크를 눌러 해당 언론사 사이트에서 확인하세요.</p>
+        <p>개인 참고용으로 운영하는 페이지입니다. <span class="dot" style="margin-left:.25rem"></span>표시는 오늘 올라온 기사입니다.</p>
+      </footer>
+    </main>
 
-def match_company(title: str, aliases: list[str], strict: bool) -> bool:
-    t = squash(title)
-    if not any(squash(a) in t for a in aliases):
-        return False
-    if strict and not any(k in title for k in CATERING_KW):
-        return False
-    return True
+    <aside class="chartside">
+      <details id="chartBox" open>
+        <summary>월별 기업 기사 수 그래프</summary>
+        <div class="side-body">
+          <div class="subrow" id="cgrp"></div>
+          <div class="clg" id="clg"></div>
+          <p class="side-note" id="cnote"></p>
+          <div class="cwrap" id="cwrap"><canvas id="cc" role="img" aria-label="기업별 월간 기사 수 가로 막대그래프">기업별 월간 기사 수 그래프</canvas></div>
+        </div>
+      </details>
+    </aside>
+  </div>
+</div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+  const COMPANY_TAB = "기업별 뉴스";
 
-def collect_companies() -> tuple[list[dict], dict]:
-    """기업별로 따로 검색합니다.
+  let data = null;          // news.json
+  let hist = null;          // history.json (월별 누적 기록)
+  let current = "전체";
+  let group = "전체";       // 기업별 뉴스 탭: 그룹 필터
+  let company = null;       // 기업별 뉴스 탭: 기업 필터
+  let companyMap = new Map();
 
-    반환값:
-      feed  - '기업별 뉴스' 탭에 보여줄 기사 목록 (기업당 최대 MAX_PER_COMPANY건)
-      stats - 기업별 최근 30일 기사 수와 전체 기사 목록 (왼쪽 통계 패널용)
-    """
-    by_key: dict[str, dict] = {}
-    stats: dict[str, dict] = {}
-    cutoff = datetime.now(KST) - timedelta(days=COMPANY_DAYS)
+  let openGroup = null;     // 왼쪽 패널: 펼쳐진 그룹
+  let openCompany = null;   // 왼쪽 패널: 기사 링크가 펼쳐진 기업
+  let cgroup = null;        // 그래프: 선택된 그룹
+  let chart = null;
 
-    for group, name, aliases, strict in COMPANIES:
-        terms = " OR ".join(f'"{a}"' for a in aliases)
-        query = terms if len(aliases) == 1 else f"({terms})"
-        if strict:
-            query += " 급식"
-        try:
-            raw = fetch(query, COMPANY_DAYS)
-        except Exception as e:  # 한 기업이 실패해도 계속 진행
-            print(f"[경고] '{name}' 수집 실패: {e}")
-            stats[name] = {"group": group, "count": 0, "capped": False, "failed": True, "articles": []}
-            time.sleep(1)
-            continue
+  const $tabs = document.getElementById("tabs");
+  const $list = document.getElementById("list");
+  const $q = document.getElementById("q");
+  const $updated = document.getElementById("updated");
+  const $sub = document.getElementById("subfilters");
+  const $groupRow = document.getElementById("groupRow");
+  const $companyRow = document.getElementById("companyRow");
+  const $stats = document.getElementById("stats");
+  const $statsNote = document.getElementById("statsNote");
+  const $cgrp = document.getElementById("cgrp");
+  const $clg = document.getElementById("clg");
+  const $cnote = document.getElementById("cnote");
+  const $cwrap = document.getElementById("cwrap");
 
-        capped = len(raw) >= RSS_LIMIT
-        items = []
-        for i in raw:
-            if not match_company(i["title"], aliases, strict):
-                continue
-            try:
-                if datetime.fromisoformat(i["date"]) < cutoff:
-                    continue
-            except Exception:
-                continue
-            items.append(i)
-        items.sort(key=lambda x: x["date"], reverse=True)
+  // 좁은 화면(휴대폰 등)에서는 두 박스를 접어 둡니다.
+  if (window.matchMedia("(max-width: 1080px)").matches) {
+    document.getElementById("statsBox").open = false;
+    document.getElementById("chartBox").open = false;
+  }
 
-        # 같은 기업 안에서 제목이 똑같은 기사는 1건으로 계산
-        uniq, seen = [], set()
-        for i in items:
-            k = norm(i["title"])
-            if k in seen:
-                continue
-            seen.add(k)
-            uniq.append(i)
+  function fmt(iso) {
+    const d = new Date(iso);
+    return `${d.getMonth() + 1}월 ${d.getDate()}일`;
+  }
+  function isToday(iso) {
+    const a = new Date(iso), b = new Date();
+    return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
+  }
 
-        stats[name] = {
-            "group": group,
-            "count": len(uniq),
-            "capped": capped,
-            "failed": False,
-            "articles": [
-                {"title": i["title"], "link": i["link"], "source": i["source"], "date": i["date"]}
-                for i in uniq
-            ],
+  // 제목 끝의 " - 언론사"와 끝에 남은 " |" 를 화면에서만 정리합니다.
+  function cleanTitle(title, source) {
+    let s = String(title || "").trim().replace(/\s*\|\s*$/, "");
+    const m = s.match(/^(.*\S)\s+[-–—]\s+([^-–—]{1,25})$/);
+    if (m) {
+      const tail = m[2].trim();
+      const sameAsSource = source && tail.toLowerCase() === String(source).toLowerCase();
+      if (sameAsSource || !/\s/.test(tail)) s = m[1];
+    }
+    return s;
+  }
+
+  // ---------- 월별 누적 기록 도우미 ----------
+  function curMonth() {            // 마지막 수집 시각 기준의 달 (예: "2026-10")
+    return hist && hist.updated ? String(hist.updated).slice(0, 7) : null;
+  }
+  function monthCount(name, key) {
+    const c = hist && hist.companies ? hist.companies[name] : null;
+    const m = c && c.months ? c.months[key] : null;
+    return m ? (m.n || 0) : 0;
+  }
+  function nextMonth(k) {
+    let y = Number(k.slice(0, 4)), m = Number(k.slice(5, 7)) + 1;
+    if (m > 12) { y += 1; m = 1; }
+    return `${y}-${String(m).padStart(2, "0")}`;
+  }
+
+  // ---------- 왼쪽: 이번 달 누적 기사 수 ----------
+  function renderStats() {
+    $stats.replaceChildren();
+    const cur = curMonth();
+    if (!hist || !cur || !data.groups) {
+      const p = document.createElement("p");
+      p.className = "side-note";
+      p.textContent = "아직 집계된 데이터가 없습니다. 자동 수집이 한 번 실행되면 나타납니다.";
+      $stats.append(p);
+      return;
+    }
+    $statsNote.textContent = `${cur.slice(0, 4)}년 ${Number(cur.slice(5, 7))}월 누적 · 그룹을 누르면 기업이 보이고, 숫자를 누르면 기사 링크가 나옵니다.`;
+
+    for (const [g, names] of Object.entries(data.groups)) {
+      const rows = names.map(nm => {
+        const c = hist.companies ? hist.companies[nm] : null;
+        const mo = c && c.months ? c.months[cur] : null;
+        return { name: nm, n: mo ? (mo.n || 0) : 0, articles: mo && mo.articles ? mo.articles : [] };
+      });
+      const total = rows.reduce((s, r) => s + r.n, 0);
+
+      const gb = document.createElement("button");
+      gb.type = "button"; gb.className = "gbtn";
+      gb.setAttribute("aria-expanded", String(openGroup === g));
+      const gname = document.createElement("span");
+      gname.textContent = g;
+      const gt = document.createElement("span");
+      gt.className = "gtotal";
+      gt.textContent = `${rows.length}곳 · ${total}건`;
+      gb.append(gname, gt);
+      gb.onclick = () => {
+        openGroup = (openGroup === g) ? null : g;
+        openCompany = null;
+        renderStats();
+      };
+      $stats.append(gb);
+
+      if (openGroup !== g) continue;
+
+      const wrap = document.createElement("div");
+      wrap.className = "clist";
+      for (const r of rows) {
+        const row = document.createElement("div");
+        row.className = "crow";
+        const nm = document.createElement("span");
+        nm.className = "cname"; nm.textContent = r.name;
+        row.append(nm);
+
+        if (!r.n) {
+          const z = document.createElement("span");
+          z.className = "cnt-zero"; z.textContent = "0건";
+          row.append(z);
+        } else {
+          const b = document.createElement("button");
+          b.type = "button"; b.className = "cnt";
+          b.setAttribute("aria-expanded", String(openCompany === r.name));
+          b.textContent = `${r.n}건`;
+          b.onclick = () => {
+            openCompany = (openCompany === r.name) ? null : r.name;
+            renderStats();
+          };
+          row.append(b);
         }
-        print(f"{name}: {len(uniq)}건{' (+)' if capped else ''}")
+        wrap.append(row);
 
-        for item in uniq[:MAX_PER_COMPANY]:
-            item = dict(item)
-            key = norm(item["title"])
-            if key in by_key:
-                saved = by_key[key]
-                if name not in saved["companies"]:
-                    saved["companies"].append(name)
-                if group not in saved["groups"]:
-                    saved["groups"].append(group)
-                continue
-            item["companies"] = [name]
-            item["groups"] = [group]
-            item["query"] = query
-            by_key[key] = item
-        time.sleep(0.5)  # 구글에 부담을 주지 않도록 잠깐 쉽니다
+        if (openCompany === r.name && r.articles.length) {
+          const ul = document.createElement("ul");
+          ul.className = "alinks";
+          for (const a of r.articles) {
+            const li = document.createElement("li");
+            const link = document.createElement("a");
+            link.href = a.link; link.target = "_blank"; link.rel = "noopener noreferrer";
+            link.textContent = cleanTitle(a.title, a.source);
+            li.append(link);
+            ul.append(li);
+          }
+          wrap.append(ul);
+        }
+      }
+      $stats.append(wrap);
+    }
+  }
 
-    feed = sorted(by_key.values(), key=lambda x: x["date"], reverse=True)
-    return feed[:MAX_COMPANY_TOTAL], stats
+  // ---------- 오른쪽: 월별 기업 기사 수 그래프 ----------
+  // 지난 해는 연도 합계 막대 하나로 묶고, 올해는 오늘까지의 달만 월별로 보여줍니다.
+  function buildPeriods() {
+    const cur = curMonth();
+    const start = hist.start || "2026-10";
+    const byYear = {};
+    for (let k = start; k <= cur; k = nextMonth(k)) {
+      const y = k.slice(0, 4);
+      (byYear[y] = byYear[y] || []).push(k);
+    }
+    const curYear = cur.slice(0, 4);
+    const out = [];
+    for (const y of Object.keys(byYear).sort()) {
+      const ks = byYear[y];
+      if (y < curYear) {
+        const first = Number(ks[0].slice(5)), last = Number(ks[ks.length - 1].slice(5));
+        const label = (first === 1 && last === 12) ? `${y}년` : `${y}년 (${first}~${last}월 합계)`;
+        out.push({ type: "year", label, keys: ks });
+      } else {
+        for (const k of ks) {
+          out.push({ type: "month", label: `${y}년 ${Number(k.slice(5))}월${k === cur ? " (진행 중)" : ""}`, keys: [k], partial: k === cur });
+        }
+      }
+    }
+    return out;
+  }
 
+  function isDark() { return window.matchMedia("(prefers-color-scheme: dark)").matches; }
 
-def main() -> None:
-    result = {"updated": datetime.now(KST).isoformat(), "topics": {}}
-    for topic, queries in TOPICS.items():
-        seen, merged = set(), []
-        for q in queries:
-            try:
-                items = fetch(q)
-            except Exception as e:  # 한 검색어가 실패해도 계속 진행
-                print(f"[경고] '{q}' 수집 실패: {e}")
-                continue
-            for item in items:
-                if not relevant(item["title"]):
-                    continue
-                key = norm(item["title"])
-                if key in seen:
-                    continue
-                seen.add(key)
-                item["query"] = q
-                merged.append(item)
-        merged.sort(key=lambda x: x["date"], reverse=True)
-        result["topics"][topic] = merged[:MAX_PER_TOPIC]
-        print(f"{topic}: {len(result['topics'][topic])}건")
+  function rampColor(i, count) {
+    if (count <= 1) return "rgb(42,120,214)";
+    const a = [185, 211, 243], b = [31, 102, 192], t = i / (count - 1);
+    return `rgb(${a.map((v, j) => Math.round(v + (b[j] - v) * t)).join(",")})`;
+  }
 
-    # 기업별 뉴스 + 월간 기사 수
-    feed, stats = collect_companies()
-    result["topics"][COMPANY_TOPIC] = feed
-    result["company_stats"] = {"days": COMPANY_DAYS, "companies": stats}
-    print(f"{COMPANY_TOPIC}: {len(feed)}건")
+  function hatch(color) {
+    const p = document.createElement("canvas"); p.width = 8; p.height = 8;
+    const x = p.getContext("2d");
+    x.fillStyle = color; x.globalAlpha = 0.3; x.fillRect(0, 0, 8, 8);
+    x.globalAlpha = 1; x.strokeStyle = color; x.lineWidth = 2;
+    x.beginPath(); x.moveTo(-2, 8); x.lineTo(8, -2); x.moveTo(0, 10); x.lineTo(10, 0); x.stroke();
+    return x.createPattern(p, "repeat");
+  }
 
-    # 화면에서 그룹/기업 필터를 만들 때 쓸 목록
-    groups: dict[str, list[str]] = {}
-    for group, name, _, _ in COMPANIES:
-        groups.setdefault(group, []).append(name)
-    result["groups"] = groups
+  function renderChartGroups() {
+    $cgrp.replaceChildren();
+    if (!data.groups) return;
+    for (const g of Object.keys(data.groups)) {
+      const b = document.createElement("button");
+      b.type = "button"; b.textContent = g;
+      b.setAttribute("aria-pressed", String(g === cgroup));
+      b.onclick = () => { cgroup = g; renderChartGroups(); renderChart(); };
+      $cgrp.append(b);
+    }
+  }
 
-    with open("news.json", "w", encoding="utf-8") as f:
-        json.dump(result, f, ensure_ascii=False, indent=1)
+  function renderChart() {
+    if (chart) { chart.destroy(); chart = null; }
+    $clg.replaceChildren();
+    $cnote.textContent = "";
 
+    if (!hist || !curMonth() || !data.groups || !cgroup) {
+      $cwrap.hidden = true;
+      $cnote.textContent = "아직 집계된 데이터가 없습니다. 자동 수집이 한 번 실행되면 나타납니다.";
+      return;
+    }
+    if (!window.Chart) {
+      $cwrap.hidden = true;
+      $cnote.textContent = "그래프 라이브러리를 불러오지 못했습니다. 새로고침해 보세요.";
+      return;
+    }
 
-if __name__ == "__main__":
-    main()
+    const periods = buildPeriods();
+    const names = data.groups[cgroup] || [];
+    const rows = names.map(name => ({
+      name,
+      vals: periods.map(p => p.keys.reduce((s, k) => s + monthCount(name, k), 0)),
+      parts: periods.map(p => p.type === "year" ? p.keys.map(k => [`${Number(k.slice(5))}월`, monthCount(name, k)]) : null)
+    }));
+    const shown = rows
+      .map(r => ({ ...r, total: r.vals.reduce((a, b) => a + b, 0) }))
+      .filter(r => r.total > 0)
+      .sort((a, b) => b.total - a.total || a.name.localeCompare(b.name, "ko"));
+    const hidden = rows.length - shown.length;
+
+    // 색: 월은 파랑(오래된 달 연하게 → 최근 진할게), 연도 합계는 보라
+    const monthCountN = periods.filter(p => p.type === "month").length;
+    let mi = 0;
+    const colors = periods.map(p => p.type === "year" ? (isDark() ? "#9085e9" : "#6250d6") : rampColor(mi++, monthCountN));
+
+    periods.forEach((p, i) => {
+      const s = document.createElement("span");
+      const sw = document.createElement("i");
+      sw.style.background = colors[i];
+      if (p.partial) sw.style.opacity = "0.55";
+      s.append(sw, p.label);
+      $clg.append(s);
+    });
+
+    $cnote.textContent =
+      (shown.length ? "" : "아직 이번 그룹에 집계된 기사가 없습니다. ") +
+      "빗금 막대는 이번 달 진행 중이라 수집할 때마다 늘어납니다." +
+      (periods.some(p => p.type === "year") ? " 보라색 막대(연도 합계)에 마우스를 올리면 월별 건수가 나옵니다." : "") +
+      (hidden > 0 ? ` 기사가 아직 없는 ${hidden}곳은 숨겼어요.` : "");
+
+    if (!shown.length) { $cwrap.hidden = true; return; }
+    $cwrap.hidden = false;
+
+    const thick = periods.length <= 3 ? 12 : periods.length <= 6 ? 10 : 8;
+    $cwrap.style.height = (shown.length * (periods.length * (thick + 2) + 14) + 50) + "px";
+
+    const css = getComputedStyle(document.documentElement);
+    const ink = css.getPropertyValue("--ink").trim() || "#222";
+    const muted = css.getPropertyValue("--muted").trim() || "#777";
+
+    const labelsPlugin = {
+      id: "valueLabels",
+      afterDatasetsDraw(c) {
+        const ctx = c.ctx;
+        ctx.save();
+        ctx.font = "11px sans-serif"; ctx.fillStyle = muted; ctx.textBaseline = "middle";
+        c.data.datasets.forEach((ds, i) => {
+          c.getDatasetMeta(i).data.forEach((bar, j) => {
+            ctx.fillText(String(Math.round(ds.data[j])), bar.x + 4, bar.y);
+          });
+        });
+        ctx.restore();
+      }
+    };
+
+    chart = new Chart(document.getElementById("cc"), {
+      type: "bar",
+      data: {
+        labels: shown.map(r => r.name),
+        datasets: periods.map((p, i) => ({
+          label: p.label,
+          data: shown.map(r => r.vals[i]),
+          parts: p.type === "year" ? shown.map(r => r.parts[i]) : null,
+          backgroundColor: p.partial ? hatch(colors[i]) : colors[i],
+          borderColor: colors[i],
+          borderWidth: p.partial ? 1.5 : 0,
+          borderRadius: 4,
+          barThickness: thick
+        }))
+      },
+      options: {
+        indexAxis: "y", responsive: true, maintainAspectRatio: false,
+        layout: { padding: { right: 30 } },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: c => `${c.dataset.label}: ${Math.round(c.parsed.x)}건`,
+              afterLabel: c => c.dataset.parts ? c.dataset.parts[c.dataIndex].map(p => `   ${p[0]} ${Math.round(p[1])}건`) : []
+            }
+          }
+        },
+        scales: {
+          x: { beginAtZero: true, grid: { color: "rgba(128,128,128,0.2)" }, ticks: { color: muted, font: { size: 11 }, precision: 0 }, border: { display: false } },
+          y: { grid: { display: false }, ticks: { color: ink, font: { size: 12 } } }
+        }
+      },
+      plugins: [labelsPlugin]
+    });
+    document.getElementById("cc").setAttribute("aria-label", `${cgroup} 기업별 월간 기사 수 가로 막대그래프`);
+  }
+
+  // ---------- 가운데: 기사 목록 ----------
+  function buildCompanyMap() {
+    companyMap = new Map();
+    for (const it of (data.topics[COMPANY_TAB] || [])) {
+      companyMap.set(it.link, { companies: it.companies || [], groups: it.groups || [] });
+    }
+  }
+
+  function withTags(it) {
+    const tag = companyMap.get(it.link);
+    return {
+      ...it,
+      companies: it.companies || (tag ? tag.companies : []),
+      groups: it.groups || (tag ? tag.groups : []),
+    };
+  }
+
+  function baseItems() {
+    const topics = data.topics;
+    let items = current === "전체"
+      ? Object.values(topics).flat()
+      : (topics[current] || []);
+    const seen = new Set();
+    items = items.filter(i => !seen.has(i.link) && seen.add(i.link));
+    items = items.map(withTags);
+    items.sort((a, b) => b.date.localeCompare(a.date));
+    return items;
+  }
+
+  function groupNames() {
+    if (data.groups) return Object.keys(data.groups);
+    const set = new Set();
+    for (const it of (data.topics[COMPANY_TAB] || [])) (it.groups || []).forEach(g => set.add(g));
+    return [...set];
+  }
+
+  function groupCompanies(g) {
+    if (data.groups && data.groups[g]) return data.groups[g];
+    return [];
+  }
+
+  function articles() {
+    let items = baseItems();
+    if (current === COMPANY_TAB) {
+      if (group !== "전체") items = items.filter(i => (i.groups || []).includes(group));
+      if (company) items = items.filter(i => (i.companies || []).includes(company));
+    }
+    const kw = $q.value.trim().toLowerCase();
+    if (kw) {
+      items = items.filter(i =>
+        cleanTitle(i.title, i.source).toLowerCase().includes(kw) ||
+        (i.companies || []).some(c => c.toLowerCase().includes(kw))
+      );
+    }
+    return items;
+  }
+
+  function makeSubButton(label, count, pressed, onClick) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("aria-pressed", String(pressed));
+    b.append(label);
+    if (typeof count === "number") {
+      const n = document.createElement("span");
+      n.className = "n";
+      n.textContent = count;
+      b.append(n);
+    }
+    b.onclick = onClick;
+    return b;
+  }
+
+  function renderSubfilters() {
+    if (current !== COMPANY_TAB) { $sub.hidden = true; return; }
+    $sub.hidden = false;
+
+    const all = baseItems();
+
+    $groupRow.replaceChildren();
+    const gl = document.createElement("span");
+    gl.className = "label"; gl.textContent = "그룹";
+    $groupRow.append(gl);
+    $groupRow.append(makeSubButton("전체", all.length, group === "전체", () => {
+      group = "전체"; company = null; renderSubfilters(); renderList();
+    }));
+    for (const g of groupNames()) {
+      const cnt = all.filter(i => (i.groups || []).includes(g)).length;
+      $groupRow.append(makeSubButton(g, cnt, group === g, () => {
+        group = g; company = null; renderSubfilters(); renderList();
+      }));
+    }
+
+    const inGroup = group === "전체" ? all : all.filter(i => (i.groups || []).includes(group));
+    const counts = new Map();
+    for (const it of inGroup) {
+      for (const c of (it.companies || [])) {
+        if (group !== "전체" && !groupCompanies(group).includes(c)) continue;
+        counts.set(c, (counts.get(c) || 0) + 1);
+      }
+    }
+    $companyRow.replaceChildren();
+    const cl = document.createElement("span");
+    cl.className = "label"; cl.textContent = "기업명 (최근 30일 기사가 있는 기업)";
+    $companyRow.append(cl);
+    if (!counts.size) {
+      const none = document.createElement("span");
+      none.className = "label"; none.textContent = "표시할 기업이 없습니다.";
+      $companyRow.append(none);
+      return;
+    }
+    $companyRow.append(makeSubButton("전체", null, company === null, () => {
+      company = null; renderSubfilters(); renderList();
+    }));
+    const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ko"));
+    for (const [name, cnt] of sorted) {
+      $companyRow.append(makeSubButton(name, cnt, company === name, () => {
+        company = (company === name) ? null : name;
+        renderSubfilters(); renderList();
+      }));
+    }
+  }
+
+  function renderList() {
+    $list.replaceChildren();
+    const items = articles();
+    if (!items.length) {
+      const li = document.createElement("li");
+      li.className = "empty";
+      li.textContent = $q.value ? "검색어와 맞는 기사가 없습니다." : "표시할 기사가 없습니다.";
+      $list.append(li);
+      return;
+    }
+    for (const it of items) {
+      const li = document.createElement("li");
+      if (isToday(it.date)) {
+        const dot = document.createElement("span");
+        dot.className = "dot";
+        li.append(dot);
+      }
+      const a = document.createElement("a");
+      a.href = it.link; a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.textContent = cleanTitle(it.title, it.source);
+      const meta = document.createElement("span");
+      meta.className = "meta";
+      meta.append(`${it.source || "출처 미상"} · ${fmt(it.date)}`);
+      for (const c of (it.companies || [])) {
+        const t = document.createElement("span");
+        t.className = "tag";
+        t.textContent = c;
+        meta.append(t);
+      }
+      li.append(a, meta);
+      $list.append(li);
+    }
+  }
+
+  function renderTabs() {
+    $tabs.replaceChildren();
+    for (const name of ["전체", ...Object.keys(data.topics)]) {
+      const b = document.createElement("button");
+      b.type = "button"; b.role = "tab"; b.textContent = name;
+      b.setAttribute("aria-selected", String(name === current));
+      b.onclick = () => {
+        current = name; group = "전체"; company = null;
+        renderTabs(); renderSubfilters(); renderList();
+      };
+      $tabs.append(b);
+    }
+  }
+
+  $q.addEventListener("input", renderList);
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { if (data) renderChart(); });
+
+  Promise.all([
+    fetch("news.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+    fetch("history.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null)
+  ])
+    .then(([j, h]) => {
+      data = j;
+      hist = h;
+      buildCompanyMap();
+      const d = new Date(j.updated);
+      $updated.textContent = `마지막 업데이트 ${d.getMonth() + 1}월 ${d.getDate()}일 ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+      cgroup = data.groups ? Object.keys(data.groups)[0] : null;
+      renderStats(); renderChartGroups(); renderChart();
+      renderTabs(); renderSubfilters(); renderList();
+    })
+    .catch(() => {
+      $updated.textContent = "뉴스 데이터(news.json)를 아직 불러오지 못했습니다. 자동 수집을 한 번 실행하면 나타납니다.";
+    });
+</script>
+</body>
+</html>
