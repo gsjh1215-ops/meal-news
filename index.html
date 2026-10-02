@@ -18,6 +18,8 @@
     --accent: #0f6b63;
     --accent-ink: #ffffff;
     --new: #c98a00;
+    --tag-bg: #e3efed;
+    --tag-ink: #0b4f49;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -29,6 +31,8 @@
       --accent: #4fb3a8;
       --accent-ink: #0d1a1c;
       --new: #e0a722;
+      --tag-bg: #24403d;
+      --tag-ink: #a9ded8;
     }
   }
   * { box-sizing: border-box; }
@@ -54,7 +58,26 @@
   .tabs button[aria-selected="true"] {
     background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 500;
   }
-  .tabs button:focus-visible, input:focus-visible, a:focus-visible {
+
+  /* 기업별 뉴스 탭의 보조 필터 */
+  .subfilters { margin-bottom: 1rem; padding: 0.75rem; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  .subfilters[hidden] { display: none; }
+  .subrow { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .subrow + .subrow { margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px dashed var(--line); }
+  .subrow .label { flex: 0 0 100%; font-size: 0.75rem; color: var(--muted); margin-bottom: 0.1rem; }
+  .subrow button {
+    font: inherit; font-size: 0.8125rem;
+    padding: 0.2rem 0.65rem; border-radius: 999px;
+    border: 1px solid var(--line); background: transparent; color: var(--ink);
+    cursor: pointer;
+  }
+  .subrow button .n { color: var(--muted); margin-left: 0.2rem; font-size: 0.75rem; }
+  .subrow button[aria-pressed="true"] {
+    background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 500;
+  }
+  .subrow button[aria-pressed="true"] .n { color: var(--accent-ink); }
+
+  .tabs button:focus-visible, .subrow button:focus-visible, input:focus-visible, a:focus-visible {
     outline: 2px solid var(--accent); outline-offset: 2px;
   }
 
@@ -70,6 +93,11 @@
   li a { color: var(--ink); text-decoration: none; font-weight: 500; }
   li a:hover { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
   .meta { display: block; margin-top: 0.15rem; font-size: 0.8125rem; color: var(--muted); }
+  .tag {
+    display: inline-block; margin-left: 0.35rem; padding: 0 0.45rem;
+    border-radius: 4px; background: var(--tag-bg); color: var(--tag-ink);
+    font-size: 0.75rem; font-weight: 500; line-height: 1.5;
+  }
   .dot {
     display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%;
     background: var(--new); margin-right: 0.45rem; vertical-align: middle;
@@ -85,7 +113,13 @@
   <p class="updated" id="updated">불러오는 중…</p>
 
   <div class="tabs" id="tabs" role="tablist"></div>
-  <input type="search" id="q" placeholder="제목에서 검색" aria-label="제목에서 검색">
+
+  <div class="subfilters" id="subfilters" hidden>
+    <div class="subrow" id="groupRow"></div>
+    <div class="subrow" id="companyRow"></div>
+  </div>
+
+  <input type="search" id="q" placeholder="제목·기업명에서 검색" aria-label="제목·기업명에서 검색">
   <ul id="list"></ul>
 
   <footer>
@@ -95,13 +129,21 @@
 </main>
 
 <script>
+  const COMPANY_TAB = "기업별 뉴스";
+
   let data = null;
   let current = "전체";
+  let group = "전체";     // 기업별 뉴스 탭: 그룹 필터
+  let company = null;     // 기업별 뉴스 탭: 기업 필터
+  let companyMap = new Map();  // 기사 링크 -> { companies, groups }
 
   const $tabs = document.getElementById("tabs");
   const $list = document.getElementById("list");
   const $q = document.getElementById("q");
   const $updated = document.getElementById("updated");
+  const $sub = document.getElementById("subfilters");
+  const $groupRow = document.getElementById("groupRow");
+  const $companyRow = document.getElementById("companyRow");
 
   function fmt(iso) {
     const d = new Date(iso);
@@ -112,18 +154,141 @@
     return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
   }
 
-  function articles() {
+  // 제목 끝의 " - 언론사"와 끝에 남은 " |" 를 화면에서만 정리합니다.
+  function cleanTitle(title, source) {
+    let s = String(title || "").trim().replace(/\s*\|\s*$/, "");
+    const m = s.match(/^(.*\S)\s+[-–—]\s+([^-–—]{1,25})$/);
+    if (m) {
+      const tail = m[2].trim();
+      const sameAsSource = source && tail.toLowerCase() === String(source).toLowerCase();
+      if (sameAsSource || !/\s/.test(tail)) s = m[1];
+    }
+    return s;
+  }
+
+  // 기업별 뉴스에서 찾은 기업/그룹 태그를 다른 탭의 같은 기사에도 붙여줍니다.
+  function buildCompanyMap() {
+    companyMap = new Map();
+    for (const it of (data.topics[COMPANY_TAB] || [])) {
+      companyMap.set(it.link, { companies: it.companies || [], groups: it.groups || [] });
+    }
+  }
+
+  function withTags(it) {
+    const tag = companyMap.get(it.link);
+    return {
+      ...it,
+      companies: it.companies || (tag ? tag.companies : []),
+      groups: it.groups || (tag ? tag.groups : []),
+    };
+  }
+
+  // 현재 탭의 기사(중복 제거, 최신순)
+  function baseItems() {
     const topics = data.topics;
     let items = current === "전체"
       ? Object.values(topics).flat()
       : (topics[current] || []);
-    // 전체 탭에서는 중복 제거
     const seen = new Set();
     items = items.filter(i => !seen.has(i.link) && seen.add(i.link));
+    items = items.map(withTags);
     items.sort((a, b) => b.date.localeCompare(a.date));
-    const kw = $q.value.trim().toLowerCase();
-    if (kw) items = items.filter(i => i.title.toLowerCase().includes(kw));
     return items;
+  }
+
+  function groupNames() {
+    if (data.groups) return Object.keys(data.groups);
+    const set = new Set();
+    for (const it of (data.topics[COMPANY_TAB] || [])) (it.groups || []).forEach(g => set.add(g));
+    return [...set];
+  }
+
+  function groupCompanies(g) {
+    if (data.groups && data.groups[g]) return data.groups[g];
+    return [];
+  }
+
+  function articles() {
+    let items = baseItems();
+    if (current === COMPANY_TAB) {
+      if (group !== "전체") items = items.filter(i => (i.groups || []).includes(group));
+      if (company) items = items.filter(i => (i.companies || []).includes(company));
+    }
+    const kw = $q.value.trim().toLowerCase();
+    if (kw) {
+      items = items.filter(i =>
+        cleanTitle(i.title, i.source).toLowerCase().includes(kw) ||
+        (i.companies || []).some(c => c.toLowerCase().includes(kw))
+      );
+    }
+    return items;
+  }
+
+  function makeSubButton(label, count, pressed, onClick) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.setAttribute("aria-pressed", String(pressed));
+    b.append(label);
+    if (typeof count === "number") {
+      const n = document.createElement("span");
+      n.className = "n";
+      n.textContent = count;
+      b.append(n);
+    }
+    b.onclick = onClick;
+    return b;
+  }
+
+  function renderSubfilters() {
+    if (current !== COMPANY_TAB) { $sub.hidden = true; return; }
+    $sub.hidden = false;
+
+    const all = baseItems();
+
+    // 그룹 필터
+    $groupRow.replaceChildren();
+    const gl = document.createElement("span");
+    gl.className = "label"; gl.textContent = "그룹";
+    $groupRow.append(gl);
+    $groupRow.append(makeSubButton("전체", all.length, group === "전체", () => {
+      group = "전체"; company = null; renderSubfilters(); renderList();
+    }));
+    for (const g of groupNames()) {
+      const cnt = all.filter(i => (i.groups || []).includes(g)).length;
+      $groupRow.append(makeSubButton(g, cnt, group === g, () => {
+        group = g; company = null; renderSubfilters(); renderList();
+      }));
+    }
+
+    // 기업명 필터 (선택한 그룹 안에서 기사가 있는 기업만 표시)
+    const inGroup = group === "전체" ? all : all.filter(i => (i.groups || []).includes(group));
+    const counts = new Map();
+    for (const it of inGroup) {
+      for (const c of (it.companies || [])) {
+        if (group !== "전체" && !groupCompanies(group).includes(c)) continue;
+        counts.set(c, (counts.get(c) || 0) + 1);
+      }
+    }
+    $companyRow.replaceChildren();
+    const cl = document.createElement("span");
+    cl.className = "label"; cl.textContent = "기업명 (최근 30일 기사가 있는 기업)";
+    $companyRow.append(cl);
+    if (!counts.size) {
+      const none = document.createElement("span");
+      none.className = "label"; none.textContent = "표시할 기업이 없습니다.";
+      $companyRow.append(none);
+      return;
+    }
+    $companyRow.append(makeSubButton("전체", null, company === null, () => {
+      company = null; renderSubfilters(); renderList();
+    }));
+    const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ko"));
+    for (const [name, cnt] of sorted) {
+      $companyRow.append(makeSubButton(name, cnt, company === name, () => {
+        company = (company === name) ? null : name;
+        renderSubfilters(); renderList();
+      }));
+    }
   }
 
   function renderList() {
@@ -145,10 +310,16 @@
       }
       const a = document.createElement("a");
       a.href = it.link; a.target = "_blank"; a.rel = "noopener noreferrer";
-      a.textContent = it.title;
+      a.textContent = cleanTitle(it.title, it.source);
       const meta = document.createElement("span");
       meta.className = "meta";
-      meta.textContent = `${it.source || "출처 미상"} · ${fmt(it.date)}`;
+      meta.append(`${it.source || "출처 미상"} · ${fmt(it.date)}`);
+      for (const c of (it.companies || [])) {
+        const t = document.createElement("span");
+        t.className = "tag";
+        t.textContent = c;
+        meta.append(t);
+      }
       li.append(a, meta);
       $list.append(li);
     }
@@ -160,7 +331,10 @@
       const b = document.createElement("button");
       b.type = "button"; b.role = "tab"; b.textContent = name;
       b.setAttribute("aria-selected", String(name === current));
-      b.onclick = () => { current = name; renderTabs(); renderList(); };
+      b.onclick = () => {
+        current = name; group = "전체"; company = null;
+        renderTabs(); renderSubfilters(); renderList();
+      };
       $tabs.append(b);
     }
   }
@@ -171,9 +345,10 @@
     .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(j => {
       data = j;
+      buildCompanyMap();
       const d = new Date(j.updated);
       $updated.textContent = `마지막 업데이트 ${d.getMonth() + 1}월 ${d.getDate()}일 ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
-      renderTabs(); renderList();
+      renderTabs(); renderSubfilters(); renderList();
     })
     .catch(() => {
       $updated.textContent = "뉴스 데이터(news.json)를 아직 불러오지 못했습니다. 자동 수집을 한 번 실행하면 나타납니다.";
