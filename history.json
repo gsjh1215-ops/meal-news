@@ -469,8 +469,56 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 42,
+     "n": 50,
      "articles": [
+      {
+       "title": "CJ프레시웨이, AI '냠냠키즈'로 아동 식생활 교육 지원",
+       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mbUFhd0lJcEFZNUtKbjk1RTJDdnFhekhKQ1BfTDdrb1ZleG5NbzVkYnY2b2tpN0VnY0kwc1NCZ1dpaHdxVkVJaHdzbmZlYUtrOTkxX01STC1MOWxOb205anhzNmtuZzYw?oc=5",
+       "source": "더쎈뉴스",
+       "date": "2026-10-07T13:41:37+09:00"
+      },
+      {
+       "title": "CJ프레시웨이 아이누리, AI로 유치원ㆍ어린이집 영양 분석",
+       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QX0h4RW5pUjJYemZnajVTSVliS1lma0pjaWZOVDJ1eUhwMEU1RTJ4UU1jek01a0JhNjYwLVpleFFlNTlSOU15dUxqUVJxN2hkN3dnZ2FaRU5ULTdIc0Nyc0QybjJsN0N5UXkyNVV0V09DRjg?oc=5",
+       "source": "대한경제",
+       "date": "2026-10-07T13:20:36+09:00"
+      },
+      {
+       "title": "CJ프레시웨이 '아이누리', AI로 영유아 식습관 관리",
+       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9lYllHMURjY2ZoVWhIVmJRNjZzYXhoOUlwdDlGYk50OGU5Y0N3Rk1FVkVHd20zNEhxaTlEZE55RVdyUkE0Q3NiMVJOUEhkLWY2ZHUzVC1SY09rbE9nX1NZZA?oc=5",
+       "source": "메트로신문",
+       "date": "2026-10-07T11:37:59+09:00"
+      },
+      {
+       "title": "CJ프레시웨이, AI 솔루션 ‘냠냠키즈’로 영유아 식습관 개선 돕는다",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wNlNEcjJYRENONVN2Ylh2MHdHSGY2LVZQbHRxNjUwOUdqVGFoNDlsNmxTajhrMGZGdHZNY0JjMzZmZG5sSWN5QnFZa1Vfb01JZlJPU09wOUFLYWtZZXlLbFYwQk5vaGRuRVVubG9B?oc=5",
+       "source": "식품저널 foodnews",
+       "date": "2026-10-07T10:26:02+09:00"
+      },
+      {
+       "title": "CJ프레시웨이 아이누리, AI 활용해 영유아 식생활 교육 지원",
+       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uYUJEaTB1SkFCdUY3bUZSbU5wbHh2ZXN6YXFmMnpLSmZYM2FSb0h5U211b3FjQmVsYVpGR3Z2cERKQThBMFpDLWxvTWY4bk9fODlfYlRZTkJtM19qZTdBdNIBYEFVX3lxTE1uYUJEaTB1SkFCdUY3bUZSbU5wbHh2ZXN6YXFmMnpLSmZYM2FSb0h5U211b3FjQmVsYVpGR3Z2cERKQThBMFpDLWxvTWY4bk9fODlfYlRZTkJtM19qZTdBdA?oc=5",
+       "source": "연합뉴스",
+       "date": "2026-10-07T09:24:43+09:00"
+      },
+      {
+       "title": "CJ프레시웨이 아이누리, AI '냠냠키즈'로 어린이 식습관 관리",
+       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjMGJSdm03SndVTzBlYTlvMERmOWNwbzdBRlF5X1llUUNZZGVtdHlYZGtaZ2Q5cUc5Z1hBT2VkN2ZscGYzOWMzNXJNck1wYXN2Rk1nY2lKRWI3SUoyanJ0WmdfMHlvZ1hQdUlvQ2l2SXp2XzRIUExn0gF3QVVfeXFMUGMwYlJ2bTdKd1VPMGVhOW8wRGY5Y3BvN0FGUXlfWWVRQ1lkZW10eVhka1pnZDlxRzlnWEFPZWQ3ZmxwZjM5YzM1ck1yTXBhc3ZGTWdjaUpFYjdJSjJqcnRaZ18weW9nWFB1SW9DaXZJenZfNEhQTGc?oc=5",
+       "source": "핀포인트뉴스",
+       "date": "2026-10-07T09:14:09+09:00"
+      },
+      {
+       "title": "\"AI가 아이 식판 살핀다\" CJ프레시웨이, 어린이 식습관 관리 지원",
+       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5NQTI1S2lqNFdwbThBdlJyWUtFWW8zWE1wcmhISlEzSmlleGJId1hibDN6OXNlb1F3bnUwa2xSRktpTncyUHBJcWFEcmsyMmZkVE8zUjRUZlViWXp2ZTVRZlRQUUNfNHhGTTVpNmZIcloxd205Q250eNIBeEFVX3lxTE5NQTI1S2lqNFdwbThBdlJyWUtFWW8zWE1wcmhISlEzSmlleGJId1hibDN6OXNlb1F3bnUwa2xSRktpTncyUHBJcWFEcmsyMmZkVE8zUjRUZlViWXp2ZTVRZlRQUUNfNHhGTTVpNmZIcloxd205Q250eA?oc=5",
+       "source": "뉴시스",
+       "date": "2026-10-07T09:04:09+09:00"
+      },
+      {
+       "title": "CJ프레시웨이 '아이누리', AI 활용 영유아 식습관 관리 지원",
+       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wUGRHQkJtWEhrWnExUm4xaTdvVE1KNm9xLUtEa21saXRGTzNGdEw3SUNRMzRwdEo3NEJhVWU5YmFwNkQwclFXYUhMUTJYc3M?oc=5",
+       "source": "Daum",
+       "date": "2026-10-07T08:45:43+09:00"
+      },
       {
        "title": "입점 두 달 만에 매출 5.6배…CJ프레시웨이 '식봄'에 중소 판매사 몰린다 - 머니투데이",
        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rX2VSYXE3SE0tV0M2V08wVE12TmxWWklWRGVQMS01bXc5NXdQVFR6aEZWb3UtMzdXMS1VTE54UnI4UWZYdHpWa3RKb2hqd1NqLW1pRkpKU3ZCZ0k2Tmc3YXp5UlJjSUVMc3fSAW9BVV95cUxQTWh1ak15NWNIWkJEWkxQSE1tN0YwWFNFb1Q5bDBqQ1R2bjFYMFhmajJDOGJNTnJHdFJLam9keEdjcEZJWmc4NnZ6WWl1NDQwSlpWeEx6MWh4bG8wMThvamxZQTNvTGlGalRISHphTEU?oc=5",
@@ -753,8 +801,14 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 13,
+     "n": 14,
      "articles": [
+      {
+       "title": "사조푸디스트, 광주 소상공인과 ‘선한울림 푸드박스’ 나눔",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1VXlDUy05UUo5dF9TU004OENENUc5OV9OSzRibXhmOTlDa0N6cG1falVIRng4Mm04TjRHNGpaUm1pUmFWR3Q3d3NfQWxwRGhLa09HdHgyNGhCMlR1dUtQcWs0UFVtZHhtbzNv?oc=5",
+       "source": "서울타임즈뉴스",
+       "date": "2026-10-07T13:44:03+09:00"
+      },
       {
        "title": "사조푸디스트, 소상공인과 지역 상생 CSR 확대",
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE50NllwMzZhN2tWZFRNbklvV29zNGdTUm9jMlNlTGpValV3bC1LRHFGOHVEeUN4MzFBcjdJSDAzemdDOFFQRnp2NXdIbG9ZdkphZU5r?oc=5",
@@ -841,8 +895,38 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 25,
+     "n": 30,
      "articles": [
+      {
+       "title": "신세계푸드, 노브랜드 버거 대학가 출점 확대",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xOG0tU1BwWjl3RkZrY1lpX2lQalB5X09OcGF0c1NhYThNVDhsdDgwLWRMakdXZnh2cjd3OHJ3SElzQmFfNlBPMEt4WDFMelJvZkJ1Yl9EUFBqTEZCTkM3WjcwS3k1a0k?oc=5",
+       "source": "청년일보",
+       "date": "2026-10-07T12:25:33+09:00"
+      },
+      {
+       "title": "신세계푸드 노브랜드 버거, 대학가 27곳 확장…콤팩트 전략 적중",
+       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5NNHhJeUhCZnhRMnFscEt0WHQzc1czQVdWN09nYkhSQ2RZZ19pbjJwLWdjY2h3a2drWHhxQWE0eWcwajhOdTR5dm5zR1E?oc=5",
+       "source": "TENANT news",
+       "date": "2026-10-07T08:58:20+09:00"
+      },
+      {
+       "title": "[유통갤러리] 신세계푸드 ‘노브랜드 버거’, 대학가 출점 확대…1년 새 54% 증가 外",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE43b1VBdklFaWw5X3poNHd4eUxMTTJVc1BUU3FISVZia0N1WC04cDlGaWw0QnZ2S1BXZE9Yc3JPbGs5SFNZejF4QlpGUXoyMkxoRDBycWQ1UUk?oc=5",
+       "source": "뷰어스",
+       "date": "2026-10-07T08:51:22+09:00"
+      },
+      {
+       "title": "신세계푸드 노브랜드 버거, 대학가 출점 확대…전년比 54%↑",
+       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QVlpibWFpbkFSbUNWcDlEeE5CNzl0LVhWOURMbFQwUU5XQnJuaG1Ud1NFQjZiLXc5bGhLTGNJU2w1RF9EUEhJRHl6Uk04NWpvMVoydmVZNlRhaGtaOTkzb29keENSdHFCQm1qa0M3TlRhcXfSAXdBVV95cUxQdjlTMVBfd2dfejVUR0NLeV93Tld2TllDUThrdEJ3OEhvblloeHhEaTVzTVVqd1hQOXpud2xJSGMzdl9YVFVLUFdKSjZEeFFXUjNlVW5IbkdPWjBrcVZaMGlDZ3RyRVNET2c1TjVVRThFd1pibUNmVQ?oc=5",
+       "source": "핀포인트뉴스",
+       "date": "2026-10-07T08:15:10+09:00"
+      },
+      {
+       "title": "신세계푸드, 상반기 매출·영업익 소폭 증가…수익질 개선 주목",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90c2VOanlLUmhnRXA4YjVTUVdwUE00NldFYnQ4WlYzaTVPVWJqelpwamhWZlJvazZLUHBiRWw0WFlaWkRCZDRNUi1GV0E5dWstOS1EOWxSTjBHMUJPYy1HWmZ5VXdXN3NUdWc?oc=5",
+       "source": "청년일보",
+       "date": "2026-10-07T08:00:02+09:00"
+      },
       {
        "title": "신세계푸드, ‘우정 양곱창’ 볶음밥 간편식 선봬…특수부위 HMR 공략",
        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Eb1hBaTBUemFkR2I2cVE0aEctcXdhU2NpZzA3ZHE3ZUhLMnF2RFlMZ1JWVGF2ekxra0Mza2NyemJKdTF1YmZ6VDNMZzZkTENPSDU0VzFUbkpuenJuY1RienZvcDR1NUJRazF2ZW91b1JMZ9IBckFVX3lxTE5Eb1hBaTBUemFkR2I2cVE0aEctcXdhU2NpZzA3ZHE3ZUhLMnF2RFlMZ1JWVGF2ekxra0Mza2NyemJKdTF1YmZ6VDNMZzZkTENPSDU0VzFUbkpuenJuY1RienZvcDR1NUJRazF2ZW91b1JMZw?oc=5",
@@ -1049,8 +1133,68 @@
    "group": "FD Big3",
    "months": {
     "2026-10": {
-     "n": 29,
+     "n": 40,
      "articles": [
+      {
+       "title": "롯데웰푸드, 스트레이 키즈 광고 공개...1000만회 돌파",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBWa25tVG9iNEVDdjdvMURuX2xDeFJrUkI1VmgtTVhKYVRqaDVmcEpFU24tTzc4NWswWFpxbjVMY29vdmtucE16OHhGWEN3WGM5SnJjR1U3MTA1UlZLVTlCLTdFRkRjMWROakJ3TjBsam8tWWQw?oc=5",
+       "source": "파이낸셜포스트",
+       "date": "2026-10-07T12:53:49+09:00"
+      },
+      {
+       "title": "“스트레이 키즈 효과”…롯데웰푸드, 빼빼로 광고 6일만 1000만 뷰",
+       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PUG4tQlo2d0tPZHBHOXpLVzlTdHlsUVVOaHk3MnhBMEN5Wll6WGhKSVNfaTBCRXpBYmdWZ1IyemlIOC1wQXVOSlNpcVVRdGNmRzI00gFTQVVfeXFMTk9Qbi1CWjZ3S09kcEc5ektXOVN0eWxRVU5oeTcyeEEwQ3laWXpYaEpJU19pMEJFekFiZ1ZnUjJ6aUg4LXBBdU5KU2lxVVF0Y2ZHMjQ?oc=5",
+       "source": "서울경제",
+       "date": "2026-10-07T10:56:12+09:00"
+      },
+      {
+       "title": "롯데웰푸드, '스트레이 키즈' 광고로 빼빼로데이 공략…\"6일 만에 1000만뷰\"",
+       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xbDBHTGhfa0Q0aGxhOEhKX1Nzc2pUVUlqVHFQUlQ3VlhXYkNTMUV4WUd1OWRoSXlzQm9xczdBdVRjcENTc2pBLU1pTFg5ZllmcmE1UzZkRndjLVhIYmZrS2gzbVVqQll4UkZuZ0d4WmpfdW8?oc=5",
+       "source": "핀포인트뉴스",
+       "date": "2026-10-07T10:17:56+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 스트레이 키즈와 함께한 빼빼로데이 광고 1천만 조회 돌파",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXMl8tWGJFQ0ZkdWRTNGg4M2VoRjZSYWh3NWdVVW9uSEpxWUE0SzFBbURGSmdEdGdBUHZSejRyS3FfY1VHZC1Nd2tJZTV6ZTZiY3NfN0hzSVpuOXUzaG8zZXExUTVXdDFzTFV4QWJVaw?oc=5",
+       "source": "비즈니스리포트",
+       "date": "2026-10-07T10:02:00+09:00"
+      },
+      {
+       "title": "\"스트레이 키즈 효과 톡톡\" 롯데웰푸드, 빼빼로 광고 1000만뷰 돌파",
+       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE11YndOV29RUXM2Y1lpQ2FLZHZDRGg3SWtBcnh3UXAtUGtLLXo4U2c1bmxqVkZ1REV2dmZxVTR4Tm5qTjR0TlZnOUE4M21WX21naWFSd0hxX0NCZkNPOF9IVHIzclNlMk5zbk9PMVlkeDIzcG1aSzFxONIBeEFVX3lxTE11YndOV29RUXM2Y1lpQ2FLZHZDRGg3SWtBcnh3UXAtUGtLLXo4U2c1bmxqVkZ1REV2dmZxVTR4Tm5qTjR0TlZnOUE4M21WX21naWFSd0hxX0NCZkNPOF9IVHIzclNlMk5zbk9PMVlkeDIzcG1aSzFxOA?oc=5",
+       "source": "뉴시스",
+       "date": "2026-10-07T09:38:36+09:00"
+      },
+      {
+       "title": "롯데웰푸드 스트레이 키즈 빼빼로 광고 1000만 뷰",
+       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iQjllRm5NMklNaDEtbms3Z2h5RWl5ajI0a0pUTnZiUVJ6WjVEZGNXUVo0RlNwcTk5ejZXLXVWeHVPOFl5RE93Rkg5dHFOUW1lSzcyR1hfWFR0N2gydnU5WjVBUGhwLWR4?oc=5",
+       "source": "https://www.2news.co.kr/",
+       "date": "2026-10-07T09:37:00+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 스트레이 키즈 빼빼로 광고 6일 만에 1천만뷰",
+       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wc215b2JYY2RnYTlwU3ktc3F2d0VveXdJa3BzQ25vc25Odmt2NTd5N3JHTlV0NUxGck9CbE5qTEJwRVhuUFpveGZ6bzBYLWc?oc=5",
+       "source": "Daum",
+       "date": "2026-10-07T09:35:59+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 스트레이 키즈 효과 톡톡…빼빼로 광고 1000만뷰 돌파",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vU1BNa1RvSFJmS01GUkoxejJwa245bjg1V3pGWDBOc2Jac1hVd0NmYWUxdDU1eDB1QWZWdnYxUU1RLV9OMTNlZTVSZks4ekRFLVNBdlpMYjVjZ2JKQ0UxM3B6aEfSAWRBVV95cUxPb1NQTWtUb0hSZktNRlJKMXoycGtuOW44NVd6RlgwTnNiWnNYVXdDZmFlMXQ1NXgwdUFmVnZ2MVFNUS1fTjEzZWU1UmZLOHpERS1TQXZaTGI1Y2diSkNFMTNwemhH?oc=5",
+       "source": "뉴스1",
+       "date": "2026-10-07T09:32:11+09:00"
+      },
+      {
+       "title": "[똑똑한소비] 농심, 대상웰라이프, KGC, 롯데웰푸드, 하겐다즈, 롯데GRS, 국순당",
+       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oZlZpYnRBemRWRmtiNGw1eHllTDU4NTFUcWJ1TFI2TEVVS1RGT3BXNXpPcEE2UnllTkpGdy1ZaklZS19Tb1NTMDdCd2FPUDN5MWRzT2Y3SlRPSDg?oc=5",
+       "source": "에너지경제신문",
+       "date": "2026-10-07T09:30:00+09:00"
+      },
+      {
+       "title": "KB증권 \"롯데웰푸드 해외 성장에 3분기 실적 개선, 카카오 원가 부담도 줄어\"",
+       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wZXRCVDdNa2tnbzFxcVJLT0RmMVJySW8zNGtlRFNCZXF1amE2YlZlYTh3c19Xc25MLXhVU0I0ZzNHaEhnYUQySXdyYTRTeFNMOVQ1REZqM3RxYm93SU9YSnRPRl91bkVQMTJQYzQzMWxGem8?oc=5",
+       "source": "비즈니스포스트",
+       "date": "2026-10-07T09:21:24+09:00"
+      },
       {
        "title": "롯데웰푸드, 상반기 영업익 2배↑…올해 최대 실적 경신할까",
        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBibE9xaFJkeHBPdlJXZXJHRjdzbTBtX0FGZm1ZTkFGTHdjcXdXNFRuOXZjSVRZdXUxS2JEb3dobDlqMHZfRkFfSThrQl9sN2Zx?oc=5",
@@ -1206,6 +1350,12 @@
        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5SnNJem9rZjZ6bm1GbFVrcGJUSDNieVQxVnBIaDNrU0NfbG9lbDFRVGJBdk1DMm1vTGlDaXpGMkdvcXNRZnJqUnVRUkdkWERUZTdTN3VDbEpBUDBDMEIxeDFKZFJBT2U0TC03cnFxUEM?oc=5",
        "source": "스마트경제",
        "date": "2026-10-01T09:46:01+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 국제기준 식품안전 선도",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rZnZ1X0xnSUxodmk4M2JBcUZTWjBmOHJMWmQta0puOVk5OUktT1VGS3ZXZnZrTExQNHBWUlJXUVNCSS02MnFGZGVwR0tHSHRxZm1vM1JETVBwMHhQemFv?oc=5",
+       "source": "보건신문",
+       "date": "2026-10-01T09:33:39+09:00"
       },
       {
        "title": "\"가족 넘어 친구·동료 함께\" 롯데웰푸드, 의성마늘 캠프 참가자 모집",
@@ -1370,5 +1520,5 @@
    "months": {}
   }
  },
- "updated": "2026-10-07T07:11:21.354089+09:00"
+ "updated": "2026-10-07T14:18:51.115538+09:00"
 }
