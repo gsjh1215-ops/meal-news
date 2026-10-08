@@ -5,8 +5,50 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 21,
+     "n": 28,
      "articles": [
+      {
+       "title": "삼성웰스토리, 구내식당서 ‘지중해식 건강식’ 선보인다",
+       "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1kdlhyRFEyYkswN0NDckdaZHNIbTZ1UkpndGhKcnZVbkhmT3FxZ0IyRWV3Y05SVjhzVGJHa0pPcHBMYVFTSlE?oc=5",
+       "source": "매일경제",
+       "date": "2026-10-08T11:51:03+09:00"
+      },
+      {
+       "title": "구내식당에서 만나는 그리스…삼성웰스토리, ‘이야이야앤프렌즈’와 협업",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uZzlUNDI0X2JIN2pIbUdOVmo0cjFHVGdFbHpGeUdxa1hibG9iSFNPc0FGb2JHbnJXci10LVFDMVFvR1NEY0FOQlM0SzI0Vmhpb0FkR1lQMEJhMXNlQ0FCWlhWTkJBRkFLNVo4TkZ3?oc=5",
+       "source": "식품저널 foodnews",
+       "date": "2026-10-08T10:12:50+09:00"
+      },
+      {
+       "title": "삼성웰스토리, 급식업계 최초 지중해 식문화 도입",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9qdW1lR21CbDV0bWI5Z0dVdk4tT3FqcjN2RnYzZ1ZmbzZOWlh6aVNHZUFDQjBYVV9lNVNMeDVzZWhsUndYUEhNT0ZFMXRJTVNrT1dieXVWa0dQZw?oc=5",
+       "source": "파이낸셜뉴스",
+       "date": "2026-10-08T09:57:40+09:00"
+      },
+      {
+       "title": "[똑똑한한끼] CJ제일제당, 오뚜기, 서울장수, 삼성웰스토리, 동원F&B, 남양유업, 삼립",
+       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZOGFUMGRTSkg5bDhnWDVDaUlMWnVOejJ1QWlNZGRNZ1A4cVZGOUVOYmlubjM2LW1LUnRVcU5ONUluMFp1aXRkSGVSMVl1MmJRMXU4NWNvWjM0YWI0MDdaS1BR?oc=5",
+       "source": "에너지경제신문",
+       "date": "2026-10-08T09:30:00+09:00"
+      },
+      {
+       "title": "삼성웰스토리, '이야이야앤프렌즈' 손잡고 지중해 건강식 선봬",
+       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SN1FsUXh5eTZvZ1Jhc3pWRHFwWTVScGYtRklaNDY0dExhU1F5WE1YVm1iTUd4N2VaYnUyaTFkUDR6UGlqUk1Ed3NrMWNyZVN1anFiSmdjVnNxa3NlS0kzbmU5TExZajBYanJNX3IwRndFM3V0bXdzcdIBeEFVX3lxTE9SN1FsUXh5eTZvZ1Jhc3pWRHFwWTVScGYtRklaNDY0dExhU1F5WE1YVm1iTUd4N2VaYnUyaTFkUDR6UGlqUk1Ed3NrMWNyZVN1anFiSmdjVnNxa3NlS0kzbmU5TExZajBYanJNX3IwRndFM3V0bXdzcQ?oc=5",
+       "source": "뉴시스",
+       "date": "2026-10-08T09:13:02+09:00"
+      },
+      {
+       "title": "삼성웰스토리, '이야이야앤프렌즈'와 맞손…구내식당서 지중해 건강식 선봬",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1MOTg2WjJiSGtrWWs5Uy1xcnA4Yy1VS2FNckxoN3huVkFlWXJCeG1XQWF3a2Y5VkI0UWxPSi1DMWtia0VpNlhLYUdnUXRPUWJvN01qcGJvMFd4ZWEzc01Z?oc=5",
+       "source": "뉴스1",
+       "date": "2026-10-08T08:28:04+09:00"
+      },
+      {
+       "title": "피타 샌드위치부터 올리브주스까지…삼성웰스토리, 지중해식 메뉴 출시",
+       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05UEpiLUFCdHNnSnMzY25Yd2h4WjJwRVJIam9JVDRHUVgwQzJNWUdsRXNmNnY3THZwQU1FX0JwOWFqVERxMVVFbVlfc0h0Zw?oc=5",
+       "source": "전자신문",
+       "date": "2026-10-08T08:00:00+09:00"
+      },
       {
        "title": "가족초청행사 열고 출산·수능 선물까지…'가족친화' 삼성웰스토리[유통家화만사성]",
        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JTnozQktZWk0ySGx5eHVrc1psQWlkaU1kQlQ1bWN2Wm4tb1BRU21uRW9RVng2Y2xrTlIwdHlUMUpsVjNMUFhvQkxkUi15aHBqb3hZNFhFMUNveU9JQjVOVnVFaG9kV1FkXzdrekZfajFjd056OE5HNdIBeEFVX3lxTE1JTnozQktZWk0ySGx5eHVrc1psQWlkaU1kQlQ1bWN2Wm4tb1BRU21uRW9RVng2Y2xrTlIwdHlUMUpsVjNMUFhvQkxkUi15aHBqb3hZNFhFMUNveU9JQjVOVnVFaG9kV1FkXzdrekZfajFjd056OE5HNQ?oc=5",
@@ -141,7 +183,7 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 53,
+     "n": 54,
      "articles": [
       {
        "title": "2000억 냉동도시락 시장, 아워홈 '온더고' 누적 2400만개…식품업계 간편식 경쟁 가열",
@@ -268,6 +310,12 @@
        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE14OFlKNGY2X1ZqU2d2d29VUkcyVDBRdkV1cURoR1VTTmNDcHh0WGxzR1o5ejJjNVNjZ051WDE0eWtQeFZWc3NncVU2OFQ5cVhSVEI1WFpYTFlTSGhyM21hSUIwQQ?oc=5",
        "source": "에너지경제신문",
        "date": "2026-10-02T11:30:00+09:00"
+      },
+      {
+       "title": "[굿모닝! 2일 식품업계 소식] CJ제일제당·동원F&B·롯데칠성음료·오뚜기·삼립·아워홈",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jYTc4WHhjQTlWRTIwOWN3QlN3dVlWTzZfSl9kMVotcTJiSk54U3JCV204bnJBXzhIdl8tMFJzSnlTT1ROSDJJbGk0VXRnMC0tQkJ0WjRFMTNUd0t3SVZRa2tTem1ibnNNMURCRA?oc=5",
+       "source": "굿모닝경제",
+       "date": "2026-10-02T10:49:10+09:00"
       },
       {
        "title": "아워홈, 롯데월드에 ‘테이크 잠실점’ 오픈…뷔페 시장 확장 가속도",
@@ -469,8 +517,20 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 57,
+     "n": 59,
      "articles": [
+      {
+       "title": "CJ프레시웨이 식봄, 식자재 20만개 가격 비교…AI로 구매 편의 높인다",
+       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NczVtN2RlM2tzUHFqODQ4QnFkMFJKYmV1X3ZaOXZ4TWpsZUZYbU0yOG50VC1Ccks3d08xcWdMZi13b25yNUtubkZsbzN5amEwN09RUzB0eXk0VWtR?oc=5",
+       "source": "뉴스핌",
+       "date": "2026-10-08T08:54:00+09:00"
+      },
+      {
+       "title": "CJ프레시웨이, 3분기 손익 시장 기대치 소폭 하회 예상",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tMnFQNFBiX1ZqWFkxQWhaaE80U280RmNYQ1RaUmRvdTJMVnNuQXZ4Z2hrVTIwcVJiS19qZElTTTZuZTZ3SWJsZEZHOUVhVm1SckJhNFJETklQZWxKUDYweG1yMTM3Zk85VFJmQy1R?oc=5",
+       "source": "알파경제",
+       "date": "2026-10-08T06:00:00+09:00"
+      },
       {
        "title": "CJ프레시웨이, AI로 어린이 식습관 관리…식사 데이터 21만8000건 축적",
        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pR1prRFpGa1JDNDdyaHF2OTJ3OHRVMjQxY1hVRXBqQ19leks1b21CbDVvQlZwVGlLWVBjUDc3VWhKQkFzUnVJc1ZyT0tRVVRodDVScVJiZGNJWUVIX2c0Rzl2eTJiMDNJQk5aMg?oc=5",
@@ -937,8 +997,14 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 34,
+     "n": 35,
      "articles": [
+      {
+       "title": "집에서 즐기는 양곱창집 볶음밥…신세계푸드 ‘특양밥’ 선봬",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DT1ZncWROT1pVc0hPXzd1NlczSHZKRF9hY0VaWEw1NFFTT2pjRGZqek9samJ0Y3FfS3dCNW1PM2k3UVdjemg4WGVMbjRxbGluWDVFRHFBRXRZSWF6QXJKRjNGRGlEWUJwTkJJRDNHREU?oc=5",
+       "source": "신아일보",
+       "date": "2026-10-08T09:10:00+09:00"
+      },
       {
        "title": "신세계푸드 노브랜드 버거 대학가 매장 확충으로 캠퍼스 상권 공략 강화",
        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ZNnhzQWpGcks0RGVUbmptM1ZJc0hiZENhZXhER0YxZFJ4cEFUakZIWTFlSkRXc1R6anVEZ200NWxoVnFWYTBDX1FLLXFrQnVrT0NZLVB3WGllSkg3c2ZpNVVmNFJMc3V2R1RaNmViUWphUDRwZzMwdQ?oc=5",
@@ -1165,7 +1231,115 @@
   },
   "풀무원푸드앤컬처": {
    "group": "Big9",
-   "months": {}
+   "months": {
+    "2026-10": {
+     "n": 17,
+     "articles": [
+      {
+       "title": "풀무원푸드앤컬처, 칼국수 전문 브랜드 ‘자연은 맛있다 칼국수’ 론칭…파주 스타필드 운정에 1호점 오픈",
+       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRQk00TUVDOVpsYzI1MTk0YzZhS2dBRS1lMnhOQWEwVFVPRTU2Sjl3bzdaanVQUm50RVNBZkx2NXp3WEZHMzJMSTIxVnpYaUZ1eXZnX3VDQXJmWU8zaHRlWTVuMmc0TTlSYTJieXFsWmpIMkU?oc=5",
+       "source": "오늘경제",
+       "date": "2026-10-08T12:10:01+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, 칼국수 외식 브랜드 출점···파주 스타필드에 1호점",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CNWdYUkRPOHlaQ0xEU3NjTGp1eXRqcDRBbEZMX2pPRkxzMGpMWFQ4M3pQQ1llN1lEa0lnUkNJa0VQQ3dZcGEzY19vQm94d0VIODZ2UHBBdmFOZS1wUi1kT1psMF9IZlVGVlpGb9IBbEFVX3lxTE5CNWdYUkRPOHlaQ0xEU3NjTGp1eXRqcDRBbEZMX2pPRkxzMGpMWFQ4M3pQQ1llN1lEa0lnUkNJa0VQQ3dZcGEzY19vQm94d0VIODZ2UHBBdmFOZS1wUi1kT1psMF9IZlVGVlpGbw?oc=5",
+       "source": "직썰",
+       "date": "2026-10-08T11:45:26+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, 칼국수 전문 브랜드 론칭",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wUW5mMF9TcGFKeHF3SURlZ0ZqRG93RGJSN0toUzdrNE5NM3hkMmVQTWp0UlBDR0ZFVWVLTm55dG1DV0ItNmRNOEZYeF9GbFotdnNyY2xpNmpRX1VhTVIxTHo1MWo?oc=5",
+       "source": "디지털데일리",
+       "date": "2026-10-08T11:16:37+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, 칼국수 전문점 선봬…스타필드 운정에 첫 매장",
+       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Zb2ZHM0dONjQzOUg3SmRpQ0EwLWVjTEJNazc2RGJlYWVUOFpPNk0tcmpBek5Xc2dUeGVDRnprWFNjQVBFUDBHb3BfbWNyMGgtbHRhbzZOM3ZadU1PbWxuaDkzVDhBZGhPYnBGeElDRXh3Y2RKV241UVRJRUU?oc=5",
+       "source": "한국금융신문",
+       "date": "2026-10-08T11:06:00+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, 칼국수 외식 브랜드 론칭",
+       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVk9SZ2M3VG1SLTNLMlF3ZEtrVXhoSGFEQmlKQWUtak95aWtBZ0h0NW50M3g4ck5CcV9qUjFwMGhZREZqMWRKaTNVLWUxQlVUem9Eb2dFNkg3U3hOU0Q5VEkzMHJVZ1FXcnB2bWowM2ZpS1pJY0pNYkFkSQ?oc=5",
+       "source": "부산일보",
+       "date": "2026-10-08T11:00:29+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, 칼국수 브랜드 ‘자연은 맛있다 칼국수’ 론칭",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xY0JTdlJxZHlZWDU3eFBMcVF5QjFDRExzdHpQdzFSMzZsaG5LRnhtVWkxR3prVGVCTFlkeUpLdEZMNHdsNGx0Ylk3OTc1U0J4aU1ydjJvcnFfMDJoRHByb2FfXzhnenNBM2cxQlhn?oc=5",
+       "source": "식품저널 foodnews",
+       "date": "2026-10-08T10:12:50+09:00"
+      },
+      {
+       "title": "[굿모닝! 8일 식품업계 소식] 오뚜기·CJ제일제당·풀무원푸드앤컬처·롯데칠성음료·빙그레·삼립",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ISmFIVng2Umd5dS1TQ2NwNjBhaTRlRHhwWU1sMGYxWFBvOWJEcThsNy1iZ2FNYUY0b2Y5TnFMX0VnUm9QeDdtZFRSa0tudFF1STJvd1dTUFRvLTdGODY1U2xoX0JCSTZham8zQg?oc=5",
+       "source": "굿모닝경제",
+       "date": "2026-10-08T10:08:54+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, 칼국수 전문 브랜드 ‘자연은 맛있다 칼국수’ 론칭",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4wTGlwSmUzRk44SlBwb2xMd3NDbWpSanZ0aV9fcG5najVyTjNJZmlqMjZ5WmZfbnFTa1hxNjZTWUZDbER2d1VSYm1HeFNMTXlaLUQwd3NLblZ1RTFSMmo0cmdDaXhDUFh5aExhb00xbw?oc=5",
+       "source": "식품음료신문",
+       "date": "2026-10-08T09:43:09+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, 칼국수 전문 브랜드 ‘자연은 맛있다 칼국수’ 론칭…파주에 1호점 오픈",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XWHVCbXo2V2xIYkk2dFhxcWJGTkUtTWJzV0FlLXdDSTEzTW93ajhXaWN1aFdXWDVGV3pFYjJ0dlFCUTJDYy1UZC1fSDVfRzdXelFzaGttZC1BOW5XaElDaWdyemYzRV8xN0tJQ1VMZw?oc=5",
+       "source": "뉴스퀘스트",
+       "date": "2026-10-08T09:37:30+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, ‘자연은 맛있다 칼국수’ 첫 매장 오픈",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GcDBDQkpMUm42ZThHM29Od3QyczRyR0VMdmJ1ZWdyUnBLNWlIVTVkODB3bmtpWUhtMjEzdWdFNzFjU2F2ampNcTE5elJrSkpfWUhIdEVyNVd0cVBRSHpNYlR0OVA3UDVnWEg3UWM1ZHg?oc=5",
+       "source": "Korea IT Times",
+       "date": "2026-10-08T09:14:21+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, 칼국수 전문 브랜드 출시…파주에 1호점",
+       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zVmpVS0pFbm5HaDlZSUdDYml5UUVIV0hjbmFOZHlmcjQwVHdYSVNvNktrbHdTTVdoR1VYYkY0OENyTWRMY2x3MERRd2JYNHJfOFZ6NjNiMTJ5Qjh0RC1oZkZCZ1dhRnph?oc=5",
+       "source": "문화투데이",
+       "date": "2026-10-08T09:10:16+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, 생면 기술 담은 칼국수 브랜드 론칭",
+       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QNzdFWmp5WHZSa1hYTHl0MGROemE1Sm9rSHI5NThJdE95azNyaEZKdmpyUWplS0xRRUVfemZfbUFVU2kwUVRNQkU0M1dYU1hRU0Q1dkx6LUJSaFpsaVBJMEpQVExhcXpnWU1vVmdOVEE2V0VOMlBtRXpvc3E?oc=5",
+       "source": "비욘드포스트",
+       "date": "2026-10-08T08:48:26+09:00"
+      },
+      {
+       "title": "[유통갤러리] 풀무원푸드앤컬처, 칼국수 전문 브랜드 ‘자연은 맛있다 칼국수’ 론칭 外",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KZ25iUml6RGlzWEZtZVhLNzhJYWJYN1ZBSGF6SXpVVm8zZkFuZTdpakdaSHpVNmJrWDFiRndydjZ4SEtobE91OGZueFE1T25XMnNEMUNsUTk?oc=5",
+       "source": "뷰어스",
+       "date": "2026-10-08T08:43:36+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처 '자연은 맛있다 칼국수' 론칭…파주에 1호점",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MFNra2JMM3V6b3FabzlxakE0a1psdW9MYlpjMzZvbGxwdEhfd281VGpVckpad29FUHVnZ2VNT181T1R1bHZXRG04bkR0czhaUVdIS1hpaFhOM2htZDVv?oc=5",
+       "source": "뉴스1",
+       "date": "2026-10-08T08:25:42+09:00"
+      },
+      {
+       "title": "\"생면에 육수의 조화 더했다\" 풀무원푸드앤컬처, 칼국수 브랜드 론칭",
+       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jYXk1aFRLZUdVNElUaVMyNGZ5TmFhYjljTWhqMzM3WHhELU81LWM5SWlsYTJRUTBxMGRGT01fQThlVXZkdzlhV3NNQW9Rb1NzVndmcy1IR2pWR3M1dmctNjUzVzB0MjFCYkdLT3pzSE9fZnk2NVhVR9IBeEFVX3lxTE9jYXk1aFRLZUdVNElUaVMyNGZ5TmFhYjljTWhqMzM3WHhELU81LWM5SWlsYTJRUTBxMGRGT01fQThlVXZkdzlhV3NNQW9Rb1NzVndmcy1IR2pWR3M1dmctNjUzVzB0MjFCYkdLT3pzSE9fZnk2NVhVRw?oc=5",
+       "source": "뉴시스",
+       "date": "2026-10-08T08:24:13+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, 생면 기술 담은 '자연은 맛있다 칼국수' 1호점 개점",
+       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51LUp2dDBpNzg4R2kwSlM2Y0ZYcGh2ZkJGZmlLMjMxeUJwQ3ZZUTlMS1dDa0VjVjRKSTFtZlk1aFMxUmcwQ2RjNDdmZ096X3RfSkFVZTJJbVpLRVlmb0dRWno3Rmlza1l0eENvLWFqeXdOdFpGM2l30gF3QVVfeXFMTnUtSnZ0MGk3ODhHaTBKUzZjRlhwaHZmQkZmaUsyMzF5QnBDdllROUxLV0NrRWNWNEpJMW1mWTVoUzFSZzBDZGM0N2ZnT3pfdF9KQVVlMkltWktFWWZvR1FaejdGaXNrWXR4Q28tYWp5d050WkYzaXc?oc=5",
+       "source": "핀포인트뉴스",
+       "date": "2026-10-08T08:02:17+09:00"
+      },
+      {
+       "title": "풀무원푸드앤컬처, ‘자연은 맛있다 칼국수’ 론칭… 파주 스타필드 운정 1호점 오픈",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YTm8wOXF3QmNCc0pDWVc0Y0hZdlk2eTZyN3JvVkNPbHQyaVg4eExZTkhVc0RqY2tGWUh1Q2tLaFFlWU5uSlFfUUpaYXBhNHF1N2ptQlB2X2JGWS1rM0xWYmw1Ykp0cU5yVnlz?oc=5",
+       "source": "맥스무비",
+       "date": "2026-10-08T07:18:11+09:00"
+      }
+     ]
+    }
+   }
   },
   "현대그린푸드": {
    "group": "Big9",
@@ -1205,8 +1379,20 @@
    "group": "FD Big3",
    "months": {
     "2026-10": {
-     "n": 48,
+     "n": 53,
      "articles": [
+      {
+       "title": "롯데웰푸드, '스트레이 키즈'와 시너지…빼빼로데이 광고 영상 공개",
+       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PRk9uTGJuUUg2RTgtYURMVzRHbHFtbzdJNnBNSHY5ZHVEMUNESG1EZWloa0FrblpIUGhjZXliNHJieWhTUWJCZm1YT2x3M2pBQmdSWFdoZGdTenFmX1E4U1VSX3BUYjVE?oc=5",
+       "source": "뉴스포스트",
+       "date": "2026-10-08T13:15:22+09:00"
+      },
+      {
+       "title": "의성군, 피자앤컴퍼니·롯데웰푸드와‘상생 동행’",
+       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5OUdoVWZYZ2FRUExrdDNncHM4b0NHeG5hWVd6Y2V1SFpOSnVWend4ZjVWZDdjRlVNSHNpVmJTd0p1S3J4ZnVkMkZOOW5weXhNd3l3N3BCTFlrN2g3TVBzZ2wwX1Fudw?oc=5",
+       "source": "데일리대구경북뉴스",
+       "date": "2026-10-08T11:29:05+09:00"
+      },
       {
        "title": "롯데웰푸드, 스트레이 키즈 '빼빼로데이 광고' 6일 만에 1000만회",
        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ZZ1ZrZ0hqWXplNHFLQkpJUmlkUUFaTWVwNWlzNXBySG8xcmFYeXJNY05KNTZkQXVKVDM4Z013QlpFM2tVMmhvUW1FRmd3VVVGekI4RWU5SWYwVlpIbHVteXBHUlJkMjhraUpPSktKTdIBc0FVX3lxTE12eVVRRGk4bVVTV3NXaWVxQlJ5Vzd5OU4waW5CUENXVjZuTTUxQjBSWW9pemRiNVRCN1ZaUnV3RG5Zam1QejViZmp5ZmVsRlRnVTZxM1RycDU5UnVHbnFDUWpoZmIwN2JGc19PaWR1ZlBnYWc?oc=5",
@@ -1218,6 +1404,18 @@
        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6QkVkMUVxMnRaWm5BSUhIR0pGQnpRRUhrdFREUVVRdkg3VzNTNlRHb1c2WEdleUhhRWRPUVNhRnRMMmFhWmJSLVRHUmpQZGdiNGY2LXVkU216WEt0ZnB1cUd4dHJ5TXFiaTA4?oc=5",
        "source": "뉴스저널리즘",
        "date": "2026-10-07T17:46:48+09:00"
+      },
+      {
+       "title": "롯데웰푸드 빼빼로 광고, 6일만 1000만뷰…스트레이 키즈 효과",
+       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13WV9IOVJOZHpocFVzNlFRb3BQcVFVRTQ5QWlNQktfRVRrSFFNX3pGODExWnpyUXFXc2hZRVlidlc1VGhERS1jWU5BZ2RJdWlIOFRDREQ1enNMam04SUE?oc=5",
+       "source": "뉴스투데이",
+       "date": "2026-10-07T17:11:00+09:00"
+      },
+      {
+       "title": "롯데웰푸드, ‘빼빼로데이’ 광고 영상 공개 6일만에 조회수 1000만 돌파",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85ZjRwYWV1emMxbXNQNkYzVGFoZVJ5U0tIVFRQSGN4WlAzWmJnaUo0MFFNNXJRQTh3TVB2a0wxV2VyQlBUWjdRSGJsTU9jNlFVSVY1aVRxMkR0RXFPblllbjl0OUthYWdfS2JMetIBb0FVX3lxTE5MRnpXMUs2R2VPU240THliejBMbzhUS3RGUmM0R2o1T0F2Y3ZZUjZnTU91MDIxQkJ4djQ3S1d4N01aeTVOYUFyQ1NBa0dRZkwyak1Ua0RCSHhGTlBoV1JVV0VWNktsbFNWbzVMeTZSQQ?oc=5",
+       "source": "금융경제신문",
+       "date": "2026-10-07T16:56:37+09:00"
       },
       {
        "title": "빼빼로 광고 6일 만에 1000만뷰···롯데웰푸드, 스트레이 키즈와 글로벌 공략",
@@ -1266,6 +1464,12 @@
        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PUG4tQlo2d0tPZHBHOXpLVzlTdHlsUVVOaHk3MnhBMEN5Wll6WGhKSVNfaTBCRXpBYmdWZ1IyemlIOC1wQXVOSlNpcVVRdGNmRzI00gFTQVVfeXFMTk9Qbi1CWjZ3S09kcEc5ektXOVN0eWxRVU5oeTcyeEEwQ3laWXpYaEpJU19pMEJFekFiZ1ZnUjJ6aUg4LXBBdU5KU2lxVVF0Y2ZHMjQ?oc=5",
        "source": "서울경제",
        "date": "2026-10-07T10:56:12+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 스트레이 키즈와 ‘빼빼로데이’ 글로벌 마케팅 본격화",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfZjUzcG5aRk14Z3I2WWlyZVR4X1dYV2NQdlFHY1RYR0FUV044cHVYczluV3RNdFBBdVVYWGVCZ1NkamtrLXc5WDlwb09pM2ZzX05ONi1pc0E2eGpVQlp3S08tWDVXUlFxLTV1dm53?oc=5",
+       "source": "식품저널 foodnews",
+       "date": "2026-10-07T10:26:02+09:00"
       },
       {
        "title": "롯데웰푸드, '스트레이 키즈' 광고로 빼빼로데이 공략…\"6일 만에 1000만뷰\"",
@@ -1640,5 +1844,5 @@
    "months": {}
   }
  },
- "updated": "2026-10-08T07:10:47.350705+09:00"
+ "updated": "2026-10-08T14:18:23.658358+09:00"
 }
