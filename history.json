@@ -571,7 +571,7 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 73,
+     "n": 74,
      "articles": [
       {
        "title": "CJ프레시웨이, 외식 경기 부진 뚫었다…키즈·군대 식자재 공급 확대",
@@ -764,6 +764,12 @@
        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rX2VSYXE3SE0tV0M2V08wVE12TmxWWklWRGVQMS01bXc5NXdQVFR6aEZWb3UtMzdXMS1VTE54UnI4UWZYdHpWa3RKb2hqd1NqLW1pRkpKU3ZCZ0k2Tmc3YXp5UlJjSUVMc3fSAW9BVV95cUxQTWh1ak15NWNIWkJEWkxQSE1tN0YwWFNFb1Q5bDBqQ1R2bjFYMFhmajJDOGJNTnJHdFJLam9keEdjcEZJWmc4NnZ6WWl1NDQwSlpWeEx6MWh4bG8wMThvamxZQTNvTGlGalRISHphTEU?oc=5",
        "source": "머니투데이",
        "date": "2026-10-06T13:54:58+09:00"
+      },
+      {
+       "title": "CJ프레시웨이 투자분석 2026. 10. 04",
+       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZLTZfOW5GQlg5TVlIVFc2cjJKY3gxVUxpaGphbjFodEMwZGM3VUR1c01hckRRbFR4M3dBMmhhS0w2SzZtM3RGVGZEdkk5VDZWVjUwVjBYcXdUTldZYWNzbVN0dVJ2XzBpT0NLX0V2NENLY0U?oc=5",
+       "source": "주달",
+       "date": "2026-10-04T16:00:00+09:00"
       },
       {
        "title": "CJ프레시웨이 식봄, ‘싱싱보장제’ 적용 범위 확대",
@@ -1583,8 +1589,14 @@
    "group": "FD Big3",
    "months": {
     "2026-10": {
-     "n": 61,
+     "n": 62,
      "articles": [
+      {
+       "title": "55조 아태 비스킷 시장…'오리온' 밀고 '롯데웰푸드' 끈다",
+       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10dmNwdFFCVkhuLW1yUkpIRk15VFAwcllPeTZmdEdFVi1ieHF3NktfVHhHWTN2ZFRzZm9iX1ZOYVR4ZFpjVUd0UDF2dGpyaGI5VUtLOVFZT2Y4RHpueGpRUk9LVzV2QQ?oc=5",
+       "source": "더구루",
+       "date": "2026-10-10T06:00:00+09:00"
+      },
       {
        "title": "'호실적' 롯데웰푸드, 영업현금흐름 개선 속 보유현금 1000억 줄어",
        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5uVVpucG04ZkNOM3dXLXFLeEdfVzlrc2RQTFhWNEI5OV82eDRLSHJ2cVR1RGJ3bzZyZEZLYW5iS2VXcWNYV3lxWnltdDdyZ2dn?oc=5",
@@ -2096,5 +2108,5 @@
    "months": {}
   }
  },
- "updated": "2026-10-10T07:11:58.422349+09:00"
+ "updated": "2026-10-10T14:17:11.286557+09:00"
 }
