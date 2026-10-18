@@ -345,8 +345,14 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 79,
+     "n": 80,
      "articles": [
+      {
+       "title": "[SIAL PARIS] [2026] 파리에 뜬 김동선…아워홈 키우기 힘 싣는다",
+       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DcmQxV091aWxRa0FtNnptU2Ewd3lQTmRyQlFocFVpM0VNR3ZPLUlpWmZOZDYzSXFmdGpXVm9ZZk5xd0pvZC1hdXB4ZTgyVHc?oc=5",
+       "source": "딜사이트",
+       "date": "2026-10-18T10:51:02+09:00"
+      },
       {
        "title": "아워홈 갑질 의혹 확산…KGM 평택공장 250억 급식 재계약 변수",
        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fZTExeGFybEsyMXZWSlFNS2MtNjNBRGdJN2E3TVVMTW1JemprakM4aU43N191QWlZUE9uUGRrZ3dJZzZrbk5RT2xfOE9aT2VvemkwMFFDTXhWTlRab0o4cWRwY3NkTklMMklOQQ?oc=5",
@@ -2091,7 +2097,7 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 31,
+     "n": 32,
      "articles": [
       {
        "title": "사조푸디스트 덕유산휴게소, ‘무진장 감자짜글이’ 최우수 메뉴 선정",
@@ -2248,6 +2254,12 @@
        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93QmlkeUozdmJ3QlZURkduYlpHRU1tVlh6SUhseDdpVUVyUERKWWlvTnUzQ0M1SWFWVVRBMG1iQ0RCTldzUkQ5WGFWdHJ2VmVCNENHcGJIbGdfTG9Ra1R5QU1vN05vRkHSAWtBVV95cUxONlhsb293OWVsV2ZrcE94c3I1LUo0OGlBSVgwUjFTc0RjeFRsMHRHaFZWT3NiUDFUTm5sQjA4QW9BWG5pamFJZW5IYnVNQ0hSOGJpQjk1TkxUSDBUXzRpbS1UYmpHOUlLZk43aw?oc=5",
        "source": "핸드메이커",
        "date": "2026-10-01T14:59:26+09:00"
+      },
+      {
+       "title": "사조푸디스트, ACC·굿에코랩과 ‘선한울림 푸드박스’ 나눔 활동 전개",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yTkpGb1Zzck01NWFiM2d5aS1WU1c2NEtqUm9SXzB4N0JEeEtZb2ZlaWx1a2Z1elpZaDFDUzhCbUZrUTdyRVU2SnFWd21hcmE5MHpQQmVYUW5KRzItZHpBaDNZMlVsdlF3Nmc?oc=5",
+       "source": "서울파이낸스",
+       "date": "2026-10-01T13:00:00+09:00"
       },
       {
        "title": "사조푸디스트, ACC·굿에코랩과 지역 소상공인 연계 '선한울림' 나눔 실천",
@@ -4664,5 +4676,5 @@
    "months": {}
   }
  },
- "updated": "2026-10-18T07:16:13.333754+09:00"
+ "updated": "2026-10-18T14:24:43.007517+09:00"
 }
