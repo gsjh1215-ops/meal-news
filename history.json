@@ -5,7 +5,7 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 74,
+     "n": 75,
      "articles": [
       {
        "title": "삼성웰스토리, 사내카페 웰니스 확장…'제로카페인' 대체커피 도입",
@@ -24,6 +24,12 @@
        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wMDVfbV93X1lwNG1CdlJyS09VUkNURDRNSUYxVHJ5RUFFUnhkLTY2djNuVF9JMkVrVzI0QnB6M1lyTDl6MVNrSVZ4OEJ5MnU4dloxSDVQcnVGdHZ5bTJnOW9JY0VVc2lWcEtYZTVB?oc=5",
        "source": "아시아투데이",
        "date": "2026-10-22T15:50:19+09:00"
+      },
+      {
+       "title": "‘카페인 제로’ 꽂힌 삼성웰스토리…사내카페에 대체커피 내놨다",
+       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HZEc5d3NHNmF0cy0wRG0taUFCUHpIaHBXcFJqLXI0RjdhY1pLNlhXTFNodjN1YkdSRjNac1ByMVZvSkRybU5IdG54NS1YX0xLS1JCVjVkUFU3cDIzYkFDaw?oc=5",
+       "source": "헤럴드경제 미주판",
+       "date": "2026-10-22T15:26:00+09:00"
       },
       {
        "title": "[신상브리핑] 롯데마트, CU, 이디야커피, 맘스터치, 삼성웰스토리, KT&G 外",
@@ -459,8 +465,44 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 108,
+     "n": 114,
      "articles": [
+      {
+       "title": "[신제품] 안성훈 손맛을 집에서…아워홈 '훈제오리 마늘쫑 비빔밥' 출시",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5WSFFtYURKNjMzV3lHRFFhUHZrSmQ0WGMxbGlhdGZTMHN3dmJfTWxGYk1TV0x1SDRXckg3eWFlNjJQOFdHUDh1ZHRlcHQyMkNsVWZESkptanlCNjRhMFJZS2FmLTlQTzdyZnphZUlaVE9ycThu?oc=5",
+       "source": "파이낸셜포스트",
+       "date": "2026-10-23T13:19:52+09:00"
+      },
+      {
+       "title": "\"안성훈표 훈제오리 비빔밥\" 아워홈, '편스토랑' 협업 신제품 선봬",
+       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43bTdXdHFLRWhmR3dQV2pNLWQxNDFwcVFOWVlMU1hKTWFhalNXWV92a0lVXzZvOGdod2ZybFJpdExLTUsxTGdzMW9SeW5zV3pOTU1zcnQ5ZnhfQnpUVEVXcNIBeEFVX3lxTE5SbEhnUFpaQjVJVlVpRU5qVFp2SXprTmN0YVpSZzdSWTU1cVB4bUVqUXlCSDA3RFVaRzduSGFVLUtOMFB5RHRPVXVjWkNPMmdDTFJ1VGZlbjU1Z2VtbndhUlpWMFdoTDNkbm4wNnFSZW5KTGliOXdaaA?oc=5",
+       "source": "뉴시스",
+       "date": "2026-10-23T09:54:33+09:00"
+      },
+      {
+       "title": "아워홈, 편스토랑 손잡고 훈제오리 비빔밥 출시…급식 메뉴로도 확대",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wd1pqdG1pMGRCZG1mSW4tdnJNbDM3bWZBc0c4b1BzOWRzZXp4ZFRPZk0zdm91UW9vcjdHaGNhRDF1RGRMMjRjejZQbzhCb0k2N0ZWT1luUnA?oc=5",
+       "source": "더트래커",
+       "date": "2026-10-23T09:39:43+09:00"
+      },
+      {
+       "title": "아워홈, 편스토랑 협업 '안성훈의 훈제오리 마늘쫑 비빔밥' 출시",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WNVRIenlnRWRCZ2RtenVQR0s4YmRTNWZLbTZMcWJSUkhNM09Md0NGbUE3NHlrSHNtT29NX3ZueG1hYU5VUkVlYVJieENqdVpwS1pxaVppaVRzLThHVmln?oc=5",
+       "source": "뉴스1",
+       "date": "2026-10-23T09:34:24+09:00"
+      },
+      {
+       "title": "아워홈 온더고 훈제오리 비빔밥 출시, 11월부터 구내식당 메뉴로 확대",
+       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzMTItbU8tbERIVW5IRTU0SHBaZnVXM1ZyZEJVRWlSa3oybnVBWG9JRWVvNEhONzRoLVAyQ055c19LZks3SlJMQ01mc21LSXpiVVA4Q0xiWWV3NERmSnZxLXZtcXdkdWJRNmlQY2dvUFFNdGM?oc=5",
+       "source": "비즈니스포스트",
+       "date": "2026-10-23T09:13:29+09:00"
+      },
+      {
+       "title": "[SIAL PARIS] [2026] 전준범 아워홈 전략실장 \"K푸드 글로벌 문화 정착 앞장\"",
+       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05eUtiaE9neGFoWUt4NGpEa2dPcnZtX3NsQzRjNUxLaEl5djE2UUNadTYxRFYySnJMdkRvenBlTko4M0hvalVLc0hxZ2ZQa1k?oc=5",
+       "source": "딜사이트",
+       "date": "2026-10-23T08:34:00+09:00"
+      },
       {
        "title": "유럽 식탁 노리는 아워홈…현지 대형마트 공략에 무게",
        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObTZjNG9wY1ZQSkdNdTFyVUJpc0hJRGNnRDVzSFJYVGZRSllTLThkYWEzV2RKaWQ0aE4zUk9OM29WZi0xTU9lTHpJdlItSUxNWXQxa0xXc09DU2ZFMnRBY1c0NXlXU0RPQUlyTGJGR1N3VVBLT2daX3RNVnR5dHM4NkZfYks3RXNjdHVF?oc=5",
@@ -1117,8 +1159,38 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 199,
+     "n": 204,
      "articles": [
+      {
+       "title": "공정위, ‘입찰 담합 혐의’ CJ프레시웨이 현장 조사 착수 - 조선비즈",
+       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSDBwOEphc3Nock93LWZORjdqZEZNd0JvVVRoRnM4Z0FSdmV2b0tYS2NDYlVTV2JMQWhCd3h1cG1EZ2lLODFQRGwyel9jZjhwb25tTHRoRFAwYktVZExCcGc4dnViMW56WTZSTV9pZUlkeHVvYnFTMzBLQ0s1aTVBNHZOeUdjNUtkNlBicFFqWVgweEF5X2NSbVRB0gGaAUFVX3lxTE5IMHA4SmFzc2hyT3ctZk5GN2pkRk13Qm9VVGhGczhnQVJ2ZXZvS1hLY0NiVVNXYkxBaEJ3eHVwbURnaUs4MVBEbDJ6X2NmOHBvbm1MdGhEUDBiS1VkTEJwZzh2dWIxbnpZNlJNX2llSWR4dW9icVMzMEtDSzVpNUE0dk55R2M1S2Q2UGJwUWpZWDB4QXlfY1JtVEE?oc=5",
+       "source": "Chosunbiz",
+       "date": "2026-10-23T13:33:00+09:00"
+      },
+      {
+       "title": "공정위, CJ프레시웨이 현장조사…식자재 입찰 담합 의혹 점검",
+       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TX1RJZzdRS2V2SDJfcXFXM0ZrV3VUUWZiYjFtOXFhM2NIdEpWYnVUcURIVXpFUUZkQVdKVS1iY1Vxd1dTMHdkYktfc3VQWllHNGEzaWd4Uk8ySXhQMHl3dElpZw?oc=5",
+       "source": "조세금융신문",
+       "date": "2026-10-23T13:28:23+09:00"
+      },
+      {
+       "title": "공정위, CJ프레시웨이 입찰 담합 의혹 현장 조사",
+       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qY1RpRXBVSEppd1RVQlZtOXV4VWhuY25HU3A4bXlWRk5rSHJ4Rm5fcjV2VXBhdWppQTNkMkhtNndGa0JLbW91RmpKQmJ5Qm01VmlJNURCTEVCNXBxUE5ZTNIBeEFVX3lxTFBoQzNHWW01SDdPcWZWUTB2b3pxVXpwSFhFSUE2QWc1LV9XRTctM2lYNWNoRzN5dElNa2pIMjRHVGhyMzRwNURvSE0wQnA3RUdRMDlVMlhzLWx6UnlhZ2V5MUt1OEM2ZmdLSEFhR1JvNm1rV1hzSGdtTw?oc=5",
+       "source": "뉴시스",
+       "date": "2026-10-23T13:06:35+09:00"
+      },
+      {
+       "title": "공정위, ‘식자재 입찰 담합 의혹’ CJ프레시웨이 현장 조사",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5FV1ZmaHkweXRTUXRGTm5SMzJuLVo4T2FGd3ZLVjhzZDZ6OWU2Q2VHNzlWNzlqb3NIamdBQ2tSMU82MXFxN3RsVldBTVA4MWFzWGVFYnRvNF_SAVRBVV95cUxNeXdpTXVQR2lfNWtfdjNxa21jWlJaZFgteWhmT2hUZ1VReXdaWTNLZ2RsYnA3N0xLS2lJMHRpVTJFTmZiTjJiMEpPS3R1aDhlRFh6dGc?oc=5",
+       "source": "세계일보",
+       "date": "2026-10-23T12:15:10+09:00"
+      },
+      {
+       "title": "[리포트 브리핑]CJ프레시웨이, '3Q26 Preview' 목표가 40,000원 - DS투자증권",
+       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPMUpUd2tjT0hYMDJldHlSdHBYNWdpNk9XVS1yMVdhVC1yMUU4eXlzR1ZRcHBuRmZ1bnZlUlBOdFdYWXFmWVkzeU1NR1o3YTlUVGVVYVBOVGlpM1A2?oc=5",
+       "source": "뉴스핌",
+       "date": "2026-10-23T10:57:00+09:00"
+      },
       {
        "title": "[단독] 공정위, CJ프레시웨이 현장조사…“식자재 입찰 담합 의혹”",
        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKM3Y5elRKX0w4VEw1bm1VaUViMF9MTDBmbFBxLW83bFZyaVdSZFN4clVEZDhUZFFHMWpLYTNmTEtuRXdXamtLZHhIbFJKYXlUTmJQcEtkLUl2SDQ?oc=5",
@@ -2779,8 +2851,14 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 76,
+     "n": 77,
      "articles": [
+      {
+       "title": "[인사] 신세계푸드",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Oc0VMY2NJTGItMEkwbERaLS1FWE9LNldreW1xSkdGWnhlSU1hTHVXOFVKQV9UZVM2NjBUOU9ocEpTdzJNWENZMExLbnV5VGg1T2s5bHZ2MnVzS0JzODhhVkpKVVRqSE9XS0h5Zw?oc=5",
+       "source": "식품저널 foodnews",
+       "date": "2026-10-23T10:21:22+09:00"
+      },
       {
        "title": "신세계푸드 보앤미·발로나, 초콜릿 활용 베이커리 10종 출시…11월 12일까지 판매",
        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52ODlPNjhIOFhsa2U0SEgtUUJiWk5ORlZ5YllIbEZOcWwyZkxzM21FYjUycjVzdXVUR1hNamdaSnRJd1BpOEhTMGJCYkR1YVZCb3JaZ3MzaVZoaXEtdnFFVUZvTUdWWWtCM0o0UWxLLUY?oc=5",
@@ -3523,8 +3601,116 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 108,
+     "n": 126,
      "articles": [
+      {
+       "title": "현대그린푸드, 성남시 중소 식품업체 판로 확대 지원 박차",
+       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CQUl3SjdlYkFKdE1Db0lONGQzQi15dlBCaEFIVVhaMm1sY2IwbmxvWml1bktTMWlXb3UzdFY3clZGeHphUlFLX0o1cWVuQ2Y4V1ZLRkdEUXBlZ2hmM2V6UndnMmNWbGNm?oc=5",
+       "source": "시사브리핑",
+       "date": "2026-10-23T14:10:57+09:00"
+      },
+      {
+       "title": "현대그린푸드, 성남 중소 식품업체 판로 확대 지원",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pN3JXRGdzdkpkekFtUm5VbGEteWE5UF9BOG9VSU8wZ2R3V3lzZWdtQS1uUUFJcGVmQWFtVVNzT2twMDA2bUFXV0I2ZlB5U0pYeFZidFhKLXBUQ0xiQWR5RGZMQjFqeXJrTWxIQWpB?oc=5",
+       "source": "이지경제",
+       "date": "2026-10-23T13:44:34+09:00"
+      },
+      {
+       "title": "현대그린푸드, 판교서 '힙스토어' 팝업 운영…중소 식품업체 판로 확대 지원",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnZkJsOHNESjJtaXM3QS1kREIyNkRyVEFBbEl1ZnIxYXRqRGo3MDZibWVSMV9lVVVTVGRVbDdLZFB0YjRHVFFnU2hvYVItU3NUb2xHRDV2SXR1QW9RaXdocDIwT1cta3R2M2M5T0RaMULSAXRBVV95cUxNS2ZUNnh1VjUzeVAzdTI1VG5aSE9vOExoNWRMWkRkMkZzUThVRTB2YnpHVnVwY2lxUVR5d3JKR3lReHg5aExNMm5vdGlDMm5YWDd1eUl0UDhFallXY2NBSjExd19aNGU4UEUzT2pCbVFEUEV0Ng?oc=5",
+       "source": "포인트데일리",
+       "date": "2026-10-23T11:07:02+09:00"
+      },
+      {
+       "title": "현대그린푸드, 판교점 팝업서 성남 식품업체 6곳 판로 지원",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SaDZRRF95NnM5NnhOX09ldlktaWZwNlI4V0t6TUpwN2dKTHlhYTVEQzZpeEhKNkNvWUh5Y3ZFeEJoNE1kdWhHT1liU2RkUnN6R2xaTTVXNlFhNG05ekRPbFIxYUdXUkVjNTZwOA?oc=5",
+       "source": "뉴스락",
+       "date": "2026-10-23T10:59:50+09:00"
+      },
+      {
+       "title": "현대그린푸드, 성남 식품업체 판로 지원…판교서 ‘힙스토어’ 팝업 운영",
+       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPb2RWYTNjcHpSMC1NdDF3RU9HZ2xyekdwZzlIemJvNVlsLVZaUjJTU2xkSmFoRjV4V3l4QVhBMms2MHZEZ1hsR1FrMDd5Nnh3MEVoNlVORUZSMDhaaWYycjZkZ1IxckFrd2NHd2RsbEtkUGluNUJpUnM0Tk0xdlVab0hONWJiVDZqeVJF?oc=5",
+       "source": "글로벌이코노믹",
+       "date": "2026-10-23T10:10:57+09:00"
+      },
+      {
+       "title": "성남 3대 떡볶이부터 이색 떡까지…현대그린푸드, 로컬 맛집 판로 개척 돕는다",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80cmtOczJYV2tCb2EyS0RTd1pRbUlPYzY1bXFUYXpuMnVBZnI1eEdfaVpacnlUSllEMFJoY2Yzb24xLXBWOGlndVFJS0tsamhaNl9FUE50WTd4VE1nYWdxTDk3ZGpYWHhJdkYyWUZ3?oc=5",
+       "source": "식품저널 foodnews",
+       "date": "2026-10-23T10:04:31+09:00"
+      },
+      {
+       "title": "현대그린푸드, 성남시 중소 식품업체 판로 지원…판교서 ‘힙스토어’ 팝업 운영",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KN3JmZHBKdS1jOFdZb0tZLUJDM3ZBMW9Td3pBOEtPZi1KY0h1S2ZES09nNUh3TWVPNGpIVVJhSi1pdjhEYlhQeTJYajhqSGJiNnV5aUo5eDd5d1hmRWJQQU9HM3pxV1JFRVhF0gFuQVVfeXFMTlhMdXBlc05kZWY1cTZ4OUZQR0dSREFNRW40Z2ZQNGpEX2lyQUxodDNaMFQ5NnVwRU9GbFlERURHajYwM0MzdGNjZ2lzNGVLNzYyZDFERUdxR3hSc0VvZnE2SkZtWUttd25SUlVQcmc?oc=5",
+       "source": "파이낸셜투데이",
+       "date": "2026-10-23T10:03:57+09:00"
+      },
+      {
+       "title": "[ESG 한발 더] BBQ·동서식품, 나눔 실천…현대그린푸드·신세계면세점, 지역사회 지원",
+       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Tb3l6NTk1bVVoSjhPb3Z2RG1STXV1eHRpR2cyNUs1Znc4SDlFOHFaZ2pURDNnTGE2NXByYThsdThMSzdKTTdvTW0wSW8wSlhxSVViSmRRQ193QzU5bnc?oc=5",
+       "source": "뉴스투데이",
+       "date": "2026-10-23T09:59:00+09:00"
+      },
+      {
+       "title": "현대그린푸드, 판교서 팝업…지역 식품업체 판로 확대",
+       "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOMGkwcnZNRHN0QWNkaWNsWFh2V0x2X1RXOW5tSVJ5NW5Fckw2alc3cDE4UVJvdjRlcjBsMHp1TTNvUE1SMV8wVVlESUFkNFQzcVo1VmVvYThsQkg0WGFnR2pUNGJkUU1LVkowcWQ2Ty1sRER6OFdUcmNlRTFzaGVsckZvZDQxWFVOU2RZdnVTT0RaXzdMRDNjOUt1UXRaaVYtS0poY1BkWUtnbUNiTXVHQ0ROYm1URklPNlhRRmdFV1NLd3paLUpVMnVvSnkwbWQyVGZrMi1PczRnQlFERjdaQkVYZDNmWjVLVVZ2TUVOS1d6bFkxVVI0eFB2b29Kemx3VVhMU0tBeW9CakFSX3NxOW4tOTRjUnR3QWRzWWRVcnlUZTlQNG5TaEhrelJEQQ?oc=5",
+       "source": "데일리안",
+       "date": "2026-10-23T09:51:00+09:00"
+      },
+      {
+       "title": "현대그린푸드, 중소식품업체 판로 돕는다…판교서 ‘힙스토어’ 팝업스토어",
+       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hcGx2bmZqa2JXcVo0ZlROeXVTOVlPVjV2c0MybEpDUVUxaHRxQUJCdnctRUptbGVBWDNiRjAyMTJzYVY5U2NFWWo2Q3dSSVBodW01dk04Mm5Zb1hZaTlVNWtzS1pGemx4?oc=5",
+       "source": "한국NGO신문",
+       "date": "2026-10-23T09:46:38+09:00"
+      },
+      {
+       "title": "동네 떡볶이·피자설기 백화점으로…현대그린푸드, 성남 식품업체 판로 지원",
+       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1pUW43eTBxUm40UnZHcGhMR2h4cmVDT3NtVk1OMzU3cmNCT20zelJ1TjUtcjhtTG11RDBwcXBoOThVZDU4RGJQUHVhUTBSWEdGbThHZg?oc=5",
+       "source": "이투데이",
+       "date": "2026-10-23T09:44:00+09:00"
+      },
+      {
+       "title": "현대그린푸드, 판교점서 '힙스토어' 운영… 성남 식품업체 판로 지원",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15TVl5b1dhMkFXVnVXXzFmcFVtamo4dklaUldsa3BDOXZyOUVCajRYV0JQSC1Vc1hSbWpDSWpxNzFYcXJPOFpNUG9jQlJBcnJfa2lYV3gtNEVSczJaZUFITFR4Wng3WWd0U3dN0gFuQVVfeXFMT1BRRnR2SWVKX0pIY2pqdFZaNHhBdjg1WGNoRUZiZjlUMjg0R1VveFp3ZlFIWG4zVzVTWWR4WDhFdXVsaC1hdHFlWVVmYnN3QzlsSDRONlNKdDNqZkdoSmFLc1czS2RnT1dSaVR2UHc?oc=5",
+       "source": "뉴스드림",
+       "date": "2026-10-23T09:37:24+09:00"
+      },
+      {
+       "title": "\"백화점으로 간 동네 맛집\" 현대그린푸드, 성남 지역 브랜드 판로 지원",
+       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE42ZnlqS1M0ZzR6a2VfSVFqTDhWU1h2NjhpTlg5QjBjdTFCLWU5eFhIUnQ1TURDdktBVS1xY0E0SGpsMm43M2QxM3QzZFplMkhGS2ZGN29YbG1aVnYwNnM5a2o1Nm5EREtWa0RPSkNRMUpya3FDXzhmRtIBeEFVX3lxTE42ZnlqS1M0ZzR6a2VfSVFqTDhWU1h2NjhpTlg5QjBjdTFCLWU5eFhIUnQ1TURDdktBVS1xY0E0SGpsMm43M2QxM3QzZFplMkhGS2ZGN29YbG1aVnYwNnM5a2o1Nm5EREtWa0RPSkNRMUpya3FDXzhmRg?oc=5",
+       "source": "뉴시스",
+       "date": "2026-10-23T09:30:01+09:00"
+      },
+      {
+       "title": "현대그린푸드, 성남 지역 식품업체 6곳 판로 지원",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vLW54OGo5TTJjNHVDdWhCaHFsNDNnZFl0dWVUY2VOOTkyZEkyYlNxMWtEb1JieXpTOTMzNV9ON1lPcGR2NEpWN3ZCTzlkNVlMbGVYbG5Iem9aMFBLT2ZzX0wyN21TQ2YwS0lJ?oc=5",
+       "source": "라이센스뉴스",
+       "date": "2026-10-23T09:29:58+09:00"
+      },
+      {
+       "title": "성남 떡볶이·쌀 디저트, 백화점에 떴다...현대그린푸드 ‘힙스토어’",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBySzJCSWF1aWZNX2x0ZkJTLTRWVkZEbEtfMzBWTXFWRTNzVEtwTl9iRGVJUTI0SjNZR1RaM3B2MUFXUHQwRHphNXJXUlVIc1Jxci1DTTJteEZ1UDhjc1JZTE13Qk1zbUJGQ2ZKSGdUMA?oc=5",
+       "source": "뉴스퀘스트",
+       "date": "2026-10-23T09:23:07+09:00"
+      },
+      {
+       "title": "현대그린푸드, 현대百 판교점서 '힙스토어' 운영…성남 식품업체 지원",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04Q09kTU1BbnZTY29GbEs3TGRJSDVIYy1TNUp5SHZHUDVPRzB4UHZtbmJFNW9vMW9VdGdjMWNZTy1leDR4LXRIVHRFYUpZZGhVRWNpOFEtb0w0eDdDQ2Vn?oc=5",
+       "source": "뉴스1",
+       "date": "2026-10-23T09:14:30+09:00"
+      },
+      {
+       "title": "현대그린푸드, 성남 식품업체 6곳 판로 지원…판교점서 팝업 운영",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wWHVUOU56MjMxaEU4aGFwM3pBUjB0UlZZYlhNQ3FVUVFVV0haSkRyR1loYV9JQzdNbWJ3ZHh3MDJEam9ReW5WaWRmLW4tY29CS3c3NVhlUkZERThoSDJtUEFWR3IzZktjczRIWko1QU4?oc=5",
+       "source": "스마트경제",
+       "date": "2026-10-23T09:10:58+09:00"
+      },
+      {
+       "title": "현대그린푸드, 성남 식품업체 판로 확대 지원…판교서 팝업스토어",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RcU1Zb3FsNW1QTE9YVkVqTFRqY2R3SXFubEdoSHBZRjNXM2E5ZkpQVERTMVdLWlU0RXZncjBuczV6ZDZNRW9wTTB3U20tVHNQSUs4cXlOR2JIMzFfSVV4MjZJMjNVcGNpWi04?oc=5",
+       "source": "서울타임즈뉴스",
+       "date": "2026-10-23T08:59:49+09:00"
+      },
       {
        "title": "현대그린푸드, 강원 농산물 440톤 매입해 급식·외식 메뉴 개발",
        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41ZlFsRFdod2otUEhvNGRlSlFFUlRJX2dhZHJhQ3MwczA5Y1Jwd0Faa3N6V3pnZHhFR25CZ2ZCVkxjbU8wenRDX05TQTdlaUpSQmxTMnFCSWZwY0RCdEhFaFZCQl9KNzI4WHdudEhrU1BwVmo0SHVnNWR3?oc=5",
@@ -4181,8 +4367,92 @@
    "group": "FD Big3",
    "months": {
     "2026-10": {
-     "n": 319,
+     "n": 333,
      "articles": [
+      {
+       "title": "“빼빼로데이가 다가온다”…롯데웰푸드, 글로벌 마케팅 본격화",
+       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5INHcyVlhuMUhVWVFsZjVSbV92TTlUeDJOQ05kRTVOeUNUVEhuZHo4TzBFRmhhNkNvbl8ycDlRMmhiRHNJOG5GYzhqRlRFc3g4NmhwQkxNNi1YWkVNOE1aLWZR?oc=5",
+       "source": "에너지경제신문",
+       "date": "2026-10-23T11:07:52+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 빼빼로 앞세워 글로벌 소비자 공략…현지 마케팅 확대",
+       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9EejhLUngweEJhMGVHaWIyTVR5UzNiRHdpY3BFZHgxcFZPUVhhelhJQVBqNXZoakFkQWlrM016ZXF2T2ZiTjc4RzVnQ29RVHN3S25v?oc=5",
+       "source": "KPI뉴스",
+       "date": "2026-10-23T11:06:38+09:00"
+      },
+      {
+       "title": "[리포트 브리핑]롯데웰푸드, '3Q26 Preview' 목표가 170,000원 - DS투자증권",
+       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4d1RrMXVQZ0RPTldlS05XcTExTlhnNm51RjhHcmJfbHk4MVd3T3lrT0k2S09STmRwcFMzckRvSmIyNHgzUC01eFJ3Y01TdVZKa25IeXU1WnFtcFdn?oc=5",
+       "source": "뉴스핌",
+       "date": "2026-10-23T10:57:00+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 월드콘 40주년 '팝업'...업계, 체험 마케팅 확대",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wcktOOHQ1djFmanVPYnNoeHdGakVoSEpFZl8wM0F5WG1GVTJhclYwVEx1ZFJJUjVnRGpaUU93emt1NUtvajdDb3Bza2VjeDk5NFlERGxIVzM3SVIwM2t3bU5lZm5PRldEU01SNy1WONIBc0FVX3lxTFBEN09GMFBaTkh6S0E0dlVUb01WMW5FSUFld0hSS01CSUdjbzEyWmlsSmFNTkdZUUhVQmRad0dBYTFxbzY3RS1TdGtwRWF3VmRROXlBNDRTNTBDMHZuVFB2ZEkxRVRXNXB5d2hkODZ2S0NscnM?oc=5",
+       "source": "초이스경제",
+       "date": "2026-10-23T10:21:51+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 월드콘 40년 역사 체험 공간으로…레트로 마케팅 확대",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Xd1RCd2t0dy1DTmRWN1BZQnI5ekxLWXVHSUJSTllJaUVhb0FManpTbHptR3JkdG1RcTRjQlVvSS11UW92OG9HNGJXa2tkNGtLdVQxQkdKX20xREFxaGZuaTlqOGRLQWM?oc=5",
+       "source": "팍스경제TV",
+       "date": "2026-10-23T10:13:50+09:00"
+      },
+      {
+       "title": "불혹 맞은 롯데웰푸드 ‘월드콘’, 체험형 팝업스토어 연다",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CRTc0T29PMmxGLURLcXU2VDV4SGI4aks2Z0JuMlYzZEJKSkxFeWUtNnJQRzUwbjdJMnlFVDlLNWZMWnF3TG03Y2o5N3FiRVJPYjQ3eGNSbGFlV215bTVyZkw5Nk8yODZ0cUozdjczUQ?oc=5",
+       "source": "식품음료신문",
+       "date": "2026-10-23T10:07:53+09:00"
+      },
+      {
+       "title": "‘출시 40주년’ 롯데웰푸드 월드콘, 의왕 아울렛서 대규모 팝업 연다",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GeFYyWEFqVUZ0RnlxWlI0WWtfZ25oaHpqcWdnNTNqcVVqNGpjNnZiNFc3ZG1UdXhndWNLQl9NY3JUa0VkZTFoeEItbWFxLW55SXNRRUdMcTIxRml1dkdjaXFGZ2M?oc=5",
+       "source": "서울경제TV",
+       "date": "2026-10-23T09:57:18+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 빼빼로데이 앞두고 뉴욕·LA 광고 - 조선비즈",
+       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWTlhVW5ScDBaN1liXzVycXRLdXEwaEpEMWZjYUozZC1WMjdZSGU3MWJDV2dmN1B4STdVUzI3SDVOMEplNllrV2JPN0VVQlNrMmxJeVF4N2FTeWs4SkdFb2Y1eXJHVzJWempfTEQ0a292SFJRdkhnWVA3MFBGaW5oWVFER1FzUdIBmgFBVV95cUxQLUVheUR0LUc1SjlkVWw5YXVuMVE0dU05Y1hRaXRSRFVqQXl5WUt6UUxjdTJBMFhrZndBVkFSai00cGlUTXItd0NYd3FyNlhfNzBuSEs1VWdYVmw3Nm1vU2tCYVI3bnEwS1EtZk5wU1JZY1plMUk2dnJGWGVya05OdUlXWUVlR3ZjSEtrVHE1MUNfWUtFLWtuZGN3?oc=5",
+       "source": "Chosunbiz",
+       "date": "2026-10-23T09:57:00+09:00"
+      },
+      {
+       "title": "롯데웰푸드, '빼빼로데이' 글로벌 행사로 키운다",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hSW1NUHg0SUZPM3BNTmV6bWw1enk2ZEU5NW53VzFvZHBDWDZUVDRWN1Q4MGxFdnZCbUk1Qm44dlJaMkNONUJNZTk1M0NwZ3JyX1ZNekx0OVNMRlFoaXhwT0U5cGh0Zjd5VWFTZg?oc=5",
+       "source": "비즈워치",
+       "date": "2026-10-23T09:44:02+09:00"
+      },
+      {
+       "title": "마흔살 ‘월드콘’ 변천사 한눈에…롯데웰푸드, 롯데아울렛 의왕에 팝업 열어",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZSXA2cDN4RlRTTEc4ZUFTMjFXUElPXzdWYlo2Yml6TnNjLUFRbk9MbURPREtTVmV3SFVDTG1UR0g5SFpMX3NFOThmN0ZuQzhqNWJHYnBsa1hrdGtLbzE2VDNzQXBpMG9laVRnRHhR?oc=5",
+       "source": "식품저널 foodnews",
+       "date": "2026-10-23T09:43:06+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 월드콘 40주년 팝업스토어 운영…기념 한정판 출시",
+       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTbnc5X0RTMnd4U0xvMzc1MDVsMm5QRUR4NGw4UGFQeHFVeWpHV2NyaVFfNHlQNXdWWi1JaERkQ0VkYURfUXNHdVZZT2NxUkprdVctQ0pYTnhyZXJOSFU3aWM0M2dPQQ?oc=5",
+       "source": "이로운넷",
+       "date": "2026-10-23T09:32:27+09:00"
+      },
+      {
+       "title": "\"월드콘, 40년의 역사 속으로\" 롯데웰푸드, 체험형 팝업스토어 운영",
+       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LMVo2T3ZKMDRHV1IycTJHbFZvdnJfU19IUXY4RjZQUG4zRXFnWWpjRmlDRFVoS19WVE1LdFVpcFpuTUhtRjdESmJOZmIzTDFGVEt5QkhXdk9ya1FVVURZejIwS0hXc1k5TTFGd2NRMm1GeE9PY1BIUNIBeEFVX3lxTE5LMVo2T3ZKMDRHV1IycTJHbFZvdnJfU19IUXY4RjZQUG4zRXFnWWpjRmlDRFVoS19WVE1LdFVpcFpuTUhtRjdESmJOZmIzTDFGVEt5QkhXdk9ya1FVVURZejIwS0hXc1k5TTFGd2NRMm1GeE9PY1BIUA?oc=5",
+       "source": "뉴시스",
+       "date": "2026-10-23T09:30:27+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 월드콘 출시 40주년 팝업스토어 운영",
+       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE43SlBqVGdKdGVReGk4aFYxNEN6M3lvWmlEMkYxTjlTdmY4MWlTeU8yT1pZcUlBTThVTjZNVnBwRUhLT1Via0NOTlF0UDRHN0lYY2ItZ2pPUDZRRG1iall5dVVMcHVQbjNqSDJCczhyVTlvY2tYWUptcnozNA?oc=5",
+       "source": "한국금융신문",
+       "date": "2026-10-23T09:02:10+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 스트레이 키즈 앞세워 ’빼빼로데이‘ 해외 고삐 당긴다",
+       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4taWdEOUNUMzQtaWVCRWpfaThybHEyVGxwZDVqT3p0NERJRk1LWGI2VDBkVEtzV1NqNEk2aElMSTZ2ekplR0NaRFVITlhGWFNwaFJuOXV2bWdTWUdmMG9QX0t5NA?oc=5",
+       "source": "더구루",
+       "date": "2026-10-23T08:46:35+09:00"
+      },
       {
        "title": "과자값 줄인상 속...롯데웰푸드 ’나홀로 동결’ By EBN",
        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vOW53bUhLbV9LQXlkT3d1cHhQZGRtbHdUclFuRmZhZGliQm93T2l0Q1FMdm5lWUlKUGV3SzY4TjhlUDltWlE1aVd2YjlaY0tBZTd4Tm5EUTQ0SHZCZE83ZzJUbFBtSzVLYkZkbFdOX3Y?oc=5",
@@ -6356,5 +6626,5 @@
    "months": {}
   }
  },
- "updated": "2026-10-23T07:23:04.655956+09:00"
+ "updated": "2026-10-23T14:28:36.871062+09:00"
 }
