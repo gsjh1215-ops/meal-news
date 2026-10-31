@@ -1855,8 +1855,14 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 253,
+     "n": 254,
      "articles": [
+      {
+       "title": "한동대 학생팀 '못난이 농산물' 키우는 게임으로 점심 한 끼 속 탄소중립 이끌어… CJ프레시웨이 오픈 이노베이션 우수상",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KTUNiV195WnZNQjlMM1pOWWpMQ194RkNMeXZGX3NQVmhqQkNVUGpTaFBIcG00RVdOZkI1Z2hrMlpCVWtud3BtdW93cDdXN2g2aUdya3otcW5OenQ2VDU5VUFmdnQwczhDZEtPZg?oc=5",
+       "source": "베리타스알파",
+       "date": "2026-10-30T14:53:04+09:00"
+      },
       {
        "title": "CJ프레시웨이 11월 5일 3분기 실적 발표",
        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JNFBnNTNUcU1IWVBtQWNUOEFVT0FuVHpwUE4tcFM4bS1rbldkR2xfLTZ4bXY4Zk9LLW1jS2ZKcDlaRk1QaDBtX096ajBZaE9KZzdRYmhicUFuSVRkSVZzMWVkN2o3Zw?oc=5",
@@ -5681,7 +5687,7 @@
    "group": "FD Big3",
    "months": {
     "2026-10": {
-     "n": 436,
+     "n": 437,
      "articles": [
       {
        "title": "[SIAL PARIS] [2026] 파리로 간 빼빼로…롯데웰푸드 '1조 단일 브랜드' 도전",
@@ -6419,6 +6425,12 @@
        "title": "롯데웰푸드, 시알 파리 식품박람회 참가…기능껌 혁신 제품 선정",
        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE85dUs0RWZrMkkxbUVMQ1dhNDNXc0hqTHBCbmZGMklzaUN6V0RuMlM2cmxmdU9pUDlxdVFOb0VMUmxqV29tOFhfNDQyb1lQdE1CeW1wVzlsV2l5SXJrLWZhVE5uODl1dWlTM3hiOWVOb0QtVU1m0gF0QVVfeXFMTzl1SzRFZmsySTFtRUxDV2E0M1dzSGpMcEJuZkYySXNpQ3pXRG4yUzZybGZ1T2lQOXF1UU5vRUxSbGpXb204WF80NDJvWVB0TUJ5bXBXOWxXaXlJcmstZmFUTm44OXV1aVMzeGI5ZU5vRC1VTWY?oc=5",
        "source": "주간한국",
+       "date": "2026-10-22T16:00:00+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 40년 내내 녹지 않는 1위…마지막 한입까지 달콤하네",
+       "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5xYV9ZTUs2M1JJbmN0eU4tUmtXSUdwalZGQlFELXZTc1dYenBNakVldmZ3eDduMlhPYXlNOWRtYl9hdklNalE?oc=5",
+       "source": "매일경제",
        "date": "2026-10-22T16:00:00+09:00"
       },
       {
@@ -8618,5 +8630,5 @@
    "months": {}
   }
  },
- "updated": "2026-10-31T07:29:24.189204+09:00"
+ "updated": "2026-10-31T14:37:04.783319+09:00"
 }
