@@ -572,6 +572,17 @@
        "date": "2026-10-01T08:00:00+09:00"
       }
      ]
+    },
+    "2026-11": {
+     "n": 1,
+     "articles": [
+      {
+       "title": "삼성웰스토리, 카페인 없는 대체커피 도입…사내카페 음료 7종 운영 : 네이버 블로그",
+       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN282U0VLd0VXNF85RHphZTFVYkp3MkItXzdSTE5PRFFjVXIwSmZEZW1waXUzU2ZyOE9DazBXZzloSUtFYUtvZEhOalNwOTVlTGdoYU9wSXNCV1BqUkd5dWZxR0FOSUMzQXk4RWhRNzRCcDJEcEtuSTdJbmQ0emVHODBOOWJmRklGc2VoOXJB?oc=5",
+       "source": "Naver Blog",
+       "date": "2026-11-01T04:06:48+09:00"
+      }
+     ]
     }
    }
   },
@@ -579,7 +590,7 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 211,
+     "n": 215,
      "articles": [
       {
        "title": "김동선표 ‘벤슨’, 아워홈 품으로…투자 부담도 넘기기? [재계톡톡]",
@@ -588,10 +599,34 @@
        "date": "2026-10-30T16:06:26+09:00"
       },
       {
+       "title": "아워홈, ‘인지기능 개선 식단’ 연구 성과 국제학술지 등재",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sZ1RUMURxWkUySUdVdlUyOUpRZlBEcGlJZmpGNlhybGRTYWdXWWVTTnRWMmhOOWZaaUtWQVdQOVhqbmlhUVE2RGpUendZNWpNRnBENGd4WE9XWHVPNnFHczdITmFxUWhQZlBj?oc=5",
+       "source": "CNB뉴스",
+       "date": "2026-10-30T15:38:16+09:00"
+      },
+      {
+       "title": "아워홈, ‘인지기능 개선 식단’ 연구 성과 국제학술지 게재",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQOGxOT3NRN3dXVFRSTHEyZWtla2NPNTYzSFdjN2VneGZWbVUzN0VDTERBVU9wV1Uyc1NvNHJrc0haOGdTc1QzMVJrVlJDU1lfUXFtcDlzcHo?oc=5",
+       "source": "뷰어스",
+       "date": "2026-10-30T11:27:54+09:00"
+      },
+      {
+       "title": "아워홈 시니어 맞춤 식단, 경도인지장애 노인 인지점수 올렸다…국제학술지 게재",
+       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5lLUhsdGt0X0V0dUltejhzV3lIb21XZk1WR095Qy1obFRjUHFiMnhpYk85UzBIaHlySDRvbENvTEhqekx3SEpHV2lrdmdLaERPZ2hQb0x3?oc=5",
+       "source": "위키트리",
+       "date": "2026-10-30T10:59:00+09:00"
+      },
+      {
        "title": "아워홈 '인지기능 개선 식단' 효과 확인…국제학술지 게재",
        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkNWdoNWlIaVhncEFzM2R5eWJTcUE2SFpyRkNJcWFscnRfc0xldS1WQ2NOVXdqMnI5QUJGSjUzaTM4VDRRY183NWhJQWtYQQ?oc=5",
        "source": "전자신문",
        "date": "2026-10-30T10:38:46+09:00"
+      },
+      {
+       "title": "아워홈, 경도인지장애 어르신 식단 연구서 인지기능·영양지표 개선 확인",
+       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01X2d2SEptWTVNV2ZwVkEycE5lSDl0dHZ6c0lZb2U1MU9wSE4xMlNTWGtYaTNiQVlsRkJtYXB5YVRoLTM5QV9EYVhzdGMzRnJtUTdmWjhDZ1U0dlEwdE5ZXzZqNlZrbU8tRnJTSTIyZVdNeVBPd1RHSE1R?oc=5",
+       "source": "로이슈",
+       "date": "2026-10-30T09:26:00+09:00"
       },
       {
        "title": "아워홈, 연구 결과 국제학술지 게재…\"맞춤 식단 섭취군 인지점수 상승\"",
@@ -3645,8 +3680,14 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 39,
+     "n": 40,
      "articles": [
+      {
+       "title": "[기업시민] 광주 가게 메뉴가 복지관 한 끼로...사조푸디스트의 선한울림",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TZ2NoRTVnUlRCbzZDOXRGX0hYSkVXdTR0X19IV2xEb29Vbk5KaUpLYXpsZ25HQVJXc1JzRlQxUWs0S09jME1wLVVJYmp4a3RaU0lCekxiY1BxdVZCU3pyX1Ata2o5UTJLY0k00gFuQVVfeXFMUFVFdzgtdFNWN0c1YzhJNmtlTC1RTkoxb2UxdGtBRVhTdEY5TFFrb21yLVB2dGFWU3V5bXkxZlJUd18xaHp6U0VNQ04zMHhscU5rbXJkc1FnN3l2cXZPMldRbW1rS01kbGlXWG9iM2c?oc=5",
+       "source": "파이낸셜투데이",
+       "date": "2026-10-31T17:42:51+09:00"
+      },
       {
        "title": "[식품업계 담합 제재 후폭풍] 사조, 과징금 부담 4천억 육박…푸디스트 상쇄 관건",
        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXowbGtfbmNNUUhoelFFR1BLLURWNXFOaEJzTVByTDhZekVCQ0dBZW5SUWRzSkFDb05nNXp4bUdlRXdQTkJrdl9OLWNyZTRHUnFIaEVScTdoQmdSWi1HdW9faUdxcmtXUGpOd245cHd1dmFaaF9oSkJjeXBvcUJoSjhsT2N4RVVtVm9GbDFROA?oc=5",
@@ -4669,13 +4710,19 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 168,
+     "n": 169,
      "articles": [
       {
        "title": "사장단 힘 싣고 외식은 둘로…현대그린푸드, 성장전략 재정비",
        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91VENyODB5Nl9vS0pHX0tfM0lUX2wyNk9rVEs0cng1S0l2RkVKSFNYNTUxWXJTeWFQaFdmWG5Fd0hsVGxJRjNYc3hSSC1IQmlKQndkY1o0bk4xY2RuZHQxcVhuaw?oc=5",
        "source": "쿠키뉴스",
        "date": "2026-10-30T14:27:58+09:00"
+      },
+      {
+       "title": "현대백화점그룹, 장호진 현대지에프홀딩스 대표·박홍진 현대그린푸드 대표 부회장 승진",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91SzhqZnNPWnNmQmtaTDBXWWY0ZDJvOVNaeFB2dWUxZWlmTzdLVnlzZllBRTk1a1VQUm8tRDJScWx3QjF4X2dPTFpScy1iaEd4YXdIeDdDTVctektWOWlQazVydnlCaWpodWZV?oc=5",
+       "source": "비즈월드",
+       "date": "2026-10-30T03:22:00+09:00"
       },
       {
        "title": "현대그린푸드 1~9월 잠정실적 11월 3일 공시",
@@ -8630,5 +8677,5 @@
    "months": {}
   }
  },
- "updated": "2026-10-31T14:37:04.783319+09:00"
+ "updated": "2026-11-01T07:26:48.881313+09:00"
 }
