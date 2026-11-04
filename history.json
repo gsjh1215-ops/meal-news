@@ -602,10 +602,16 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 218,
+     "n": 219,
      "articles": [
       {
        "title": "김동선표 ‘벤슨’, 아워홈 품으로…투자 부담도 넘기기? [재계톡톡]",
+       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2U1FENVZHQVMycGs2Q2lDV180c0dMckp0TmFWclJJZDFzcGZXeXN2SHlCeDNDd0dXLVhEbHhZTEp6UGpQcFgxa1c2bzdJX1oxVjBZWTN3?oc=5",
+       "source": "매일경제",
+       "date": "2026-10-30T16:06:26+09:00"
+      },
+      {
+       "title": "김동선표 ‘벤슨’, 아워홈 품으로…갤러리아 외식사업 ‘정리모드’ [재계톡톡]",
        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2U1FENVZHQVMycGs2Q2lDV180c0dMckp0TmFWclJJZDFzcGZXeXN2SHlCeDNDd0dXLVhEbHhZTEp6UGpQcFgxa1c2bzdJX1oxVjBZWTN3?oc=5",
        "source": "매일경제",
        "date": "2026-10-30T16:06:26+09:00"
@@ -1915,8 +1921,14 @@
      ]
     },
     "2026-11": {
-     "n": 4,
+     "n": 5,
      "articles": [
+      {
+       "title": "[유통·식품 맞수④] 같은 뿌리 다른 길 GS리테일·아워홈···한화 편입 후 달라진 사업 구도",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBUWpZelYtSTFmSjQwaDRaN19PUWs3aWotMzg1QVBFazVrMEl1NEEzcERsdG1jQlJOWnYwTkc2bzNoQXYxcmxiRlJNY1JmNzVRUXdlMzROWXFvNEVhMzgzZVd1amFnZVplWEE?oc=5",
+       "source": "서울파이낸스",
+       "date": "2026-11-04T09:00:00+09:00"
+      },
       {
        "title": "공장 갖춘 김동선의 ‘벤슨’…아워홈 물류망 더해 몸집 키운다",
        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZUdBU19JV1A5N0NBMnprdjM2TE5UNlBySVA1VWlvT3BxWjFZMEJZdnZQVzh4VTdtMFRxaE9fREc4aTdvYlJRVWFmUnFlbWoxTTlDbXNVbnN5b2VBcy1fYkZ3VzFwZGE1TG4ycEFkYkI3RVNSRm5lNEQtdUZoSktUWUhUVHZUUEdidkR3?oc=5",
@@ -5864,8 +5876,14 @@
      ]
     },
     "2026-11": {
-     "n": 38,
+     "n": 41,
      "articles": [
+      {
+       "title": "[리포트 브리핑]현대그린푸드, '사과 한 조각도 나누어 먹기' 목표가 29,000원 - IBK투자증권",
+       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE40MGdyOS1mcmY5RE5PM1VjYlhEcUFNQlpkRkFUc0l6WUdqS3ZmSUE2N3dMZEJ1N1NibkFGZ0FvX0xEcnEwSUNSVG8wWEhNMzVkVEV2bEY4N25ENWFa?oc=5",
+       "source": "뉴스핌",
+       "date": "2026-11-04T08:46:00+09:00"
+      },
       {
        "title": "현대그린푸드, 3분기 영업익 448억원…전년 대비 0.7% 증가",
        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlcDBqN2xiNXZqVTJzTm1BdVJPZEZES2dQT2pIRGhWM1NJOU5yT0VzMUh4Vy1LYWRSNUJzUmVXaXZfRVJQcnd1Mk5iMk9XaFhUcGZsdEZJTk9mUdIBVEFVX3lxTE1hMzM3eERGQUwzQ0x2djQ1UklaUmdQTzZOenNzTkYyZ2gyX0ZWRXhHOEstQVlUMjZleWVmV3R0MlNyc2pKSUEwT3pWejdJZENuaFhfSg?oc=5",
@@ -5883,6 +5901,12 @@
        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tRktILXFLQ19fN19aekdpUUpyY2N6M04xQk1BTEdBb0V0cFB1bnctOEtpc3BRNFpvU3RrbVVyRVpzaEx4RWh4UWZDcllScXVrLXg1UDRydWwzRDBPQ2xzTkR2VFc?oc=5",
        "source": "www.ppss.kr",
        "date": "2026-11-03T18:01:03+09:00"
+      },
+      {
+       "title": "현대그린푸드, 단체급식·식자재유통 앞세워 3분기 호실적",
+       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MM3FUSzVkXzZVTmdCcEZUSkRYTzFSNFN2ZHNrYUVqUkdzb1dFSDBPcmtiMzlfOVgyaENpaF9pWTNUTzdCOVhUY0Z2eVYzWVp3TmszcnNB?oc=5",
+       "source": "DealSite경제TV",
+       "date": "2026-11-03T17:58:25+09:00"
       },
       {
        "title": "현대그린푸드, 3분기 영업익 448억원⋯ 전년比 0.7%↑",
@@ -5985,6 +6009,12 @@
        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5wNjJPRnBVMldHd1U0QTdqZENCUFh1ZEQtcFJhSGY2QWVKWGs0bllxQ3QtWThwZWVWN1gyMzFOemdiOFhXdFpSbDlUVVJRUEVJVWxUQzJ4d0VwdENyQlZ1SGh3RmxjeVpIMzdITDFEZkpLbW41TkpoRdIBeEFVX3lxTE5wNjJPRnBVMldHd1U0QTdqZENCUFh1ZEQtcFJhSGY2QWVKWGs0bllxQ3QtWThwZWVWN1gyMzFOemdiOFhXdFpSbDlUVVJRUEVJVWxUQzJ4d0VwdENyQlZ1SGh3RmxjeVpIMzdITDFEZkpLbW41TkpoRQ?oc=5",
        "source": "뉴시스",
        "date": "2026-11-03T15:39:21+09:00"
+      },
+      {
+       "title": "현대그린푸드, 3분기 영업익 448억원…급식, 유통 등 고루 성장",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51UnFQcFJFWERPNHY3R0tJNnd3MmN3YW05d0F6Q3JpRGlMd1U5Y2p0bzlTSlNCbHVVSVlWWnhJRDd6RnA3MWQyWFBtTlF6di16QjZ2Nkwzc2zSAVhBVV95cUxOdVJxUHBSRVhETzR2N0dLSTZ3dzJjd2FtOXdBekNyaURpTHdVOWNqdG85U0pTQmx1VUlZVlp4SUQ3ekZwNzFkMlhQbU5RenYtekI2djZMM3Ns?oc=5",
+       "source": "SBS Biz",
+       "date": "2026-11-03T15:34:00+09:00"
       },
       {
        "title": "현대그린푸드, 3분기 영업이익 448억원... 전년 동기 대비 0.7% 증가",
@@ -6102,7 +6132,7 @@
    "group": "FD Big3",
    "months": {
     "2026-10": {
-     "n": 442,
+     "n": 443,
      "articles": [
       {
        "title": "FIFTY FIFTYコミュニティの投稿 - 롯데웰푸드 꿈의 파티시에 보러가",
@@ -7092,6 +7122,12 @@
        "title": "“사기 아니냐”…롯데웰푸드 ‘프리미엄 카스타드’ 과대광고 논란",
        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YS2c4bll5ZlZrcEJJSzRDRnNRZWhac3NsY3kyWG5TenU5Q0JlX1RMSDRFeWRsSWdtT2pVRWZRZlU0Mks0eEFYUTNxbWl1elo4bHZLN2E1M0JORk5GZTdfSkpZSkTSAWhBVV95cUxNajJkZ3hVcGZUS1FkN2V3V0NQRk9rZ2ZNR3RKU05tUUpVZkM3YlNoWTJEd291c280SkdTU3VxemZNY2QzQmw2VVNmTTVlQ09RVkMtS2JSVk1Ra3RkdWMtaUVJMy1rSXVFUQ?oc=5",
        "source": "경인방송 뉴스",
+       "date": "2026-10-21T16:00:00+09:00"
+      },
+      {
+       "title": "롯데웰푸드, '빼빼로데이' 글로벌 마케팅 시동…스트레이 키즈 전면에",
+       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFZElBQTFldEdIdUozaDBURUhXQk4xelhSU2ZkY2FsMnhJWDFaNkk5RnlIbEtSTkdMQWtZU25nQms0YmQ1ZWM1UFZUSnNzOUxDZHFHSVdQUUxBSnlCcUhpWndPZDgwMm14Zm9MV01RcjJOdTjSAXNBVV95cUxQRWRJQUExZXRHSHVKM2gwVEVIV0JOMXpYUlNmZGNhbDJ4SVgxWjZJOUZ5SGxLUk5HTEFrWVNuZ0JrNGJkNWVjNVBWVEpzczlMQ2RxR0lXUFFMQUp5QnFIaVp3T2Q4MDJteGZvTFdNUXIyTnU4?oc=5",
+       "source": "뉴스웍스",
        "date": "2026-10-21T16:00:00+09:00"
       },
       {
@@ -8759,8 +8795,80 @@
      ]
     },
     "2026-11": {
-     "n": 58,
+     "n": 75,
      "articles": [
+      {
+       "title": "롯데웰푸드, 유통 채널별 ‘프리미엄 가나’ 한정판 4종 출시",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qamMwMmZHb1JwVFZNRk9QRm9WclFjUktkVDdBaEhseHd5Mm05Q1dhZHdUUHEwU1BuY2xCQmlYcVp6VGhRajZLN1BSVkt4UVB6UlBZRlNpYThwVGFacksyY0hMaUY?oc=5",
+       "source": "서울경제TV",
+       "date": "2026-11-04T10:31:37+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 겨울 초콜릿 시장 공략… 유통사별 전용 가나 출시",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HckRGUlpYOGswTGJGZlpfMHJ2YkZfSElUZWlrV2hmSVBmNGYxTnZ6N3VBV3JmdGtYSklPWlJVazBHNkppTmhwWGVOX0s1M3QyOFI4NjktOFNkRzl2LVdabVFMX0NZVjlkU3VJ0gFuQVVfeXFMUFJ0RnJMNzViU1Y0ZDgwM05fQ1BGOG5FVTFKWGs2Y2lnSE45SHo1QWptOUhyTnFqSmt2cUZSOHFScVBzV0N4TjlyWlU4S0ZvcXEwV0I2Tlkwd1pnSGMtbTJoSG5zWGVQM2ZJTzhBYmc?oc=5",
+       "source": "뉴스드림",
+       "date": "2026-11-04T10:19:11+09:00"
+      },
+      {
+       "title": "롯데웰푸드, '가나' 채널별 한정판 4종 출시…배민 협업도 진행",
+       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42ZVMwMEtac21mR3ZVWEtiV3Z3LTBUazhjZmFFTmZubDJoYkk1U2VPMVIxelZGWEd0cHEwOHRuMVhKbE9KLXRuWWc0ekgwa3JXV3pQamNMbkF2RE3SAWBBVV95cUxNSUtjSHBXRlNGTWNqZ3M1aDhuY2M0Y0hhNDB5UXZsTGU5YVNiS2FxZTJ3Nzl5alRITlZ6d2wwbkdTc3MwWWYzZ2xhSDBjTXA3dTJyYk4tMUlYNHJBMy02bjU?oc=5",
+       "source": "연합뉴스",
+       "date": "2026-11-04T10:08:09+09:00"
+      },
+      {
+       "title": "롯데웰푸드, ‘프리미엄 가나’ 시즌 제품으로 채널 차별화 전략 펼쳐",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aWEJycURMU3ZZZ01YeUVvakRCaTl3dk9BMDMwX1dqQUZOTF9mc25ya3k1b2c4X3gyWFRCNHVjVXlZN09PLWVyTDRkR2JUQlhYRllhcEFEaUwybnYwbHgtdWFSZTI?oc=5",
+       "source": "푸드투데이",
+       "date": "2026-11-04T09:57:39+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 유통 채널별 ‘프리미엄 가나’ 시즌 한정 초콜릿 4종 선봬",
+       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sakx6N1ZzUWs3UlZMcXpaMjBzNUNyYW9hY3ExRXNpb3BqbmxzZllONEZEWDRvVFdfdDJVUkVGWTNuY19YV05jT2JKVFJCZFJwc1FXbGNLeXIzYTZOeE1sME1rY0N3Zw?oc=5",
+       "source": "싱글리스트",
+       "date": "2026-11-04T09:56:46+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 편의점마다 다른 ‘프리미엄 가나’ 출시",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1GZVhHWDgwRTZwQ1pqdjk3WC1NQ0NxZjN0T056WGVQVTNqb09ReUxQUmtKNmw4M1V2a2x4WDgzVzBkS0hnLVo1bGZqSEp5dF91cmd6T2ZYS2d3MllhdDdPOWZjb0Z4TERUNjB6VFpBNA?oc=5",
+       "source": "Korea IT Times",
+       "date": "2026-11-04T09:52:37+09:00"
+      },
+      {
+       "title": "\"매장마다 초콜릿 맛이 다르네\" 롯데웰푸드, '프리미엄 가나' 4종 선봬",
+       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZazFwMi1kRWhXY21GU3JVUVZVOVVjclNzd3NFLUNDMzJUYTJGNnFnNHQzYUpOZ2ptOXJYYW5zTDMtSW5CT1JxbXU0WGY0MVdNcXBsZmZLeWtPRmZ5N1NPSE92bnIwQXZFZW9KTFJqSlkzMHFoOURxaNIBeEFVX3lxTFBZazFwMi1kRWhXY21GU3JVUVZVOVVjclNzd3NFLUNDMzJUYTJGNnFnNHQzYUpOZ2ptOXJYYW5zTDMtSW5CT1JxbXU0WGY0MVdNcXBsZmZLeWtPRmZ5N1NPSE92bnIwQXZFZW9KTFJqSlkzMHFoOURxaA?oc=5",
+       "source": "뉴시스",
+       "date": "2026-11-04T09:30:15+09:00"
+      },
+      {
+       "title": "[디저트] 편의점마다 다른 맛 찾는 재미…롯데웰푸드, ‘프리미엄 가나’ 4종 출시",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBEVER0N2dZMDIwZkQwLU05c0xURU03dmFxbXU2STVwVDFobTBkOE8zd0R3NUFreU1HYjVVUjFCQ0JnX1pMN2g0c1c5ajlrRjFrTWhHNFNfREI0c2trRXdidl9Yak1RLTBuMk43dmlERFY?oc=5",
+       "source": "리뷰타임스",
+       "date": "2026-11-04T09:23:51+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 유통 채널별로 다른 맛…‘프리미엄 가나’ 4종 출시",
+       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vcS1PQy1kMF8zZFpKQWlKaXRYM1Rnc1gzNktzYlk0c2pSTWRBYkFKcWl1V2FqRG5zMWRpSkRPU2hEWGlveF9QbGVOMzd6NC14VThzNzZpV1JLWWFvd2lCaDVZT21XQQ?oc=5",
+       "source": "이로운넷",
+       "date": "2026-11-04T09:21:04+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 채널별 다른 맛 적용한 '프리미엄 가나' 한정판 4종 출시",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WUWc2VVo3bzB5SlJBRDlRaTJwSHNmdExBZnQ4eU9ralRoQzVhcU01LWFqcW5JYnFVbGhzMUg5NWxZclNRbG9tNnh2LUhMMDRPclF0aTZ5Nkpzdm40SlBR?oc=5",
+       "source": "뉴스1",
+       "date": "2026-11-04T08:51:14+09:00"
+      },
+      {
+       "title": "[똑똑한유통] 롯데웰푸드 ‘악당 칸쵸 찾기’·하림 캠핑 간편식…상미당홀딩스·굽네·페르노리카·삿포로맥주·카나와인",
+       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBEbzRRS3ZuUHZhMlJDQmM2X0hMT3ZEandCTnJVWEdrbkU4RmpFWnNhbnJLN3FNVEVyNnpnVUYySHFoNlRxTUVCZF91QUE3VUlEWk0yUXEwQVg3WXRuTjZNbnBsWQ?oc=5",
+       "source": "에너지경제신문",
+       "date": "2026-11-03T17:46:49+09:00"
+      },
+      {
+       "title": "이름 찾기 이어 악당 찾기…롯데웰푸드, 칸쵸 참여형 마케팅 확대",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBMUkyVF9md1dzdDRjRWYwRUtaaE04a1p4Mkw5OUVZTTZVclY2NkVhSnpnNnhtSFNwS0c5MXJ6WWdvcUpjckxZSlBsS0VFQjg2bW5PREFobjhQdV84enNvZWYwSzFYVXQxTm0zaW1lSdIBb0FVX3lxTFBBMUkyVF9md1dzdDRjRWYwRUtaaE04a1p4Mkw5OUVZTTZVclY2NkVhSnpnNnhtSFNwS0c5MXJ6WWdvcUpjckxZSlBsS0VFQjg2bW5PREFobjhQdV84enNvZWYwSzFYVXQxTm0zaW1lSQ?oc=5",
+       "source": "더퍼블릭",
+       "date": "2026-11-03T17:25:58+09:00"
+      },
       {
        "title": "롯데웰푸드, '이름 칸쵸' 이어 '악당 칸쵸 찾기'…캐릭터 이벤트 확대",
        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SZUFBZEpRZXlfTGxUMHU0VWJrdENQQ29RSmFTcFVnMGR3Qi1IZWdOdFhRdEFhZlh2TEpiUW9nOXJKVVdQSHFESGN2RHZaTmx1XzYtSG1WdkU5NkUzWlE?oc=5",
@@ -8808,6 +8916,12 @@
        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FdUxDUHJCdWZoSzI2QV9YOTFIemFRdGRtZzFvQmdCdy1jbnJqTVZPcXdfUkFYTElMX1NsWDQzNnhBTWQzMW0xWVQtRkFsbUZBUVFFQ1hkNjJtOW5INkJLQTBEUFpSN0NYSl9fNVN6TG9UN3pkR3pLTGF6RHdLTDQ?oc=5",
        "source": "스타뉴스",
        "date": "2026-11-03T12:05:14+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 칸쵸 '이름 찾기' 이어 '악당 찾기' 이벤트 진행…캐릭터 세계관 입혔다",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Va0F2MWdkTkdwSGs0UzAxV1hnX2hwWkYzVHRicmU2c0hwVVB2MzFzSEVjbENISURqSDNvUFEyWThSRWcyZlRIUUJDaHhoeUJWUlc4UW54dDZ4SEkwNWRmYzk4NnlfMXo1cmfSAW5BVV95cUxOS3dHUWl3V3dvTC1DRnZ5MGFMYmM2Q3FlbTEzWFBPRi15dk1YMWF6QVByQUlnUlY5T0V2bVduTi11LU5KWEtuVTBJdktFRzFnZ25NQkhuMnItNXAwN0Q3TEQ5UVhXbFBBeXNLZGVtZw?oc=5",
+       "source": "The PR 더피알",
+       "date": "2026-11-03T11:51:30+09:00"
       },
       {
        "title": "“이번엔 이름 말고 악당”…롯데웰푸드, ‘악당 칸쵸’ 찾기 이벤트 전개",
@@ -8888,6 +9002,12 @@
        "date": "2026-11-03T08:46:10+09:00"
       },
       {
+       "title": "롯데웰푸드 칸쵸, 이번엔 ‘악당 찾기’...스토리텔링으로 소비자 참여 확대",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SeHRUNDdnc3FqREstOFdpWjBhbC1hX0hmbXJPUTc4RTkzcDU4RlVZbVpsZERNeDRUYXlNUHMyY08zMFU5T25TSUVfc2Z2d2tjNmVIb1BOZ1FBVTRzdXJoTmxLXzBiSUlfZklrdjdR?oc=5",
+       "source": "팝콘뉴스",
+       "date": "2026-11-03T08:38:52+09:00"
+      },
+      {
        "title": "롯데웰푸드, 방한 외국인에 ‘빼빼로데이' 알린다…스트레이 키즈 협업 판촉",
        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82ZWtXdjN6OXY4Y0dTZHhCWEd5Zm1kX0p4Vi1xTXZMVWxzMXVQSkxyRGc1NDlnYmJsM0RnS1NmR052M1pSdk9RbFdOd2xXTThQYlE2U1lqN2EyMzRiOHdBWTVLdDl1WWlWaVFWeU9aUdIBc0FVX3lxTE5MZ25HUW8xNTN4Q05XLVZGWW1aTko3T0ZBX3NzRzB4M2k5TUZzLWRJT3daeTkyZWlOeVAyejRCVU1BRHJrU09GdzN0YzVSOVhndzZySzF2VkN4ai12RWZhd1NVd1dxYWJLV0JuM1NVNV9mNnM?oc=5",
        "source": "뉴스웍스",
@@ -8922,6 +9042,18 @@
        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GLTlQN1pPUldGVEdFbzNqY2pSMkljR3dnSGwtRU14Y1pndGZiODRHemJJOTFmWDhWWEpaSThSNG1YUllYbWQ2cktHMUQwM1FWQTRyTG1OaTMzdWd5VWpMZGxPZWRrUmJEenNIaQ?oc=5",
        "source": "ER 이코노믹리뷰",
        "date": "2026-11-02T15:54:07+09:00"
+      },
+      {
+       "title": "롯데웰푸드, '빼빼로 데이' 마케팅 확대…글로벌 관광객 공략·나눔 실천",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CZkxvOWt3dTIxSjVoMTNuUjFId1ZiMWIxc3k4XzNTZERHQVpCMzFZUmhOLXVUaEtZNnFiOGlid3NHUHVlNllqLUFrcEdwbzBjUVo2R2FRWl9RZHd4RENBbUhpNVFlOUcxcldQb3JB?oc=5",
+       "source": "S저널",
+       "date": "2026-11-02T15:17:11+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 빼빼로데이 마케팅 확대…도심 팝업·외국인 관광객 공략",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1eFZIdTB2V2Fsck9OZmQ1Z2ZNdjNTNmw1R2d1RGMyN3ZqMVB4OGg5cHc0MTF0N2ljTUlvam5PcW91Yk8wWVBCV1lIT2VIWndlQVdZYzlkYjZ6aU5mMW8yT051U1FnU1dkeFl3RUQxONIBb0FVX3lxTFB1eFZIdTB2V2Fsck9OZmQ1Z2ZNdjNTNmw1R2d1RGMyN3ZqMVB4OGg5cHc0MTF0N2ljTUlvam5PcW91Yk8wWVBCV1lIT2VIWndlQVdZYzlkYjZ6aU5mMW8yT051U1FnU1dkeFl3RUQxOA?oc=5",
+       "source": "더퍼블릭",
+       "date": "2026-11-02T15:11:33+09:00"
       },
       {
        "title": "롯데웰푸드, 빼빼로데이 맞아 글로벌 마케팅 전개",
@@ -9006,6 +9138,12 @@
        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MYVhicVBHS2dCU1ZibnNSbHoxclVTSHN2NGpLdDhGenJscWsyTm5vOXh1VUx4d1BsLTFaU0pMcHlrYUZoRVZBcEFFNXAxalZiZDRiMXZRNFJxQ0ZOcWtuVVFJMEFxRzBjdjZR0gFuQVVfeXFMUERlSnAyWjdjOVNkT29KdnA1Q0k1bV8zVVhUTExudFNnNFpsSGdzTnRlUWJfVTVURGVSN0R2dlhtejhXNWVRUmQ0bTRPNjgtLWFiZEdKU0d0ZmM5TVZPNUpJUk1PUXlzbXNlWEY2SVE?oc=5",
        "source": "뉴스드림",
        "date": "2026-11-02T10:48:31+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 빼빼로데이 앞두고 도심 팝업·관광지 마케팅 전개",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56TGVmd2M0bXRlOVdqckZ0NmxsSUt1WG9Pa0cyZWxRZTRoWktNZUxMVlhCamlueE1VS3BTZUxCNjk1WDltbk1Fd1NuRlJidDJtMlZtdV9LVi1JOGhlcVQ4NV9mWjh0VzlMTGpHRWF3?oc=5",
+       "source": "식품저널 foodnews",
+       "date": "2026-11-02T10:40:53+09:00"
       },
       {
        "title": "롯데웰푸드, 빼빼로데이 맞아 도심 팝업 이벤트 ‘풍성’",
@@ -9434,5 +9572,5 @@
    "months": {}
   }
  },
- "updated": "2026-11-03T21:42:38.406056+09:00"
+ "updated": "2026-11-04T10:55:39.429644+09:00"
 }
