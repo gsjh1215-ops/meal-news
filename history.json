@@ -580,8 +580,14 @@
      ]
     },
     "2026-11": {
-     "n": 33,
+     "n": 34,
      "articles": [
+      {
+       "title": "[오늘Who] 송규종 삼성물산 리조트·삼성웰스토리 경영 1년 '반쪽 성적표', 레저사업 수익성 회복 관건",
+       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OYnpCdmhjcGRua3hvaWtKbWFnYjdvYnRJc09mTU9kdVltUXFxdlV4bmhGRVFieWxfeUJyQ0RPNkRjUkRENjNxRU5nSkx5VWlkdVJmWEVRbDdYcV91SmN1dVZxeGlEV0lLSk04MjJ1RE5tZEE?oc=5",
+       "source": "비즈니스포스트",
+       "date": "2026-11-09T15:28:43+09:00"
+      },
       {
        "title": "[SIAL PARIS] 삼성웰스토리, 글로벌 확장 잰걸음…급식·식품 유통으로 영토 확대 : 네이버 블로그",
        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOTlpSUU4aHpGM1BMZXAzcHFHazRNUUNWRUN5STFTUWF5ajZ1RnhtVkVFY09hWlNDM3Awc2FyaXpOR2FoS1lvaW9pLTVBdXJKZXZkblotT2t0MUpCSFlfWVlnbGRqaFNxUDJha0ZpMmVPaXRZLTBjdFRJN3JFVVlFMDZkcng3V1hqT1lzd3JjQQ?oc=5",
@@ -788,7 +794,7 @@
    "group": "Big9",
    "months": {
     "2026-10": {
-     "n": 222,
+     "n": 223,
      "articles": [
       {
        "title": "김동선표 ‘벤슨’, 아워홈 품으로…투자 부담도 넘기기? [재계톡톡]",
@@ -1541,6 +1547,12 @@
        "date": "2026-10-20T16:01:05+09:00"
       },
       {
+       "title": "아워홈, 아동양육시설 선덕원 찾아 가을 나눔 행사",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtSXd0YnBwODBWbzBnQzlnREpoSHJhWkFRU0dYdXpSZ3Q3dUFwVkt2OGF3ejllZ1RYcEpWU2RqUXZSSGVLcHJMeUppa1NsUExfT0FaTTVyMVdham1XaUtmSGc1eE5ySnpQcUZzRUxHMllxbzE30gF0QVVfeXFMUC1Jd3RicHA4MFZvMGdDOWdESmhIcmFaQVFTR1h1elJndDd1QXBWS3Y4YXd6OWVnVFhwSlZTZGpRdlJIZUtwckx5SmlrU2xQTF9PQVpNNXIxV2FqbVdpS2ZIZzV4TnJKelBxRnNFTEcyWXFvMTc?oc=5",
+       "source": "주간한국",
+       "date": "2026-10-20T16:00:00+09:00"
+      },
+      {
        "title": "[나눔트렌드] 아워홈, 종로구 선덕원 아동들과 두 번째 ‘가을 만찬’ 外",
        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YaVpSME1MeXJkc0JNY3g2M1M4WnlXVElBb0pNVXBiQ2h3Um5ubkF1VmNqYnQ2RDQ3WkxZUjVzMGpFMU5TcjlBRkI3WUgtZEtrcWRGRzFNR1NZWndqZzJyNkljR0dGdXJHOWxMcg?oc=5",
        "source": "베이비뉴스",
@@ -2125,8 +2137,338 @@
      ]
     },
     "2026-11": {
-     "n": 39,
+     "n": 94,
      "articles": [
+      {
+       "title": "안전검사 안 받은 컨베이어 시설…아워홈, 사망사고에도 계속 썼다",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sUWpjeUZDVEpGU0lCUE1KcGZ3cm9MTFp6dFpjbzRNX3NXNHl3OHFkRF9QZG9wbExxTnZlS2xpb2Q5ekM3MHRrdTd5cHp4NmZaSllGTU5POHV2QdIBX0FVX3lxTE0wa2NteGkzYVBNem1zbkFkMklPMTlzMHBrbjY3OGprN2Mzck43VVNJSFJSRWV6VXJ4YmVrbTVTaGNUd2h4WWoxN0Nha0hUdVZteDFsRGNzQnk1bWxuejFr?oc=5",
+       "source": "경향신문",
+       "date": "2026-11-09T21:22:00+09:00"
+      },
+      {
+       "title": "아워홈, 사망사고 뒤에도 안전위반 53건…협력업체 불법파견 45명 적발",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56MHoxMWQ0a3I0TjNGRXAybzY0cXNEZm1VeGhUXzFGRVRLWEp5OURBRXJnTEk1WEVtRDk4Yy1NLVZpLTdqY1c3SDJZQ2FrRkF2U0tyNkUtMmNiNnVUdXFYX0NIaWZYT2YtWWfSAW5BVV95cUxOeUtMR29FblFiNzRpdkFDMDAwUDZRblJZdXFlZXZIQ3VUN1cxdmtjbGd5dzMxQURJTDdfZndyTG5NSzFQX1BaQjRhRjd1Q1NwR2JVUzFabmk4eXNySmkzbE9pTTg2QnBMY2VMZ2Ezdw?oc=5",
+       "source": "파이낸셜투데이",
+       "date": "2026-11-09T20:38:24+09:00"
+      },
+      {
+       "title": "‘끼임 사망’ 2명 아워홈, 산업안전 등 92건 위반…과태료 8630만원",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwcUlnR01tVXFzQzdZRWpfM19qS2tBaXNya3J5U2hRSHpCZlVCUkVFWERFempTTzItTXFraWktT19CVFpwaXFqNkhUQUZ0ZWVWZGdLN3l5MGhKc3NtTEVCeTV4TlI?oc=5",
+       "source": "한겨레",
+       "date": "2026-11-09T19:39:00+09:00"
+      },
+      {
+       "title": "두 차례나 끼임사망사고 낸 ‘아워홈’ 산재~불법파견 노동법 위반 수두룩",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ec1BBWFdwUXA5eV8yZTlCTEhkS0N0blZHNV9KbERtVHRaeDhaLTA3d080UGh1OG9PNW9hUmlSYUliS3hPcnVDYllYZTd4UWdrNVBOV0NSa1FpcEFLOUprTHlLQW5Sd2JXRmlNRGZzNA?oc=5",
+       "source": "기호일보",
+       "date": "2026-11-09T19:13:38+09:00"
+      },
+      {
+       "title": "노동자 2명 숨진 아워홈, 안전조치 미흡·불법파견 등 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsN29TdmRGLUFYMlJEQjNCaTRjQV80eG52TzFtT1l0TFRsOWJaWWhoMGpuVVBuZUtNRjJ6UTFacVpsNVNlNXpCOXhvbnh6NnZxLVZaVG43UFg3djQ?oc=5",
+       "source": "KBS 뉴스",
+       "date": "2026-11-09T18:42:00+09:00"
+      },
+      {
+       "title": "아워홈, 사망사고 뒤에도 '미검사 컨베이어' 가동…노동부 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05ZUl2RXdJZEpBWFJObHpEXzJJQTd5SkRna1l1d0o4Q2tKWVhraENhQzZ3R2VhdHhGRTV2SXFfRnZPRlBUaW9pd29jX0RMVmZJdXVoU2pBQVhEUkhDSHotUkxzZjBrZ0VSMnk0b1hyONIBc0FVX3lxTE1QN29ZcjkwSElIMzdaTkJyUjQ2WW5qbkREeEotcWtKVmREV0U1QjV4VThoS1Z2QjZNb0d0R2NBR3MyeFFwQjR4aXB3M2xxeXZSRmxrX1kyVkpJUGJmdjdMWE9mR0VWYk1MNGswb0tzbHl6aXM?oc=5",
+       "source": "뉴스웍스",
+       "date": "2026-11-09T17:38:34+09:00"
+      },
+      {
+       "title": "고용부, 아워홈 전국 9개 공장 감독…법 위반 92건 적발·과태료 8630만 원 부과",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05dUN4VVU0czNxUGdxLS0wNG5Ic2VkamFwTzN6LURWUkVBSVRTcU9XUDg1UE8tZXh5OFJEbjJUNXd5SjhEZ1RleDQxZzNCSW8xSTBPSmZXejZHNmZ0aDlHYVczWkE2alRRQW5qX1pn?oc=5",
+       "source": "알파경제",
+       "date": "2026-11-09T17:18:21+09:00"
+      },
+      {
+       "title": "노동자 2명 사망 ‘아워홈’, 불법 파견 등 92건 무더기 적발",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OeGg4blFxRzJsRHdDeFgyc1dBRTcxc3owS1RkcWdlMVQxbHZFTDkwcFNhN19hVFdMUTE2cV85ZWZWQlhjLUVlamtNXzVaTWRPZkR0VDVOZkNwVU9lTHV5QVNfcm9BOGRRYUg1NWJMcw?oc=5",
+       "source": "서울신문",
+       "date": "2026-11-09T17:12:03+09:00"
+      },
+      {
+       "title": "노동자 2명 숨진 아워홈 “안전관리 강화…무겁게 받아들여”",
+       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWlhOSFhlSVhVMHhQVTFVRmM4eUxJaEliMjk5cU01a3RIMmRmWGJ0OXhZNXFPZkdaejl0YXQzSEN5VWJYMl8yUjFCandMaG16Ql85NVA4RkZEdnBvb3F0OWNHN3FkdXJHNnpOb0U4cGlaOVFKYnhUeDlqOG5nZmtWVmtEZWpXZ9IBmgFBVV95cUxPNjNDLTJncFMzUS16NHFlLVIxVVhDMGdMUHBVYW45XzNCcDRqTTh4OGJ4bTNBMGtSS1hyMGFycW84TXljM3pxVTlQZ0pHeUl2VFhRd2I5YUpiRWN0RjFmU2lncnN2MXo5eUg1LUh0QWFKNzVBRW1vLU5OamlGYWFKeHYybjJOX1Q4NUE4aHRINmNrTjZDR1VuSzd3?oc=5",
+       "source": "Chosunbiz",
+       "date": "2026-11-09T16:46:00+09:00"
+      },
+      {
+       "title": "아워홈, 잇단 사망사고에도 안전관리 허점…법 위반 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wek13bWtrVm9VRVktbnMzZV9NOU1yTlZYdUo5dmJDdUdiemNoMXpkZE0yREIzSlNpVUxCUHg5QlpxbmdrVGpJZERtOXBaTmhVLUtUTTJnS1BhaXc3OEdVajJiODVzWXpwb3o2Tg?oc=5",
+       "source": "스페셜경제",
+       "date": "2026-11-09T16:09:42+09:00"
+      },
+      {
+       "title": "아워홈, 위반 92건·사법처리 13건·과태료 8630만원",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5iY19tTXlJT0YzZDFfTjdESm1mVXRwcy1ESXZLX3NqVW05b2l4emJyMjNTNzdRNzVRV1VRTEpaaXFUZXJpNVdLcTh4cVA1YmFtNEJjSDktQmRYaFgxSEtIQzhDeDU3ZnJ2andZNWFB?oc=5",
+       "source": "더리포트",
+       "date": "2026-11-09T15:53:50+09:00"
+      },
+      {
+       "title": "아워홈, 법 위반 92건 적발에 사과…\"안전관리 총력\" 다짐",
+       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSlQtdU9ZZDJiQkwzTXlNSVotVXNtNV9KWlpyUmZhcEhGcUVSTTZCTEpCTVpEdUs4eUoyMWxZVVZaVzl5WTllMV8waDNaVjdyRGVBVWNYZDJMNEpGOW9SSnRyX0d6aDVVVG9ZbmFhTDQzOHJvQkRXSkRiSWZwT2ZMWU9iTnBTN3UtU2JWaDA3blhZWHctb1lNQVg4MXJDNHM4QmUzUXdKNlNQcGF0QlhFX0QxcUIxNWFRN2ZNR0FETjAyajNPcC1SclJKMDY5R080ZmdFTS1ZX3pNa3g4U1hmS0l3dmIxQi1nYjJPeWlaUnAyV2o2VTZNSzROUDB1bEsxR3Rr?oc=5",
+       "source": "데일리안",
+       "date": "2026-11-09T15:49:00+09:00"
+      },
+      {
+       "title": "노동자 2명 사망 아워홈, 안전조치 미흡·불법파견 등 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VREJXdTZhUkFwdXdRN1NPWjJWTDBHYWtvYVl5bjg1T2JNNlpFOXdrVlVnYzBYVDI5TnV5VE1HTWZuODRJNkRrc3VQSTN6SFp1a2dLNFhaczhrMVVod19Xb0hBZ25MVU1fSnc?oc=5",
+       "source": "금융소비자뉴스",
+       "date": "2026-11-09T15:45:04+09:00"
+      },
+      {
+       "title": "아워홈, 노동자 2명 사망에도 안전불감증…법 위반 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OX0hoVVYxZXBOZ2RzNTdvNktGV3o2aWRlQlZrODFaVnlYbHpIY2ZCcFBOQWlYYVhzV0NfY2VaalNGTDkzV3ZLdlVRZmNVNW5pTjFKVDQ0VzNQYlFDdXltZ1A0WjU?oc=5",
+       "source": "포쓰저널",
+       "date": "2026-11-09T15:40:14+09:00"
+      },
+      {
+       "title": "‘어묵공장 연이은 사망사고’ 아워홈, 법 위반 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pajR4MTNDOWZmSFlJZkJnSVdPM1RaODFKNWg1YzFEM080c1BuUHZaeVN0UDhiZ1FyMDI2Xzc5Q2ZjbC16MjBqZEZKLWdIVlVfUEZ3b3NCd0ctZ9IBX0FVX3lxTFBZRWFlcUY4RElzMGU5S2xZN2o4dzNtMFpZZ3dodUJoMmlReHBUdVFRYlQydkt5RWhkbXpQVXJON1J5bGdhb0d4SVFPdHlOMUFsNzBXdV9BUFMxX29TenVZ?oc=5",
+       "source": "경향신문",
+       "date": "2026-11-09T15:29:00+09:00"
+      },
+      {
+       "title": "노동자 2명 숨진 아워홈, 안전·노동법 위반 92건…불법파견도 적발",
+       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtaXVRQjM3aDFDT0p6Zk1qOVB5cmtQTk5vTWNRZHpXSGNZNTJZTVRiZnE2QlJQaXpYR1pMbURPLVVBWmN0RWVZa29pVmV5U0Q3MjViOFN3?oc=5",
+       "source": "중앙일보",
+       "date": "2026-11-09T15:28:56+09:00"
+      },
+      {
+       "title": "아워홈, 안전·근로 위반 92건 적발… 노동부 '사후약방문' 감독 도마 위",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSVFN2ZmtCNDVGVzZDX3hkR1RCWHhyZ2JQSnFrLUVlSWpQWHFaaFJRU0pHdUlJNGNVczhwSTNlUzBtZ0hKaEVIaWNvaV9SN3BLbUxsNHFjQ0lNUVo4YlRkM1A1dnM2RDRrX0Zn?oc=5",
+       "source": "내외경제TV",
+       "date": "2026-11-09T15:27:43+09:00"
+      },
+      {
+       "title": "사망사고 반복된 아워홈…전 공장 점검서 법 위반 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pTGlJUzhlLTE3UWZfNVpmZWhHejhVZ2MyaHV5STUwLVc5ejZBUEdELVNMX1lPUnN5Y1hOemVVWTZGUDRqZS10eGM2QV9LR3VLYmlTWjRZeDd1WTVtazIyRGttbUQyaEx0VW84YQ?oc=5",
+       "source": "뉴시안",
+       "date": "2026-11-09T15:27:01+09:00"
+      },
+      {
+       "title": "\"2년 연속 사망사고에도 관리부실\"···노동부, 아워홈 합동감독 결과 발표",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02N0dMc1pMSGE5R2o1V2lQTjFJVGV6U3Q1Y1M5dzMySzRXbE8xOVVDNlFlbTlwWmswQ0oyaThNNFdfN2NSQUVOYmtXb3pGV0o3Wlo2ZmxmbTFCU2hDU3otbkE2NHEzcWlXNmc?oc=5",
+       "source": "뉴스웨이",
+       "date": "2026-11-09T15:26:36+09:00"
+      },
+      {
+       "title": "노동자 2명 사망한 아워홈…안전조치 미흡 등 92건 적발돼",
+       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtX3E2Zml1YndueEJaMXJJaERvUENsRVVUdlhzOHdDWnBWMjZFUjFBLXdpTHBCejRYcEdueEZ3SEo2OG11UGhKTHFfOWZVX1BLY3l3N2tFV3J5Z3plWnpEM0oyMGE?oc=5",
+       "source": "서울경제TV",
+       "date": "2026-11-09T15:22:00+09:00"
+      },
+      {
+       "title": "아워홈, 사망사고 반복에도 끼임 방지조치 미흡…법 위반 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kQ2V3eFJieUp2di1na2dEbnl2NnFjNUM4WmJSSVMyakRuYmJiVER4THp6cHJIN1phZ2R6eHItVzJWVENPd0ZKUUdmQ3htVmJpaU5EcXY2c2VmTUcybkkwenI5NDl1dmdSUWdvSHJn?oc=5",
+       "source": "아시아투데이",
+       "date": "2026-11-09T15:20:03+09:00"
+      },
+      {
+       "title": "‘끼임 사망’ 아워홈 법 위반 92건 적발… 용인공장 불법파견 확인",
+       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHak5JeFFkYkFwTEdELUQzMUE0UElVaEZfQzlPTnY4cW1EblBDUW1sSlFRTWZqM0x2c29GSUxfNlYwVTIwMTV0NHQwMFhnb01NX3p1SnppUDNISzA?oc=5",
+       "source": "경기일보",
+       "date": "2026-11-09T15:11:33+09:00"
+      },
+      {
+       "title": "고용부 점검서 92건 위반 적발…고개 숙인 아워홈 \"안전환경 조성 총력\" - 머니투데이",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05dkVfU3RfR0hBSkZJLS1oT1k2QlpLVzBVX21Na09TcTQybm1vVFpobDFQbnZ5Vk02R2NoWkJWVkZOUzlrcGU3MW1ObTU1aDdEYmtDb0RGZUx1TDVQM0QzZ3FHVXd3VXZmVnfSAW9BVV95cUxPQ3oweF9Jc1l6cFBRRS1BMGs4bTFTRmM3M0p0R01wN0d3b1FlYnhZeHc3UVJQUkxuWUllT09aUDNvU1c0c0kyYjJxSk1RcjdMSWgtS20wTWRwdk9xa25zSl9DdGVoX3ZWdGQzRjF4ODg?oc=5",
+       "source": "머니투데이",
+       "date": "2026-11-09T15:04:15+09:00"
+      },
+      {
+       "title": "'사망사고 반복' 아워홈, 안전·근로기준 관련법 92건 위반",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kMHdaZEtPaENyZHU0Y0c1MmZVYVZTTFc0MW1qYXV1cV9VMU9EX1BsYVBBWDhzcVdxR0VZME9GSXo0dEdkSnFubkpWQUhkQjZlWVowbTR1aFV4UjNXRFlEdW5vWVd4RGR0OHZWc0tn?oc=5",
+       "source": "서울이코노미뉴스",
+       "date": "2026-11-09T15:04:15+09:00"
+      },
+      {
+       "title": "'노동자 2명 사망' 아워홈, 안전검사·의무교육 미흡…법 위반만 92건",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBcno1VV9nZmhsdGVQWi1HcktpekFGZERNTFN0ZWRvWk5TdlFiZE14bnFaMmdNY1FPMjQ3TEVjU0JKdTVoWmJSbk5HN3g1bTItdk1JckgtWTZEUdIBVEFVX3lxTE9qRzFpUVBZc2xGdkhUQ24zOUJ0M19LdXFrNDFVRE90d0RzV1ZqbEFJU1dDazNYaXBVa1pkMi1Oa3gzUUhFcGtmOUtCS1AyNzI4eTd1aQ?oc=5",
+       "source": "더팩트",
+       "date": "2026-11-09T15:00:43+09:00"
+      },
+      {
+       "title": "국민밥집 '아워홈' 사망사고에도…같은 공정 근로자 교육없이 공장 돌려 - 머니투데이",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3WExfSlExcVV2a0hCMTQzMzVuSFVZa3VMamNHVEZ3akJKOWRHN0RlQTBvY2dCcGFnX1hYVFBlNFlDMHZqekRjbVZXU29jWkJFY0hDWjFBNXdQNVpVOTdtZmxQTnpyWlNSNk530gFwQVVfeXFMTktMOFI0S29jV01vTHQ5UVcwdDNMTVFKSkM2QWoyckNQZ0RPS20yVnliWmkwNVFnZ0JBVWtHV0FnS0dBQ0lzMnp2aFpWYVdkVXZFckR5Y3RsMkJYbEZ3cVJMMkxvUG9MY0ZqdzJ4VlhIRA?oc=5",
+       "source": "머니투데이",
+       "date": "2026-11-09T14:59:25+09:00"
+      },
+      {
+       "title": "근로자 2명 사망 아워홈, 안전조치 미흡·불법파견 등 규정위반 92건 무더기 적발",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3U3RvQTBPclhvRWVSQTI3aHlycVhpZll1Rzg5WktmOFVtSWkwRDRsMUNJeDBzamlVVjlnelh3Qzh4N2JHVlhDbUNwY1F3T1NXLXpOMHFUNk44MFc4UXNxX3hYUnh6VnlwazZKQg?oc=5",
+       "source": "생생비즈플러스",
+       "date": "2026-11-09T14:53:00+09:00"
+      },
+      {
+       "title": "2년 연속 사망사고 잇따른 아워홈, 법 위반 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CclNxNG9oR2M1dndBRkZ4TGg3RkwtMlM1Q0FFci1raERNUEhXUzFlSDdQODdGcXg5cnJVUmc0RUJsVkN2dC0tNnlDMDBJTFJu?oc=5",
+       "source": "cpbc News",
+       "date": "2026-11-09T14:33:00+09:00"
+      },
+      {
+       "title": "'노동자 2명 사망' 아워홈, 노동부 감독서 안전조치 미흡 등 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0Q0dERzVKTDBFWHFUSXlDMUtvX3h0WWdDczg3ZWVzMFo2d18tUFpFQlp4QVBlQWNNbEZHaFRtZXRDUUsyOVV1ZG92cVFHOW54Zk9KQThTekp6N1VVRFhROHRtdWh1a1lVamZmMXpnTDRJM3piYXBR0gF3QVVfeXFMTlFWaVUzdVppUGZIWHlZRjlkekp0eThqRk0xVndQUjR4b0FkUVluZnFySGJ3QjZnbC1MWDRnaXNNWGhSZ09sMTFDbERHOGZuLWdOaUJDbjJTWlROVW16cjFjT1QyM1lWRHhZUG9sTkVpcVBIajFLYlU?oc=5",
+       "source": "MBC 뉴스",
+       "date": "2026-11-09T14:32:27+09:00"
+      },
+      {
+       "title": "노동자 사망사고 잇따른 아워홈···안전검사 누락·불법파견 적발",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91VFhKRW1ab1R4RXRhRVVUcUI1cjdpT0ItRmo0ZHFnUVBjbUhwSGRVMEdKLVFyWjBTMGtOTlFpUm1VcDhsQ2hCSkFpT2g2ODJtTFJLTFI5LTZMc2JfdkE5am1leFh3QTJRWUE?oc=5",
+       "source": "서울파이낸스",
+       "date": "2026-11-09T14:30:38+09:00"
+      },
+      {
+       "title": "사망사고 잇단 아워홈…산안법 등 92건 위반",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NMEV5QUVGZ1kwaW8zZWpJSUJIV0gydEt2SFRvdkhGRXRVRFBxSkVwT1F0WkJmVWp0Qnl4Zl9UYVZERG1lT3BMQlNYa1dhQVNLVzBKdTFKd1NKQQ?oc=5",
+       "source": "브릿지경제",
+       "date": "2026-11-09T14:27:00+09:00"
+      },
+      {
+       "title": "아워홈, 법 위반 92건 적발에 \"무겁게 받아들여…안전관리 강화\"(종합)",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EN0xSMWF2SmtnN29COWg4MVZ2TEVFTzJvakVhWUYtTmYtcHNqM1hJUU1TUXVDX00zbWh5bFNEa2xKdW1SNTNheWdrcTIxVHhTRTRIOW9xWHRqV2pGUVZn?oc=5",
+       "source": "뉴스1",
+       "date": "2026-11-09T14:22:18+09:00"
+      },
+      {
+       "title": "아워홈 공장서 사망사고 2건…들춰보니 법 위반 92건",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aemRaUW9QQnhfdWNyM19aMElfb3liRUh6SGxzVUFQVTRnWlg4SXZCZ2t5MjNMWndKOFo3VDQtb2RvTWZtY1doa25jUDFDUGQ2MXhlX3lwNUhWWlFzODloeHpTYmVpT3Z2SDVFbEYxVdIBc0FVX3lxTFBpcmNxVkVRYVh0REt5TXNOREtpT01NeXFQWVRzZkJRQVhQSUxQZEFDaFI1QjdIMC1YUUN4b1hjTjFIOG9WNWxYV0wzMGJjS3BDRUoxajJLSkVwQ3BNeDdyb081Z3o3N3JOM1NYZGY3a2tVYVE?oc=5",
+       "source": "시사저널",
+       "date": "2026-11-09T14:19:06+09:00"
+      },
+      {
+       "title": "노동자 2명 끼어 숨졌는데…한화M&S 아워홈, 안전불감증 위반 92건 쏟아졌다",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VVnVyRnNtM3VwZVRDcjVzNUxUVWp2REFmSnVMM0RlZlVCUXRGWjE1azVCemNUQV9JZ1N2blJRTWtyNWE5Z0lhNW1fZEtONG95WThqRG0xcVU0ZjBtTnBrM2FvUjhYbU5hM3VXV3lSaHJRemRs?oc=5",
+       "source": "파이낸셜포스트",
+       "date": "2026-11-09T14:14:47+09:00"
+      },
+      {
+       "title": "두 번의 사망사고에도 안전조치 미흡…아워홈, 법 위반 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42N3NOU2d2d2pHb1JwSTdvZVVHempRbHhiMG5hdkZDRkVjXzBTV2h5V2h4and2amtMOWVfREJ5LUU4UUpTSG5SWllPb19rWllBTzFoZy05RkFfYV9NRFM4bGtHM2oxOHlVWXgySUNSMl9KVjFpSlpmU3ZIOEZTQQ?oc=5",
+       "source": "www.thepowernews.co.kr",
+       "date": "2026-11-09T13:55:17+09:00"
+      },
+      {
+       "title": "한화 아워홈, 연이은 사망 사고로 드러난 충격적 안전 위반 실태",
+       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ubVRDdGp5b2JhN2hHMFExdjVLZTdGekNQc0xpTGJ1aHlvcXJ6ZUowX05lbk50VWk1MV8xS3l0enlVcUNrb0FKMVpqZVJ3VDVmeWFhSWgyRHVLRUJsMWF5bUdHbDVxckhB?oc=5",
+       "source": "공감신문",
+       "date": "2026-11-09T13:51:27+09:00"
+      },
+      {
+       "title": "사망사고 반복된 아워홈, 안전법규 위반 53건 적발",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYVWwzRTQ3aTBzdld2YmF0OVd1VDBjS0ZXNVppMDBBOFMwQ0NvMl9ZVEVGaU1leU95NWlPYUJ5RXRDdWpFbU9TanF2VUFJdlQ1NU1vMlFDOXpQaXNma21wSFhYUkoyVzJtYldBVTM5bFg?oc=5",
+       "source": "안전신문",
+       "date": "2026-11-09T13:40:29+09:00"
+      },
+      {
+       "title": "'안전불감증' 아워홈, 사망사고 뒤 미검사 컨베이어 버젓이 가동",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1JQjRLU1BPekdZQnREdFlBdHhYRHBVTm9Oamp2eHV6bDJYMzdtTWlaZU80WXNWa00xTExDdmlCQUJqUGJnTmxjRWZWMElGWWtyX3h3RWlxTFhLbjUtR2djQV9NOEhjbkdrWF9MRUNzZ9IBc0FVX3lxTE9fTHJJZTloM2p2d010VzR5NDNuUUF4ZXpsNGVPUjlxMERFNm1YYkxCRmUwZGx6Vl9xMzFRcEdBQ3JJNTZPYVdQa1l6VkFtR0pndnNoSmo2YlZKQlprWUR2a0FTbnhtd0NOY3VDZS14bTFLUW8?oc=5",
+       "source": "세이프타임즈",
+       "date": "2026-11-09T13:36:40+09:00"
+      },
+      {
+       "title": "노동자 잇단 사망 아워홈, 안전조치 미흡·불법파견 등 92건 무더기 적발",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NY3V0Yk5JdUswZzVKMGNIZjJwbWxmQzZHMmc4cE1JZ0pNcWVQUGVsamdITnNwWlpSc3VjMEljb19abXFwWDNPQWFpUUZpVld2d29FNE96Njh1VHZVOEt5RlJ4a2lNSEJBcW9CMWFIZEc?oc=5",
+       "source": "비즈중앙",
+       "date": "2026-11-09T13:36:10+09:00"
+      },
+      {
+       "title": "노동자 2명 목숨 잃었는데…아워홈, 법 위반 92건·과태료 8630만원",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yRmRVaEI4dWRDMDlYVmZaSFJ3WHI4dnVnSWw0VW1nbG1yQUFBRDhmMEw1cjNyUTBfRmFnREc4Z084bXVmRFZSdUMyaWtBOXh1Nkk2bk1WTkdlb0E2R20zVFFGMTNWQzBPS1ZBag?oc=5",
+       "source": "위클리서울",
+       "date": "2026-11-09T13:34:09+09:00"
+      },
+      {
+       "title": "아워홈 노동자 2명 숨진 뒤에도 안전검사 없는 컨베이어 가동…9개 공장서 위반 92건",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LZXJod1hkQVdwRXF4WDViQ19xbXVZUTJMb2JyeThPUlI1TVdXQU9LckhvOHpGdHZLWDh1MWZvWXhfRWlnaUhNTFdzVGxodnRfNnQ4ekVDU04waXJVN0RRZ1dJRVcwajNia0E?oc=5",
+       "source": "OBC 뉴스",
+       "date": "2026-11-09T12:43:52+09:00"
+      },
+      {
+       "title": "1년 새 사망사고 2건 '아워홈', 제조공장 합동감독서 안전 위반·불법파견 무더기 적발",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85OWhwTExpdW9OalI4em1uZmRYTGQ0d3RWbUVubk5sMERENDRMWUZvVlRZeTloUDh5RHJfYTRRU1pMVzExOVF4Qm5GOHo0anZtNDVLVXhsNXEwTTBvNmYxekoxZGZwR2Z4Qk5UeQ?oc=5",
+       "source": "베이비뉴스",
+       "date": "2026-11-09T12:38:56+09:00"
+      },
+      {
+       "title": "아워홈·협력업체 법 위반 92건...사망사고 후에도 미검사 컨베이어 사용",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pT1lZT0t6Q0xsY3pBLXVjVjlfcTdjTlRVZ0xCOWtaaTVXNkotcWhJQklZMURTbW1YenRTMnMwZDVXNDB6Y0ZacExnUTZmSkw1cEtVUENDVmEwTkFyVnRRRUFIZWFJc28?oc=5",
+       "source": "안전저널",
+       "date": "2026-11-09T12:34:21+09:00"
+      },
+      {
+       "title": "아워홈 안전위반·불법파견 92건 적발…13건 송치 : 사회",
+       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwcS1CeUQxMHg2RlBhVlZjZWZaZHhMZEx5QVg5dDg4NFBsZDNFb0JIYWJmdnoySEdFMVRieGh4T3B0dUdqVmplUG4zUQ?oc=5",
+       "source": "재경일보",
+       "date": "2026-11-09T12:15:35+09:00"
+      },
+      {
+       "title": "노동부, 아워홈 법 위반 92건 적발…과태료 8600만원 부과",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcVl4UGN4bXpXT1UzTlNMWFl0a0JjeVc3OVpxTGlRV3lFdk0zcXV4SVhRcHVvUG96OWpXUFB2d0xzaTMtUm95ZXFOQmd5bWl2a1RHMHpyMGVuZk0tUTFvTk5ld0hrUmFDOHhlcnVQb0p3Vk1vRGgyZXhwckVVQkt1aXVUQm9WOU51R0HSAZ4BQVVfeXFMTTM1LVBwU0Ftd1dhVDJoQkczTTRMQ25HMlhmMXVhTHByR2t3OTV3NUU5aXR3TWMtNHRqYkhoWkZUR3dqNVV1MGtqd3NIeHNQMUtpdHZ4Z2ZRMTM4a2c0OV9GNnM1S2Zpb0V6ZXBHT0ZMNkcyWmNFZVZTUzRDYnRfcm9tb1dsSnVvYlhaU2hnUjRyUTF2UFBTRkNkaFBiTlE?oc=5",
+       "source": "Chosunbiz",
+       "date": "2026-11-09T12:03:33+09:00"
+      },
+      {
+       "title": "잇달아 중대재해 발생한 아워홈에 노동부 철퇴…13건 사법처리",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRWC04R1dMUmJiNnozQy1oY1FsMy0zVk81Zm02WjQ3bElwbWFuYVZ3RE5xQjNGTmJTOHBQZ3ZIdWh6dXFNTWQ2RGhueGdCcmhCZ3Y0dldHbGvSAVRBVV95cUxQbk16OFpmdHVEOHRmWVI0c2dwckxfNnA0dGc5dDZyQ0tuNUpWRHh4LXJkZDRxTWtMWHpNY0kzdlVZamhXdjZ1NnNIcWhpczlrQ0tYcEE?oc=5",
+       "source": "세계일보",
+       "date": "2026-11-09T12:01:00+09:00"
+      },
+      {
+       "title": "사망사고 이후에도…아워홈, 안전검사 안받은 컨베이어 썼다",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMjNzaUJxZnJqbmdTazFQa1c0UHhSU1VMa3lmR0NFR1BqZ3NuUHJWdTYtNWduSXBPUkc1bnRMdmhOU2trajlLd2VBN0NzdlQzcWE4eVliX0NmYTFPRENrYm01MzUzdjRFOXVmQ0U4M25BT1o0eDEtM3kyYzd1eGYybA?oc=5",
+       "source": "이데일리",
+       "date": "2026-11-09T12:00:11+09:00"
+      },
+      {
+       "title": "아워홈, 산업안전·근로 92건 위반…\"한화그룹 최고경영진이 책임감 느껴야\"",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02WmI5SmtJSHdMZzE2Skp5REpubmdJSzh6WVIwcDJRbUVIc3BvTUxYcXNPMThCbHZEeHdtNEcyYUJ5S1RrWEdVM0s5LUJqYXVIam1xTTE3OUU5UmxFbUdZVGQzX0ptVnc?oc=5",
+       "source": "연합뉴스TV",
+       "date": "2026-11-09T12:00:00+09:00"
+      },
+      {
+       "title": "아워홈, 사망사고 뒤에도 미검사 컨베이어 사용…노동부 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrUld0ektESjNCcEUwVTVlcEd1MGxKZ3ZsNmJ6UlF3Ql9DNDNEdDZteHRZV0FVQmgzaDZpMHQwWlg5SGhvN0FiNEVUUDhUVk8wMWNhcm01NU5DY2JRSXJDY1YyYw?oc=5",
+       "source": "뉴스1",
+       "date": "2026-11-09T12:00:00+09:00"
+      },
+      {
+       "title": "'2년 연속 사망' 아워홈, 안전조치 구멍에 불법파견까지",
+       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrMGthaVNBcjN2SWRTd1dWYzU3Z3Q4cUFnREwtcmptRm1ibXM0QWNRbHJxbC1IcXJBek96ckpwMXRwS2J1anhjMHNSYVFFNnJzV2c?oc=5",
+       "source": "노컷뉴스",
+       "date": "2026-11-09T12:00:00+09:00"
+      },
+      {
+       "title": "잇단 사망사고에도 위험한 컨베이어 그대로…아워홈 법 위반 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNQnhOWVdWOV9WRFdxYWFmSFhCQnl6ODhkQ3d4ekk5aV85ang5WnRsY2pkdHJxMFlZLTVuQlV5UG9HbThLRERGcDQ2SVJRdzYyMnlJZlYwQTVwMDJoQ2RRamo5ajhGSnJkLUl3anNCbUpEWmpGSUFlYlZvOGl4RHBURnFfQVJjTVNfOU1uelRXM2oxdEM4U0NqcVgwT3VHcFV5b0lWMjRXcGJGNUZmbS1MSlhtaFVOdHBTdEJMQTV3blYxd3NzRV8ta2pCal9Qc1F4ZU5zZHY5X1JKV3EtSV9KOXBlbHhxdjFCUEVOS1FtdW5NbUlNV1Uyd2E1eFlEcnNFTUlkNnVxeWxKME82MEdyU2I5R1p1aEgzQmpCb2hRb3J0S0k?oc=5",
+       "source": "데일리안",
+       "date": "2026-11-09T12:00:00+09:00"
+      },
+      {
+       "title": "'끼임 사망'에도 미검사 장비 그대로…아워홈, 법 위반 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2Umo4UDVveXZ6c3c2bWV0bDlIdEY1MTdOVUZCREhjdkFFTUgyenV4MlNwYW9DaG1YQ0lETXlULThkeFBqdjFOWkRKSk5qbVFSYTRYVnRxMlNjS1U4OUNuM9IBeEFVX3lxTE9RemdZcVk1b1hKeE43NkpYLVZzVFJUU1owTjR5MkV2TXBxaENuS0NsS0JyeEx4NkZsdkxwWnBSWHpsQ1ZHOFRLMmtHYy04QUNEbFhoNUdlNFpFcV95WFJqRjVRbzNJUklWWDNjOGxQQkxlVTg2cDNTeQ?oc=5",
+       "source": "뉴시스",
+       "date": "2026-11-09T12:00:00+09:00"
+      },
+      {
+       "title": "'2연속 끼임 사망' 뒤에도… 아워홈, 검사 안 받은 컨베이어 계속 돌렸다",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9JalZyVDM3TEIxTjh5RDVKUXlfUHlVZVZHTjV2cnpFMFdsUjMxbDFXU2xKdGJHNngwaHI4MDNxY09UV3VLV3JBNzJteFRpYkdYU09CeHVIU1BoaVZ1X1JMaUhtTzQzS2o0eXVTTXp30gFzQVVfeXFMUGZPZDJlcEVpcDlYUzU4dExLRjNiZG9abWFhcFJhV1hkbFZkUVJsNnRjaVE1NzJyNlZFeXRCNWlzVmhDal9vM1AtaGY0MVF3V3RsM0lhNW5USkNna3YtRHdvWjdxU01OOE5panM5NzVuYlktUQ?oc=5",
+       "source": "한국일보",
+       "date": "2026-11-09T12:00:00+09:00"
+      },
+      {
+       "title": "'잇단 사망사고' 아워홈⋯노동부, 안전 위반·불법파견 등 92건 무더기 적발",
+       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85UDNSS3h3ZFFFNHFOQXRLRGM0LUpjVERKWXFTTl9yY3otZ0loVjBET3g3U2hVNElDR3dvWVdNSTNEYUpzMEtqa0dxMm5ZOW82N0dhNg?oc=5",
+       "source": "이투데이",
+       "date": "2026-11-09T12:00:00+09:00"
+      },
+      {
+       "title": "아워홈, 사망사고 반복에도 안전 관리 ‘엉망’... 법 위반 92건 적발",
+       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52amdkMjRqLXNlVlRuQVlvMkQ2RXd2Uzl6Q2FZLVhPcmw3Q2k5djZfOWhuMEZUSFlLNUJmSC1rOGd6VmFFNUlJUjZ0ZWtrc2V2MXJQNENYOW5kZjZQNXZlT1lGcXdZMElxU2c?oc=5",
+       "source": "한국재난뉴스",
+       "date": "2026-11-09T11:13:07+09:00"
+      },
       {
        "title": "“고물가 시대 든든한 한 끼 제안”…아워홈, 1.5배 더 커진 ‘온더고 프라임 바이트’ 5종 출시",
        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBGYjk0NHJWOEtfQURaN0NUWlozZ25FelpLUEROM2hqNkZIZUdDOEpyQUYzYXFFcC1hOGltZUxoYnhMVklaZTRHZ1M3NW5RUmQxclBScUwxS0ZaWEZrdkpRN0ZrbE5HVVFhcVpV0gFvQVVfeXFMT2dsbTh2MDJLZVpWbkVhOUlXUE1COVltTklZQzBUaWJkMl9TdTFkdFJFTW53TVNad2hmcW8zMmJjVTNSSmZvWm5sWTczS2JISmJqS015aWppbzREVXdXOUlDdzhVZGpOLURYX0djNUpB?oc=5",
@@ -3928,13 +4270,19 @@
      ]
     },
     "2026-11": {
-     "n": 94,
+     "n": 95,
      "articles": [
       {
        "title": "[오늘의 IR] 두산ㆍ현대글로비스ㆍCJ프레시웨이 등",
        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KSnNJaEg0cm9pSGQ3azAyT3VSWnprTGxpWWR5Rk9PU1duWmpkMFF4bzd2dTFfaU15QjVuSC1qUFB2NFg1a04wX1FuQ3NDYk5kOE5oRg?oc=5",
        "source": "이투데이",
        "date": "2026-11-09T08:05:00+09:00"
+      },
+      {
+       "title": "CJ프레시웨이, 식봄 앞세워 온라인 식자재 유통 확대",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVnRybmhvUUVGVmFiNVRITWtWRUo4a2t1TTU3UGhVb0dtcGRPU2dCQmM0ZjNWd1djQTdKbVNGdTl5b3pmYl9ldGo1b2dJSU1Db05XanhOY0FZc1dZd3otV0pxaU4zZW54ZW1OZkRuZWExdVRadHZtcm5TUGdsUUE4SA?oc=5",
+       "source": "네이버 프리미엄콘텐츠",
+       "date": "2026-11-09T06:50:00+09:00"
       },
       {
        "title": "CJ프레시웨이, 9~10일 국내 기관투자자 면담",
@@ -7105,13 +7453,109 @@
      ]
     },
     "2026-11": {
-     "n": 75,
+     "n": 92,
      "articles": [
+      {
+       "title": "현대그린푸드, 함소아제약·뉴트리센스 특수의료용도식품 유통",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjbEppbjZ0QmxmRDZ3UGdUWldzSHlXZ00xXzViRmRfVFdKUWYzNmJ3RkJqcUdYazV2OUZJUUdBUUFrQ09fSWRlVWQ2b2pESTEtYVVncnlVM1ZBWFRzZk5JUU84ZHQ1WTBMRGNXb21qVFA?oc=5",
+       "source": "코리아리포트",
+       "date": "2026-11-09T18:58:27+09:00"
+      },
+      {
+       "title": "현대그린푸드, 함소아제약과 맞손…‘마시는 의료용식품’ 유통 확대",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xNEZSRkpzVHpPN1gxWlZpRnRjSnpwbVo2TDh4RlF2a0hPX1l1cWdyUHprZHVNdEJxVjhDTndrZlVKa29jTUFlVWFJcjA1R0NuR250MXk2LXVMXzhVVmRLcldySlZ3YmJHaTZF0gFvQVVfeXFMTkZZWjhaeEdHNjdTODZZMmhxcFRJWlg0UF9SVzhLT2ZJMTEwb3NSX0k4UVVQckd5NmF4YUhSdU1xbTR1NTd4YkpoTGNXTi1OOERZY3E3RmRDM1ZjNjZXUTdEVDRXT2dfNHBVaC1rVS1J?oc=5",
+       "source": "더퍼블릭",
+       "date": "2026-11-09T18:37:22+09:00"
+      },
+      {
+       "title": "현대그린푸드, 음료형 특수의료용도식품 韓 유통 담당",
+       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Ca0tqalE3YWtPMndrRUlRSUVtT0Q2eUlmTkhFODRLX29qR3UzY25PUHhXRXBsSHZROGFwa2NHQTVpTjc5c2Nka0NsdzNjWGNhd19lMGRaeEVwUlVpRDgtVEZlOWc4Z09ZWWVMNQ?oc=5",
+       "source": "ER 이코노믹리뷰",
+       "date": "2026-11-09T18:36:03+09:00"
+      },
+      {
+       "title": "현대그린푸드, 함소아제약 음료형 특수의료용도식품 국내 유통 맡는다",
+       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8waWVaZWxFWDZPVWdwNDJNa2xZNTljbGVWNThOQnBiMWg2T2VlNXFqWFRQSlREU2RLdFJrZWl6bnhCUm8tRnU0NWFCQ0c4RXJFM21JSVN1MzdpYjA5VTFQa3lEbUpYSmxU?oc=5",
+       "source": "데일리팝",
+       "date": "2026-11-09T17:16:00+09:00"
+      },
+      {
+       "title": "[유통 브리핑] 하이트진로, 현대그린푸드, 아모레퍼시픽",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOYXBzbWxnYjdfc0FETVpZbzliZ0R4N1VuMmNxSVdFRXdWazF2WHE3bV9mQjNocjhBYzhyMjVzd0dybl9WcWFKdWdfMzYzcmhMTTNxMkZIbW1NcnlIRUJOd0JkUVBJZ1R6ZldFRlpKSzg?oc=5",
+       "source": "신아일보",
+       "date": "2026-11-09T17:07:17+09:00"
+      },
+      {
+       "title": "현대그린푸드, 프랑스 ‘뉴트리센스’와 맞손…메디푸드 유통 총괄",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtN0hwRmVLVk1rWVJLNHZXN0pia3pWTVNoN0h4eUN1OU5JZ1J0cVVMbkxlM3g2WGdlNVd4SWFuLUJDUDFRVEhHMk9JVFZHOE5RaERfWC1MenZ2QmduR3Itbm1FUkp1Zl92c2dF?oc=5",
+       "source": "CNB뉴스",
+       "date": "2026-11-09T15:23:03+09:00"
+      },
+      {
+       "title": "현대그린푸드, 함소아제약·프랑스 뉴트리센스 개발 음료형 케어푸드 유통",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YSUZacjg3WWhSNjFfV0V3bHlGUnVmYkZGTFEteHZXdlZycWdVdWpVT1M4WGNfSi0yRXMxY0tLSFVhS3VtY3cwb1g3eHBaQTl0WUlDR042bF9uSVdTbDRib3M4cjBkSGlrcm9QSVhvdExDOGV20gF0QVVfeXFMT1hJRlpyODdZaFI2MV9XRXdseUZSdWZiRkZMUS14dld2VnJxZ1V1alVPUzhYY19KLTJFczFjS0tIVWFLdW1jdzBvWDd4cFpBOXRZSUNHTjZsX25JV1NsNGJvczhyMGRIaWtyb1BJWG90TEM4ZXY?oc=5",
+       "source": "주간한국",
+       "date": "2026-11-09T15:19:09+09:00"
+      },
+      {
+       "title": "현대그린푸드, 케어푸드 음료형 제품 유통 나선다",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GRXpyVVVsVkNxcEFLb01ZZE1yS1VkMk93M3J6Z3kzN0lFc19zNGVUcmpjVTRrYWloNGY2Rl9oUU50UEd1X25YQWlYNzBsb09DYkZqVkJSYXZJV3N3RE8yVEVDc1doQUhYWHM4aUlYZ3JnZm9n?oc=5",
+       "source": "파이낸셜포스트",
+       "date": "2026-11-09T15:17:19+09:00"
+      },
+      {
+       "title": "현대그린푸드, 함소아제약 음료형 특수의료식품 유통",
+       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBEd1JrV1RISTQwM2h1eW1lUGQ2MXJmR2I2STVYVkp6dXFoQ1RxSGtsN00weHdFRGhiME90bVNzbnZyR1pnbWszWmdOa1pxS282U2RJWW5qN3kzNG5nQ1NScEVIYjdCdw?oc=5",
+       "source": "비건뉴스",
+       "date": "2026-11-09T14:16:32+09:00"
+      },
+      {
+       "title": "현대그린푸드, 음료형 특수의료용도식품 유통 확대…케어푸드 사업 강화",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16alp0RFlvN1RCcE03QUZha3JlTEwzR2p6eFktMGNPSXpWUWRacG9Sa2FDcnVEdU1KQTNtZkFOUGdZb0NGVTdzTlBnQ1k5RTM5X1ItNVhmWkhlUjU2X1lOUHFZTkkyOU5TZUlfMXllZw?oc=5",
+       "source": "이코노미사이언스",
+       "date": "2026-11-09T13:42:44+09:00"
+      },
+      {
+       "title": "현대그린푸드, 특수의료용도식품 음료형 제품 유통 확대",
+       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0yM2g0RUxKZ0wxSmR2UGh5SDlld3FlUUdsZEh5VDAxSTRFV1FCWUhNNWNYVU1Ja1ZtMGdkWVV0M2NYeHBjQzJlSFVMbjZScW9rUldrYzMyS003S2hLbEhWNExidWpYdEJHaGZSbkpOd1ZOYjktVUdIMFJ3?oc=5",
+       "source": "로이슈",
+       "date": "2026-11-09T13:04:16+09:00"
+      },
+      {
+       "title": "현대그린푸드 \"만성질환자용 전문 케어푸드 특수의료용도식품 라인업 음료형까지 확대\"",
+       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwTlFUVGp5amZ3QVB2SDlPNXRhRGpqalM1UFludi10LURrYzhjTFltRUFxX3JKTVVMVEw1ZVF2ZllPRFhxZ2JfQVNqTWVEY0dKM0hhazRyY1FsMTFnTEp3YkZKVGVxaE8w?oc=5",
+       "source": "한국NGO신문",
+       "date": "2026-11-09T12:21:43+09:00"
+      },
+      {
+       "title": "현대그린푸드, 케어푸드 사업 확대···음료형 제품 유통",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHZmtOeVhkU2JoaVRXc2R1d3F4Zl9OTlkwa2U3a19kY0pwQk9fWlBHZ2JJX1hCSHhtdjZrWUtsNEVVczkyR1FoUVp1SVJKcjk5bjhJRmNlYzA0Y0FCY0dWZ2RRNDVBUlnSAWtBVV95cUxQSWJUeHFFdzNNcTJaU2tCTXQ1RmdUUkpYcmxKQmhETUdNZk0ySUhDQWFCMmpNNE1lYlFxVXRvZzc1eW5lTFBrZWgwQmVmV2hzQl9DZFBiYlA4UWtCT2dId3dqZHhpRkxSYUhiTQ?oc=5",
+       "source": "현대경제신문",
+       "date": "2026-11-09T11:22:52+09:00"
+      },
+      {
+       "title": "현대그린푸드, 케어푸드 제품군 확대..음료형 특수의료용도식품 유통",
+       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtWFA1ajRZcWpkTHBQeTAtVXRxcDY2WlZ4VzR2RFQxTHNSV0FTVkJTekZEWWVBU3NpUlV3RXNoTFdOYllaaERNRmtLMENya3J0R2c?oc=5",
+       "source": "한국정경신문",
+       "date": "2026-11-09T11:14:58+09:00"
+      },
+      {
+       "title": "현대그린푸드, ‘함소아제약-佛뉴트리센스’ 특수의료용도식품 유통한다",
+       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxZWRtRjZvY0lXdDc4THlPT0U3dkJLXy1jWmdxMWxzaFc5dENiNWpKMGFWS2Y4UndEN3NSWHQ1MFAwNlBxMEZ5bERiV0dfdDlsSk9CRUtn?oc=5",
+       "source": "헤럴드경제",
+       "date": "2026-11-09T10:36:27+09:00"
+      },
       {
        "title": "현대그린푸드, 프랑스 메디컬푸드 손잡고 음료형 케어푸드 유통",
        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10VXY0Z0oxMTNUd3J5YWc4Z1lyeC1ITFhpRWFoQk9GN3c0YUdsSjZWVUFKUGlYbk9mNi1nckVPT1VPM1RDNlQwamh4eVdjVWhqNlZYdEJCUVRQdERuZllMTk01R1p5cDIwamp3TElfbzA2QQ?oc=5",
        "source": "중앙이코노미뉴스",
        "date": "2026-11-09T10:00:00+09:00"
+      },
+      {
+       "title": "현대그린푸드, 케어푸드 사업 확대…음료형 특수의료용도식품 유통",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LcnVjRk5sb1kwQUZkT01HQXpDc3l3dXQ1SExFU2RLaWhyZ1ZlMnVrcnozeTYtdF9jMnZiUVB1N1BsanZPTEpvbWlqTFJjd1VHV25fVDNUazMtcXNaZTk3ZHdSaG1RcjNZeG55bjcxRk4?oc=5",
+       "source": "스마트경제",
+       "date": "2026-11-09T09:55:19+09:00"
       },
       {
        "title": "현대그린푸드, 프랑스 기술로 만든 ‘마시는 메디컬푸드’ 국내 유통",
@@ -7130,6 +7574,12 @@
        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83cGh5V3AxR2ZSMnJsUDloLTVnRjF0WGZDbTRNTlpfX0dsTUNJbWZERUdheGR3NUxwV0c3RXRtMzBvZ216YWlKQlNQdEJwV3lhRnVwSnEwbzc2dEhpM3pHMW1kUEVjTWtQLV84X1BOc3hMZnlW?oc=5",
        "source": "연합뉴스 한민족센터",
        "date": "2026-11-09T09:29:28+09:00"
+      },
+      {
+       "title": "현대그린푸드, 케어푸드 사업 확장 … '음료형 의료식' 시장 진출",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcHBDUnZzN1VIWWdkUVdyMUs3a1FJYU91cFJ1c1MxYjY5ekprTGtLVXg3SURfdm9ZbjJNbUNxaDFReGFjQWljaWdEQlMxWGRqWFJpLWFfZ0xMYnIzenhsQ1UycDV5OEl2Q1duRHV5YzVDLWVxNnRPUzhwR2tidzl5ddIBgAFBVV95cUxPcHBDUnZzN1VIWWdkUVdyMUs3a1FJYU91cFJ1c1MxYjY5ekprTGtLVXg3SURfdm9ZbjJNbUNxaDFReGFjQWljaWdEQlMxWGRqWFJpLWFfZ0xMYnIzenhsQ1UycDV5OEl2Q1duRHV5YzVDLWVxNnRPUzhwR2tidzl5dQ?oc=5",
+       "source": "뉴데일리",
+       "date": "2026-11-09T09:28:00+09:00"
       },
       {
        "title": "[똑똑한한끼] 현대그린푸드, 국순당, 풀무원, 남양유업, 삼양라운드스퀘어, 이금기, 하이트진로, 하림, 프링글스",
@@ -7565,7 +8015,7 @@
    "group": "FD Big3",
    "months": {
     "2026-10": {
-     "n": 444,
+     "n": 445,
      "articles": [
       {
        "title": "FIFTY FIFTYコミュニティの投稿 - 롯데웰푸드 꿈의 파티시에 보러가",
@@ -9608,6 +10058,12 @@
        "date": "2026-10-12T16:09:12+09:00"
       },
       {
+       "title": "“내 손안의 작은 시집” 롯데웰푸드, 시 구절 담은 롯데껌 4종 한정 판매",
+       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2WDViWVhCcTFTZEdoWDJtSHF1bWR0STltVHMzUlBvd05IQ2Z0VFdBUmJZZW1ESWd1MXkzTGwwNkRvVndOOTVKQ1VoUHViVTVyeEFPSEQtWl9MNnlfOG1QTU9VWmdvQQ?oc=5",
+       "source": "푸드투데이",
+       "date": "2026-10-12T16:00:00+09:00"
+      },
+      {
        "title": "롯데웰푸드, 껌과 시집의 조화 ‘텍스트힙’ 겨냥 패키지 출시",
        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1oOXBVbHdEUU01cVY0c0p4YmViNml5TmpyUVp3VDQxMkEzZlJzVmNlZEJwR2hKVzU4MlRDd2FsWjNaWElhZ0RzNTZkQVA4XzViU0dOa2lWcWdOV21wWmNHLUFoUWt4eDJ6MGRMMUIwc2Z1N255?oc=5",
        "source": "파이낸셜포스트",
@@ -10234,8 +10690,14 @@
      ]
     },
     "2026-11": {
-     "n": 125,
+     "n": 133,
      "articles": [
+      {
+       "title": "칸쵸 속 가짜 캐릭터는 누구…롯데웰푸드, 악당 찾기 이벤트",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lSHFwdENmaW14WHJQdjM2Q3NpZ2t2TTZtS0ZBYjJhVDZlNG1ram90ay14QmRNUzlSNEtSR0w2bl9tb0dwQlNJSkV6aEwwTHpIWXhHNzdCTDJjTzh4ZVNZTUFGVjI0MkpoUndDX09QYTM?oc=5",
+       "source": "신아일보",
+       "date": "2026-11-09T13:10:00+09:00"
+      },
       {
        "title": "빼빼로데이, 거리·대학·관광지로 확장…롯데웰푸드 현장 마케팅",
        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBM0s2TFE2ckZtaDYtNjJtS3pPMzJxQ1hSZ2pTbVhWcG1aNWJIamY2Vlc4cXFNQnlkRXVpMFNEQlppT2FzS2xZMmdTR3d4dVYyYzM0aC14RThGS3BhMFJDLVk0NHlHY1ltX002c2liT2k?oc=5",
@@ -10247,6 +10709,24 @@
        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qTWNtUF9YSG5uZHRNUHBLSVlKLWxYZ2tPU0ZkUjI4eF9Wb1pFU0N1MlVTcnprdWlXSm1LY1UyNjFEVU1ERGc1dFpJT3hVUTNMV2hvZ1U2LVVnbUpHOVVZenJBT3I?oc=5",
        "source": "서울경제TV",
        "date": "2026-11-07T08:00:04+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 편의점·마트 채널별로 차별화한 '프리미엄 가나' 시즌 4종 출시",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JWjY5TG5TX1ZnUmR3eVlXem14ZDU2cE9xLXhXVmh5YW1wSmUtZkJWV1lYLUpuWU9oSWNkSE9maXlVR3NiR010aGxiVEJJNjJxNXNySnMzY3BzVnROcFBPeEZlWXVYTGhyQWhwSDJoakg?oc=5",
+       "source": "비즈트리뷴",
+       "date": "2026-11-06T15:53:59+09:00"
+      },
+      {
+       "title": "11월 11일, 세계인의 기념일 될까... 롯데웰푸드가 ‘빼빼로데이’에 공들이는 이유",
+       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZRW5yVktnVWtPY1V0bVpYS2dEMnFwYkp5eDdlMmVTMXEwZG9UUHNIWTZTYUxqTVRZQndVaV9RRGJ1OEFidGRKNkFNMlJkUQ?oc=5",
+       "source": "인사이트",
+       "date": "2026-11-06T13:43:25+09:00"
+      },
+      {
+       "title": "전국 14곳으로 넓힌 해피홈…롯데웰푸드, 부천 청소년 공간 새단장",
+       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fNFhETngyUFI5dGxkdWFVcWVfTEdHZjlkUXNaR2c1VFhrWFo1TTJTSTZLRld3cGt5RzJ4UTJjTmdENVROVDRFaE1wRmtRLTI5OTZzc2dQODU?oc=5",
+       "source": "스포츠서울",
+       "date": "2026-11-05T18:19:25+09:00"
       },
       {
        "title": "‘부산항만공사’ 롯데웰푸드 과자류 봉래1동 희망곳간에 기탁",
@@ -10265,6 +10745,12 @@
        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MM1U1WUw1dTJCVUpQYUlJWkh0WGxMdXpxNlAxVjQ3NDIzd1k0RzRLYmdTb2dTMzBQU2hhSTc3azdmT1FERTBJWGpXVTFfYVdQV3o2ZnhRalVRbDDSAWBBVV95cUxNZlM2aVNVZ0FxZUpSdkNpZldVYUdoYWU3bmRRY3Q4aXdiLWlpQkhKZmREWWtVWGNyalFoVGRZYzFudlpuQnBOMHdRUUtFOFdVSGZwcEk1bWtVcm05WWNqOFo?oc=5",
        "source": "연합뉴스",
        "date": "2026-11-05T16:55:06+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 부천에 14번째 '해피홈'… 14년간 아동 2,700여 명 지원",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvX3hDeFJ6alpVeTBZZTBKeGp0dGFGRE9Vc0xqa3RGaWRfUk82eVRDdzZUWjhSaXVNa0NaMFI3VWxtR1RRZko2bXJZeU9Kb3I1RmttYzhIdUpDUXZNODBXY0xSLUx3UXN1dkhKV0RR?oc=5",
+       "source": "투어코리아",
+       "date": "2026-11-05T16:41:40+09:00"
       },
       {
        "title": "롯데웰푸드, 부천에 14번째 ‘해피홈’ 개소…빼빼로 나눔 가치 이어가",
@@ -10289,6 +10775,12 @@
        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1jcndENE45cGh3ZGpnSGNwX0l6b3pLZUdTYVJqSm9YT0pCLVBBSUl3aVBmN0dKX2t1azdqclE3Sk9NallMQkV0Sm90VThadXdNVXlYYnVfYTZVbk5EelphMTRnSTg1cFJZa0JmYTFUR0s1TkRNOEtxX2lR?oc=5",
        "source": "로이슈",
        "date": "2026-11-05T15:11:22+09:00"
+      },
+      {
+       "title": "CJ제일제당·롯데웰푸드, U-23 야구대표팀에 제품 지원·부천에 14번째 ‘해피홈’ 개소",
+       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iNTZ6QzAxRjJpVDd4My1LeUhoN1pGUUZKOFU4MWQwV3J5S25Dc1JZQUZ6NVN0YWcteGwwNThuZHktTkw2RVdDNHFJUUxMX1BSenVSS3pId1NkUkRGaGVpSGxlNDdQZw?oc=5",
+       "source": "여성소비자신문",
+       "date": "2026-11-05T14:01:40+09:00"
       },
       {
        "title": "롯데웰푸드, 부천 청소년 문화공간 새 단장…해피홈 14호점 문 열어",
@@ -10369,6 +10861,12 @@
        "date": "2026-11-05T10:25:29+09:00"
       },
       {
+       "title": "롯데웰푸드, 부천에 14번째 ‘해피홈’ 개소…빼빼로 나눔 14년째 이어가",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tQ3ZRTzlJR2FBZDZ6MTdwbHJ2NUxBQk1nRmJWUm5FdVRRWmxqcUxHXy1WUmxYRmd4eG9wbzdXc29kN1FaNEFseXdKTHFHbUt0b2RUMk9zOGFaTTdOQVI5QUNBSDk5QnhJZ0p5LS05aw?oc=5",
+       "source": "스마트경제",
+       "date": "2026-11-05T10:21:04+09:00"
+      },
+      {
        "title": "4곳 다 돌아야 4가지 맛…롯데웰푸드, '프리미엄 가나' 채널 한정판",
        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtM2RNcEt4ZnlMR3JQbVA1bmIya05WTEtmazdJTlY2TDI0Q1FGdTFlNFlWcjNYNlB0SGRFbUpSWU1ubkN0NjktZVVZc2puTFRZeFltbVFLckxuNGVwQzVrcDdlUHpLNzVO?oc=5",
        "source": "www.ebn.co.kr",
@@ -10427,6 +10925,12 @@
        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BLThibVJkZFg5STREaG1LVHpENHVjODQ1dFhDQkl4RERMUWpEbURvSl8xUXB3cnhjNUZCQjJyTDlqT3NHdzhmeWpWaGd0Qm9YVXplcUx3YXV1cFd2bjRNMkNPU1VBYnBXOXlJX1JnMNIBckFVX3lxTE1jZENlWW1SekdELVhxSFNLaVM1b0s5bUMzdlpwMUF0OVFTa1ZVQnN2a1Fjb19GYVpfZzExdk8wMThwbGFfQ0k4NUVwR3cxN2w0Qm5fSWR3UzRuZnFVYjNQbTQxTmlVdjBBa0d6aXR3LURIdw?oc=5",
        "source": "팝콘뉴스",
        "date": "2026-11-05T09:44:25+09:00"
+      },
+      {
+       "title": "롯데웰푸드, 부천에 14번째 '해피홈' 개소…빼빼로 수익금으로 청소년 지원",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4SUdYdUdDdElIX0JtdDNVSmwwMjJnZ01NUkNNX3I4VkdUWHg2YXg0eXdJemtxRUM0b1ZHZWVyMEFhWjgyVnV4bWxXSE1mMGhneS1WdEJiU1h1aVdZUi04UU1weFQxUndoSmY1YUxn?oc=5",
+       "source": "이투데이",
+       "date": "2026-11-05T09:43:00+09:00"
       },
       {
        "title": "[11/5 오늘의 새상품] 롯데웰푸드 ‘프리미엄 가나 시즌 한정 쉘’ 4종, 오리온 ‘닥터유 단백질바 저당’, 풀무원 ‘반듯한식 숯불너비아니·육즙떡갈비’, 서울우유 ‘한끼식사 당밸런스 호두맛’, 사조대림 ‘대림선 오색 일품모둠 어묵탕’",
@@ -11334,5 +11838,5 @@
    "months": {}
   }
  },
- "updated": "2026-11-09T10:27:54.463161+09:00"
+ "updated": "2026-11-09T22:44:31.725896+09:00"
 }
