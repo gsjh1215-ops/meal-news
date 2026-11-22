@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:55:14.243075+09:00",
+ "updated": "2026-11-22T22:11:47.370308+09:00",
  "topics": {
   "업계 동향": [
    {
@@ -7,6 +7,13 @@
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PcENFVnRxVENoR0FRSE9qMGU1TFMyc29uT1FRTlB6VEU2ZkpVSXdzemQwczAyNnpPdmlJWVdXU1llN3RVRlJYV2xwR0RycDdFU3Bzcjh3ZUdsQ0JYQWVGeFBya1dvVU0t?oc=5",
     "source": "대한급식신문",
     "date": "2026-11-20T21:39:06+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "서울 아동급식 지원은 동주민센터서 신청…1식 1만원",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hRTN5RHlzZlpQMk5uQV9oOE1rM2Q3OHlKcDBERWFyLWdLZ3pQbnFxdGUyT2dmMTFFamNFOTJCMFRkWFdseERnemFkU3dLZU16dThGVER0YmxXV285RUlMZlYxd0duUQ?oc=5",
+    "source": "비건뉴스",
+    "date": "2026-11-20T20:41:46+09:00",
     "query": "단체급식"
    },
    {
@@ -18,24 +25,37 @@
    },
    {
     "title": "평택여성새로일하기센터, ‘단체급식전문가 양성과정’ 수료식 개최",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8ycTAtb3RCOFpDQXhyTFMxbVdRYllNT3loZEZEX0JVbjhrOGlPckJwV3VXdGk0b3IweFNIQmIzd1I3Yk1vRzk1QVlUMUhhS2NHUWRsbEJjSENwOU9DS2lVWjdyS1ZCZFlG?oc=5",
-    "source": "경인경제",
-    "date": "2026-11-20T15:38:33+09:00",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JYlc0MlRQTUEtOS1KY3dSZmVMa1J3NTVMLWdNT3JwR1VydVo2cGYwOVNVUmFJYmhDYTdCUXhXOXo1SU1JYUV3Q2RTajlZd2tlWUlzeWxyVzc?oc=5",
+    "source": "메트로타임즈",
+    "date": "2026-11-20T15:01:32+09:00",
     "query": "단체급식"
    },
    {
-    "title": "삼성전자 온양캠퍼스 건설현장 급식, (재)아산시먹거리재단이 책임진다",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QQWllRTBTTWpuYmlVVVZpZmwxcWdIbzBMT3Bmb2s0M3lPVm1RNFBmLUl1NWgwblhqdnJMWUdTeWdlN3hVNXZDMnlTQWVNTXM4OHI5ZzA0eFlsajNBWVZaQk9HdUhTZHpZRXdR?oc=5",
-    "source": "충청뉴스",
-    "date": "2026-11-19T22:57:46+09:00",
-    "query": "위탁급식"
+    "title": "사조푸디스트, '아까운 농산물' 매입 확대…\"지역 농가와 상생 지속\"",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByMzAycmlxRGtPVVhRUjI3TXJ0RFBvYkhmNmw5ZktYOHdmTWlfSkpvOVZteFJjelVOR3gzZms2aHlvNFZZQ2tzV1hpYmZjeEVOdnhDLTJPWl9pR1FnZ21ZMmRFaHMyeGgyWVV3bC10aVE?oc=5",
+    "source": "포인트데일리",
+    "date": "2026-11-19T19:38:10+09:00",
+    "query": "단체급식",
+    "companies": [
+     "사조푸디스트"
+    ],
+    "groups": [
+     "Big9"
+    ]
    },
    {
-    "title": "(재)아산시먹거리재단, 삼성전자 온양캠퍼스 건설 현장 급식에 지역농산물 공급",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyc0ZPTmdvVGVGcjlVMVZ1eWZ3Uy1RT2pfamFKeXNidko1eFlCM2VMRW5BLUxISjFQOFRKdUVicGhYdjJVR0hFeWNPeVNCTFdPM2JHeFZJa1JWcmF0Y2Z6ZFpsWVdXemp6ejJSeEh3?oc=5",
-    "source": "아산포커스",
-    "date": "2026-11-19T18:39:16+09:00",
-    "query": "위탁급식"
+    "title": "장서우 리엔에이치(RE&H) 대표 “병원 급식, 화려한 메뉴보다 ‘현장 운영체계’가 핵심”",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wWjNxc2pLRDAtWEdyc25hdkpiUjhkYUVqc3RmcXMtVzlLQjZpMXVUZDZIc0dlTGpZWUQ3emxSeDdZZk5wakMyLUctNk42NWZaRHNtR2hHUzF2aDdsS2E3bERtd2xrcjA30gFsQVVfeXFMT1F6eEtRRFd2UGtjMkI1b2VnMnBTVmZ3SnA5Ul9hYXBwM1ZHVHNxXzVjSVJuSXlqWkUyN1pCNnVhM2ZGbUZRMVo3ZXlkRERDek54aG1CVG5sRHl1VlZIaGlXSW9WZkpWTEp4M3Bk?oc=5",
+    "source": "리얼캐스트",
+    "date": "2026-11-19T16:59:44+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "충주쌀 ‘중원진미’ 기업체 급식시장 공략…판로 확대",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1RYU1oNmhWb0ZNb1AzZ1R4Z2IzWkZlTGdDcXZlVHNxbEc2Tm5wcTdBZVItZEZDcElLTkVDN0tlcDloZkJTN1pucmhDOA?oc=5",
+    "source": "아이뉴스24",
+    "date": "2026-11-19T16:37:49+09:00",
+    "query": "단체급식"
    },
    {
     "title": "사조푸디스트, 포천시 ‘아까운 농산물’ 매입…단체급식 식재료 활용",
@@ -51,10 +71,17 @@
     ]
    },
    {
-    "title": "사조푸디스트, 포천 농가서 ‘아까운 농산물’ 매입…단체급식 식재료 활용",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNUEtENkFYcmVRd1loQW1MMlZEYkhiQVlZZmU3ZWZMbzlYcjNyMURGdE1HS0xKclIzbHhxZXFoMFI1Nktpb2hha3Ntenh2RDFTOXZ0QmpLOGNzODBlc3FhaTdqeGlKVThRSFlz?oc=5",
-    "source": "서울타임즈뉴스",
-    "date": "2026-11-19T15:46:32+09:00",
+    "title": "충주시, 신품종 쌀 ‘중원진미’, 기업체 급식시장 진출",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41QVF4alNLT1ZnNGVtY1FybmFiaHQ0YTZ6b2w5WE5ZQ1cxaFpYY3hWN1psblRITGtoZVUyMWgzNWV1c20wT2NKdHB1OWttVWZvUHJQVFJBdDhNcHVkZGM4d1FqYUtHSGJxQWc?oc=5",
+    "source": "충청매일",
+    "date": "2026-11-19T15:45:24+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "사조그룹 사조푸디스트, 포천시 '아까운 농산물' 단체급식 식재료 공급",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRMHNOTlFsdVNNWUtSQl9qRko4ek5MckV3UjhNNnRySXQxSHJTZkxrU1ZHeEhlQmdlRWgyc3RqV2FYb0NkMTdUSF9DVzJNRFJqSW5aYnI0TFhNbVQ4YjdfcUVEN1hnSjBTSEJDTFA5QWdLX3RyTEx0OEZR?oc=5",
+    "source": "로이슈",
+    "date": "2026-11-19T15:38:40+09:00",
     "query": "단체급식",
     "companies": [
      "사조푸디스트"
@@ -64,10 +91,23 @@
     ]
    },
    {
-    "title": "사조그룹 사조푸디스트, 포천시 '아까운 농산물' 단체급식 식재료 공급",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRMHNOTlFsdVNNWUtSQl9qRko4ek5MckV3UjhNNnRySXQxSHJTZkxrU1ZHeEhlQmdlRWgyc3RqV2FYb0NkMTdUSF9DVzJNRFJqSW5aYnI0TFhNbVQ4YjdfcUVEN1hnSjBTSEJDTFA5QWdLX3RyTEx0OEZR?oc=5",
-    "source": "로이슈",
-    "date": "2026-11-19T15:38:40+09:00",
+    "title": "사조푸디스트, 포천 농가서 ‘아까운 농산물’ 매입…급식 식재료로 활용",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwVkU3bjN1ejEzYjFXQmdDa0JpblBOVEVudVBVanRZLXNWeXdxeTV6WUFVQWszcmhBb0JVU21ZWGd3WG9ZSVE4OVhUUGNLLTBvZDhxbmxMX2cxZ0NsUXIxdzNuc3pmdkhmRWI4cFVxaWnSAXRBVV95cUxQeVdZQ0VrMDNYTU01aEJuU0xjODZWcTRSUHppUzd5TW82bVhlZE16T2R5amtQdHhvUVlGM1ZjSnNmWU5zQmJtYTJCRUdrMkNPTmtJLVowWkVTNU94VE5xakpEbHR3UzhxUTFUbktrajdXLThMcw?oc=5",
+    "source": "주간한국",
+    "date": "2026-11-19T14:03:13+09:00",
+    "query": "단체급식",
+    "companies": [
+     "사조푸디스트"
+    ],
+    "groups": [
+     "Big9"
+    ]
+   },
+   {
+    "title": "사조푸디스트가 못난이 농산물 매입을 대폭 늘리는 이유는 무엇인가",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nb1AyNll6N0pULVBoRk9jLTd0MEZtQ2xpbGgwTzJUTEZWbmRaS3liZ3haSEZ0ZEg0TWNzMF93ai1nQk5tR3F4OEo0cVlPQnIwcHdsVzM1dVZWSkJqUTZpSGJTSDVIbVlU?oc=5",
+    "source": "https://www.2news.co.kr/",
+    "date": "2026-11-19T11:46:44+09:00",
     "query": "단체급식",
     "companies": [
      "사조푸디스트"
@@ -116,11 +156,25 @@
     ]
    },
    {
-    "title": "미국은 \"급식\", 영국은 \"식품유통\"…풀무원, 해외 푸드시장 공략 \"가속화\"",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43VnllMWVYd0xaeGJKZ1RjZGtKUFowZ0VZalpaSFhVVnRxbFF2MXF5d2FBNFBqd3hIbXAzVmMxMUNFb0ZYRUxyX2xDelpHZ09EcHNMWlB2X2gwZXJkRE9UeVJyZ2xuNGtrTVE?oc=5",
-    "source": "청년일보",
-    "date": "2026-11-19T08:00:02+09:00",
-    "query": "위탁급식"
+    "title": "[컬쳐in] ‘흑백요리사’ 셰프와 ‘랍스터 영양사’가 학교 급식판에 올린 특급 레시피",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DUUdWTGRhUWt6M1FFcnhJcDFVQ2pOLXQxLThDamdLSnJ1Z0swTDkwUmpibDhCTXFfLTFuX0o5ZDdRMTBzUm9rVTFQRGRrQTlXalE5VjYyRGhQUG5kUkk1OGNIM19wQlhabURhdndn?oc=5",
+    "source": "산업인뉴스",
+    "date": "2026-11-19T08:48:45+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "린나이, ‘급식한판’ 푸드쇼 개최… 학교 급식 조리법 선보여",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIeE1BQ05JOGRiLUZwemZJdTJ0NXVhc1l6MXdEY0N0dm8zOTJlQXItYnNHM3pQdUQ0S3drRUFUS203ZHk1dXdCY2tOMUpjQ2xWVGxHSHB0SkdHU1RIcU51Z3FOT1VIYjZLRS1YUWt4ZFrSAXBBVV95cUxQSHhNQUNOSThkYi1GcHpmSXUydDV1YXNZejF3RGNDdHZvMzkyZUFyLWJzRzN6UHVENEt3a0VBVEttN2R5NXV3QmNrTjFKY0NsVlRsR0hwdEpHR1NUSHFOdWdxTk9VSGI2S0UtWFFreGRa?oc=5",
+    "source": "에너지플랫폼뉴스",
+    "date": "2026-11-19T01:11:44+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "R]막바지 폭염에 습도까지⋯집단 급식소 '비상'",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZVml2b29WcFZMbnlveU5NVTE5bzV4MUlCcml5cUlPTmFTODlYWnJxQVRjSWhlc29PLW5rU1BmTVJVSEc3dExsZktjdVR1MDU0UmFHS3dkemw5T1dsUnhXb1luZlR0SV9jX0dOWFZBcXJhOVBCZUE?oc=5",
+    "source": "안동MBC",
+    "date": "2026-11-18T22:38:17+09:00",
+    "query": "단체급식"
    },
    {
     "title": "최윤성 중구의원, 구청 구내식당 식중독 의심 사건 외부감사 촉구",
@@ -128,6 +182,26 @@
     "source": "신아일보",
     "date": "2026-11-18T16:31:24+09:00",
     "query": "구내식당 위탁운영"
+   },
+   {
+    "title": "‘충주사과’ 전국 구내식당서 맛본다…판로 확대",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKY1h4TFM4b0tadGNjVE1FRFVIU2ZzdWZrYlAyVS1OdlNzdEticVhNbkZ1emFaTGlSTTdtdFZOMEZHMWVZLUprZERCWkJWekdnVkE?oc=5",
+    "source": "아이뉴스24",
+    "date": "2026-11-18T14:15:16+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "충주시, 삼성웰스토리와 손잡고 급식망에 ‘맛-잇는 충주씨’ 선보인다",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iTk9tVnFZMGJhUEZ5b0dsaERUbl9WUmNMT3VPYkQwdjN6X1RwN3VNWGpnSGRzc1hITE43Z1J3T3YyN1J2M3RabFdzcTJtU0VZbXZxaWNVTE5wQQ?oc=5",
+    "source": "한국현대미술신문",
+    "date": "2026-11-18T13:50:49+09:00",
+    "query": "단체급식",
+    "companies": [
+     "웰스토리"
+    ],
+    "groups": [
+     "Big9"
+    ]
    },
    {
     "title": "[포토] 충주사과의 맛, 단체급식 식탁에...충주시·삼성웰스토리, 로컬 프로모션 진행",
@@ -143,10 +217,17 @@
     ]
    },
    {
-    "title": "린나이, 김병묵 셰프·김민지 영양사와 단체급식 조리 노하우 공유",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kMzNJNVhYREg1ams5aXg5ZmFIM0hraWp3aE90ZGVudlhzdExDVUNhTFJJZlYtOTVzVWRQbVlhc2NxS3VqS0hlclhISlgxMEhBblVScDdn?oc=5",
-    "source": "피앤피뉴스",
-    "date": "2026-11-18T10:35:15+09:00",
+    "title": "린나이, 상업용 조리기기로 선보인 학교 급식 메뉴 시연",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwRzJCTkFKbWFJbzFkRi1pUzZsNEJNMVhZTld0Y0ZYRThCeHplZXBCYUtxQmpfSm9GM24tV2gtWV9yQkRScUFRMVdyUnhvRmtXQWNWLUpKX0IwVzRNTDEwS3hjMXdtbXPSAWtBVV95cUxPaEg3RUJzczZiVU9ZQVI3VGJLSkxWVWtSOWFqTlI5MWU5VDhvVmt0NFg0T3BKaGFRbm5zdzlxV2xacjNMdFJiZHZNZy1QRUwtWFI2UzYxeDk4eWFpRTZUTk5BQ3d1MzRmTERsQQ?oc=5",
+    "source": "핸드메이커",
+    "date": "2026-11-18T10:45:52+09:00",
+    "query": "단체급식"
+   },
+   {
+    "title": "‘흑백요리사’ 셰프·스타 영양사 만난 린나이…학교 급식 ‘푸드쇼’ 성료",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JMHRldzk1d0VDYVh0Z3J3d2RhMHJhNDRzam42V1BZaUFWMENtSWZZRlhjUko1NjlCNmpQSlN3V19SeldqcUpyMmJvU2ViMlQwWUlLQk02bzByVktVSUw0YjdZbFFWX1ZYR3JsUFJ5cjE?oc=5",
+    "source": "에너지코리아뉴스",
+    "date": "2026-11-18T10:22:36+09:00",
     "query": "단체급식"
    },
    {
@@ -154,16 +235,16 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50WFMxSEFqbXphNUtueWFfamowWDlMWEhDaUN4VVB2Y1hDeUxCanM1MTJSWlZRM3RnLUQ1dFR5TEVFOGpXU0hxMHphdlE2SGJDeHNQYzlLRTlRdmtqQWRoejB2RVhFUldIWUljd2VMSUw?oc=5",
     "source": "위키리크스한국",
     "date": "2026-11-17T17:06:00+09:00",
-    "query": "위탁급식"
+    "query": "단체급식"
    },
    {
-    "title": "풀무원푸드앤컬처, 미국 애리조나에 첫 해외 구내식당 열어",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JV1lmQ2RwaVdTU0V2djQ4dG1DWW04SHE1dkZ3R25vVXVDMjA3SjRWLWVNUHJRdE1kTW54TGQ4bzNETkVYZTA0WGp1UWlpeDNWajc2YnNfY1FjSUo4ZWtDOQ?oc=5",
-    "source": "마이데일리",
-    "date": "2026-11-16T21:18:25+09:00",
-    "query": "위탁급식 시장",
+    "title": "“적은 자원으로 더 큰 가치”… 아워홈, 급식·외식 현장 겨냥 솔루션 공개",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQXzVIanhyYXBqTk90WjJZbHU1UmhFam9oTGc5a3EzYUhjeVhGN3F6ZnpBeGlKX1RpZ2k5NEw0VGUxUlhEUzZHNjlHc2FrNXBzVEdXR3Y3M0I5OFRpampTdTNsVE9tMEltNFN2LQ?oc=5",
+    "source": "이코노미톡뉴스",
+    "date": "2026-11-16T18:32:36+09:00",
+    "query": "단체급식",
     "companies": [
-     "풀무원푸드앤컬처"
+     "아워홈"
     ],
     "groups": [
      "Big9"
@@ -174,7 +255,7 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hdkFQYi1KSExsaGJ5T0hRVFd6b2VycVpJREhpMTJvMExPNFZUSEhzeGhsN2ZRcm9YTF81YkN0MmI3cW1lWU4yYnFSQTJ6NWVrbkcwVVFTSVA1VmgtZmxObTVJR0d5MTJBY3c?oc=5",
     "source": "대한급식신문",
     "date": "2026-11-16T18:29:20+09:00",
-    "query": "위탁급식",
+    "query": "단체급식",
     "companies": [
      "풀무원푸드앤컬처"
     ],
@@ -187,7 +268,7 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KdHZadFJIZW04V0wydGo1MkRFU3BUeTVibFJXdkRveTFUbUFKMUZLanF0cFIwdS1jQjFmR1JNRTVmVGZoY042YnVqclU2S09FcUw0cTEtT0s5Ukd2TDRvSnZZTnpvZDgwWEk5cjVRc1ZGSm8?oc=5",
     "source": "비즈니스포스트",
     "date": "2026-11-16T16:55:24+09:00",
-    "query": "위탁급식",
+    "query": "위탁급식 시장",
     "companies": [
      "풀무원푸드앤컬처"
     ],
@@ -197,7 +278,7 @@
    },
    {
     "title": "‘이재명·이재용 오찬’ 차리더니…삼성 반도체로 급식 영토 넓히는 이 회사",
-    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1KaXp5NkVublNwTzU2cWxtNUFMcUdWSmU3TUdMZXVhMzBsSnRMODB0c3gzbUt2WkwtQ056bm56RF9VV3dGNmc?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ZNi1wZFlqMnVwVkhHeTVmYVdMM0ZiS3I5MDc0N0xGNjhEbWV3WE1rTFBuelNWSWphWllodk5scDBWeHM4M0pnTDU1eXpOcWdsYWVPQ3JB?oc=5",
     "source": "매일경제",
     "date": "2026-11-16T15:39:16+09:00",
     "query": "단체급식"
@@ -207,124 +288,7 @@
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBjNVJqVy1TZG95SjBhQ3JkRHQ5YTdYZE00WnB2QnAyWjJ0VmRZNWJZUDJ4cDJTd3Bab2sxbUtpQ2p1X3pHSWNiS2VuMnZvd0hhNU5UQ0hPSThvOW9fSXpGajNSUmVsbExGV3QxWmtna9IBc0FVX3lxTE1MVEx4ZURUek9nOXBPb011MWYteVpfQmZ5bmUyd0xlZ0RRVmtzVVluSU5KZjFHWFN4ckFTMVc4a0lDUjAtVEtjZ3JSZTE1ZjllRTZqeW1FU21LVVhNeEhQNjloSlVPQ0RCQkE5OVR2VXV1Mmc?oc=5",
     "source": "뉴스웍스",
     "date": "2026-11-16T15:02:47+09:00",
-    "query": "위탁급식",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "풀무원푸드앤컬처, 美 급식시장 공략한다…“위탁급식 첫 해외 진출”",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1tbnBjeUw2b294WE1RUTFjNkNjUENZNEI3ckNvWkRuRS1MdzU0UW5naENVOHF1QlNyTEdqemNOM21NUnZldUFoZmFKMS1wenBpcGhkd3JB?oc=5",
-    "source": "헤럴드경제",
-    "date": "2026-11-16T14:13:56+09:00",
-    "query": "위탁급식",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "풀무원푸드앤컬처, 위탁급식 첫 해외 진출 外",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9rdDVGQTl4bm9yUjdRZDUyMXQzRHdYMXBoNmZoS0NaV1ltYUtxbFlXWkd4R2Z1RG5acW1TSVNDcno2OWZOQ1NMY0NwWUM5TjBh?oc=5",
-    "source": "톱데일리",
-    "date": "2026-11-16T14:11:00+09:00",
-    "query": "위탁급식",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "풀무원푸드앤컬처, 위탁급식 첫 해외 진출…美 애리조나서 K푸드 공략",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBseC01UjZWX3FVUmNCV0U5RVRkaEFhSXNlTXd5UUZkZUpmaDZJTWxfY04wcXZyNWpIcmlmbzFwdmZGZktZanRiaUJkYlRoUQ?oc=5",
-    "source": "전자신문",
-    "date": "2026-11-16T13:49:54+09:00",
-    "query": "위탁급식",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "풀무원푸드앤컬처, 미국 애리조나서 첫 해외 단체급식 사업 시작",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55TUVaTUFFQlBSOExkelQ3MXp0R0FVdjlaT3hHNjZMR0lKSFZoa0piRUtjMEhCWnhqekJibkhzTWlScDVjZ01EQ05hNGN2Nm5LNDZwZkhMNlk0WUNhS3d2WnBhYUFNV1hTQ2U1Z29icXfSAXRBVV95cUxNdHZBV2lVM0N4OE1jdlJKZVlZcGtielc2Z0pmaEJwbXFCTEc3Q0czd3Rpa2NvWHUyOFlEbmR4aW9wZDFNZ3lYV2VfbW1yQ000ME96N3V0TUZ6cDNXYkJHMDVjd2JqVTZKQnR2M05Ba241bmVVVw?oc=5",
-    "source": "주간한국",
-    "date": "2026-11-16T13:32:20+09:00",
-    "query": "위탁급식",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "풀무원푸드앤컬처, 미국서 K-급식 첫선…북미 시장에 한식 밥상 차렸다",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40NHRUSkJSdDNqRFhlQUJfclZIMGxqeGsybmRtN1VNUnpIeFFpdHIwOWtRNWRLdnFmVWtwZ0ZBUnlOUlpmbnV1UE9ZV0RoamltMWw3X194dTRkQ18zVG93QUNHcmt0eTVMUVHSAW5BVV95cUxOWHdpblY1SUktMmpkSmZiSkNBSkpQRk53cUJ5UkdveVUyMXRyMG9RSzl5YU5LZlVQYnUyeEo5dVUzVXhoR0NmWFdNeWFJcEc5aGN3dVRxTk5pbEltTmFiUERtRmdXMkg3bGg2ZkYtZw?oc=5",
-    "source": "The PR 더피알",
-    "date": "2026-11-16T13:31:57+09:00",
-    "query": "위탁급식",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "美 단체급식 뚫었다…풀무원푸드앤컬처, 해외 첫 위탁급식",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQblI3NEdjWGd5Qkh6MkpNTlNNakRUamlMMnA0bzNWWF9fTHh1WWZJTmVTYXFrTUFmUXN4WHRYNlF4T3ZWUkhHbmZFdGRvLUl2TWxBZHg0RWVFb1ZuaHpJMVpDWmQ1QUliRXlKWUtTTVluR0pMaTVFQ1NIOVRLX1VwYg?oc=5",
-    "source": "이데일리",
-    "date": "2026-11-16T11:52:51+09:00",
-    "query": "위탁급식",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "풀무원푸드앤컬처, 미국 애리조나에 첫 해외 위탁급식 사업장 개시",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jQm9PR1AzVFg2c3lGcmZxNjgxWlFFMWpqU1kxYjQ2UWowQk8wX21vbHNJeDZ3Q2NNOVYzU2l4RXRBRzM5UDhER2ZUMG8wYy1Id0EyU1BXa3hWdkhaRUJDQ3lNYTd6VER1cWF3?oc=5",
-    "source": "내외경제TV",
-    "date": "2026-11-16T11:37:11+09:00",
-    "query": "위탁급식",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "이재명·이재용 오찬도 아워홈이…삼성 반도체 사업장 급식 공략",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fZVFlWUJtdlpLeHRic2Nrd2JJb2ZidEZlYlQ2dW5vNGVWdXpyWHZqd3RuWm1yem9uQ0I5XzFfeFJkZlRiLWI5SXZtSU14dGxmQzN2eDZYUmxLa3UwTjFkZ2l5VEhwbEZQNzBfbGxnZ9IBc0FVX3lxTE5xMG5YeXd3YUJWdm5EWWlGX1YzZjgxaHRYX0FzTEdjd2VzYUc2XzhvREZUdzd3WE5HUGI5bFBTaXBQSU9OVnRTWlBqVmRXcmhzX1Q5dGZpV3VVYldyZmVjNFpaWkNrMnVTd1E3WGN4cFdBZzA?oc=5",
-    "source": "데일리한국",
-    "date": "2026-11-16T10:43:38+09:00",
     "query": "단체급식",
-    "companies": [
-     "아워홈"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "풀무원푸드앤컬처, 美 애리조나서 첫 해외 위탁급식",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4zbEdoY1piZzI0bUUtbkRzM01Pa1FEWDlrbk4xWUg5b2F6U3Vnc0NZREphRFpyUmY5NUpwS3lydVowQk9VMXhPRkt6NA?oc=5",
-    "source": "아이뉴스24",
-    "date": "2026-11-16T10:39:38+09:00",
-    "query": "위탁급식",
     "companies": [
      "풀무원푸드앤컬처"
     ],
@@ -334,13 +298,6 @@
    }
   ],
   "트렌드·급식문화": [
-   {
-    "title": "밀양시, 구내식당 ‘분식의 날’ 특식 행사 열어",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01bHBIbENHQWF6Q2dBMk10UE45cjIyTFJpQldSNnJxVVliZlpGUktTTkdJY0hac3dsdHhuWnQtOGhYS0RTYi11LW1JOWJ2bm1KeUxXa1RBQXB3X3ZGdEJPeGhmNGstUQ?oc=5",
-    "source": "한국미디어뉴스",
-    "date": "2026-11-20T16:30:51+09:00",
-    "query": "구내식당 메뉴"
-   },
    {
     "title": "K-푸드, 美 주류시장 정착 가속…외식·급식 식자재 시장 본격 공략",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yTDRRbnZYMHY2SmdBSnR4TkJmTzFMRGZLTEhTZUF6QzBzcnJjOHJ4WmY3ZENlTWtJakN0b0E4S0FXc2FFbnZhVkFEMXY0QnJmV1lMeWdxbS1JTEhKdDZzY3dmMDdqb3pWYnhsVQ?oc=5",
@@ -356,20 +313,6 @@
     "query": "급식 트렌드"
    },
    {
-    "title": "떡볶이에 엄지척… 해외 구내식당 파고든 ‘K급식’",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ18tUG41ajVxV2VwMXlaQUtlSDRudlZfYnc3R1h4dG5XWHh2T2paQUlwT2ZVUGtwYWtGNlBWQ3Fmd0dGNlRHS1N2aXg4LTVqOWM5VHFXY1FaVDd4M1ljblRWOS1PeW9pdjNsQmI5bGJ1aFZhR3FFNlQ4S3lqcldYanIzR29TUm9XRzIybGttMA?oc=5",
-    "source": "조선일보",
-    "date": "2026-11-19T00:38:27+09:00",
-    "query": "구내식당 메뉴"
-   },
-   {
-    "title": "‘충주사과’ 전국 구내식당서 맛본다…판로 확대",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKY1h4TFM4b0tadGNjVE1FRFVIU2ZzdWZrYlAyVS1OdlNzdEticVhNbkZ1emFaTGlSTTdtdFZOMEZHMWVZLUprZERCWkJWekdnVkE?oc=5",
-    "source": "아이뉴스24",
-    "date": "2026-11-18T14:15:16+09:00",
-    "query": "구내식당 메뉴"
-   },
-   {
     "title": "[소비트렌드] 11월 3주, 점심은 구내식당 장보기는 양념값",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLaWVTc0lLTnlWVTRmY0JXN19ERjI1ZlBnYjdNTGtFSWMzRFlYbmppY21kZE15dU95dDZUQjFHazV6QlY5ZldqS1ljSEJ0UUxHcEdPbktNUlNEQ05FVWFkN0tadXFOcVp0c0VJRA?oc=5",
     "source": "센머니",
@@ -377,110 +320,11 @@
     "query": "급식 트렌드"
    },
    {
-    "title": "밀양시농업기술센터, 구내식당 ‘셰프가 오는 날’ 운영",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JR1lkc3NrU0VIanZRNUw5WTJTcGd4RFhtaEstYlBhWjZrTldxTFYyXzZ3UWFCOFFkMEd0RHhYQlF3RjMteHg4aS1xSmF2NEZpMVp3dncxM2NIZDNBLV9hblRabWd0d9IBaEFVX3lxTE1xaVdXQVFqOGFGOUYwYmhKY3J0R294U2JNeW01YjhMMWJIdks2N2MzbHFvY2U4NlR5VVc5bElfSzZlUU9iX2tfaGtTb2pZRlpJQlJLZUplNWZadk12dkhhNThEU2JnbjFy?oc=5",
-    "source": "경남경제",
-    "date": "2026-11-16T15:10:08+09:00",
-    "query": "구내식당 메뉴"
-   },
-   {
-    "title": "美 단체급식 뚫었다…풀무원푸드앤컬처, 해외 첫 위탁급식",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQblI3NEdjWGd5Qkh6MkpNTlNNakRUamlMMnA0bzNWWF9fTHh1WWZJTmVTYXFrTUFmUXN4WHRYNlF4T3ZWUkhHbmZFdGRvLUl2TWxBZHg0RWVFb1ZuaHpJMVpDWmQ1QUliRXlKWUtTTVluR0pMaTVFQ1NIOVRLX1VwYg?oc=5",
-    "source": "이데일리",
-    "date": "2026-11-16T11:52:51+09:00",
-    "query": "구내식당 메뉴",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "이재명·이재용 오찬도 아워홈이…삼성 반도체 사업장 급식 공략",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fZVFlWUJtdlpLeHRic2Nrd2JJb2ZidEZlYlQ2dW5vNGVWdXpyWHZqd3RuWm1yem9uQ0I5XzFfeFJkZlRiLWI5SXZtSU14dGxmQzN2eDZYUmxLa3UwTjFkZ2l5VEhwbEZQNzBfbGxnZ9IBc0FVX3lxTE5xMG5YeXd3YUJWdm5EWWlGX1YzZjgxaHRYX0FzTEdjd2VzYUc2XzhvREZUdzd3WE5HUGI5bFBTaXBQSU9OVnRTWlBqVmRXcmhzX1Q5dGZpV3VVYldyZmVjNFpaWkNrMnVTd1E3WGN4cFdBZzA?oc=5",
-    "source": "데일리한국",
-    "date": "2026-11-16T10:43:38+09:00",
-    "query": "구내식당 메뉴",
-    "companies": [
-     "아워홈"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "풀무원푸드앤컬처, 위탁급식 사업 첫 해외 진출",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lRmRRVWxoOUZLMDVUdjYtVjFBXy12cUNCdjRNaW82LWNjM1h2TzNHbHZEU215dnlHTUExUUFJX1lIck9ZZExFQXpjTGYyUW80ZXVhaS1Bb1hndTV6VUNHY0RaSGVNcDRybk9IczVLUHM3bkNC?oc=5",
-    "source": "부산일보",
-    "date": "2026-11-16T10:35:49+09:00",
-    "query": "구내식당 메뉴",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "풀무원푸드앤컬처, 미국서 첫 해외 위탁 급식 사업 시작",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0SUR1eFEzVFNnMWR0ZnVrMjdEbEJHVGdJVjhwUi14R2hEN2NSWXJmTzhkTkIyYU9QcmotQmZqLVprZGZfaXBDaGZVbkZodUtpMlE?oc=5",
-    "source": "매일경제 마켓",
-    "date": "2026-11-16T09:28:36+09:00",
-    "query": "구내식당 메뉴",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "\"K-푸드로 美 단체급식 뚫었다\"…외국인 직원도 반한 '이곳'",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VV25jbXIzT3FJMFNaWkhCYmp5M2UyMkxfWlhaRmltSnB1bkdrWDBRdWstbEc0SnI2Tlg5b2FvOU1jR3M2LUlTZ0hqclRMa2JqWFViUTdLYzZMUQ?oc=5",
-    "source": "한국경제",
-    "date": "2026-11-16T09:03:06+09:00",
-    "query": "구내식당 메뉴"
-   },
-   {
     "title": "풀무원, 미국 급식시장 첫발…애리조나에 'K-푸드 식당' 열었다",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QVF9EUFZsRXVwN2VqdHhjWjJUT1BXam9SeGxtSVFpS01SWXpzbGxDSzd3MnRBVVU5RF9kUUlCUlBYdldLT0tzTWV2OTFRQjc0NDBzTjd2N2FLM3J3bHN6bDJJU0ZlMWNzRzZZYg?oc=5",
     "source": "뉴스탭",
     "date": "2026-11-16T07:18:16+09:00",
     "query": "구내식당 신메뉴"
-   },
-   {
-    "title": "풀무원푸드앤컬처, 미국 위탁급식 시장 첫 진출…애리조나서 K-푸드로 북미 공략",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsZW1hLTB1dzRfUTFFOG1JMm1TNGlILXYtNHB5dmxzZm1aTUxOTmR4cVBxZ0FUWHBLUGJMUk5hZ1RYVGtDcFVaa2g5QnYxbENTYUM5X0NLNmVsSGwzYU00clM5b1Y2QVBscWNveQ?oc=5",
-    "source": "나눔경제뉴스",
-    "date": "2026-11-16T07:03:58+09:00",
-    "query": "구내식당 메뉴",
-    "companies": [
-     "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "이재명·이재용 맛본 구내식당…화성·온양 이어 평택까지 '급식 영토' 넓힌 회사는?",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1saUxfMkxINXpzbHN4NUxUZDZ1WUU2TW5EdUg2aEZBa3RYT2NoWmozdG5uT0Rqd1BTb0NzcXEtd2lPc0tVaF9ucTcyQlNDemU5QlpGOTNzbHVaS0g2V2M0MNIBeEFVX3lxTE8xTHphUExCVndzS1lQN0pzYWFVMFJReDlLWm1LWW14UFRsbUJORnJ5VkhOVE5ESWZoZjdHc2c0dFNtOUNwaTU0MnhwZlNGMTRuTDVRNHNmRE9jU3BYc0liQjZXMjdEY3RQV29OM0tOM1JoLWthNXNveQ?oc=5",
-    "source": "뉴시스",
-    "date": "2026-11-15T15:18:15+09:00",
-    "query": "구내식당 메뉴"
-   },
-   {
-    "title": "삼성웰스토리, ‘K-버거’ 탑10 메뉴 고객사에 선보인다…외식 브랜드 협업 확대",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TY0ljSUNzeVdPSjF5cEp4a2I5cmg0WkFqMUVqZ3pqcjZDc01MSkNCM0JQaWQ0cTlaRTdZemhmS3RDMzM5UDNsOGJVb0JyVmpnZldEczhFakdaekZsenNQNndsMmpyNFpSMG03Z3ZocUxZeDM10gFyQVVfeXFMTUItdXNmeS1qaEFJWHppZDF3QTVaMXpyT3RMaUJfbEJYUUVIV05vclUwcGxQbzh5YjBzLTR5bVk1VVdONXRZdWg3TjNBLUx1NkpHNFFVMllDZlRpY09pQkh1TFYyQWpMa0owZTNhWFlvakRR?oc=5",
-    "source": "메가경제",
-    "date": "2026-11-12T13:43:33+09:00",
-    "query": "구내식당 메뉴",
-    "companies": [
-     "웰스토리"
-    ],
-    "groups": [
-     "Big9"
-    ]
    },
    {
     "title": "칼국수 1만1천원, 솥밥 1만7천원…“구내식당 가서 간편식 사먹습니다”",
@@ -501,33 +345,6 @@
     "groups": [
      "Big9"
     ]
-   },
-   {
-    "title": "오늘 점심은 여기다! 강남·서초권 6천 원대 가성비 구내식당 탐방",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pWDI0UXZGTVNhbnhpNmIwZWVsdXBybnNtcHZtOTlQSlJfN3ZfeE8yZThzeE1STXU4R3VudzRCSjVFM2RnOGJWdWFPeHlMNTB1YXZzZzZvNlQ?oc=5",
-    "source": "서울특별시",
-    "date": "2026-11-10T17:00:00+09:00",
-    "query": "구내식당 메뉴"
-   },
-   {
-    "title": "\"줄서는 대신 테이크아웃\"… 구내식당서 간편식 뜬다",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92Q1RUamdwTnlfRTBqWl9Ra014a29pX3p2WEVhLWhYaGhyVVlhelBTSTZKblE0TTlKU2pJY01iTDZ3WVlzUm5hU2oycVZzVHBxbVU3a0k0bEJPYTRlZlczbWYtQmhIRDQ?oc=5",
-    "source": "매일경제TV",
-    "date": "2026-11-09T17:00:00+09:00",
-    "query": "구내식당 메뉴"
-   },
-   {
-    "title": "구내식당에서 만나는 가을 문학…삼성웰스토리, 120여 곳서 ‘가을책방’ : 네이버 블로그",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc0RtZjV5d3RKSzBwM3lpNHFUeE9Ud1VKOE8wcVliU3Z4clozcG01MENXWmRBUVJ2ZnZBOWE0anJDRzFkbGMxLWdpeTJzQkhtY0d5VURXc2xvTlNHV3FsNUFzaGhBRmNTYl9tRjRhMzFsZ0hRbDBqRm9iWG1xZFNXNWlfT0dYb0JtNF9uRkVR?oc=5",
-    "source": "Naver Blog",
-    "date": "2026-11-08T16:44:57+09:00",
-    "query": "구내식당 신메뉴",
-    "companies": [
-     "웰스토리"
-    ],
-    "groups": [
-     "Big9"
-    ]
    }
   ],
   "식자재·원가": [
@@ -540,10 +357,10 @@
    },
    {
     "title": "“식자재 선택권 달라”···군산 친환경급식 공급가 논란",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VYW1rZGRQczRHcTFiQWdyTVN3Nkp5U2F4RThvYXZXRnd3RzNqQzVKanc1OW9ILU5sUEZ0VUlrQWJsZE5kbWZPNTZNM2lyMW83eGp3WdIBWEFVX3lxTE1ZOGNEcnA1Q1BvX1MtejlwN2Y5SWhKdXhxSVZYdXZFYWhNZjN5aUFIZ2JPWW1qNG1vTndqRkVYWnBsZ0tzWldFODQ1bWlMTEdLWTVWT0NsVW8?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZOGNEcnA1Q1BvX1MtejlwN2Y5SWhKdXhxSVZYdXZFYWhNZjN5aUFIZ2JPWW1qNG1vTndqRkVYWnBsZ0tzWldFODQ1bWlMTEdLWTVWT0NsVW_SAVhBVV95cUxNWThjRHJwNUNQb19TLXo5cDdmOUloSnV4cUlWWHV2RWFoTWYzeWlBSGdiT1ltajRtb053akZFWFpwbGdLc1pXRTg0NW1pTExHS1k1Vk9DbFVv?oc=5",
     "source": "전북일보 인터넷신문",
-    "date": "2026-11-20T15:30:30+09:00",
-    "query": "식자재 가격"
+    "date": "2026-11-20T15:49:00+09:00",
+    "query": "급식 단가"
    },
    {
     "title": "81조 B2B 식재료 유통업, 법적 사각지대 해소해 외식·식품 산업 경쟁력 높여야",
@@ -558,6 +375,27 @@
     "source": "식품외식경제",
     "date": "2026-11-20T11:31:00+09:00",
     "query": "급식 식재료 물가"
+   },
+   {
+    "title": "박순희 도의원, “유아 밥상에 차별 없어야”… 유치원·어린이집 급식비 구조 격차 해소 촉구",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iMkRVRHVycFZ4dG9FSkZHMDlhSkMwZ3ptYzFic09iSDhiZDctUmN1RUJfcEtHT2hFbk5jWkphQXN3dFQyZTdiZklqczdHbkxxUEdUQ2MySWtiZ096RXJYcjAxU3NrUVhQVmc?oc=5",
+    "source": "경기시사투데이",
+    "date": "2026-11-20T10:38:57+09:00",
+    "query": "급식 단가"
+   },
+   {
+    "title": "대전시-대전교육청, 내년도 무상학교급식비 15% 인상",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1DVkRVVGwtV1E4aDd6LW5fYUVsUUMxSkFLNkZFZ2h1V2xrOEdiaFh4Vm5fZXdyeGp4MEhuM20xZ2hXenJQVmV6UGNWUjFVRE9MOVNmTXRlMGhFcTZFRXBielBXSQ?oc=5",
+    "source": "쿠키뉴스",
+    "date": "2026-11-19T15:34:52+09:00",
+    "query": "급식 단가"
+   },
+   {
+    "title": "[안전과 복구]강서구, 겨울 급식·배달비 지원 보강…제설 인력·장비 확대",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XTDd3VHp5MnRmNGFmemJzOGw4V3lyNGtTdnZZR3YzYmx2UUhXMmZRVnpDeVNzVGR2SEdjaWRtQUp2U0ZMOS1OU1BlcmlKVkR2SmdkYUZYR1VPWXdpRUNNNA?oc=5",
+    "source": "NSP통신",
+    "date": "2026-11-19T14:19:11+09:00",
+    "query": "급식 단가"
    },
    {
     "title": "\"국산 쓰고 싶어도 수입산 쓸 수밖에\"…식자재업계, 진흥법 제정 촉구",
@@ -652,7 +490,7 @@
    },
    {
     "title": "공주시, 내년부터 결식아동 급식비 1식 지원단가 1만 300원으로 인상",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nVnREekVvTExfRUFJdGdRc0txWWdqTUtHaFV5dzllOGV3NlNjdVdDaE9HeEhFX3JETjREcmU1X01hdkNOeHlEaEVBS0RjZ2xOU0FlaEd2MHpxcVU1NzI2Vy1hak5LNlA5dmNDTnZINjRqTHlq?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSMTQ2YlBsaDBxLWY3bHZqU2ZGU1NSQTJLMUZNOG9zNk0xeHdrcUFWeEwydjluZ2MwTExyRE9XTnU3V2JaVlFNRXhXWVlPWlF2cExlcVUtOWVubHJFeDg0T1hR?oc=5",
     "source": "아시아뉴스통신",
     "date": "2026-11-16T12:14:11+09:00",
     "query": "급식 단가"
@@ -665,6 +503,20 @@
     "query": "급식 단가"
    },
    {
+    "title": "식용곤충, 노인급식에 새 대안 될까",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QZWRmcHNIM1A1UHRaVUJsUGRQOFhwbmpxVTl4WTA3c1hKeDFXSHNZd2hIdEJrTjVWRkRmcGMtS0MyNTl3NE1VSXhvVXN4VGVUdFpZT2dERXRBWmVDSnIxNnF3dEkwQkVI?oc=5",
+    "source": "대한급식신문",
+    "date": "2026-11-13T17:00:00+09:00",
+    "query": "급식 식재료 물가"
+   },
+   {
+    "title": "청주시, 아동급식위원회 개최ㆍ급식지원 내실화 논의",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vMzNjQ1ZxSzBCV2s1aWNyQ2pLTUZ5Z1c5c1hrQXU4NExzdjZZckI0VUQ4R1gtUGwybFRuQWRHSVF6NnlFQU44QS1reEVpOEI1SDR2dkV6alo2Nm1GR01mTEotYXdRN19OX1VV?oc=5",
+    "source": "서울뉴스통신",
+    "date": "2026-11-13T16:46:22+09:00",
+    "query": "급식 단가"
+   },
+   {
     "title": "급식비 169억 밀렸던 광주…행감서 '납품 단가 부풀리기·운영비 현금화' 지적",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtTDItclZyWjZ0THlUQlN5U25tLUdCUzJmMXlhbGt3aWRpYUZiTmgyQng3Y29hVTgtdnh2YVFSMk1PbmwxMFNtT2Q3Ylc0R25BSU1kNU5vV01HdWxESXRLSXZFUndDMzZ0X0VZ?oc=5",
     "source": "프레시안",
@@ -672,11 +524,11 @@
     "query": "급식 단가"
    },
    {
-    "title": "식용곤충, 노인급식에 새 대안 될까",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QZWRmcHNIM1A1UHRaVUJsUGRQOFhwbmpxVTl4WTA3c1hKeDFXSHNZd2hIdEJrTjVWRkRmcGMtS0MyNTl3NE1VSXhvVXN4VGVUdFpZT2dERXRBWmVDSnIxNnF3dEkwQkVI?oc=5",
-    "source": "대한급식신문",
-    "date": "2026-11-13T09:37:06+09:00",
-    "query": "급식 식재료 물가"
+    "title": "지구촌나눔운동·제주교육청, 키르기스스탄 학교급식 조사…2027년 초청연수 추진",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Cb2U3dEV6TEU2aW9HUEZlYzdydFhfaW1TdlR4ZzJrUUp3aXhuVDFtMk5TeG9OUUxlYnlYQVJDM1hfVVNJSUtFQ3prbmJqbHBSR2VfWHVWNHc0ck1SYnYtOHFSVDlVY3VpTzcxU2NmMjJOTHPSAXdBVV95cUxOSUhiQUVDSjZIZHdpelprNzZFckdJTFN4VWotb1kwVEZxMjlhRWYxRmNLQVNOejVfSTZiUG03SnE2MmV2b3k2Wk1pREFabHc4Q3pmX09zTl9UTGZ1UjdzQ3hUWjFYZWJxbndkaTU3VUxDenZfbHhHRQ?oc=5",
+    "source": "소셜임팩트뉴스",
+    "date": "2026-11-13T09:08:11+09:00",
+    "query": "급식 단가"
    },
    {
     "title": "제주 친환경 학교급식, 키르기스스탄에 전수한다",
@@ -686,63 +538,41 @@
     "query": "급식 단가"
    },
    {
+    "title": "대전 급식 음식물 처리비용 전국 3위…감량 대책 부재 질타",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4waGNMbkc0X2QxcDFBcEJiQWN6R0tTWVYtTWs5Tzg1b3VtbTdfM09la21xZUFOYmRMQmdQaUkwNThvZkZ2V29xR2FudmZadTh4Q1lrcHhLbFBZQldzQmtPeGJyeDZHSWI5S2c?oc=5",
+    "source": "금강일보",
+    "date": "2026-11-12T17:00:00+09:00",
+    "query": "급식 단가"
+   },
+   {
+    "title": "대전 학교급식 음식물쓰레기 처리비 ‘전국 3위’…최지연 시의원 “단가 제각각·감량 대책이 없다”",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iWktteTJVV2hKOWpMdGlCNzAtX1pzSGtTeFFTLTZTTVl1dGpjeXJ4dVozVDFZRXJjeURXYTU1dDVUWG9Xaml2eEQ4WG9zcmRfazFoSTEzT2x3WTQtN25oeTlnaVNKNGxuWlZoazM2c9IBc0FVX3lxTE03LWlpOUgtay1CUjR5aEoyMDh6UjFUQXl5MWN1cFYxRkdOUUZiUGF5UGZTWGhPbHJ0RDh4a3gwbHB4U0pvYjRZaWxaY3k3UnZlMVFjcDVrR3NrZWgzUTR5OXE3MWRHR1Z6T3NLeHV0eGRpOEE?oc=5",
+    "source": "대전투데이",
+    "date": "2026-11-12T16:15:18+09:00",
+    "query": "급식 단가"
+   },
+   {
     "title": "인천 급식 식품비 전국 14위…학교별 최대 940원 격차",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5xem50b25Ma0pUOFdBSmg1MllLLVF0RVFfNWswT3dWdXFIU1lkY3Bsa3hSZ0h6ZkZqQUc2Q0lKNTFVY24wRS1RUjNxRnEzdG5kbEZJRTROc1Z2cXdUVjhXRDBEcVZRTE1NZDRv?oc=5",
     "source": "애드뉴스인천",
     "date": "2026-11-12T15:58:00+09:00",
     "query": "급식 단가"
-   },
-   {
-    "title": "조민경 시의원, 인천지역 학생 급식비 전국 최하 수준 질타",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wbE1WUUFZenhhTXNqcHNyNFYyZGVWb3BtN2EzbU9ZcllaTXdjc0VQNDh5UXVfNTlVNEdYUXBTWW1JR1JpSHNkWTM5U19wTmJvaEx6ZS12X3R6ZW1iaUNab3E2RmV4di0taHowczY5QQ?oc=5",
-    "source": "미디어생활",
-    "date": "2026-11-12T09:39:45+09:00",
-    "query": "급식 단가"
-   },
-   {
-    "title": "인천시 초등 급식비 전국 14위…송도 대형학교는 한 끼 3200원",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LMVlFSXdrZmhhWmZWbDJNNmhlal9scHZUZ256LUkwaDluVzllQ2lESkxoRFpDUzJyc1VGYmdRcHlvbFlSdHktZ2J3RVFJdC16NjZaaWw1eUVQQQ?oc=5",
-    "source": "브릿지경제",
-    "date": "2026-11-11T17:42:00+09:00",
-    "query": "급식 단가"
-   },
-   {
-    "title": "인천시의회 조민경 의원, 학교급식 식품비 전국 14위 지적하며 2027년 지원단가 개선 촉구",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OU01YenJvaWRNbkFOS1NiMmd0SWpLT1Y0RmtFeTQyb01mZU1OZzRBLXN6ZTg1X1NkX2NIV29JRHo2QnpWbUZvRjlfNEdMdlR6N1h6am9xQVlDTXZxcjRwUU1FbndkQnEt?oc=5",
-    "source": "경인매일",
-    "date": "2026-11-11T17:17:33+09:00",
-    "query": "급식 식재료 물가"
-   },
-   {
-    "title": "조민경 인천시의원, \"인천 초등생 급식비 전국 하위권\"··· 개선 촉구",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83ZENvaE5LREU2UWlwV0ZxaVA5dU01a3Z2WldCTTRHRThrN2xaZmk0bGs4X0E2Mmp0UmV6VkxqRm84UGlzQ2kyTmpLNHhwdDEtZFNSdFFTYUhna3VHbUdkZHBuTlNabC1jUXpLQlR2QXQ?oc=5",
-    "source": "인천투데이",
-    "date": "2026-11-11T17:00:00+09:00",
-    "query": "급식 단가"
-   },
-   {
-    "title": "대전시교육청, 내년 예산안 2조 8624억 원 편성…무상급식 단가 15% 인상",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XSVAyaEtzRHF5OWMyRmt3ZDF1ODlvSUtGVDFjTldRbXB1TWJuMzZ1VW1CZjFJS0VUNkFISTg1X3diSXp1Z0hhRm9uV25rMTl1eE5uNGZTRS1EajDSAVZBVV95cUxOQUxQbTRJV0xkVjlVVV9fdllvTl8xU1FUdTY2bnFTd3FCbFl5aDlJUDRnSDMxcEh5WmNqajJtUzZvUGNSc2NNazZGNkdiQXJzTFBqeXhyZw?oc=5",
-    "source": "더팩트",
-    "date": "2026-11-11T16:16:28+09:00",
-    "query": "급식 단가"
-   },
-   {
-    "title": "대전교육청 예산 517억 감축안…급식단가는 15% 인상 추진",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sak1tdmpmQTg3VWtTZS02d3BPcEdGbEdaV2dfVG1zSy1XX1BPYUpaTWNld3FsbW5wYldJWGJuWU5pZk9xRzROUkVnbVVSNTFZaE5UYzlRRmRNSmFSSXFEQ0o5NkhoQ0lWVGVyZ2Y2c0kxZw?oc=5",
-    "source": "투데이충남",
-    "date": "2026-11-11T11:18:19+09:00",
-    "query": "급식 단가"
-   },
-   {
-    "title": "“점심 한 끼 8,000원인데 지원금은 500원”…경기도 장애인직업재활시설 급식비 문제 도마",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53UW1famlZSkJxY2xJOTU3cXlfQWRKTTRheHJDNUdNNEo5bkFydVZqdGJ4dVdUaEN1N1NHYlNvQTZnWFlMOUF6ZVdmcXB4Snd0UjAtN05LUUNJalhvb01zMENBOHFwV215aS12UF9Ebw?oc=5",
-    "source": "월드장애인사랑뉴스",
-    "date": "2026-11-10T17:00:00+09:00",
-    "query": "급식 식재료 물가"
    }
   ],
   "입찰·제도": [
+   {
+    "title": "[취재후일담] 이재명·이재용 오찬 식당까지…삼성은 왜 아워홈을 택했나",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9JTmRBNHVCdWdpSVdYRE5EdldnS3RKeEtOLU0xOGc1SnozSTdPZWJsdGQ2b05QVDducWIzRlBiaDBmUFBBbXRyU3NGWnMwQnB2dHJxNVgxcHdRdGh6aG5fMU9KZERVSmpTNHFMZTFR?oc=5",
+    "source": "아시아투데이",
+    "date": "2026-11-22T17:26:57+09:00",
+    "query": "구내식당 입찰",
+    "companies": [
+     "아워홈"
+    ],
+    "groups": [
+     "Big9"
+    ]
+   },
    {
     "title": "최윤성 중구의원, 구청 구내식당 식중독 의심 사건 외부감사 촉구",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BTm4zb04xelhiV0tHWHZVZnRtTGRFbUhMa2NLRVI3UFVqdUhPNFMtaEYyU0Y0cEFLUTN4bU1feWo3bDZXMlAyd0N2YWFpOFVWOE9jYnU0LW9HbV81SXZBOEROcWFxWFNESGtQVlJBV28?oc=5",
@@ -769,13 +599,6 @@
     "groups": [
      "Big9"
     ]
-   },
-   {
-    "title": "“평소엔 더 잘 나와요”…李 대통령도 궁금했던 삼성 구내식당",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wZWltT2NfWDBESGROXzV2MTh1eFl0Y3VqSTJUWjd5Uld5V0prNF92VGIxUDRTNENGY240Y1JDRGVEVnVrY3hqQlA3a2JFYTJ0M213bUtPNWJsVWtvMFROaTYxTQ?oc=5",
-    "source": "쿠키뉴스",
-    "date": "2026-11-15T15:42:01+09:00",
-    "query": "구내식당 입찰"
    },
    {
     "title": "이재명·이재용 맛본 구내식당…화성·온양 이어 평택까지 '급식 영토' 넓힌 회사는?",
@@ -806,6 +629,13 @@
     "query": "급식 위탁 계약"
    },
    {
+    "title": "경북도의회 백순창 의원, 꿈이음 교육비·위탁급식 계약 개선 촉구",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RUDl1SldaaG9UM0pvdGFCalViLXBlWE9lWWxpSW1GR2ZyNWx3aC1XY2J1UVdLR01oSTVLWEc5VjM0ZkZDOW5GcWNrNThLSUhBUkR4SmVUYmMwV3BrTk55TA?oc=5",
+    "source": "메트로신문",
+    "date": "2026-11-12T08:02:53+09:00",
+    "query": "급식 위탁 계약"
+   },
+   {
     "title": "경북도의회 백순창 의원, 교육비 지원·위탁급식 개선 촉구",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE02NlA3enlydmthYWc4NC1zckp3NE5iOUFOUk5MbURHTjkzbmRCcXBmUF9Qdlp5V1BZRHlZYnk5WHAzVnN0REFSTVM3c3dxSUMzeklJbVNDUVJHd2JMNWM1U2V3U0ozSTJ5N2o4V1RvY2pOQQ?oc=5",
     "source": "웹이코노미",
@@ -825,25 +655,48 @@
     "source": "매일신문",
     "date": "2026-11-11T14:42:48+09:00",
     "query": "급식 위탁 계약"
-   },
+   }
+  ],
+  "기업별 뉴스": [
    {
-    "title": "[혈연의 자본학 ④] GS리테일 웃고 아워홈 울었다",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12T0ZfaElpeWJuMFEzcktYdW5rcFNNaXA1QUtQOW1KV21hX1E0eVZJNm8zbFBWRUoyTkduQVl6SlYtTFNzZFd4UXdZbm9EVXhhT19UdXFQOEVGdVJheEZSb2lVWmVtMUE?oc=5",
-    "source": "자본시장뉴스",
-    "date": "2026-11-10T12:00:00+09:00",
-    "query": "구내식당 입찰",
+    "title": "[취재후일담] 이재명·이재용 오찬 식당까지…삼성은 왜 아워홈을 택했나",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9JTmRBNHVCdWdpSVdYRE5EdldnS3RKeEtOLU0xOGc1SnozSTdPZWJsdGQ2b05QVDducWIzRlBiaDBmUFBBbXRyU3NGWnMwQnB2dHJxNVgxcHdRdGh6aG5fMU9KZERVSmpTNHFMZTFR?oc=5",
+    "source": "아시아투데이",
+    "date": "2026-11-22T17:26:57+09:00",
     "companies": [
      "아워홈"
     ],
     "groups": [
      "Big9"
     ]
-   }
-  ],
-  "기업별 뉴스": [
+   },
+   {
+    "title": "\"롯데웰푸드 2026년 코코아 원가 절감액 150억 이른다\"하나證",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FdTRIdC1HXzJXWE5NZDVwNmQ5WURoRXlSUVZVVlNoa2tEVWZiNTdNVXUzQTNWcEU5dE5EYWpZSkVEYVVvMm1TQkJhaGpFWkZzV1phR0Jjb1ZVUXR0b3YyLVpjRDBnREtySVdjVE1INl9xbVFVZ1VJ?oc=5",
+    "source": "CNews",
+    "date": "2026-11-22T15:28:59+09:00",
+    "companies": [
+     "롯데웰푸드"
+    ],
+    "groups": [
+     "FD Big3"
+    ]
+   },
+   {
+    "title": "[푸드·다이닝 트렌드] 롯데웰푸드 자일리톨, 김소현·손준호 부부 모델 발탁…광고 캠페인 전개 外",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKbFpRUXpIY3h3SXU3U2xSck5oTHJtYTRFV2dRUEg4bHdXeHVHeFRhUm9TZVVuclZWV0pVYVFNSTQ3YlJFbzFhM1VHcHV0dzJmNXhSWUt3WW9tbmhyTXlKczR6cnJoa3RReVFxaQ?oc=5",
+    "source": "베이비뉴스",
+    "date": "2026-11-22T11:56:00+09:00",
+    "companies": [
+     "롯데웰푸드"
+    ],
+    "groups": [
+     "FD Big3"
+    ]
+   },
    {
     "title": "커피만으론 부족하다?…휴롬·현대그린푸드·매일유업, 건강음료 시장 공략",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE16RVBEYzVXUUpkOWpoTVU3cTJhWFdmUWNmaURpYUM5aUJMRDRVLUtwdjV6T3Bvc1ZvVVFwQWgxVHBGRVNpLXZpSmRZZG1aakxu0gFUQVVfeXFMTllIM011cWNnWDVQT19QWVJ0RzlMdkE5N0s0cGVQOFNTZ1dSNktlcmtqcGpUbjVsWFRKeEhiY1hmSnE4ME5jTVpXV0hUTnVBa3Z4SFpN?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrdDB1WUdLXy1KWnV4YUhwWm15bXpkR21FSWRvRXQ2ampvdlB0enlGOEQ3UC11LXNTaTZlajFUbURLRXZMMmFtWGZMT3ZMcTM3Z1JUQ0ZJMDHSAVRBVV95cUxOWUgzTXVxY2dYNVBPX1BZUnRHOUx2QTk3SzRwZVA4U1NnV1I2S2Vya2pwalRuNWxYVEp4SGJjWGZKcTgwTmNNWldXSFROdUFrdnhIWk0?oc=5",
     "source": "세계일보",
     "date": "2026-11-22T07:20:00+09:00",
     "companies": [
@@ -866,34 +719,10 @@
     ]
    },
    {
-    "title": "\"롯데웰푸드, 경영 효율화·가동률 상승…목표가 19만원으로↑\" - 머니투데이",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VOGw4Yk5nNlptc0pId2tteFh0bFkxTHRCVm5JQ2kzZzY1MFp5M0VIS1J5TXlMRXpJVk5ENUtOTmNJd0pEb1BYeGdPSnFObmhURVhkQWZWWU9ETFdBWmpRZlJRbUJrdEdqMUtSNHJreE1tMWNmZXfSAXtBVV95cUxQMU41WTR0MGV0N2YwMFdUYndqdUZVQWt0MjFxajBBNzZ3YkRNblREd0FzbER1dUotaTl3WnlwZ3pCOWVVQmc1TGdhbkt1Z0VSb01WLVV1RzFTdDBHeHliSmVhOE5OQTVnSnR5dUJsbGpiUWRxb1llMmw2WDg?oc=5",
-    "source": "머니투데이",
-    "date": "2026-11-21T07:50:08+09:00",
-    "companies": [
-     "롯데웰푸드"
-    ],
-    "groups": [
-     "FD Big3"
-    ]
-   },
-   {
     "title": "롯데웰푸드 '자일리톨', 김소현·손준호 부부 모델 발탁",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrU2RNa1oyU1M0R3lFNUI0VGxneXB2QWxlUXR6U0J1bS1GRWhyTVJaenZITm16RkdQdnRERmVDQlhTS1lnLUozeEtYcGNyazFwaERTZE1iY21Yajhrcml4NVk3eTZwSUVISjE0dC1mRdIBc0FVX3lxTE55VUZzYzhrNUU3QWFJUGswdy1jdVFvTmVqYnpiQVNDQTVpbE8wRjJSRnk0bmxGLXJHS3BldWt3YmNvcW9fU0E1bkQtNW1jOVdfcWFkTlhsX1ZORUZ0SFkzdGhMNk1wSkZONFJaZGc0V3hYVGc?oc=5",
     "source": "뉴스웍스",
     "date": "2026-11-20T19:50:47+09:00",
-    "companies": [
-     "롯데웰푸드"
-    ],
-    "groups": [
-     "FD Big3"
-    ]
-   },
-   {
-    "title": "[푸드·다이닝 트렌드] 롯데웰푸드 자일리톨, 김소현·손준호 부부 모델 발탁…광고 캠페인 전개 外",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKbFpRUXpIY3h3SXU3U2xSck5oTHJtYTRFV2dRUEg4bHdXeHVHeFRhUm9TZVVuclZWV0pVYVFNSTQ3YlJFbzFhM1VHcHV0dzJmNXhSWUt3WW9tbmhyTXlKczR6cnJoa3RReVFxaQ?oc=5",
-    "source": "베이비뉴스",
-    "date": "2026-11-20T18:32:00+09:00",
     "companies": [
      "롯데웰푸드"
     ],
@@ -908,6 +737,18 @@
     "date": "2026-11-20T18:26:03+09:00",
     "companies": [
      "아워홈"
+    ],
+    "groups": [
+     "Big9"
+    ]
+   },
+   {
+    "title": "현대그린푸드, 용인시수지노인복지관에 겨울철 김장 김치 11,000kg 전달",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMd2c5Y2hZNEVhaTFwZDVFdXVUMXY1SGswQl9saWJST0oyT2JnVlNsTENhWkdveGNLdTZGVVBVM05WeVpwNE12SVF6WEZQdVhha1pnbFZ0b2NqMXZORDl5M0hLWEFCMTdZOEVHUmxLTXdfQQ?oc=5",
+    "source": "웹이코노미",
+    "date": "2026-11-20T17:36:00+09:00",
+    "companies": [
+     "현대그린푸드"
     ],
     "groups": [
      "Big9"
@@ -1043,18 +884,6 @@
     ],
     "groups": [
      "FD Big3"
-    ]
-   },
-   {
-    "title": "현대그린푸드, 용인시수지노인복지관에 겨울철 김장 김치 11,000kg 전달",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VV2RxZmlFS1ptMU9xeVBYNlI3eFZBOXNrWGNSN240VU9OUVF1ai1jWHF5Wjd6T0R6b1czd0R6YTdHYXR5RG9mcmZ1Nkc?oc=5",
-    "source": "시사일보",
-    "date": "2026-11-20T12:46:00+09:00",
-    "companies": [
-     "현대그린푸드"
-    ],
-    "groups": [
-     "Big9"
     ]
    },
    {
@@ -1442,12 +1271,12 @@
     ]
    },
    {
-    "title": "용인서부경찰서·현대그린푸드, 청소년쉼터에 김장김치 200㎏ 전달",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10TUNNMDlEeGFZazd6Mm5ZUUZ5cWtXd3ZUSVU4WVdJSUpKcVdIck8xNnpfaGFna2dweC1lZFVCYTdKSlk1YWZMajNzcDRrdGk1NmJvWkxCZkxGZHRuc3c?oc=5",
-    "source": "유교신문",
-    "date": "2026-11-19T06:16:53+09:00",
+    "title": "삼성웰스토리 '브랜드 솔루션' 사업 첫 모델은 '잎샘가베'...내년 초 서울에 첫 매장",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zaWY0d2w3bnBSdGdiaWlza0s5SC1Wc21SamRCMVRoMXpaYmduU05xN04tVHgzN19Ia19Yck4ybURQSDl4UUdmckNZcGw4LXZSTk82MG9DaTlTSnROd0xUYTFBN0JSczVxS2FOMQ?oc=5",
+    "source": "생생비즈플러스",
+    "date": "2026-11-18T19:21:44+09:00",
     "companies": [
-     "현대그린푸드"
+     "웰스토리"
     ],
     "groups": [
      "Big9"
@@ -1467,11 +1296,23 @@
    },
    {
     "title": "삼성웰스토리, 외식 브랜드 직접 개발해 공급…잎샘가베 레드닷 수상",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwVkdJLUhFTGZEdXdKdlktM2FLakF0NlJFS1lyTFkzeWlvU3hXdHlQMmdzOGFqcnRGU2IxakhIZXFKNXJxZ0tnZjVjZk1xVUFpSmM4dzhMaGLSAVhBVV95cUxQMFZHSS1IRUxmRHV3SnZZLTNhS2pBdDZSRUtZckxZM3lpb1N4V3R5UDJnczhhanJ0RlNiMWpISGVxSjVycWdLZ2Y1Y2ZNcVVBaUpjOHc4TGhi?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHbm1peEdvWnR1RC15Z29fcERscGFJaXZLWU95dUlpNHV6dDVsWFdob3dUODdxVl9SdWl6Q3VfRDAwZW9vXzdqNmpyNmFzUHh4N1NVZWM0d21JUdIBWEFVX3lxTFAwVkdJLUhFTGZEdXdKdlktM2FLakF0NlJFS1lyTFkzeWlvU3hXdHlQMmdzOGFqcnRGU2IxakhIZXFKNXJxZ0tnZjVjZk1xVUFpSmM4dzhMaGI?oc=5",
     "source": "아주경제",
     "date": "2026-11-18T16:11:48+09:00",
     "companies": [
      "웰스토리"
+    ],
+    "groups": [
+     "Big9"
+    ]
+   },
+   {
+    "title": "현대그린푸드, B2B 헬스케어 서비스",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00WHY4OW1pYTJWbjR3cWVWQjZ6MG5PclQyR3hFenBJdlU2eTl1ZUJmcFFRMXNsVG1yOWNRUXdUeXlpZk5WX0tjcGJRSzk2aUVYYW9RVjl5NjBOUUJBQWJuMXNZMERmSDJi?oc=5",
+    "source": "이투데이",
+    "date": "2026-11-18T15:16:05+09:00",
+    "companies": [
+     "현대그린푸드"
     ],
     "groups": [
      "Big9"
@@ -1502,6 +1343,18 @@
     ]
    },
    {
+    "title": "삼성웰스토리, 외식 브랜드 솔루션 도입…베이커리 카페 ‘잎샘가베’ 레드닷 수상",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jbGNKVm1heFh0SHFkYlBfM0RPblRmRHM3anh4emlmWFFtLThvcVNXOGNLcjZXTkc5WWZwU0dhREh4WHFBcDR6bzN3M0V0azQxWUE2T1RacUNiQVI1VHd0MS0tUkU0TExBT0HSAW5BVV95cUxOLU5zcjRNTURNeWVvN2U0MUoxTTdsOHo1R0JJa0N0ek1lb3dFSjZPelViLXgxTG9jZ29LaGtuS0NOLU9mbV9TOUZlYmlvV3ptanNPajZ0QXRKWEw3ZWNXY1Nrd1dQNG9SZnhrUENFUQ?oc=5",
+    "source": "파이낸셜투데이",
+    "date": "2026-11-18T11:11:13+09:00",
+    "companies": [
+     "웰스토리"
+    ],
+    "groups": [
+     "Big9"
+    ]
+   },
+   {
     "title": "본푸드서비스, 논산 식자재 유통 센터 인프라 고도화",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9UdHRJeW41VGpGVHFFVy0wMFZyMVRPcFJtWEpzTi1jMlc3RXpxYkFKUTVubWpYMXd0QmZRUFJXVTJpbm1EM2RhcFE2eFR5elA2bkRPSjQ1dDJFS2lUMkhfT0cxWWRWcUk?oc=5",
     "source": "바끄로뉴스",
@@ -1511,18 +1364,6 @@
     ],
     "groups": [
      "중견·중소"
-    ]
-   },
-   {
-    "title": "삼성웰스토리, 식자재 공급 넘어 외식 브랜드까지…‘잎샘가베’ 첫선",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KbWtLRFM4X3hVSmdpMzRaZXItX0JzendNb2EwNmx2RTNhV0o1UDBTY3RSYWtCVXNOY3dzcmVxdGhWOVVuTUgweU1vRHVUd3FlZDBZ0gFTQVVfeXFMTUpta0tEUzhfeFVKZ2kzNFplci1fQnN6d01vYTA2bHZFM2FXSjVQMFNjdFJha0JVc05jd3NyZXF0aFY5VW5NSDB5TW9EdVR3cWVkMFk?oc=5",
-    "source": "서울경제",
-    "date": "2026-11-18T10:24:22+09:00",
-    "companies": [
-     "웰스토리"
-    ],
-    "groups": [
-     "Big9"
     ]
    },
    {
@@ -1583,18 +1424,6 @@
     ],
     "groups": [
      "중견·중소"
-    ]
-   },
-   {
-    "title": "삼성웰스토리, 업계 첫 브랜드 솔루션⋯ 내년 초 ‘잎샘가베’ 플래그십 오픈",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1feDdfaE90Z09rSzBVMGV0VVJobDA3QzFLcFdoN2cxakRMZWhzTUs5X3BBa09MWG5ZV01XUkFjb0FWV1E5Y1lONUFwNnZDSGJhYjNKUzRSLWZfdw?oc=5",
-    "source": "브릿지경제",
-    "date": "2026-11-18T08:54:00+09:00",
-    "companies": [
-     "웰스토리"
-    ],
-    "groups": [
-     "Big9"
     ]
    },
    {
@@ -1664,18 +1493,6 @@
     "date": "2026-11-16T16:55:24+09:00",
     "companies": [
      "풀무원푸드앤컬처"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "아워홈, '푸드 넥서스 페어 2026' 성료…고객사 1000명 방문",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE53enJhNjBkTkMzLVRXZFVnenlVanRkLTFDN2FFSWotOFV2eUpuUTJaNW0xQnBpNDJWRHdqUE9jejgxZVBrQlc4b0F3aw?oc=5",
-    "source": "아이뉴스24",
-    "date": "2026-11-16T15:43:23+09:00",
-    "companies": [
-     "아워홈"
     ],
     "groups": [
      "Big9"
@@ -1754,18 +1571,6 @@
     ]
    },
    {
-    "title": "현대홈쇼핑·현대백화점·현대그린푸드 ‘AI-REAL’ 방송 도입·‘더현대 하이’ AI 쇼핑 확대·‘베즐리’ 크리스마스 팝업스토어 운영",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jUlhBU1h2SjN5WExwdXdkaVUyaVhBbUd5S2xNN2Q3N3hoM0dKWXlGajN1QVRObzIzaWFJVW0wWVRGa3pjYjZhUTFnN1VvQi1neVprTHByUExlUFMzWW1NNlI0bw?oc=5",
-    "source": "여성소비자신문",
-    "date": "2026-11-16T11:35:47+09:00",
-    "companies": [
-     "현대그린푸드"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
     "title": "‘재상장 4년차ʼ 현대그린푸드, 본업 집중·주주환원 통했다 [정답은 TSR]",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11ZllsQ0ZhVTNIUERMcWdyVVBHbUhXQlVLWkMwS1FqdDVIcFdUWDVWSjMwdmlKeS1lSVJGTlNrVG85NkNFTlB1alpWZHMxVUdldWNULWk4QjNvVXc0NTVocUJKVDRVdWdzTWpRTFN1WkJ2SUVhaGo0T2RKdWc?oc=5",
     "source": "한국금융신문",
@@ -1802,10 +1607,10 @@
     ]
    },
    {
-    "title": "현대그린푸드, '베즐리' 더현대서울 크리스마스 팝업 오픈",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1lUkR4VWZBeEpodzh2WUVwR2Q3emo0d19NSVNsY2pZOVY5RDhOREZVOVdKZ2RiYlZZU0xic0VjNlhzempQVlJncGR4eU00Z3hya1I4NDUwa3lldGc0blYzeEdLZjFBdw?oc=5",
-    "source": "싱글리스트",
-    "date": "2026-11-15T11:54:51+09:00",
+    "title": "현대그린푸드, 더현대 서울서 베즐리 크리스마스 팝업 운영",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pZE5mNXY2eTFQSUJ5VkxGZy1QRjdZZzltNjg4N1duNE8zcXJVRmVNYlhvbXVuSV9jSF8tSnlJOXlDV0dzbnNaejNFQjY4WHRKVFFNQkM2MV82VFNYOGxDaG9DS0Vwc0pUb0R3?oc=5",
+    "source": "BBS불교방송",
+    "date": "2026-11-15T11:20:30+09:00",
     "companies": [
      "현대그린푸드"
     ],
@@ -1814,10 +1619,22 @@
     ]
    },
    {
-    "title": "현대그린푸드 베즐리, 더현대 서울에서 뉴욕 스타일 베이커리 판매",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBmVk5GMzJPbDdvWlRMeVphUG8xanRIZlBfeFVBeVFVRnpaak5rMzRkODhFSE9OenFEWHVLcWh5T1Jsc0VfN3NpN0htMA?oc=5",
-    "source": "뉴스1",
-    "date": "2026-11-15T11:42:27+09:00",
+    "title": "[리테일 인사이드] 신세계百·현대그린푸드·쿠팡·스타벅스, 도자기부터 케이크까지…연말 달력 ‘빈칸 채우기’",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1iRWtPcHZOVlpIc3ljZUxya0tFeUJpWV9XWUx0NmFfN1hfOHR2dy0weEJ1LUhqbk1mb0RSREZxZjJoV0hkMVZmeE1UTjNmNlVjMzlvOTJyZm1FQVJvQlI1NkdraTBaMDRXaFE?oc=5",
+    "source": "한국면세뉴스",
+    "date": "2026-11-15T11:10:22+09:00",
+    "companies": [
+     "현대그린푸드"
+    ],
+    "groups": [
+     "Big9"
+    ]
+   },
+   {
+    "title": "\"더 이상 급식기업 아니다\" 현대그린푸드, 외식·헬스케어 성장동력 확대",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GZWU2QUZNdFM3YnZ0a2hxTl9XREEtb1RKQTBxMlgtMTlXWDZlRWFpcU94OTJpaWVybWQ1WGtmaUU1aGNqbGc1dVVvOFQtWE5lbTYtc29DaEgwWnFOQ1QtVdIBeEFVX3lxTFBsZFhheURFOVpCcFNNS3lURkczdG9KcURXZDV6Wng3YkR0Q19lczNhb3ctUlZIX0ZxRzNScGRicnNfdlBXSTh4RWxRWm1HRVkxWDR4VXk4Tlc5ZnFWWUNfcXUxS1UybWU2VmRld25fNHczVEVpbWdhRQ?oc=5",
+    "source": "뉴시스",
+    "date": "2026-11-12T17:00:00+09:00",
     "companies": [
      "현대그린푸드"
     ],
@@ -1862,6 +1679,18 @@
     ]
    },
    {
+    "title": "'헬시 플레저' 트렌드에…신세계푸드 '구운 닭다리살 샐러드' 판매 1위",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rMDRfY3ZXcEJMbXBDRTRrR2RTdjJaM1hkV1VUN25tMGpXWVpsajdNd3Rzb3BNY0pxQVFzdWl1MEREaHZWVEY3U29FQ0xsS3dJbkEwTklWeUh4MHhLeklV?oc=5",
+    "source": "뉴스1",
+    "date": "2026-11-11T17:00:00+09:00",
+    "companies": [
+     "고메드갤러리아"
+    ],
+    "groups": [
+     "Big9"
+    ]
+   },
+   {
     "title": "신세계푸드, 건강 미식 통했다⋯샐러드·건강빵 인기",
     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA5c1BvbHAxN3dxOF9FU3pRT1NwVjBWUmlBNXdwUUpLNjlhNjBCcTF0YWdLTktiTGZTeGJ0X2x5a3JVTnV5cEMyQ2luQQ?oc=5",
     "source": "아이뉴스24",
@@ -1877,18 +1706,6 @@
     "title": "신세계푸드, ‘헬시 플레저’ 수요 공략…건강 미식 메뉴 확대",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5ZUx4ZVRDamE1bWVJMVV3ZHZfRldTckpXNFh0bU9zVzlqVF83RFVKb29FT1AyTWFLNUtibGJTV1NsRzFoWGdLYTZ4UVFYY2lrRHZ4YVp5UFVaY3FEZUpZY3RwRzd3bE1J0gFsQVVfeXFMT3JYOFduUDJfUmlGWDNLNFRLbFNDZEdnbE5UYmo2WVVGZG1IQVdEcGhway00RnhkOGRpTzhtNTBJdWNRV29pTVFTSmRaUkdiVkVkRjBGaEkxbkoxM09fekh1aUQtSHdTSloxem9O?oc=5",
     "source": "직썰",
-    "date": "2026-11-11T17:00:00+09:00",
-    "companies": [
-     "고메드갤러리아"
-    ],
-    "groups": [
-     "Big9"
-    ]
-   },
-   {
-    "title": "'헬시 플레저' 트렌드에…신세계푸드 '구운 닭다리살 샐러드' 판매 1위",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rMDRfY3ZXcEJMbXBDRTRrR2RTdjJaM1hkV1VUN25tMGpXWVpsajdNd3Rzb3BNY0pxQVFzdWl1MEREaHZWVEY3U29FQ0xsS3dJbkEwTklWeUh4MHhLeklV?oc=5",
-    "source": "뉴스1",
     "date": "2026-11-11T17:00:00+09:00",
     "companies": [
      "고메드갤러리아"
@@ -1943,6 +1760,18 @@
     ],
     "groups": [
      "Big9"
+    ]
+   },
+   {
+    "title": "본우리집밥, 포브스코리아 ‘2026 프리미엄 브랜드 대상’ 급식 서비스 부문 2년 연속 수상",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16THo5NTEtMW5fWlV3UkZCYkxmZVZtcDlza3I4dTJCZGpOTGJ2WlZCVGd5Z1hidWJJbkNlaTA4SnhEbFczYUZsUFk5aDRUYVNzaWlydHlWcXAwWXFYLXpuNTdHMmEwT2lTT21NWjJROFZidVVpY3c?oc=5",
+    "source": "세계비즈",
+    "date": "2026-11-06T16:58:14+09:00",
+    "companies": [
+     "본푸드"
+    ],
+    "groups": [
+     "중견·중소"
     ]
    },
    {
